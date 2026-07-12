@@ -1,0 +1,99 @@
+[
+  {
+    "id": "source-company-sites",
+    "name": "Company websites",
+    "type": "company_website",
+    "enabled": true,
+    "seeds": [
+      "https://www.roshn.sa/partnerships",
+      "https://www.aldar.com/ar/explore-aldar/about-aldar/procurement",
+      "https://www.emaar.com/en/about-emaar"
+    ],
+    "allowedPaths": ["/", "/products", "/about", "/news", "/contact", "/careers", "/distributors"],
+    "maxPages": 20,
+    "intervalHours": 24,
+    "notes": "Add public company domains to seeds."
+  },
+  {
+    "id": "source-events",
+    "name": "Event and association directories",
+    "type": "event_directory",
+    "enabled": true,
+    "seeds": [
+      "https://monaqasat.mof.gov.qa/TendersOnlineServices",
+      "https://etendering.tenderboard.gov.om/product/publicDash?CTRL_STRDIRECTION=LTR",
+      "https://etendering.tenderboard.gov.bh/Tenders/publicDash",
+      "https://www.goszakup.gov.kz/ru/",
+      "https://zakup.sk.kz/",
+      "https://etender.gov.az/",
+      "https://tenders.procurement.gov.ge/"
+    ],
+    "allowedPaths": ["/exhibitors", "/exhibitor-list", "/members", "/directory", "/events"],
+    "maxPages": 30,
+    "intervalHours": 72,
+    "notes": "Use public exhibitor or member pages only."
+  },
+  {
+    "id": "source-projects",
+    "name": "Public construction projects",
+    "type": "public_project",
+    "enabled": true,
+    "seeds": [
+      "https://mof.gov.ae/en/public-finance/government-procurement/digital-procurement-platform/",
+      "https://esupply.dubai.gov.ae/web/index.html",
+      "https://adgpg.gov.ae/en",
+      "https://tenders.etimad.sa/Tender/",
+      "https://monaqasat.mof.gov.qa/TendersOnlineServices",
+      "https://capt.gov.kw/en/",
+      "https://etendering.tenderboard.gov.om/product/publicDash?CTRL_STRDIRECTION=LTR",
+      "https://etendering.tenderboard.gov.bh/Tenders/publicDash",
+      "https://www.goszakup.gov.kz/ru/",
+      "https://zakup.sk.kz/",
+      "https://gov.uz/en/pages/davlat_xaridlari",
+      "https://etender.gov.az/",
+      "https://procurement.gov.ge/en/",
+      "https://tenders.procurement.gov.ge/"
+    ],
+    "allowedPaths": ["/tenders", "/projects", "/procurement", "/notices", "/bids"],
+    "maxPages": 30,
+    "intervalHours": 24,
+    "notes": "Collect public tenders, project notices and procurement notices only."
+  },
+  {
+    "id": "source-public-buyers",
+    "name": "Large buyer public disclosures",
+    "type": "public_buyer",
+    "enabled": true,
+    "seeds": [],
+    "allowedPaths": ["/investors", "/annual-report", "/reports", "/suppliers", "/vendors", "/procurement", "/sourcing"],
+    "maxPages": 30,
+    "intervalHours": 168,
+    "notes": "Use annual reports, supplier policies and public procurement disclosures."
+  },
+  {
+    "id": "source-official-news",
+    "name": "Official company news and public announcements",
+    "type": "official_news",
+    "enabled": true,
+    "seeds": [
+      "https://www.roshn.sa/partnerships",
+      "https://www.aldar.com/ar/explore-aldar/about-aldar/procurement",
+      "https://www.emaar.com/en/about-emaar"
+    ],
+    "allowedPaths": ["/news", "/media", "/press", "/press-releases", "/announcements", "/partnerships", "/procurement", "/investors", "/about"],
+    "maxPages": 40,
+    "intervalHours": 24,
+    "notes": "Extract only public business contacts and named people appearing in official announcements."
+  },
+  {
+    "id": "source-procurement-awards",
+    "name": "Public procurement awards",
+    "type": "procurement_award",
+    "enabled": true,
+    "seeds": [],
+    "allowedPaths": ["/notice", "/awards", "/contract", "/tenders", "/opportunities", "/procurement"],
+    "maxPages": 40,
+    "intervalHours": 24,
+    "notes": "Prefer official procurement portals or open-data APIs; capture buyer, contractor, amount and date."
+  }
+]

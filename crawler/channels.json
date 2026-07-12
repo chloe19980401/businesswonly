@@ -1,0 +1,17 @@
+{
+  "channels": [
+    {"id":"customs","mode":"not_connected","allowed":"Only user-provided licensed API or exported data","status":"waiting_for_authorized_source"},
+    {"id":"linkedin","mode":"public_reference_only","allowed":"Company pages and public role references; no automated profile scraping or contact harvesting","status":"restricted"},
+    {"id":"events","mode":"public_pages","allowed":"Official exhibitor, speaker and association pages","status":"enabled"},
+    {"id":"registry","mode":"public_pages","allowed":"Official company pages and public registries","status":"enabled"},
+    {"id":"search","mode":"public_pages","allowed":"Public company/news pages discovered from approved search results","status":"enabled"},
+    {"id":"projects","mode":"public_pages","allowed":"Official tender, project and prequalification notices","status":"enabled"},
+    {"id":"rfq","mode":"not_connected","allowed":"Only authorized API or user-exported RFQ data; no login bypass","status":"waiting_for_authorized_source"},
+    {"id":"referral","mode":"manual","allowed":"User-entered CRM or referral records with consent","status":"manual_only"}
+  ],
+  "contactPolicy": {
+    "collect": ["public company email", "public procurement mailbox", "public switchboard", "public business phone", "publicly named executive in official news"],
+    "doNotCollect": ["private messages", "personal email guessed from a name", "phone numbers behind login", "social platform profile dumps", "CAPTCHA or access-control protected data"],
+    "verificationRequired": ["sourceUrl", "capturedAt", "evidenceSnippet", "companyMatch", "roleMatch"]
+  }
+}

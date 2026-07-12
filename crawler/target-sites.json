@@ -1,0 +1,160 @@
+{
+  "generatedAt": "2026-07-12",
+  "scope": "Middle East and Central Asia public buyer discovery",
+  "usage": "Review and approve each seed before enabling scheduled crawling.",
+  "sites": [
+    {
+      "name": "UAE Federal Digital Procurement Platform",
+      "country": "AE",
+      "category": "government_procurement",
+      "url": "https://mof.gov.ae/en/public-finance/government-procurement/digital-procurement-platform/",
+      "entryType": "public_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official federal procurement information; supplier participation may require registration."
+    },
+    {
+      "name": "Dubai Government eSupply",
+      "country": "AE",
+      "category": "government_procurement",
+      "url": "https://esupply.dubai.gov.ae/web/index.html",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Dubai government tender and supplier portal."
+    },
+    {
+      "name": "Abu Dhabi Government Procurement Gate",
+      "country": "AE",
+      "category": "government_procurement",
+      "url": "https://adgpg.gov.ae/en",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official Abu Dhabi procurement gate."
+    },
+    {
+      "name": "Saudi Etimad Tenders",
+      "country": "SA",
+      "category": "government_procurement",
+      "url": "https://tenders.etimad.sa/Tender/",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official Saudi government procurement tender search."
+    },
+    {
+      "name": "Qatar Monaqasat",
+      "country": "QA",
+      "category": "government_procurement",
+      "url": "https://monaqasat.mof.gov.qa/TendersOnlineServices",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Unified state procurement website; supplier classification may be required."
+    },
+    {
+      "name": "Kuwait Central Agency for Public Tenders",
+      "country": "KW",
+      "category": "government_procurement",
+      "url": "https://capt.gov.kw/en/",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official CAPT portal; international bidders may need registration or local requirements."
+    },
+    {
+      "name": "Oman Tender Board",
+      "country": "OM",
+      "category": "government_procurement",
+      "url": "https://etendering.tenderboard.gov.om/product/publicDash?CTRL_STRDIRECTION=LTR",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official public tender dashboard; includes international supplier indicators."
+    },
+    {
+      "name": "Bahrain eTendering",
+      "country": "BH",
+      "category": "government_procurement",
+      "url": "https://etendering.tenderboard.gov.bh/Tenders/publicDash",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official Bahrain Tender Board public dashboard and supplier registration entry."
+    },
+    {
+      "name": "Kazakhstan State Procurement",
+      "country": "KZ",
+      "category": "government_procurement",
+      "url": "https://www.goszakup.gov.kz/ru/",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official state procurement portal."
+    },
+    {
+      "name": "Samruk-Kazyna Procurement Portal",
+      "country": "KZ",
+      "category": "government_procurement",
+      "url": "https://zakup.sk.kz/",
+      "entryType": "quasi_state_portal",
+      "accessDifficulty": "medium",
+      "notes": "Searches lots, purchases and contracts; supports resident and non-resident registration."
+    },
+    {
+      "name": "Uzbekistan Public Procurement Information",
+      "country": "UZ",
+      "category": "government_procurement",
+      "url": "https://gov.uz/en/pages/davlat_xaridlari",
+      "entryType": "official_directory",
+      "accessDifficulty": "high",
+      "notes": "Official government procurement landing page; follow only explicitly linked public portals."
+    },
+    {
+      "name": "Azerbaijan eTender",
+      "country": "AZ",
+      "category": "government_procurement",
+      "url": "https://etender.gov.az/",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official eTender domain listed by the Azerbaijan government domain directory."
+    },
+    {
+      "name": "Georgia Procurement Agency",
+      "country": "GE",
+      "category": "government_procurement",
+      "url": "https://procurement.gov.ge/en/",
+      "entryType": "official_directory",
+      "accessDifficulty": "low",
+      "notes": "Official agency site; links to the e-procurement portal."
+    },
+    {
+      "name": "Georgia e-Procurement Portal",
+      "country": "GE",
+      "category": "government_procurement",
+      "url": "https://tenders.procurement.gov.ge/",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official Georgian e-procurement portal."
+    },
+    {
+      "name": "ROSHN Partnerships",
+      "country": "SA",
+      "category": "large_buyer",
+      "url": "https://www.roshn.sa/partnerships",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "high",
+      "notes": "Public vendor, contractor and consultant partnership entry; account creation may be required."
+    },
+    {
+      "name": "Aldar Procurement",
+      "country": "AE",
+      "category": "large_buyer",
+      "url": "https://www.aldar.com/ar/explore-aldar/about-aldar/procurement",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "high",
+      "notes": "Public procurement policy and supplier registration entry."
+    },
+    {
+      "name": "Emaar Properties",
+      "country": "AE",
+      "category": "large_buyer",
+      "url": "https://www.emaar.com/en/about-emaar",
+      "entryType": "company_website",
+      "accessDifficulty": "high",
+      "notes": "Large real-estate and hospitality group; use public supplier, investor and project pages only."
+    }
+  ]
+}

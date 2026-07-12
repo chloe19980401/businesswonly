@@ -1,0 +1,894 @@
+{
+  "generatedAt": "2026-07-12T15:52:42.025Z",
+  "userAgent": "AcquireOS-PublicResearch/0.1 (+public-source; contact-your-admin)",
+  "marketConfig": {
+    "marketGroup": "Middle East and Central Asia",
+    "priorityMarkets": [
+      {
+        "country": "United Arab Emirates",
+        "code": "AE",
+        "cluster": "Gulf core",
+        "priority": "S1",
+        "languages": [
+          "English",
+          "Arabic"
+        ]
+      },
+      {
+        "country": "Saudi Arabia",
+        "code": "SA",
+        "cluster": "Gulf core",
+        "priority": "S1",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Qatar",
+        "code": "QA",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Kuwait",
+        "code": "KW",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Oman",
+        "code": "OM",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Bahrain",
+        "code": "BH",
+        "cluster": "Gulf core",
+        "priority": "S3",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Kazakhstan",
+        "code": "KZ",
+        "cluster": "Central Asia",
+        "priority": "S1",
+        "languages": [
+          "Russian",
+          "Kazakh",
+          "English"
+        ]
+      },
+      {
+        "country": "Uzbekistan",
+        "code": "UZ",
+        "cluster": "Central Asia",
+        "priority": "S1",
+        "languages": [
+          "Uzbek",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Azerbaijan",
+        "code": "AZ",
+        "cluster": "Central Asia adjacency",
+        "priority": "S2",
+        "languages": [
+          "Azerbaijani",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Georgia",
+        "code": "GE",
+        "cluster": "Central Asia adjacency",
+        "priority": "S2",
+        "languages": [
+          "Georgian",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Kyrgyzstan",
+        "code": "KG",
+        "cluster": "Central Asia",
+        "priority": "S3",
+        "languages": [
+          "Kyrgyz",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Tajikistan",
+        "code": "TJ",
+        "cluster": "Central Asia",
+        "priority": "S3",
+        "languages": [
+          "Tajik",
+          "Russian",
+          "English"
+        ]
+      }
+    ],
+    "holdForComplianceReview": [
+      "Iran",
+      "Syria",
+      "Yemen"
+    ],
+    "recommendedCustomerTypes": [
+      "door hardware brand",
+      "building materials chain",
+      "door manufacturer",
+      "importer wholesaler",
+      "hotel real estate project",
+      "government procurement"
+    ],
+    "recommendedProducts": [
+      "mechanical door lock",
+      "smart lock",
+      "hotel lock",
+      "mortise lock body",
+      "lever handle",
+      "door hardware set",
+      "OEM ODM product line"
+    ]
+  },
+  "results": [
+    {
+      "sourceId": "source-company-sites",
+      "sourceName": "Company websites",
+      "type": "company_website",
+      "startedAt": "2026-07-12T15:52:29.186Z",
+      "pageCount": 20,
+      "pages": [
+        {
+          "url": "https://www.roshn.sa/partnerships",
+          "capturedAt": "2026-07-12T15:51:33.460Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Partnerships",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "To achieve this, the Group seeks collaboration with both local and global suppliers to deliver pioneering products that enhance the quality of life within its destinations and communities, aligning with its high standards. Check Here I acknowledge that I have read, understand and I agree to the terms and conditions SIGN IN Click Here PARTNER WITH US Click Here Check Here Vendor&#x27;s user manual Check Here Non-Disclosure Agreement (to be signed & submitted) Check Here Code of Ethics (to be sign"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Partnerships Home Click Here / Partnerships Partnerships Economic growth across different regions of the Kingdom As the leading national multi-asset class real estate developer, ROSHN Group is dedicated to creating transformative spaces and mixed-use destinations that reflect Saudi Arabia&#x27;s dynamic vision for the future. We actively collaborate with the private sector, building long-term partnerships that drive progress and development across the Kingdom. As a key contributor to Saudi Arabia’s dynamic and evolving economy, the private sector is essential to our mission, and we are committed to supporting its growth and accelerating mutual success. Partner With ROSHN Group If you share our vision for connecting people and places with the rhythms of life, while delivering on the",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/partnerships",
+            "capturedAt": "2026-07-12T15:51:33.462Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/explore-aldar/about-aldar/procurement",
+          "capturedAt": "2026-07-12T15:51:38.500Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "التوريد العقاري وإدارة المشتريات - شركة الدار العقارية",
+          "description": "تعرّف في صفحة التوريد العقاري وإدارة المشتريات لشركة الدار العقارية على مبادئ الاستدامة في المشتريات والتوريد، بما في ذلك الكفاءة والجودة والإنصاف والشفافية.",
+          "emails": [
+            "procurement@aldar.com"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "التوريد العقاري وإدارة المشتريات - شركة الدار العقارية اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار اكتشف الدار عن الدار التوريد والمشتريات ملتزمون بمبادئ المشتريات المستدامة إشراك جهات الطلب الجودة والإنصاف التفاعل مع المورّدين إدارة مصادر التوريد المستدامة الشفافية الوثائق لا يوجد مستندات متاحة حسب المعايير المحددة. 0 التواصل معنا البريد الإلكتروني هاتف اتصل بنا 800ALDAR اتصل بشركة شارك تعليقاتك تسجيل دخول الموردين شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز المساهمين مستثمرو الديون تغطية المحللين التقويم المالي الأخبار وتقارير الإفصاح اتصل بنا دليل حقوق المستثمرين التوظيف اك",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/explore-aldar/about-aldar/procurement",
+            "capturedAt": "2026-07-12T15:51:38.500Z"
+          }
+        },
+        {
+          "url": "https://www.emaar.com/en/about-emaar",
+          "capturedAt": "2026-07-12T15:51:41.561Z",
+          "status": "skipped",
+          "reason": "http_403"
+        },
+        {
+          "url": "https://www.roshn.sa/",
+          "capturedAt": "2026-07-12T15:51:45.377Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Building the Difference",
+          "description": "We are a national real estate developer powered by the Public Investment Fund.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "re Sub-Developer Click Here Click Here CSR Partners Click Here Click Here Partners What’s New Latest Updates from ROSHN View All View All Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Building the Difference The National Champion of Destination Real Estate Building the Difference Shaping Immersive Places, Elevating People, Inspiring Life Learn More Learn More Your browser does not support the video tag. watch About ROSHN The Leading Multi-asset Class Real-estate Developer ROSHN Group is a key enabler of Saudi Vision 2030, transforming the urban landscape through human-centric integrated developments that elevate connectivity and enhance quality of life across the Kingdom. Learn More Learn More Click Here Click Here Your browser does not support the video tag. SEDRA 30K+ Homes 20M sqm Land Area SEDRA 30K+ Homes 20M sqm Land Area Click Here Click Here Your browser does not support the video tag. ALAROUS 18K+ Homes 4M sqm Land Area ALAROUS 18K+ Homes 4M sqm Land Ar",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/",
+            "capturedAt": "2026-07-12T15:51:45.377Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/terms-and-conditions",
+          "capturedAt": "2026-07-12T15:51:47.929Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Terms &amp; Conditions",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "gic bombs or other material which is malicious or technologically harmful. You must not attempt to gain unauthorised access to Our Platforms, the server on which Our Platforms are stored or any server, and computer or database connected to Our Platforms. By breaching this provision, You would commit under the laws of the Kingdom of Saudi Arabia and other countries. We will report any such breach to the relevant law enforcement authorities, and We will cooperate with those authorities by disclosi",
+            "ovider of a Third-Party Service may restrict or terminate your access to such Third-Party Service at any time; and You shall not bring a suit or claim against ROSHN, its partners, employees, agents, contractors, suppliers, or any of them arising from or based on your purchase or use of resources, products or services through any Third-Party Service. Changes and Updates to These Terms of Use Certain links on Our Platform lead to content and resources that are located on websites and servers not u",
+            "of the Kingdom of Saudi Arabia, with its registered office address at ROSHN Group Company, King Abdullah Financial District – King Fahad Road, Alaqiq District – Building No. 2877, Unit No. 4898, Additional No. 6686, Zip Code 13519 – Riyadh, Kingdom of Saudi Arabia and You and govern your access to and use of the Site and the Platforms (as defined below). ROSHN offers the Site, including all information, tools, and services available from the Site, to You conditioned upon your acceptance of these",
+            "y Service at any time; and You shall not bring a suit or claim against ROSHN, its partners, employees, agents, contractors, suppliers, or any of them arising from or based on your purchase or use of resources, products or services through any Third-Party Service. Changes and Updates to These Terms of Use Certain links on Our Platform lead to content and resources that are located on websites and servers not under the control of ROSHN, or for which organisations other than ROSHN are responsible."
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Terms & Conditions Home Click Here / Terms & Conditions Terms & Conditions Welcome to the ROSHN website (www.ROSHN.sa and/or its sub-sites, &#x27;the Site&#x27;). These Terms and Conditions of Use (“Terms of Use”) are made between ROSHN Group Company (&#x27;ROSHN&#x27;, &#x27;We&#x27;, &#x27;Our&#x27;, &#x27;Us&#x27;) a company established under the laws of the Kingdom of Saudi Arabia, with its registered office address at ROSHN Group Company, King Abdullah Financial District – King Fahad Road, Alaqiq District – Building No. 2877, Unit No. 4898, Additional No. 6686, Zip Code 13519 – Riyadh, Kingdom of Saudi Arabia and You and govern your access to and use of the Site and the Platforms (as defined below). ROSHN offers the Site, including all information, tools, and services availabl",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/terms-and-conditions",
+            "capturedAt": "2026-07-12T15:51:47.929Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/en",
+          "capturedAt": "2026-07-12T15:51:51.946Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Building the Difference",
+          "description": "We are a national real estate developer powered by the Public Investment Fund.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "re Sub-Developer Click Here Click Here CSR Partners Click Here Click Here Partners What’s New Latest Updates from ROSHN View All View All Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Building the Difference The National Champion of Destination Real Estate Building the Difference Shaping Immersive Places, Elevating People, Inspiring Life Learn More Learn More Your browser does not support the video tag. watch About ROSHN The Leading Multi-asset Class Real-estate Developer ROSHN Group is a key enabler of Saudi Vision 2030, transforming the urban landscape through human-centric integrated developments that elevate connectivity and enhance quality of life across the Kingdom. Learn More Learn More Click Here Click Here Your browser does not support the video tag. SEDRA 30K+ Homes 20M sqm Land Area SEDRA 30K+ Homes 20M sqm Land Area Click Here Click Here Your browser does not support the video tag. ALAROUS 18K+ Homes 4M sqm Land Area ALAROUS 18K+ Homes 4M sqm Land Ar",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/en",
+            "capturedAt": "2026-07-12T15:51:51.946Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/press-releases",
+          "capturedAt": "2026-07-12T15:51:54.504Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Press Releases",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | Press Releases Home Click Here / News & Events Click Here / Press Releases Press Releases Featured News Click Here Loading Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Press Releases Home Click Here / News & Events Click Here / Press Releases Press Releases Featured News Click Here Loading Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the urban landscape with human-centric, integrated developments that elevate connectivity and enhance the quality of life across the Kingdom Learn More Leadership Click Here The Brand Story Click Here Saudi Vision 2030 Click Here Our Awards Click Here Corporate Social Responsibility Click Here Sponsorships Cli",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/press-releases",
+            "capturedAt": "2026-07-12T15:51:54.504Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/roshn-care",
+          "capturedAt": "2026-07-12T15:51:57.162Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ROSHN Care",
+          "description": "",
+          "emails": [
+            "customercare@roshn.sa"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "门锁/建筑五金",
+            "OEM/ODM",
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "eal estate economy of Saudi Arabia. Connecting people and places with the rhythms of life that extends beyond real estate— ensuring a holistic and harmonious lifestyle for its communities. What distinguishes ROSHN Group? ROSHN Group&#x27;s development projects are human-centric and provide a unique experience designed to enhance the quality of life and greater connectivity. Our communities offer residents a new way of life, built on the concept of integrated residential communities enhanced with"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ROSHN Care Home Click Here / ROSHN Care ROSHN Care At ROSHN Group, our mission goes beyond simply providing world-class homes; we are dedicated to creating lasting, meaningful experiences for every customer. Support Channels Other Ways to Reach Us 920022288 Phone Support [email&#160;protected] Email Support @roshnksa Social Media Support Our Sales Centers Our Offices Navigation Buttons Navigation Buttons Head Office Phone 920022288 Email [email&#160;protected] Location KAFD 5.08, Riyadh Working Hours Saturday to Thursday from 9 am to 9 pm Jeddah Office Phone 920022288 Email [email&#160;protected] Location The Headquarters Business Park, Jeddah Working Hours Saturday to Thursday from 9 am to 9 pm SEDRA Office Phone 920022288 Email [email&#160;protected] Location King Khalid Internat",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/roshn-care",
+            "capturedAt": "2026-07-12T15:51:57.162Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/interest",
+          "capturedAt": "2026-07-12T15:51:59.865Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Register Interest",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | Register Interest Home Click Here / Register Interest Register Interest Enjoy a new way of living in ROSHN Group communities Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enable"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Register Interest Home Click Here / Register Interest Register Interest Enjoy a new way of living in ROSHN Group communities Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the urban landscape with human-centric, integrated developments that elevate connectivity and enhance the quality of life across the Kingdom Learn More Leadership Click Here The Brand Story Click Here Saudi Vision 2030 Click Here Our Awards Click Here Corporate Social Responsibility Click Here Sponsorships C",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/interest",
+            "capturedAt": "2026-07-12T15:51:59.865Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/we-are-roshn",
+          "capturedAt": "2026-07-12T15:52:02.526Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | We Are ROSHN",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [
+              "Core Assets Residential Communities , Commercial"
+            ],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "we believe in being Human by Design. This means putting people first by creating transformative spaces that prioritize their well-being, talents, and achievements, and foster community growth and connection.​ Champion Mentality We pride ourselves on having a Champion Mentality. We are committed to leading by example through innovation and excellence Responsible Stewardship Making informed, transparent decisions, and upholding ethical practices and governance. Inspiring Generations At ROSHN Grou"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | We Are ROSHN Home Click Here / We Are ROSHN We Are ROSHN About Mandate Mission & Vision Values Brand Story Leadership Vision 2030 Projects CSR Innovation Awards About ROSHN Group Play Video Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company ROSHN Group is serving as a key enabler of Saudi Vision 2030. ROSHN Group is transforming the urban landscape with human-centric, integrated developments that elevate connectivity and enhance the quality of life across the Kingdom. With sustainability and innovation at the forefront, ROSHN Group ensures a holistic and harmonious lifestyle within its developments. The Group remains committed to advancing the objectives of Saudi Vision 2030 through its active participation in the Housing ",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/we-are-roshn",
+            "capturedAt": "2026-07-12T15:52:02.526Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/we-are-roshn/leadership",
+          "capturedAt": "2026-07-12T15:52:05.083Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Leadership",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | Leadership Home Click Here / We Are ROSHN Click Here / Leadership Leadership our leaders No results found Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Leadership Home Click Here / We Are ROSHN Click Here / Leadership Leadership our leaders No results found Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the urban landscape with human-centric, integrated developments that elevate connectivity and enhance the quality of life across the Kingdom Learn More Leadership Click Here The Brand Story Click Here Saudi Vision 2030 Click Here Our Awards Click Here Corporate Social Responsibility Click Here Sponsorships Click Here Communiti",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/we-are-roshn/leadership",
+            "capturedAt": "2026-07-12T15:52:05.083Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/we-are-roshn/the-brand-story",
+          "capturedAt": "2026-07-12T15:52:07.520Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | The Brand Story",
+          "description": "The story of ROSHN’s brand is deeply connected with Saudi Arabia’s cultural heritage, its urban landscape, and the ambitious aspirations of Vision 2030.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "OEM/ODM",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "green palm tree symbolizing life, sustainability, and the spirit of renewal and growth. Surrounding the palm tree is an interconnected circle of dots, reflecting our cohesive community and the network of relationships that bind us to our customers and partners. Emerging from the circle are triangles like warm rays, expressing our ambition to make a sustainable positive impact on our community. The color green represents our authentic national identity, our commitment to social responsibility, a"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | The Brand Story Home Click Here / We Are ROSHN Click Here / The Brand Story The Brand Story The Inspiration The Name The Beginning The Transformation The story of ROSHN’s brand is deeply connected with Saudi Arabia’s cultural heritage, its urban landscape, and the ambitious aspirations of Vision 2030. Play Video Design Inspiration The design of ROSHN’s logo tells a story of continuous transformation and growth inspired by the patterns of the regions of Saudi Arabia. At its heart lies a thriving green palm tree symbolizing life, sustainability, and the spirit of renewal and growth. Surrounding the palm tree is an interconnected circle of dots, reflecting our cohesive community and the network of relationships that bind us to our customers and partners. Emerging from the circle are t",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/we-are-roshn/the-brand-story",
+            "capturedAt": "2026-07-12T15:52:07.520Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/we-are-roshn/vision-2030",
+          "capturedAt": "2026-07-12T15:52:10.251Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ROSHN Group &amp; Saudi Vision 2030",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "0’s goal of inclusive growth while preserving the cultural essence of the Kingdom. Each project is designed to reshape how people experience their surroundings, creating new opportunities for connection and development. Learn More Click Here Our Contributions 01 The Housing Program Addressing the growing demand for housing by developing high-quality, sustainable, integrated human-centric residential communities across the Kingdom, contributing to increasing the homeownership rate to 70%. The Qua"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ROSHN Group & Saudi Vision 2030 Home Click Here / We Are ROSHN Click Here / ROSHN Group & Saudi Vision 2030 ROSHN Group & Saudi Vision 2030 ROSHN Group is dedicated to developing projects that cultivate a vibrant society, seamlessly blending modern advancements with Saudi Arabia’s rich heritage. Our focus is on delivering destinations that enhance daily life, offering spaces where people can connect and thrive within cohesive, forward-thinking spaces. By integrating cutting-edge technology and sustainable practices, ROSHN Group contributes to Saudi Vision 2030’s goal of inclusive growth while preserving the cultural essence of the Kingdom. Each project is designed to reshape how people experience their surroundings, creating new opportunities for connection and development. Learn M",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/we-are-roshn/vision-2030",
+            "capturedAt": "2026-07-12T15:52:10.251Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/we-are-roshn/our-awards",
+          "capturedAt": "2026-07-12T15:52:12.798Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Our Awards",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | Our Awards Home Click Here / We Are ROSHN Click Here / Our Awards Our Awards Loading ... Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Our Awards Home Click Here / We Are ROSHN Click Here / Our Awards Our Awards Loading ... Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the urban landscape with human-centric, integrated developments that elevate connectivity and enhance the quality of life across the Kingdom Learn More Leadership Click Here The Brand Story Click Here Saudi Vision 2030 Click Here Our Awards Click Here Corporate Social Responsibility Click Here Sponsorships Click Here Communities Our residentia",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/we-are-roshn/our-awards",
+            "capturedAt": "2026-07-12T15:52:12.798Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/we-are-roshn/corporate-social-responsibility",
+          "capturedAt": "2026-07-12T15:52:15.425Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Corporate Social Responsibility",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "tes to enhancing quality of life through our social responsibility initiatives under the &quot;YUHYEEK&quot; program, which aims to create a positive and lasting impact on the community. The program is centered around five key pillars of development: societal development, environmental sustainability, education and innovation, arts and culture, and public health. Play Video YUHYEEK: ROSHN Groups Social Responsibility Program ROSHN Group strives to leave a lasting impact through sponsorships, str"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Corporate Social Responsibility Home Click Here / Corporate Social Responsibility Corporate Social Responsibility Introduction Roshn Program YUHYEEK Initiatives For an Ambitious Nation ROSHN Group contributes to enhancing quality of life through our social responsibility initiatives under the &quot;YUHYEEK&quot; program, which aims to create a positive and lasting impact on the community. The program is centered around five key pillars of development: societal development, environmental sustainability, education and innovation, arts and culture, and public health. Play Video YUHYEEK: ROSHN Groups Social Responsibility Program ROSHN Group strives to leave a lasting impact through sponsorships, strategic partnerships, foster community engagement, and the application of sustainability",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/we-are-roshn/corporate-social-responsibility",
+            "capturedAt": "2026-07-12T15:52:15.425Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/we-are-roshn/sponsorships",
+          "capturedAt": "2026-07-12T15:52:17.827Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Sponsorships",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "g the urban landscape and playing a pivotal role in shaping the future of the Kingdom. Play Video ‎Our Purpose Contributing to enhancing quality of life and building a vibrant community. ROSHN Group is committed to contributing to enhancing quality of life and building a vibrant community through strategic sponsorships in partnership with local and international entities across various artistic, cultural, sports, and community fields, in addition to the real estate development sector. These spon"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Sponsorships Home Click Here / We Are ROSHN Click Here / Sponsorships Sponsorships Our Sponsorships ROSHN Group’s sponsorships align with our core values and the objectives of Saudi Vision 2030. The Group is committed to enhancing quality of life in the Kingdom by forging strategic partnerships that reflect ROSHN Group’s excellence and reinforce its position as a leading national real estate developer. Through these collaborations, ROSHN Group is transforming the urban landscape and playing a pivotal role in shaping the future of the Kingdom. Play Video ‎Our Purpose Contributing to enhancing quality of life and building a vibrant community. ROSHN Group is committed to contributing to enhancing quality of life and building a vibrant community through strategic sponsorships in partne",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/we-are-roshn/sponsorships",
+            "capturedAt": "2026-07-12T15:52:17.827Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/communities",
+          "capturedAt": "2026-07-12T15:52:20.489Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Communities",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "traditional architecture to celebrate the Kingdom&#x27;s rich culture and history. Fostering Local Content We are making positive contributions to the local business landscape by sourcing Saudi materials and working with local partners. A Sustainable Legacy ROSHN Group is dedicated to creating vibrant communities that enhance the quality of life for all our residents. By embracing innovative solutions and sustainable practices, we ensure our communities thrive for generations to come. Click Her",
+            "ROSHN | Communities Home Click Here / Communities Communities Why are ROSHN communities unique? A New Way of Living ROSHN provides a new way of living, presenting a complete city experience in a community that boasts designs like no other. Unique Design Our communities fuse modern design with traditional architecture to celebrate"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Communities Home Click Here / Communities Communities Why are ROSHN communities unique? A New Way of Living ROSHN provides a new way of living, presenting a complete city experience in a community that boasts designs like no other. Unique Design Our communities fuse modern design with traditional architecture to celebrate the Kingdom&#x27;s rich culture and history. Fostering Local Content We are making positive contributions to the local business landscape by sourcing Saudi materials and working with local partners. A Sustainable Legacy ROSHN Group is dedicated to creating vibrant communities that enhance the quality of life for all our residents. By embracing innovative solutions and sustainable practices, we ensure our communities thrive for generations to come. Click Here Click",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/communities",
+            "capturedAt": "2026-07-12T15:52:20.489Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/communities/sedra",
+          "capturedAt": "2026-07-12T15:52:23.497Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | SEDRA",
+          "description": "SEDRA is designed to enhance the well-being of you and your family, offering a healthy lifestyle along with market-leading community services.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "this thriving and growing city. Minutes from ROSHN Front As a resident of SEDRA, the restaurants, shops and cinema of ROSHN Front are on your doorstep. Showcasing both day-to-day stores and major retail brands, all overlook beautiful landscaping, water features and greenery. www.roshnfront.sa Embracing Nature In addition to the Wadi that winds through SEDRA, landscaped indigenous trees and plants provide shade and a beautiful backdrop to the whole community An Active Community A key focus for R",
+            "ROSHN | SEDRA Home Click Here / Communities SEDRA Phases Community Life Benefits Masterplan At Glance Location Sales centers Welcome to SEDRA Already a thriving community, SEDRA is one of Riyadh&#x27;s most sought-after residential developments. Reflective of the ROSHN Group approach, streets and public spaces are lined with native trees and plants, crea"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | SEDRA Home Click Here / Communities SEDRA Phases Community Life Benefits Masterplan At Glance Location Sales centers Welcome to SEDRA Already a thriving community, SEDRA is one of Riyadh&#x27;s most sought-after residential developments. Reflective of the ROSHN Group approach, streets and public spaces are lined with native trees and plants, creating a pedestrian-friendly naturally landscaped, beautiful environment in which to live. REGISTER YOUR INTEREST REGISTER YOUR INTEREST Location Riyadh Available Phases Navigation Buttons Navigation Buttons 01 — 06 Click Here Click Here Sales Launched SEDRA RESIDENCE In a prime location within the vibrant SEDRA community, SEDRA Residence introduces a gated apartment complex where privacy and comfort come together seamlessly. The community fe",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/communities/sedra",
+            "capturedAt": "2026-07-12T15:52:23.497Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/communities/alarous",
+          "capturedAt": "2026-07-12T15:52:26.320Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ALAROUS",
+          "description": "ROSHN Group is delighted to introduce ROSHN&#x27;s first community in the Western Region, ALAROUS, within minutes of the Red Sea coast.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | ALAROUS Home Click Here / Communities ALAROUS Phases Community Life Benefits Masterplan At Glance Sales centers Welcome to ALAROUS We are delighted to introduce ROSHN Group&#x27;s first community in the Western Region, ALAROUS, within minutes from the Red Sea coast. Located in the vibrant city of Jeddah and adjoining MARAFY, ROSHN Group&#x27;s rece"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ALAROUS Home Click Here / Communities ALAROUS Phases Community Life Benefits Masterplan At Glance Sales centers Welcome to ALAROUS We are delighted to introduce ROSHN Group&#x27;s first community in the Western Region, ALAROUS, within minutes from the Red Sea coast. Located in the vibrant city of Jeddah and adjoining MARAFY, ROSHN Group&#x27;s recently announced visionary destination, ALAROUS residents embrace a new way of living in high-quality homes. All day-to-day amenities, such as schools, mosques and shops, are within walking distance, and the waterside restaurants, green open spaces and stunning event venues of MARAFY are found just a few minutes away over a footbridge. Register Your Interest Register Your Interest Location Jeddah Available Phases Navigation Buttons Navigati",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/communities/alarous",
+            "capturedAt": "2026-07-12T15:52:26.320Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/communities/warefa",
+          "capturedAt": "2026-07-12T15:52:29.186Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | WAREFA",
+          "description": "Building on the huge success of SEDRA, we are delighted to introduce WAREFA, the extraordinary new development for eastern Riyadh by ROSHN",
+          "emails": [
+            "blur_masterplan-warefa@2x.png",
+            "large_masterplan-warefa@2x.png",
+            "small_masterplan-warefa@2x.png",
+            "medium_masterplan-warefa@2x.png",
+            "xlarge_masterplan-warefa@2x.png",
+            "xsmall_masterplan-warefa@2x.png",
+            "thumbnail_masterplan-warefa@2x.png",
+            "masterplan-warefa@2x.png"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | WAREFA Home Click Here / Communities WAREFA Video Homes Community Life Benefits The Masterplan At Glance Services Location Sales centers Welcome to WAREFA Welcome to WAREFA Community, nestled in the rapidly growing east of Riyadh. Covering an expansive 1.4 million square meters, the community features 2,380 homes designed with the grace and sophis"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | WAREFA Home Click Here / Communities WAREFA Video Homes Community Life Benefits The Masterplan At Glance Services Location Sales centers Welcome to WAREFA Welcome to WAREFA Community, nestled in the rapidly growing east of Riyadh. Covering an expansive 1.4 million square meters, the community features 2,380 homes designed with the grace and sophistication of Salmani architecture. WAREFA’s homes open onto pedestrian-friendly tree-lined streets where neighbors come together, and amenities to enhance the quality of life of our residents are only minutes away. The careful design of the individual neighborhoods creates small clusters of homes, allowing residents to become friends, and families to connect. View Brochure View Brochure Location Riyadh Play Video A Home for Everyone Loading",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/communities/warefa",
+            "capturedAt": "2026-07-12T15:52:29.186Z"
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "source-events",
+      "sourceName": "Event and association directories",
+      "type": "event_directory",
+      "startedAt": "2026-07-12T15:52:29.187Z",
+      "pageCount": 0,
+      "pages": []
+    },
+    {
+      "sourceId": "source-projects",
+      "sourceName": "Public construction projects",
+      "type": "public_project",
+      "startedAt": "2026-07-12T15:52:35.345Z",
+      "pageCount": 1,
+      "pages": [
+        {
+          "url": "https://etendering.tenderboard.gov.bh/Tenders/publicDash",
+          "capturedAt": "2026-07-12T15:52:35.345Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Welcome To Bahrain Tender Board",
+          "description": "",
+          "emails": [
+            "helpdesk@tenderboard.gov.bh",
+            "info@tenderboard.gov.bh"
+          ],
+          "phones": [
+            "+973 1756 6666",
+            "+973 1758 7855"
+          ],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "门锁/建筑五金",
+            "采购/项目"
+          ],
+          "evidenceType": "public_project",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "254/2026/BTB (CPD-26/0003) (Secondary Girls School At Ma.....) Bahrain Tender Board 20 Days -18 Hours 43/2026/CSD (IN/CSD/MA/2026/..... (Supply of End Sealing and Jo.....) Central Stores Directorate -..... 21 Days -20 Hours CLICK HERE TO VIEW MORE TENDERS Please feel free to contact us --> Please Feel Free to Contact Us Bahrain Tender Board Bahrain Bay, Arcapita, Second Floor P.O. Box 18686 Manama, Kingdom of Bahrain Phone +973 1756 6666 Fax +973 1758 7855 Email Us info@tenderboard.gov.bh Helpli",
+            "ast Blacklist Supplier 10911 On 23-11-2022 12:56:12 PM --> Total Registered Suppliers: 14539 Total Tender Published ( 9528 ) Current Year Total Published Tenders MOH --> 564 Total Purchased of Documents ( 62733 ) Current Year Total Published Document MOE --> 4648 Total Bids Received ( 27208 ) Current Year Total Bids Received GTB --> 2191 Total ECV ( 8,183,267,477.640 ) Current Year Estimated Contract Value MOH --> 422,280,567.649 Total Tender Published: 9528 No. of Trees Saved :1490 CO2Emission"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "Welcome To Bahrain Tender Board --> --> --> Welcome To Bahrain eTendering System | Ministry User Training going On | Supplier User Training going On | For Any Support, Kindly Contact at +973 1756 6666 Or Send Email at helpdesk@tenderboard.gov.bh --> Toggle navigation --> (BST) | Font Size: - + Supplier Registration Log-In Connect with BTB Tenders --> e-Tendering Systems Tenders Registered Supplier Tender Statistics Pre Qualification Green Initiative Published ( 53 ) Last Tender Published By CSD On 12-07-2026 08:27:59 AM To Be Opened ( 1366 ) Next Tender To Be Opened By MOIA On 09-07-2026 08:00:00 AM Opened ( 3253 ) Last Tender Opened By BTB On 09-07-2026 03:59:41 PM Cancelled ( 969 ) Last Tender Cancelled By UOB On 12-07-2026 02:02:05 PM Total Tender: 6262 e-Tendering --> Total Registered ",
+          "evidence": {
+            "field": "page",
+            "url": "https://etendering.tenderboard.gov.bh/Tenders/publicDash",
+            "capturedAt": "2026-07-12T15:52:35.345Z"
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "source-official-news",
+      "sourceName": "Official company news and public announcements",
+      "type": "official_news",
+      "startedAt": "2026-07-12T15:52:42.025Z",
+      "pageCount": 2,
+      "pages": [
+        {
+          "url": "https://www.roshn.sa/partnerships",
+          "capturedAt": "2026-07-12T15:52:39.232Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Partnerships",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "official_news",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "To achieve this, the Group seeks collaboration with both local and global suppliers to deliver pioneering products that enhance the quality of life within its destinations and communities, aligning with its high standards. Check Here I acknowledge that I have read, understand and I agree to the terms and conditions SIGN IN Click Here PARTNER WITH US Click Here Check Here Vendor&#x27;s user manual Check Here Non-Disclosure Agreement (to be signed & submitted) Check Here Code of Ethics (to be sign"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Partnerships Home Click Here / Partnerships Partnerships Economic growth across different regions of the Kingdom As the leading national multi-asset class real estate developer, ROSHN Group is dedicated to creating transformative spaces and mixed-use destinations that reflect Saudi Arabia&#x27;s dynamic vision for the future. We actively collaborate with the private sector, building long-term partnerships that drive progress and development across the Kingdom. As a key contributor to Saudi Arabia’s dynamic and evolving economy, the private sector is essential to our mission, and we are committed to supporting its growth and accelerating mutual success. Partner With ROSHN Group If you share our vision for connecting people and places with the rhythms of life, while delivering on the",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/partnerships",
+            "capturedAt": "2026-07-12T15:52:39.232Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/press-releases",
+          "capturedAt": "2026-07-12T15:52:42.024Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Press Releases",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "official_news",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | Press Releases Home Click Here / News & Events Click Here / Press Releases Press Releases Featured News Click Here Loading Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Press Releases Home Click Here / News & Events Click Here / Press Releases Press Releases Featured News Click Here Loading Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the urban landscape with human-centric, integrated developments that elevate connectivity and enhance the quality of life across the Kingdom Learn More Leadership Click Here The Brand Story Click Here Saudi Vision 2030 Click Here Our Awards Click Here Corporate Social Responsibility Click Here Sponsorships Cli",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/press-releases",
+            "capturedAt": "2026-07-12T15:52:42.024Z"
+          }
+        }
+      ]
+    }
+  ]
+}

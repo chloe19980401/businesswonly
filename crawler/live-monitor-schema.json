@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "purpose": "Public procurement monitoring records for review before CRM import",
+  "record": {
+    "id": "stable hash of sourceUrl + noticeId + title",
+    "market": "AE",
+    "sourceClass": "procurement_award",
+    "buyerName": "",
+    "buyerType": "government|developer|contractor|distributor|unknown",
+    "noticeType": "tender|prequalification|award|supplier_registration|project|unknown",
+    "noticeId": "",
+    "title": "",
+    "productSignals": ["door lock", "door hardware", "access control"],
+    "projectSignals": [],
+    "publishedAt": null,
+    "closingAt": null,
+    "awardAmount": null,
+    "currency": null,
+    "supplierEntryUrl": "",
+    "contactEmail": "",
+    "contactPhone": "",
+    "sourceUrl": "",
+    "capturedAt": "",
+    "robotsAllowed": false,
+    "requiresLogin": null,
+    "requiresLocalRegistration": null,
+    "evidence": [],
+    "verificationStatus": "unreviewed|verified|rejected|expired",
+    "verificationNotes": "",
+    "owner": "",
+    "nextAction": "review|register|qualify|contact|archive"
+  },
+  "rules": [
+    "Only public pages and permitted APIs may be captured.",
+    "Do not infer a personal contact from a generic company page.",
+    "A record cannot enter the CRM until sourceUrl, capturedAt and evidence are present.",
+    "Expired or withdrawn notices remain in the audit log but are excluded from active leads.",
+    "Supplier registration and tender submission are separate workflows; the monitor never submits bids automatically."
+  ]
+}
