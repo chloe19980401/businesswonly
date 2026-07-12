@@ -9,8 +9,8 @@
       "https://www.aldar.com/ar/explore-aldar/about-aldar/procurement",
       "https://www.emaar.com/en/about-emaar"
     ],
-    "allowedPaths": ["/", "/products", "/about", "/news", "/contact", "/careers", "/distributors"],
-    "maxPages": 20,
+    "allowedPaths": ["/", "/products", "/about", "/news", "/contact", "/careers", "/distributors", "/suppliers", "/supplier", "/vendors", "/vendor", "/partners", "/projects", "/tenders", "/procurement", "/sourcing"],
+    "maxPages": 80,
     "intervalHours": 24,
     "notes": "Add public company domains to seeds."
   },
@@ -29,7 +29,7 @@
       "https://tenders.procurement.gov.ge/"
     ],
     "allowedPaths": ["/exhibitors", "/exhibitor-list", "/members", "/directory", "/events"],
-    "maxPages": 30,
+    "maxPages": 60,
     "intervalHours": 72,
     "notes": "Use public exhibitor or member pages only."
   },
@@ -55,7 +55,7 @@
       "https://tenders.procurement.gov.ge/"
     ],
     "allowedPaths": ["/tenders", "/projects", "/procurement", "/notices", "/bids"],
-    "maxPages": 30,
+    "maxPages": 60,
     "intervalHours": 24,
     "notes": "Collect public tenders, project notices and procurement notices only."
   },
@@ -65,8 +65,8 @@
     "type": "public_buyer",
     "enabled": true,
     "seeds": [],
-    "allowedPaths": ["/investors", "/annual-report", "/reports", "/suppliers", "/vendors", "/procurement", "/sourcing"],
-    "maxPages": 30,
+    "allowedPaths": ["/investors", "/annual-report", "/reports", "/suppliers", "/supplier", "/vendors", "/vendor", "/procurement", "/sourcing", "/partners", "/projects", "/tenders"],
+    "maxPages": 80,
     "intervalHours": 168,
     "notes": "Use annual reports, supplier policies and public procurement disclosures."
   },
@@ -81,7 +81,7 @@
       "https://www.emaar.com/en/about-emaar"
     ],
     "allowedPaths": ["/news", "/media", "/press", "/press-releases", "/announcements", "/partnerships", "/procurement", "/investors", "/about"],
-    "maxPages": 40,
+    "maxPages": 80,
     "intervalHours": 24,
     "notes": "Extract only public business contacts and named people appearing in official announcements."
   },
@@ -92,7 +92,7 @@
     "enabled": true,
     "seeds": [],
     "allowedPaths": ["/notice", "/awards", "/contract", "/tenders", "/opportunities", "/procurement"],
-    "maxPages": 40,
+    "maxPages": 80,
     "intervalHours": 24,
     "notes": "Prefer official procurement portals or open-data APIs; capture buyer, contractor, amount and date."
   }

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 type ChannelId =
   | "all"
@@ -881,6 +881,7 @@ function scoreTone(score: number) {
 }
 
 export default function Home() {
+  const [activeNav, setActiveNav] = useState("acquire");
   const [activeChannel, setActiveChannel] = useState<ChannelId>("all");
   const [query, setQuery] = useState("");
   const [region, setRegion] = useState("全部地区");
@@ -917,6 +918,22 @@ export default function Home() {
 
   const activeLabel = channelMap[activeChannel];
 
+  useEffect(() => {
+    const items = Array.from(document.querySelectorAll<HTMLButtonElement>(".primary-nav .nav-item"));
+    const workspace = document.querySelector<HTMLElement>(".workspace");
+    const ids = ["acquire", "accounts", "contacts", "tasks", "sources", "analytics"];
+    items.forEach((item, index) => item.classList.toggle("active", ids[index] === activeNav));
+    workspace?.querySelectorAll<HTMLElement>(":scope > :not(.module-panel)").forEach((node) => {
+      node.style.display = activeNav === "acquire" ? "" : "none";
+    });
+    items.forEach((item, index) => {
+      item.onclick = () => {
+        setActiveNav(ids[index] ?? "acquire");
+      };
+    });
+    return () => items.forEach((item) => { item.onclick = null; });
+  }, [activeNav]);
+
   return (
     <main className="app-shell">
       <aside className="sidebar">
@@ -943,7 +960,8 @@ export default function Home() {
         </div>
       </aside>
 
-      <section className="workspace">
+      <section className="workspace" data-active-nav={activeNav}>
+        {activeNav !== "acquire" && <div className="module-panel"><div className="eyebrow">Acquire OS / 模块</div><h1>{activeNav === "accounts" ? "账户雷达" : activeNav === "contacts" ? "联系人" : activeNav === "tasks" ? "任务与商机" : activeNav === "sources" ? "数据源中心" : "分析中心"}</h1><p>该模块只展示带来源 URL、抓取时间和证据片段的已验证公开数据。</p><div className="module-empty"><strong>等待真实数据</strong><span>当前没有可展示的已核验记录，不生成虚拟信息。</span></div><button className="primary-btn" onClick={() => setActiveNav("acquire")}>返回获客中心</button></div>}
         <header className="topbar">
           <div>
             <div className="eyebrow">获客中心 / 全渠道客户池</div>
