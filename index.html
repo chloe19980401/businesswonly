@@ -273,5 +273,60 @@ window.__ACQUIRE_DATA__.customers = [];
   document.querySelectorAll('.demo-badge').forEach(function (el) { el.textContent = '仅显示已核验数据'; });
   document.querySelectorAll('.result-count').forEach(function (el) { el.textContent = '0 条已核验客户'; });
 </script>
+<script>
+(() => {
+  const nav = [...document.querySelectorAll('.nav-item')];
+  const workspace = document.querySelector('.workspace');
+  const home = workspace.innerHTML;
+  const pages = [
+    ['账户雷达','按地区、采购信号和公司规模筛选重点账户','账户评分','等待真实数据源接入','暂无已核验账户'],
+    ['联系人','集中管理公开核验的采购、工程和渠道联系人','已核验联系人','等待公开联系方式抓取','暂无已核验联系人'],
+    ['任务与商机','把公开采购信号转成可执行的销售动作','进行中任务','暂无任务','暂无待处理任务'],
+    ['数据源中心','管理公开官网、招投标与官方新闻采集源','正常同步源','8','所有来源均遵守 robots.txt 与公开访问规则'],
+    ['分析中心','查看区域、渠道、信号和转化趋势','数据状态','首轮采集已完成','23 个页面 · 22 个成功解析']
+  ];
+  const render = (i) => {
+    if (i === 0) { location.reload(); return; }
+    const p = pages[i-1];
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / '+p[0]+'</div><h1>'+p[0]+'</h1><p>'+p[1]+'</p></div><div class="top-actions"><span class="demo-badge">仅显示已核验数据</span><button class="primary-btn">＋ 新建</button></div></header><section class="metrics"><article><span>'+p[2]+'</span><strong>'+p[3]+'</strong><small>'+p[4]+'</small></article><article><span>数据可信度</span><strong>公开来源</strong><small>每条记录保留来源 URL 和抓取时间</small></article><article><span>地区范围</span><strong>中东 / 中亚</strong><small>可扩展到更多目标市场</small></article><article><span>合规状态</span><strong>正常</strong><small>不绕过登录、验证码或访问限制</small></article></section><section class="content-panel"><div class="empty-state"><strong>'+p[4]+'</strong><span>系统不会展示虚拟客户或未经核验的联系人。运行采集器后，结果将从公开来源进入这里。</span><button class="secondary-btn" style="margin-top:18px">查看采集记录</button></div></section>';
+  };
+  nav.forEach((item, i) => item.addEventListener('click', () => { nav.forEach(x => x.classList.remove('active')); item.classList.add('active'); render(i); }));
+})();
+</script>
+<script>
+(() => {
+  const escHtml = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  fetch('./crawler/phase-1-buyers.json', { cache: 'no-store' })
+    .then(response => response.ok ? response.json() : Promise.reject(new Error('target_pool_unavailable')))
+    .then(data => {
+      const targets = Array.isArray(data.targets) ? data.targets : [];
+      const verified = targets.filter(item => item.status && item.status.startsWith('official_'));
+      const publicTargets = verified.filter(item => item.crawlMode === 'public');
+      const manualTargets = verified.filter(item => item.crawlMode === 'manual_only');
+      const rows = document.getElementById('customer-rows');
+      const empty = document.getElementById('empty-state');
+      const result = document.getElementById('result-count');
+      if (!rows) return;
+      rows.innerHTML = verified.map(item => '<tr>'+
+        '<td><div class="account-main"><span class="company-logo">'+escHtml(item.country)+'</span><div><strong>'+escHtml(item.name)+'</strong><small>官方采购入口</small><div class="tag-line"><span>'+escHtml(item.priority)+'</span></div></div></div></td>'+
+        '<td><strong>'+escHtml(item.type)+'</strong><small>'+escHtml(item.country)+'</small></td>'+
+        '<td><span class="channel-pill">官网 / 采购入口</span><strong class="signal-text">'+(item.crawlMode === 'public' ? '已进入公开自动采集' : '网站条款要求人工核验')+'</strong><small>'+escHtml(item.status)+'</small></td>'+
+        '<td><strong>待发现公开采购项目</strong><small>持续监测官方公告与供应商页面</small></td>'+
+        '<td><strong>待官方来源核验</strong><small>不猜测联系人或邮箱</small></td>'+
+        '<td><div class="score score-strong">'+(item.priority === 'S1' ? '90' : '80')+'</div><small>官方来源</small></td>'+
+        '<td><span class="grade grade-A">A</span><strong>目标池</strong><small>'+escHtml(item.crawlMode)+'</small></td>'+
+        '<td><a href="'+escHtml(item.officialUrl)+'" target="_blank" rel="noopener noreferrer">查看来源</a><small>'+escHtml(data.generatedAt || '')+'</small></td>'+
+      '</tr>').join('');
+      empty?.classList.toggle('static-hidden', verified.length > 0);
+      if (result) result.innerHTML = '<strong>'+verified.length+'</strong> 个已核验采购目标 · '+publicTargets.length+' 个自动采集 · '+manualTargets.length+' 个人工核验';
+      const metricValues = document.querySelectorAll('.metrics article strong');
+      if (metricValues[0]) metricValues[0].textContent = String(verified.length);
+      if (metricValues[1]) metricValues[1].textContent = '0';
+      if (metricValues[2]) metricValues[2].textContent = String(publicTargets.length);
+      if (metricValues[3]) metricValues[3].textContent = String(manualTargets.length);
+    })
+    .catch(() => {});
+})();
+</script>
 </body>
 </html>
