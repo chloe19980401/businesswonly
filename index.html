@@ -75,6 +75,22 @@ button { cursor: pointer; }
 .metrics span { color: var(--muted); font-size: 11px; }
 .metrics strong { font-size: 24px; margin: 7px 0 4px; letter-spacing: -.5px; }
 .metrics small { color: var(--muted); font-size: 10px; }
+.analytics-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 14px; }
+.chart-card { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 18px; }
+.chart-card h3 { margin: 0 0 4px; font-size: 15px; }
+.chart-card > p { margin: 0 0 18px; color: var(--muted); font-size: 11px; }
+.bar-list { display: grid; gap: 13px; }
+.bar-row { display: grid; grid-template-columns: 135px minmax(100px,1fr) 34px; gap: 10px; align-items: center; font-size: 11px; }
+.bar-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink); font-weight: 600; }
+.bar-track { height: 9px; background: #edf2f8; border-radius: 999px; overflow: hidden; }
+.bar-fill { height: 100%; background: linear-gradient(90deg,#1e6feb,#5a9cff); border-radius: inherit; }
+.bar-value { text-align: right; font-weight: 700; }
+.insight-list { display: grid; gap: 10px; }
+.insight-item { border: 1px solid var(--line); border-radius: 9px; padding: 12px; background: #fbfcfe; }
+.insight-item strong, .insight-item span, .insight-item small { display: block; }
+.insight-item span { color: var(--blue); font-size: 10px; font-weight: 700; margin-bottom: 5px; }
+.insight-item strong { font-size: 12px; }
+.insight-item small { color: var(--muted); margin-top: 5px; line-height: 1.5; }
 
 .channel-panel, .content-panel { background: #fff; border: 1px solid var(--line); border-radius: 12px; }
 .channel-panel { margin-bottom: 12px; padding: 8px; }
@@ -316,9 +332,48 @@ window.__ACQUIRE_DATA__.customers = [];
       document.getElementById('contact-empty').classList.remove('static-hidden');
     });
   };
+  const renderSources = () => {
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 数据源中心</div><h1>数据源中心</h1><p>展示实际接入并完成官方来源核验的公开采购入口。</p></div><div class="top-actions"><span class="demo-badge">仅显示官方来源</span></div></header>'+
+      '<section class="metrics"><article><span>正常同步源</span><strong id="source-count">8</strong><small>全部保留官方入口</small></article><article><span>自动采集</span><strong>8</strong><small>不绕过登录或验证码</small></article><article><span>覆盖国家</span><strong>7</strong><small>中东与中亚</small></article><article><span>核验日期</span><strong style="font-size:18px">2026-07-13</strong><small>官方网页来源</small></article></section>'+
+      '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="source-query" aria-label="搜索数据源" placeholder="搜索来源、国家或类型"></label><div class="result-count" id="source-result-count">正在读取数据源…</div></div><div class="table-wrap"><table><thead><tr><th>官方来源</th><th>国家 / 类型</th><th>采集方式</th><th>状态</th><th>覆盖目标</th><th>最近核验</th><th>入口</th></tr></thead><tbody id="source-rows"></tbody></table><div class="empty-state static-hidden" id="source-empty"><strong>没有匹配的数据源</strong><span>请调整搜索词。</span></div></div></section>';
+    fetch('./crawler/data-sources.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(data=>{
+      const all=Array.isArray(data.sources)?data.sources:[]; const rows=document.getElementById('source-rows'); const count=document.getElementById('source-result-count'); const empty=document.getElementById('source-empty');
+      const draw=list=>{ rows.innerHTML=list.map(s=>'<tr><td><div class="account-main"><span class="company-logo">'+escContact(s.country)+'</span><div><strong>'+escContact(s.name)+'</strong><small>official_source_verified</small></div></div></td><td><strong>'+escContact(s.category)+'</strong><small>'+escContact(s.country)+'</small></td><td><span class="channel-pill">'+escContact(s.crawlMode)+'</span><small>每小时检查公开更新</small></td><td><span class="grade grade-A">A</span><strong>'+escContact(s.status)+'</strong><small>公开访问合规</small></td><td><strong>'+escContact(s.coverage)+'</strong><small>当前目标池</small></td><td><strong>'+escContact(s.verifiedAt)+'</strong><small>官方页面</small></td><td><a href="'+escContact(s.officialUrl)+'" target="_blank" rel="noopener noreferrer"><strong>打开官方入口 ↗</strong></a></td></tr>').join(''); count.textContent=list.length+' 个已核验数据源'; empty.classList.toggle('static-hidden',list.length>0); };
+      draw(all); document.getElementById('source-count').textContent=all.length; document.getElementById('source-query').addEventListener('input',e=>{const q=e.target.value.trim().toLowerCase();draw(all.filter(s=>Object.values(s).join(' ').toLowerCase().includes(q)));});
+    }).catch(()=>{document.getElementById('source-result-count').textContent='数据源读取失败';});
+  };
+  const renderTasks = () => {
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 任务与商机</div><h1>任务与商机</h1><p>把已核验的官方采购入口和商务联系人转化为可执行动作。</p></div><div class="top-actions"><span class="demo-badge">系统建议 · 非采购意向</span></div></header>'+
+      '<section class="metrics"><article><span>待处理任务</span><strong id="task-count">6</strong><small>来源可追溯</small></article><article><span>S1 优先</span><strong>5</strong><small>建议优先处理</small></article><article><span>公开联系人任务</span><strong>4</strong><small>仅使用机构公开商务邮箱</small></article><article><span>真实采购意向</span><strong>0</strong><small>目前未发现可证实的主动询盘</small></article></section>'+
+      '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="task-query" aria-label="搜索任务" placeholder="搜索企业、国家、任务或邮箱"></label><div class="result-count" id="task-result-count">正在读取任务…</div></div><div class="table-wrap"><table><thead><tr><th>任务</th><th>目标机构</th><th>类型 / 优先级</th><th>下一步</th><th>公开联系入口</th><th>证据</th><th>状态</th></tr></thead><tbody id="task-rows"></tbody></table><div class="empty-state static-hidden" id="task-empty"><strong>没有匹配的任务</strong><span>请调整搜索词。</span></div></div></section>';
+    fetch('./crawler/action-tasks.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(data=>{
+      const all=Array.isArray(data.tasks)?data.tasks:[]; const rows=document.getElementById('task-rows'); const count=document.getElementById('task-result-count'); const empty=document.getElementById('task-empty');
+      const draw=list=>{ rows.innerHTML=list.map(t=>'<tr><td><strong>'+escContact(t.title)+'</strong><small>系统建议任务</small></td><td><div class="account-main"><span class="company-logo">'+escContact(t.country)+'</span><div><strong>'+escContact(t.organization)+'</strong><small>'+escContact(t.country)+'</small></div></div></td><td><span class="channel-pill">'+escContact(t.type)+'</span><strong>'+escContact(t.priority)+'</strong></td><td><strong>'+escContact(t.nextStep)+'</strong></td><td>'+(String(t.contact).includes('@')?'<a href="mailto:'+escContact(t.contact)+'"><strong>'+escContact(t.contact)+'</strong></a>':'<strong>'+escContact(t.contact)+'</strong>')+'<small><a href="'+escContact(t.sourceUrl)+'" target="_blank" rel="noopener noreferrer">打开官方入口 ↗</a></small></td><td><strong>'+escContact(t.evidence)+'</strong><small>公开来源核验</small></td><td><span class="grade grade-A">'+escContact(t.status)+'</span></td></tr>').join(''); count.textContent=list.length+' 个建议任务'; empty.classList.toggle('static-hidden',list.length>0); };
+      draw(all); document.getElementById('task-count').textContent=all.length; document.getElementById('task-query').addEventListener('input',e=>{const q=e.target.value.trim().toLowerCase();draw(all.filter(t=>Object.values(t).join(' ').toLowerCase().includes(q)));});
+    }).catch(()=>{document.getElementById('task-result-count').textContent='任务数据读取失败';});
+  };
+  const renderAnalytics = () => {
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 分析中心</div><h1>分析中心</h1><p>基于当前已核验采购目标与联系人实时计算，不展示虚拟指标。</p></div><div class="top-actions"><span class="demo-badge">数据日期 2026-07-13</span></div></header>'+
+      '<section class="metrics"><article><span>已核验目标</span><strong id="ana-targets">19</strong><small>官方采购或供应商入口</small></article><article><span>已核验联系人</span><strong id="ana-contacts">6</strong><small>公开商务联系方式</small></article><article><span>覆盖国家</span><strong id="ana-countries">7</strong><small>中东与中亚</small></article><article><span>自动采集覆盖</span><strong id="ana-rate">95%</strong><small>18 / 19 个目标</small></article></section>'+
+      '<section class="analytics-grid"><article class="chart-card"><h3>目标国家分布</h3><p>按当前官方采购目标数量排序</p><div class="bar-list" id="country-bars"></div></article><article class="chart-card"><h3>渠道结构</h3><p>按目标机构类型汇总</p><div class="bar-list" id="type-bars"></div></article><article class="chart-card"><h3>重点市场判断</h3><p>由当前目标池直接计算</p><div class="insight-list" id="market-insights"></div></article><article class="chart-card"><h3>数据质量</h3><p>核验和采集状态</p><div class="insight-list" id="quality-insights"></div></article></section>';
+    Promise.all([fetch('./crawler/phase-1-buyers.json',{cache:'no-store'}).then(r=>r.json()),fetch('./crawler/verified-contacts.json',{cache:'no-store'}).then(r=>r.json())]).then(([buyers,contacts])=>{
+      const targets=Array.isArray(buyers.targets)?buyers.targets:[]; const people=Array.isArray(contacts.contacts)?contacts.contacts:[];
+      const countries={}; const groups={'政府采购 / 招标':0,'地产 / 大型项目':0,'机构采购':0};
+      targets.forEach(t=>{countries[t.country]=(countries[t.country]||0)+1; if(String(t.type).includes('developer')) groups['地产 / 大型项目']++; else if(String(t.type).includes('institutional')||String(t.type).includes('public_works')) groups['机构采购']++; else groups['政府采购 / 招标']++;});
+      const sortedCountries=Object.entries(countries).sort((a,b)=>b[1]-a[1]); const sortedGroups=Object.entries(groups).sort((a,b)=>b[1]-a[1]); const maxCountry=Math.max(1,...sortedCountries.map(x=>x[1])); const maxGroup=Math.max(1,...sortedGroups.map(x=>x[1])); const auto=targets.filter(t=>t.crawlMode==='public').length;
+      const bars=(list,max)=>list.map(([label,value])=>'<div class="bar-row"><span class="bar-label">'+escContact(label)+'</span><div class="bar-track"><div class="bar-fill" style="width:'+(value/max*100).toFixed(0)+'%"></div></div><span class="bar-value">'+value+'</span></div>').join('');
+      document.getElementById('country-bars').innerHTML=bars(sortedCountries,maxCountry); document.getElementById('type-bars').innerHTML=bars(sortedGroups,maxGroup);
+      document.getElementById('ana-targets').textContent=targets.length; document.getElementById('ana-contacts').textContent=people.length; document.getElementById('ana-countries').textContent=sortedCountries.length; document.getElementById('ana-rate').textContent=(targets.length?Math.round(auto/targets.length*100):0)+'%';
+      const top=sortedCountries.slice(0,3); document.getElementById('market-insights').innerHTML=top.map(([country,n],i)=>'<div class="insight-item"><span>优先级 '+(i+1)+'</span><strong>'+escContact(country)+' · '+n+' 个已核验目标</strong><small>数量来自当前官方采购目标池，不代表已确认采购意向。</small></div>').join('');
+      document.getElementById('quality-insights').innerHTML='<div class="insight-item"><span>官方来源</span><strong>'+targets.length+' / '+targets.length+' 个目标保留来源 URL</strong><small>可逐条回到采购、供应商注册或机构官网核验。</small></div><div class="insight-item"><span>自动采集</span><strong>'+auto+' 个公开采集 · '+(targets.length-auto)+' 个人工核验</strong><small>受条款限制的来源不会绕过登录、验证码或访问限制。</small></div><div class="insight-item"><span>联系人质量</span><strong>'+people.length+' 条官方公开商务联系方式</strong><small>具名负责人和部门联系人分开标注。</small></div>';
+    }).catch(()=>{document.getElementById('country-bars').innerHTML='<div class="empty-state"><strong>分析数据读取失败</strong><span>请刷新后重试。</span></div>';});
+  };
   const render = (i) => {
     if (i === 0) { location.reload(); return; }
     if (i === 2) { renderContacts(); return; }
+    if (i === 3) { renderTasks(); return; }
+    if (i === 4) { renderSources(); return; }
+    if (i === 5) { renderAnalytics(); return; }
     const p = pages[i-1];
     workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / '+p[0]+'</div><h1>'+p[0]+'</h1><p>'+p[1]+'</p></div><div class="top-actions"><span class="demo-badge">仅显示已核验数据</span><button class="primary-btn">＋ 新建</button></div></header><section class="metrics"><article><span>'+p[2]+'</span><strong>'+p[3]+'</strong><small>'+p[4]+'</small></article><article><span>数据可信度</span><strong>公开来源</strong><small>每条记录保留来源 URL 和抓取时间</small></article><article><span>地区范围</span><strong>中东 / 中亚</strong><small>可扩展到更多目标市场</small></article><article><span>合规状态</span><strong>正常</strong><small>不绕过登录、验证码或访问限制</small></article></section><section class="content-panel"><div class="empty-state"><strong>'+p[4]+'</strong><span>系统不会展示虚拟客户或未经核验的联系人。运行采集器后，结果将从公开来源进入这里。</span><button class="secondary-btn" style="margin-top:18px">查看采集记录</button></div></section>';
   };

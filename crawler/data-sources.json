@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-07-13",
+  "sources": [
+    {"name":"UAE Ministry of Finance Federal Supplier Register","country":"AE","category":"政府供应商库","crawlMode":"公开自动采集","status":"正常","coverage":1,"officialUrl":"https://mof.gov.ae/en/public-finance/government-procurement/federal-supplier-register/","verifiedAt":"2026-07-13"},
+    {"name":"Abu Dhabi Government Procurement Gate","country":"AE","category":"政府采购门户","crawlMode":"公开自动采集","status":"正常","coverage":1,"officialUrl":"https://adgpg.gov.ae/en","verifiedAt":"2026-07-13"},
+    {"name":"Saudi Etimad","country":"SA","category":"政府招投标","crawlMode":"公开自动采集","status":"正常","coverage":1,"officialUrl":"https://tenders.etimad.sa/Tender/","verifiedAt":"2026-07-13"},
+    {"name":"Qatar University E-Suppliers","country":"QA","category":"机构采购部门","crawlMode":"公开自动采集","status":"正常","coverage":1,"officialUrl":"https://www.qu.edu.qa/en-us/Offices/procurement/Pages/suppliers.aspx","verifiedAt":"2026-07-13"},
+    {"name":"Oman Tender Board","country":"OM","category":"政府招投标","crawlMode":"公开自动采集","status":"正常","coverage":1,"officialUrl":"https://etendering.tenderboard.gov.om/product/publicDash?CTRL_STRDIRECTION=LTR","verifiedAt":"2026-07-13"},
+    {"name":"Bahrain Tender Board","country":"BH","category":"政府招投标","crawlMode":"公开自动采集","status":"正常","coverage":1,"officialUrl":"https://etendering.tenderboard.gov.bh/Tenders/publicDash","verifiedAt":"2026-07-13"},
+    {"name":"Kazakhstan State Procurement","country":"KZ","category":"政府招投标","crawlMode":"公开自动采集","status":"正常","coverage":1,"officialUrl":"https://procurement.gov.kz/ru/","verifiedAt":"2026-07-13"},
+    {"name":"Uzbekistan Government Procurement Directory","country":"UZ","category":"政府采购目录","crawlMode":"公开自动采集","status":"正常","coverage":1,"officialUrl":"https://gov.uz/en/pages/davlat_xaridlari","verifiedAt":"2026-07-13"}
+  ]
+}

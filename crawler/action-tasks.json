@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-07-13",
+  "disclaimer": "These are system-recommended actions derived from verified public sources, not confirmed purchase intent.",
+  "tasks": [
+    {"title":"完成联邦供应商注册资格检查","organization":"UAE Ministry of Finance","country":"AE","priority":"S1","type":"供应商注册","status":"待处理","nextStep":"核对注册条件、公司文件和门锁产品分类后进入官方注册页。","contact":"fssupport@mof.gov.ae","sourceUrl":"https://mof.gov.ae/en/services/register-suppliers-in-the-federal-supplier-register/","evidence":"官方联邦供应商注册服务页"},
+    {"title":"向 Aldar 采购部门提交供应商能力资料","organization":"Aldar Properties","country":"AE","priority":"S1","type":"采购触达","status":"待处理","nextStep":"准备工厂规模、认证、项目案例和中东交付能力，发送至官方采购邮箱。","contact":"procurement@aldar.com","sourceUrl":"https://www.aldar.com/ar/explore-aldar/about-aldar/procurement","evidence":"Aldar 官方采购页面与公开采购邮箱"},
+    {"title":"联系 Qatar University 采购与合同部","organization":"Qatar University","country":"QA","priority":"S1","type":"采购触达","status":"待处理","nextStep":"询问电子供应商准入流程和门锁、五金相关采购分类。","contact":"procurement@qu.edu.qa","sourceUrl":"https://www.qu.edu.qa/en-us/Offices/procurement/Pages/suppliers.aspx","evidence":"大学官方 E-Suppliers 页面"},
+    {"title":"建立 Bahrain Tender Board 供应商准入清单","organization":"Bahrain Tender Board","country":"BH","priority":"S1","type":"供应商注册","status":"待处理","nextStep":"检查电子招标平台注册要求；如有技术问题联系官方帮助台。","contact":"helpdesk@tenderboard.gov.bh","sourceUrl":"https://etendering.tenderboard.gov.bh/","evidence":"官方电子招标平台与帮助台联系方式"},
+    {"title":"评估 NEOM 供应商入驻匹配度","organization":"NEOM","country":"SA","priority":"S1","type":"项目供应商准入","status":"待处理","nextStep":"对照供应商页面准备门锁产品线、项目交付能力和合规认证。","contact":"仅使用官方供应商入口","sourceUrl":"https://www.neom.com/en-us/our-business/suppliers","evidence":"NEOM 官方 Suppliers 页面"},
+    {"title":"评估 Red Sea Global 供应商注册要求","organization":"Red Sea Global","country":"SA","priority":"S2","type":"项目供应商准入","status":"待处理","nextStep":"核对注册材料并准备酒店、住宅项目门锁案例。","contact":"仅使用官方供应商入口","sourceUrl":"https://www.redseaglobal.com/en/vendor-registration/","evidence":"Red Sea Global 官方 Vendor Registration 页面"}
+  ]
+}
