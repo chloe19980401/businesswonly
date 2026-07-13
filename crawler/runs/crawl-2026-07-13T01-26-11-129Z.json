@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-07-13T01:26:11.130Z",
+  "userAgent": "AcquireOS-PublicResearch/0.1 (+public-source; contact-your-admin)",
+  "marketConfig": {
+    "marketGroup": "Middle East and Central Asia",
+    "priorityMarkets": [
+      {
+        "country": "United Arab Emirates",
+        "code": "AE",
+        "cluster": "Gulf core",
+        "priority": "S1",
+        "languages": [
+          "English",
+          "Arabic"
+        ]
+      },
+      {
+        "country": "Saudi Arabia",
+        "code": "SA",
+        "cluster": "Gulf core",
+        "priority": "S1",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Qatar",
+        "code": "QA",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Kuwait",
+        "code": "KW",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Oman",
+        "code": "OM",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Bahrain",
+        "code": "BH",
+        "cluster": "Gulf core",
+        "priority": "S3",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Kazakhstan",
+        "code": "KZ",
+        "cluster": "Central Asia",
+        "priority": "S1",
+        "languages": [
+          "Russian",
+          "Kazakh",
+          "English"
+        ]
+      },
+      {
+        "country": "Uzbekistan",
+        "code": "UZ",
+        "cluster": "Central Asia",
+        "priority": "S1",
+        "languages": [
+          "Uzbek",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Azerbaijan",
+        "code": "AZ",
+        "cluster": "Central Asia adjacency",
+        "priority": "S2",
+        "languages": [
+          "Azerbaijani",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Georgia",
+        "code": "GE",
+        "cluster": "Central Asia adjacency",
+        "priority": "S2",
+        "languages": [
+          "Georgian",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Kyrgyzstan",
+        "code": "KG",
+        "cluster": "Central Asia",
+        "priority": "S3",
+        "languages": [
+          "Kyrgyz",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Tajikistan",
+        "code": "TJ",
+        "cluster": "Central Asia",
+        "priority": "S3",
+        "languages": [
+          "Tajik",
+          "Russian",
+          "English"
+        ]
+      }
+    ],
+    "holdForComplianceReview": [
+      "Iran",
+      "Syria",
+      "Yemen"
+    ],
+    "recommendedCustomerTypes": [
+      "door hardware brand",
+      "building materials chain",
+      "door manufacturer",
+      "importer wholesaler",
+      "hotel real estate project",
+      "government procurement"
+    ],
+    "recommendedProducts": [
+      "mechanical door lock",
+      "smart lock",
+      "hotel lock",
+      "mortise lock body",
+      "lever handle",
+      "door hardware set",
+      "OEM ODM product line"
+    ]
+  },
+  "results": [
+    {
+      "sourceId": "source-company-sites",
+      "sourceName": "Company websites",
+      "type": "company_website",
+      "startedAt": "2026-07-13T01:26:05.924Z",
+      "pageCount": 3,
+      "pages": [
+        {
+          "url": "https://www.roshn.sa/partnerships",
+          "capturedAt": "2026-07-13T01:26:01.244Z",
+          "status": "error",
+          "reason": "fetch failed"
+        },
+        {
+          "url": "https://www.aldar.com/ar/explore-aldar/about-aldar/procurement",
+          "capturedAt": "2026-07-13T01:26:03.321Z",
+          "status": "error",
+          "reason": "fetch failed"
+        },
+        {
+          "url": "https://www.emaar.com/en/about-emaar",
+          "capturedAt": "2026-07-13T01:26:05.924Z",
+          "status": "error",
+          "reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "sourceId": "source-events",
+      "sourceName": "Event and association directories",
+      "type": "event_directory",
+      "startedAt": "2026-07-13T01:26:05.925Z",
+      "pageCount": 0,
+      "pages": []
+    },
+    {
+      "sourceId": "source-projects",
+      "sourceName": "Public construction projects",
+      "type": "public_project",
+      "startedAt": "2026-07-13T01:26:09.307Z",
+      "pageCount": 1,
+      "pages": [
+        {
+          "url": "https://etendering.tenderboard.gov.bh/Tenders/publicDash",
+          "capturedAt": "2026-07-13T01:26:09.307Z",
+          "status": "error",
+          "reason": "fetch failed"
+        }
+      ]
+    },
+    {
+      "sourceId": "source-official-news",
+      "sourceName": "Official company news and public announcements",
+      "type": "official_news",
+      "startedAt": "2026-07-13T01:26:11.129Z",
+      "pageCount": 1,
+      "pages": [
+        {
+          "url": "https://www.roshn.sa/partnerships",
+          "capturedAt": "2026-07-13T01:26:11.129Z",
+          "status": "error",
+          "reason": "fetch failed"
+        }
+      ]
+    }
+  ]
+}
