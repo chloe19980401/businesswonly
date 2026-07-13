@@ -112,6 +112,16 @@ button { cursor: pointer; }
 .search-box input { padding-left: 31px; }
 .search-box input:focus, .filterbar select:focus { border-color: var(--blue); box-shadow: 0 0 0 3px var(--blue-soft); }
 .filterbar select { width: 118px; }
+.country-multi { position: relative; min-width: 150px; }
+.country-multi summary { list-style: none; cursor: pointer; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 9px 34px 9px 11px; color: var(--ink); font-size: 11px; position: relative; user-select: none; }
+.country-multi summary::-webkit-details-marker { display: none; }
+.country-multi summary::after { content: '⌄'; position: absolute; right: 11px; color: var(--muted); }
+.country-multi[open] summary { border-color: var(--blue); box-shadow: 0 0 0 3px var(--blue-soft); }
+.country-options { position: absolute; z-index: 20; top: calc(100% + 6px); left: 0; width: 220px; max-height: 280px; overflow: auto; padding: 8px; background: #fff; border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 14px 36px rgba(25,45,78,.16); }
+.country-options label { display: flex; align-items: center; gap: 9px; padding: 8px; border-radius: 7px; font-size: 11px; cursor: pointer; }
+.country-options label:hover { background: var(--soft); }
+.country-options input { accent-color: var(--blue); }
+.country-options small { color: var(--muted); margin-left: auto; }
 .result-count { margin-left: auto; color: var(--muted); font-size: 10px; }
 .result-count strong { color: var(--ink); }
 
@@ -246,7 +256,7 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
     <section class="metrics" aria-label="客户池概览"><article class="metric-link" role="button" tabindex="0" data-metric-target="accounts" aria-label="查看19个已核验账户"><span>已核验账户</span><strong>0</strong><small>查看全部目标客户</small></article><article class="metric-link" role="button" tabindex="0" data-metric-target="contacts" aria-label="查看6个已核验联系人"><span>已核验联系人</span><strong>6</strong><small>查看官方公开商务联系方式</small></article><article class="metric-link" role="button" tabindex="0" data-metric-target="signals" aria-label="查看今日新信号"><span>今日新信号</span><strong>0</strong><small>进入数据源中心</small></article><article class="metric-link" role="button" tabindex="0" data-metric-target="handoff" aria-label="查看待销售接手的任务"><span>待销售接手</span><strong>0</strong><small>进入任务与商机</small></article></section>
     <section class="channel-panel"><div class="static-channel-tabs" id="channel-tabs" role="tablist" aria-label="获客渠道"></div></section>
     <section class="content-panel">
-      <div class="filterbar"><label class="search-box"><span>⌕</span><input id="query" aria-label="搜索客户" placeholder="搜索公司、联系人、产品或信号"></label><select id="region" aria-label="地区"><option>全部地区</option><option>北美</option><option>欧洲</option><option>中东</option><option>拉美</option><option>亚太</option><option>非洲</option></select><select id="grade" aria-label="账户等级"><option>全部等级</option><option>A</option><option>B</option><option>C</option></select><button class="filter-btn" id="clear-filters">清除筛选</button><div class="result-count" id="result-count"></div></div>
+      <div class="filterbar"><label class="search-box"><span>⌕</span><input id="query" aria-label="搜索客户" placeholder="搜索公司、联系人、产品或信号"></label><select id="region" aria-label="地区" hidden><option selected>全部地区</option></select><details class="country-multi" id="country-multi"><summary id="country-summary">全部国家</summary><div class="country-options"><label><input type="checkbox" value="AE">阿联酋<small>AE</small></label><label><input type="checkbox" value="SA">沙特阿拉伯<small>SA</small></label><label><input type="checkbox" value="QA">卡塔尔<small>QA</small></label><label><input type="checkbox" value="OM">阿曼<small>OM</small></label><label><input type="checkbox" value="BH">巴林<small>BH</small></label><label><input type="checkbox" value="KZ">哈萨克斯坦<small>KZ</small></label><label><input type="checkbox" value="UZ">乌兹别克斯坦<small>UZ</small></label></div></details><select id="grade" aria-label="账户等级"><option>全部等级</option><option>A</option><option>B</option><option>C</option></select><button class="filter-btn" id="clear-filters">清除筛选</button><div class="result-count" id="result-count"></div></div>
       <div class="table-wrap"><table><thead><tr><th>账户</th><th>客户类型 / 地区</th><th>渠道与关键信号</th><th>采购 / 项目价值</th><th>关键联系人</th><th>评分</th><th>阶段 / 负责人</th><th>更新时间</th></tr></thead><tbody id="customer-rows"></tbody></table><div class="empty-state static-hidden" id="empty-state"><strong>没有符合条件的客户</strong><span>尝试清除关键词或调整地区、等级筛选。</span></div></div>
     </section>
   </section>
@@ -306,10 +316,17 @@ window.__ACQUIRE_DATA__.customers = [];
     ['分析中心','查看区域、渠道、信号和转化趋势','数据状态','首轮采集已完成','23 个页面 · 22 个成功解析']
   ];
   const escContact = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  const countryFilter = id => '<details class="country-multi" id="'+id+'"><summary id="'+id+'-summary">全部国家</summary><div class="country-options"><label><input type="checkbox" value="AE">阿联酋<small>AE</small></label><label><input type="checkbox" value="SA">沙特阿拉伯<small>SA</small></label><label><input type="checkbox" value="QA">卡塔尔<small>QA</small></label><label><input type="checkbox" value="OM">阿曼<small>OM</small></label><label><input type="checkbox" value="BH">巴林<small>BH</small></label><label><input type="checkbox" value="KZ">哈萨克斯坦<small>KZ</small></label><label><input type="checkbox" value="UZ">乌兹别克斯坦<small>UZ</small></label></div></details>';
+  const bindCountryFilter = (id,onChange) => {
+    const inputs=[...document.querySelectorAll('#'+id+' input[type="checkbox"]')];
+    const selected=()=>new Set(inputs.filter(x=>x.checked).map(x=>x.value));
+    inputs.forEach(input=>input.addEventListener('change',()=>{const set=selected(); const label=document.getElementById(id+'-summary'); if(label) label.textContent=set.size?'已选 '+set.size+' 个国家':'全部国家'; onChange(set);}));
+    return selected;
+  };
   const renderContacts = () => {
     workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 联系人</div><h1>已核验联系人</h1><p>只展示由机构官网、官方采购页或电子招标平台公开的商务联系方式。</p></div><div class="top-actions"><span class="demo-badge">6 条官方来源核验</span></div></header>'+
       '<section class="metrics"><article><span>已核验记录</span><strong id="verified-contact-count">6</strong><small>全部保留官方来源 URL</small></article><article><span>具名负责人</span><strong>1</strong><small>姓名与职务由官网明确公布</small></article><article><span>部门 / 平台联系人</span><strong>5</strong><small>不冒充个人联系方式</small></article><article><span>核验等级</span><strong>A</strong><small>官方一手来源</small></article></section>'+
-      '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="contact-query" aria-label="搜索联系人" placeholder="搜索机构、姓名、职务、邮箱或国家"></label><div class="result-count" id="contact-result-count">正在读取联系人…</div></div>'+
+      '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="contact-query" aria-label="搜索联系人" placeholder="搜索机构、姓名、职务、邮箱或国家"></label>'+countryFilter('contact-country')+'<div class="result-count" id="contact-result-count">正在读取联系人…</div></div>'+
       '<div class="table-wrap"><table><thead><tr><th>机构 / 国家</th><th>联系人</th><th>角色与类型</th><th>公开联系方式</th><th>核验</th><th>官方来源</th></tr></thead><tbody id="verified-contact-rows"></tbody></table><div class="empty-state static-hidden" id="contact-empty"><strong>没有匹配的联系人</strong><span>请调整搜索词。</span></div></div></section>';
     fetch('./crawler/verified-contacts.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : Promise.reject(new Error('contacts unavailable'))).then(data => {
       const all = Array.isArray(data.contacts) ? data.contacts : [];
@@ -321,12 +338,12 @@ window.__ACQUIRE_DATA__.customers = [];
         count.textContent = list.length+' 条已核验联系人';
         empty.classList.toggle('static-hidden', list.length > 0);
       };
-      renderRows(all);
+      let getCountries=()=>new Set();
+      const applyFilters=()=>{const q=document.getElementById('contact-query').value.trim().toLowerCase(); const countries=getCountries(); renderRows(all.filter(c=>(!countries.size||countries.has(c.country))&&(!q||Object.values(c).join(' ').toLowerCase().includes(q))));};
+      getCountries=bindCountryFilter('contact-country',applyFilters);
+      applyFilters();
       document.getElementById('verified-contact-count').textContent = all.length;
-      document.getElementById('contact-query').addEventListener('input', event => {
-        const q = event.target.value.trim().toLowerCase();
-        renderRows(all.filter(c => Object.values(c).join(' ').toLowerCase().includes(q)));
-      });
+      document.getElementById('contact-query').addEventListener('input',applyFilters);
     }).catch(() => {
       document.getElementById('contact-result-count').textContent = '联系人数据读取失败';
       document.getElementById('contact-empty').classList.remove('static-hidden');
@@ -335,21 +352,21 @@ window.__ACQUIRE_DATA__.customers = [];
   const renderSources = () => {
     workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 数据源中心</div><h1>数据源中心</h1><p>展示实际接入并完成官方来源核验的公开采购入口。</p></div><div class="top-actions"><span class="demo-badge">仅显示官方来源</span></div></header>'+
       '<section class="metrics"><article><span>正常同步源</span><strong id="source-count">8</strong><small>全部保留官方入口</small></article><article><span>自动采集</span><strong>8</strong><small>不绕过登录或验证码</small></article><article><span>覆盖国家</span><strong>7</strong><small>中东与中亚</small></article><article><span>核验日期</span><strong style="font-size:18px">2026-07-13</strong><small>官方网页来源</small></article></section>'+
-      '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="source-query" aria-label="搜索数据源" placeholder="搜索来源、国家或类型"></label><div class="result-count" id="source-result-count">正在读取数据源…</div></div><div class="table-wrap"><table><thead><tr><th>官方来源</th><th>国家 / 类型</th><th>采集方式</th><th>状态</th><th>覆盖目标</th><th>最近核验</th><th>入口</th></tr></thead><tbody id="source-rows"></tbody></table><div class="empty-state static-hidden" id="source-empty"><strong>没有匹配的数据源</strong><span>请调整搜索词。</span></div></div></section>';
+      '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="source-query" aria-label="搜索数据源" placeholder="搜索来源、国家或类型"></label>'+countryFilter('source-country')+'<div class="result-count" id="source-result-count">正在读取数据源…</div></div><div class="table-wrap"><table><thead><tr><th>官方来源</th><th>国家 / 类型</th><th>采集方式</th><th>状态</th><th>覆盖目标</th><th>最近核验</th><th>入口</th></tr></thead><tbody id="source-rows"></tbody></table><div class="empty-state static-hidden" id="source-empty"><strong>没有匹配的数据源</strong><span>请调整搜索词。</span></div></div></section>';
     fetch('./crawler/data-sources.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(data=>{
       const all=Array.isArray(data.sources)?data.sources:[]; const rows=document.getElementById('source-rows'); const count=document.getElementById('source-result-count'); const empty=document.getElementById('source-empty');
       const draw=list=>{ rows.innerHTML=list.map(s=>'<tr><td><div class="account-main"><span class="company-logo">'+escContact(s.country)+'</span><div><strong>'+escContact(s.name)+'</strong><small>official_source_verified</small></div></div></td><td><strong>'+escContact(s.category)+'</strong><small>'+escContact(s.country)+'</small></td><td><span class="channel-pill">'+escContact(s.crawlMode)+'</span><small>每小时检查公开更新</small></td><td><span class="grade grade-A">A</span><strong>'+escContact(s.status)+'</strong><small>公开访问合规</small></td><td><strong>'+escContact(s.coverage)+'</strong><small>当前目标池</small></td><td><strong>'+escContact(s.verifiedAt)+'</strong><small>官方页面</small></td><td><a href="'+escContact(s.officialUrl)+'" target="_blank" rel="noopener noreferrer"><strong>打开官方入口 ↗</strong></a></td></tr>').join(''); count.textContent=list.length+' 个已核验数据源'; empty.classList.toggle('static-hidden',list.length>0); };
-      draw(all); document.getElementById('source-count').textContent=all.length; document.getElementById('source-query').addEventListener('input',e=>{const q=e.target.value.trim().toLowerCase();draw(all.filter(s=>Object.values(s).join(' ').toLowerCase().includes(q)));});
+      let getCountries=()=>new Set(); const applyFilters=()=>{const q=document.getElementById('source-query').value.trim().toLowerCase();const countries=getCountries();draw(all.filter(s=>(!countries.size||countries.has(s.country))&&(!q||Object.values(s).join(' ').toLowerCase().includes(q))));}; getCountries=bindCountryFilter('source-country',applyFilters); applyFilters(); document.getElementById('source-count').textContent=all.length; document.getElementById('source-query').addEventListener('input',applyFilters);
     }).catch(()=>{document.getElementById('source-result-count').textContent='数据源读取失败';});
   };
   const renderTasks = () => {
     workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 任务与商机</div><h1>任务与商机</h1><p>把已核验的官方采购入口和商务联系人转化为可执行动作。</p></div><div class="top-actions"><span class="demo-badge">系统建议 · 非采购意向</span></div></header>'+
       '<section class="metrics"><article><span>待处理任务</span><strong id="task-count">6</strong><small>来源可追溯</small></article><article><span>S1 优先</span><strong>5</strong><small>建议优先处理</small></article><article><span>公开联系人任务</span><strong>4</strong><small>仅使用机构公开商务邮箱</small></article><article><span>真实采购意向</span><strong>0</strong><small>目前未发现可证实的主动询盘</small></article></section>'+
-      '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="task-query" aria-label="搜索任务" placeholder="搜索企业、国家、任务或邮箱"></label><div class="result-count" id="task-result-count">正在读取任务…</div></div><div class="table-wrap"><table><thead><tr><th>任务</th><th>目标机构</th><th>类型 / 优先级</th><th>下一步</th><th>公开联系入口</th><th>证据</th><th>状态</th></tr></thead><tbody id="task-rows"></tbody></table><div class="empty-state static-hidden" id="task-empty"><strong>没有匹配的任务</strong><span>请调整搜索词。</span></div></div></section>';
+      '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="task-query" aria-label="搜索任务" placeholder="搜索企业、国家、任务或邮箱"></label>'+countryFilter('task-country')+'<div class="result-count" id="task-result-count">正在读取任务…</div></div><div class="table-wrap"><table><thead><tr><th>任务</th><th>目标机构</th><th>类型 / 优先级</th><th>下一步</th><th>公开联系入口</th><th>证据</th><th>状态</th></tr></thead><tbody id="task-rows"></tbody></table><div class="empty-state static-hidden" id="task-empty"><strong>没有匹配的任务</strong><span>请调整搜索词。</span></div></div></section>';
     fetch('./crawler/action-tasks.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(data=>{
       const all=Array.isArray(data.tasks)?data.tasks:[]; const rows=document.getElementById('task-rows'); const count=document.getElementById('task-result-count'); const empty=document.getElementById('task-empty');
       const draw=list=>{ rows.innerHTML=list.map(t=>'<tr><td><strong>'+escContact(t.title)+'</strong><small>系统建议任务</small></td><td><div class="account-main"><span class="company-logo">'+escContact(t.country)+'</span><div><strong>'+escContact(t.organization)+'</strong><small>'+escContact(t.country)+'</small></div></div></td><td><span class="channel-pill">'+escContact(t.type)+'</span><strong>'+escContact(t.priority)+'</strong></td><td><strong>'+escContact(t.nextStep)+'</strong></td><td>'+(String(t.contact).includes('@')?'<a href="mailto:'+escContact(t.contact)+'"><strong>'+escContact(t.contact)+'</strong></a>':'<strong>'+escContact(t.contact)+'</strong>')+'<small><a href="'+escContact(t.sourceUrl)+'" target="_blank" rel="noopener noreferrer">打开官方入口 ↗</a></small></td><td><strong>'+escContact(t.evidence)+'</strong><small>公开来源核验</small></td><td><span class="grade grade-A">'+escContact(t.status)+'</span></td></tr>').join(''); count.textContent=list.length+' 个建议任务'; empty.classList.toggle('static-hidden',list.length>0); };
-      draw(all); document.getElementById('task-count').textContent=all.length; document.getElementById('task-query').addEventListener('input',e=>{const q=e.target.value.trim().toLowerCase();draw(all.filter(t=>Object.values(t).join(' ').toLowerCase().includes(q)));});
+      let getCountries=()=>new Set(); const applyFilters=()=>{const q=document.getElementById('task-query').value.trim().toLowerCase();const countries=getCountries();draw(all.filter(t=>(!countries.size||countries.has(t.country))&&(!q||Object.values(t).join(' ').toLowerCase().includes(q))));}; getCountries=bindCountryFilter('task-country',applyFilters); applyFilters(); document.getElementById('task-count').textContent=all.length; document.getElementById('task-query').addEventListener('input',applyFilters);
     }).catch(()=>{document.getElementById('task-result-count').textContent='任务数据读取失败';});
   };
   const renderAnalytics = () => {
@@ -413,7 +430,15 @@ window.__ACQUIRE_DATA__.customers = [];
       const empty = document.getElementById('empty-state');
       const result = document.getElementById('result-count');
       if (!rows) return;
-      rows.innerHTML = verified.map(item => '<tr data-target-url="'+escHtml(item.officialUrl)+'" tabindex="0" style="cursor:pointer">'+
+      const countryInputs = [...document.querySelectorAll('#country-multi input[type="checkbox"]')];
+      const queryInput = document.getElementById('query');
+      const draw = () => {
+      const selected = new Set(countryInputs.filter(input => input.checked).map(input => input.value));
+      const q = (queryInput?.value || '').trim().toLowerCase();
+      const list = verified.filter(item => (!selected.size || selected.has(item.country)) && (!q || [item.name,item.country,item.type,item.status].join(' ').toLowerCase().includes(q)));
+      const summary = document.getElementById('country-summary');
+      if (summary) summary.textContent = selected.size ? '已选 '+selected.size+' 个国家' : '全部国家';
+      rows.innerHTML = list.map(item => '<tr data-target-url="'+escHtml(item.officialUrl)+'" tabindex="0" style="cursor:pointer">'+
         '<td><div class="account-main"><span class="company-logo">'+escHtml(item.country)+'</span><div><a href="'+escHtml(item.officialUrl)+'" target="_blank" rel="noopener noreferrer"><strong>'+escHtml(item.name)+'</strong></a><small>官方采购入口</small><div class="tag-line"><span>'+escHtml(item.priority)+'</span></div></div></div></td>'+
         '<td><strong>'+escHtml(item.type)+'</strong><small>'+escHtml(item.country)+'</small></td>'+
         '<td><span class="channel-pill">官网 / 采购入口</span><strong class="signal-text">'+(item.crawlMode === 'public' ? '已进入公开自动采集' : '网站条款要求人工核验')+'</strong><small>'+escHtml(item.status)+'</small></td>'+
@@ -428,8 +453,13 @@ window.__ACQUIRE_DATA__.customers = [];
         row.addEventListener('click', event => { if (!event.target.closest('a')) open(); });
         row.addEventListener('keydown', event => { if (event.key === 'Enter' || event.key === ' ') open(); });
       });
-      empty?.classList.toggle('static-hidden', verified.length > 0);
-      if (result) result.innerHTML = '<strong>'+verified.length+'</strong> 个已核验采购目标 · '+publicTargets.length+' 个自动采集 · '+manualTargets.length+' 个人工核验';
+      empty?.classList.toggle('static-hidden', list.length > 0);
+      if (result) result.innerHTML = '<strong>'+list.length+'</strong> / '+verified.length+' 个已核验采购目标'+(selected.size?' · 已选 '+selected.size+' 个国家':'');
+      };
+      countryInputs.forEach(input => input.addEventListener('change', draw));
+      queryInput?.addEventListener('input', draw);
+      document.getElementById('clear-filters')?.addEventListener('click', () => { countryInputs.forEach(input => { input.checked = false; }); if (queryInput) queryInput.value = ''; draw(); });
+      draw();
       const metricValues = document.querySelectorAll('.metrics article strong');
       if (metricValues[0]) metricValues[0].textContent = String(verified.length);
       if (metricValues[1]) metricValues[1].textContent = '6';
