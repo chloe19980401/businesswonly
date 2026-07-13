@@ -280,13 +280,41 @@ window.__ACQUIRE_DATA__.customers = [];
   const home = workspace.innerHTML;
   const pages = [
     ['账户雷达','按地区、采购信号和公司规模筛选重点账户','账户评分','等待真实数据源接入','暂无已核验账户'],
-    ['联系人','集中管理公开核验的采购、工程和渠道联系人','已核验联系人','等待公开联系方式抓取','暂无已核验联系人'],
+    ['联系人','集中管理公开核验的采购、工程和渠道联系人','已核验联系人','6','仅展示官方公开商务联系人'],
     ['任务与商机','把公开采购信号转成可执行的销售动作','进行中任务','暂无任务','暂无待处理任务'],
     ['数据源中心','管理公开官网、招投标与官方新闻采集源','正常同步源','8','所有来源均遵守 robots.txt 与公开访问规则'],
     ['分析中心','查看区域、渠道、信号和转化趋势','数据状态','首轮采集已完成','23 个页面 · 22 个成功解析']
   ];
+  const escContact = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  const renderContacts = () => {
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 联系人</div><h1>已核验联系人</h1><p>只展示由机构官网、官方采购页或电子招标平台公开的商务联系方式。</p></div><div class="top-actions"><span class="demo-badge">6 条官方来源核验</span></div></header>'+
+      '<section class="metrics"><article><span>已核验记录</span><strong id="verified-contact-count">6</strong><small>全部保留官方来源 URL</small></article><article><span>具名负责人</span><strong>1</strong><small>姓名与职务由官网明确公布</small></article><article><span>部门 / 平台联系人</span><strong>5</strong><small>不冒充个人联系方式</small></article><article><span>核验等级</span><strong>A</strong><small>官方一手来源</small></article></section>'+
+      '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="contact-query" aria-label="搜索联系人" placeholder="搜索机构、姓名、职务、邮箱或国家"></label><div class="result-count" id="contact-result-count">正在读取联系人…</div></div>'+
+      '<div class="table-wrap"><table><thead><tr><th>机构 / 国家</th><th>联系人</th><th>角色与类型</th><th>公开联系方式</th><th>核验</th><th>官方来源</th></tr></thead><tbody id="verified-contact-rows"></tbody></table><div class="empty-state static-hidden" id="contact-empty"><strong>没有匹配的联系人</strong><span>请调整搜索词。</span></div></div></section>';
+    fetch('./crawler/verified-contacts.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : Promise.reject(new Error('contacts unavailable'))).then(data => {
+      const all = Array.isArray(data.contacts) ? data.contacts : [];
+      const rows = document.getElementById('verified-contact-rows');
+      const count = document.getElementById('contact-result-count');
+      const empty = document.getElementById('contact-empty');
+      const renderRows = list => {
+        rows.innerHTML = list.map(c => '<tr><td><div class="account-main"><span class="company-logo">'+escContact(c.country)+'</span><div><strong>'+escContact(c.organization)+'</strong><small>'+escContact(c.country)+'</small></div></div></td><td><strong>'+escContact(c.name)+'</strong><small>'+escContact(c.note)+'</small></td><td><span class="channel-pill">'+escContact(c.category)+'</span><strong class="signal-text">'+escContact(c.role)+'</strong><small>'+escContact(c.contactType)+'</small></td><td><a href="mailto:'+escContact(c.email)+'"><strong>'+escContact(c.email)+'</strong></a><small>'+escContact(c.emailLabel)+'</small><a href="tel:'+escContact(c.phone.replace(/\s/g,''))+'"><small>'+escContact(c.phone)+'</small></a></td><td><span class="grade grade-A">'+escContact(c.verificationLevel)+'</span><strong>官方来源</strong><small>'+escContact(c.verifiedAt)+'</small></td><td><a href="'+escContact(c.sourceUrl)+'" target="_blank" rel="noopener noreferrer"><strong>查看官方页面 ↗</strong></a><small>可追溯核验</small></td></tr>').join('');
+        count.textContent = list.length+' 条已核验联系人';
+        empty.classList.toggle('static-hidden', list.length > 0);
+      };
+      renderRows(all);
+      document.getElementById('verified-contact-count').textContent = all.length;
+      document.getElementById('contact-query').addEventListener('input', event => {
+        const q = event.target.value.trim().toLowerCase();
+        renderRows(all.filter(c => Object.values(c).join(' ').toLowerCase().includes(q)));
+      });
+    }).catch(() => {
+      document.getElementById('contact-result-count').textContent = '联系人数据读取失败';
+      document.getElementById('contact-empty').classList.remove('static-hidden');
+    });
+  };
   const render = (i) => {
     if (i === 0) { location.reload(); return; }
+    if (i === 2) { renderContacts(); return; }
     const p = pages[i-1];
     workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / '+p[0]+'</div><h1>'+p[0]+'</h1><p>'+p[1]+'</p></div><div class="top-actions"><span class="demo-badge">仅显示已核验数据</span><button class="primary-btn">＋ 新建</button></div></header><section class="metrics"><article><span>'+p[2]+'</span><strong>'+p[3]+'</strong><small>'+p[4]+'</small></article><article><span>数据可信度</span><strong>公开来源</strong><small>每条记录保留来源 URL 和抓取时间</small></article><article><span>地区范围</span><strong>中东 / 中亚</strong><small>可扩展到更多目标市场</small></article><article><span>合规状态</span><strong>正常</strong><small>不绕过登录、验证码或访问限制</small></article></section><section class="content-panel"><div class="empty-state"><strong>'+p[4]+'</strong><span>系统不会展示虚拟客户或未经核验的联系人。运行采集器后，结果将从公开来源进入这里。</span><button class="secondary-btn" style="margin-top:18px">查看采集记录</button></div></section>';
   };
