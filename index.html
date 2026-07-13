@@ -67,6 +67,10 @@ button { cursor: pointer; }
 
 .metrics { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 12px; margin: 22px 0 14px; }
 .metrics article { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 15px 16px; }
+.metrics article.metric-link { cursor: pointer; position: relative; transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease; }
+.metrics article.metric-link::after { content: '›'; position: absolute; right: 15px; top: 13px; color: #9aa7ba; font-size: 20px; line-height: 1; }
+.metrics article.metric-link:hover { transform: translateY(-2px); border-color: #9fc1ff; box-shadow: 0 8px 22px rgba(24, 74, 150, .10); }
+.metrics article.metric-link:focus-visible { outline: 3px solid rgba(30, 111, 235, .22); border-color: var(--blue); }
 .metrics span, .metrics strong, .metrics small { display: block; }
 .metrics span { color: var(--muted); font-size: 11px; }
 .metrics strong { font-size: 24px; margin: 7px 0 4px; letter-spacing: -.5px; }
@@ -223,7 +227,7 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
   </aside>
   <section class="workspace">
     <header class="topbar"><div><div class="eyebrow">获客中心 / 全渠道客户池</div><h1>全球目标客户</h1><p>从采购证据、决策人、项目与主动意向中识别最值得跟进的账户。</p></div><div class="top-actions"><span class="demo-badge">演示数据</span><button class="secondary-btn">导入数据</button><button class="primary-btn">＋ 新建名单</button></div></header>
-    <section class="metrics" aria-label="客户池概览"><article><span>已核验账户</span><strong>0</strong><small>等待接入真实数据源</small></article><article><span>已核验联系人</span><strong>6</strong><small>官方公开商务联系方式</small></article><article><span>今日新信号</span><strong>0</strong><small>等待实时抓取</small></article><article><span>待销售接手</span><strong>0</strong><small>暂无真实线索</small></article></section>
+    <section class="metrics" aria-label="客户池概览"><article class="metric-link" role="button" tabindex="0" data-metric-target="accounts" aria-label="查看19个已核验账户"><span>已核验账户</span><strong>0</strong><small>查看全部目标客户</small></article><article class="metric-link" role="button" tabindex="0" data-metric-target="contacts" aria-label="查看6个已核验联系人"><span>已核验联系人</span><strong>6</strong><small>查看官方公开商务联系方式</small></article><article class="metric-link" role="button" tabindex="0" data-metric-target="signals" aria-label="查看今日新信号"><span>今日新信号</span><strong>0</strong><small>进入数据源中心</small></article><article class="metric-link" role="button" tabindex="0" data-metric-target="handoff" aria-label="查看待销售接手的任务"><span>待销售接手</span><strong>0</strong><small>进入任务与商机</small></article></section>
     <section class="channel-panel"><div class="static-channel-tabs" id="channel-tabs" role="tablist" aria-label="获客渠道"></div></section>
     <section class="content-panel">
       <div class="filterbar"><label class="search-box"><span>⌕</span><input id="query" aria-label="搜索客户" placeholder="搜索公司、联系人、产品或信号"></label><select id="region" aria-label="地区"><option>全部地区</option><option>北美</option><option>欧洲</option><option>中东</option><option>拉美</option><option>亚太</option><option>非洲</option></select><select id="grade" aria-label="账户等级"><option>全部等级</option><option>A</option><option>B</option><option>C</option></select><button class="filter-btn" id="clear-filters">清除筛选</button><div class="result-count" id="result-count"></div></div>
@@ -319,6 +323,25 @@ window.__ACQUIRE_DATA__.customers = [];
     workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / '+p[0]+'</div><h1>'+p[0]+'</h1><p>'+p[1]+'</p></div><div class="top-actions"><span class="demo-badge">仅显示已核验数据</span><button class="primary-btn">＋ 新建</button></div></header><section class="metrics"><article><span>'+p[2]+'</span><strong>'+p[3]+'</strong><small>'+p[4]+'</small></article><article><span>数据可信度</span><strong>公开来源</strong><small>每条记录保留来源 URL 和抓取时间</small></article><article><span>地区范围</span><strong>中东 / 中亚</strong><small>可扩展到更多目标市场</small></article><article><span>合规状态</span><strong>正常</strong><small>不绕过登录、验证码或访问限制</small></article></section><section class="content-panel"><div class="empty-state"><strong>'+p[4]+'</strong><span>系统不会展示虚拟客户或未经核验的联系人。运行采集器后，结果将从公开来源进入这里。</span><button class="secondary-btn" style="margin-top:18px">查看采集记录</button></div></section>';
   };
   nav.forEach((item, i) => item.addEventListener('click', () => { nav.forEach(x => x.classList.remove('active')); item.classList.add('active'); render(i); }));
+  const openMetric = target => {
+    if (target === 'accounts') {
+      document.querySelector('.content-panel')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      document.getElementById('query')?.focus();
+      return;
+    }
+    if (target === 'contacts') nav[2]?.click();
+    if (target === 'signals') nav[4]?.click();
+    if (target === 'handoff') nav[3]?.click();
+  };
+  document.querySelectorAll('[data-metric-target]').forEach(card => {
+    card.addEventListener('click', () => openMetric(card.dataset.metricTarget));
+    card.addEventListener('keydown', event => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openMetric(card.dataset.metricTarget);
+      }
+    });
+  });
 })();
 </script>
 <script>
