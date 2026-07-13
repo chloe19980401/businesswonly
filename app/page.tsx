@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import buyerPool from "../crawler/phase-1-buyers.json";
 
 type ChannelId =
   | "all"
@@ -869,8 +870,134 @@ const illustrativeCustomers: Customer[] = [
   },
 ];
 
-// Do not expose illustrative records in the product. Only verified live-source records may be shown.
-const customers: Customer[] = [];
+const countryNames: Record<string, string> = {
+  AE: "阿联酋",
+  SA: "沙特阿拉伯",
+  QA: "卡塔尔",
+  OM: "阿曼",
+  BH: "巴林",
+  KZ: "哈萨克斯坦",
+  KG: "吉尔吉斯斯坦",
+  TJ: "塔吉克斯坦",
+  UZ: "乌兹别克斯坦",
+  AF: "阿富汗",
+  PK: "巴基斯坦",
+};
+
+const countryRegions: Record<string, string> = {
+  AE: "中东",
+  SA: "中东",
+  QA: "中东",
+  OM: "中东",
+  BH: "中东",
+  KZ: "中亚",
+  KG: "中亚",
+  TJ: "中亚",
+  UZ: "中亚",
+  AF: "中亚",
+  PK: "中亚",
+};
+
+const customerTypeNames: Record<string, string> = {
+  government_buyer_network: "政府采购网络",
+  real_estate_developer: "房地产开发商",
+  tourism_real_estate_developer: "文旅地产开发商",
+  mega_project_developer: "大型项目开发商",
+  government_procurement_portal: "政府采购平台",
+  public_works_buyer: "公共工程采购方",
+  government_buyer: "政府采购方",
+  institutional_buyer: "机构采购方",
+  quasi_state_procurement_portal: "国有企业采购平台",
+  government_procurement_directory: "政府采购目录",
+};
+
+const countryLanguages: Record<string, string> = {
+  AE: "阿拉伯语 / 英语",
+  SA: "阿拉伯语 / 英语",
+  QA: "阿拉伯语 / 英语",
+  OM: "阿拉伯语 / 英语",
+  BH: "阿拉伯语 / 英语",
+  KZ: "哈萨克语 / 俄语 / 英语",
+  KG: "吉尔吉斯语 / 俄语",
+  TJ: "塔吉克语 / 俄语",
+  UZ: "乌兹别克语 / 俄语 / 英语",
+  AF: "达里语 / 普什图语",
+  PK: "乌尔都语 / 英语",
+};
+
+function targetId(country: string, name: string) {
+  const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 52);
+  return `BUY-${country}-${slug || "target"}`;
+}
+
+// Only official, user-configured targets are converted into product records.
+const customers: Customer[] = buyerPool.targets
+  .filter((target) => target.status.startsWith("official_"))
+  .map((target) => {
+    const score = target.priority === "S1" ? 90 : target.priority === "S2" ? 80 : 70;
+    const automatic = target.crawlMode === "public";
+    const signal = automatic ? "已进入公开自动采集" : "网站条款要求人工核验";
+    return {
+      id: targetId(target.country, target.name),
+      channel: "projects",
+      company: target.name,
+      legalName: `${target.name} · 已核验官方采购入口`,
+      country: countryNames[target.country] ?? target.country,
+      region: countryRegions[target.country] ?? "亚太",
+      city: "全国",
+      type: customerTypeNames[target.type] ?? target.type,
+      scale: "机构采购目标",
+      website: target.officialUrl,
+      founded: "待公开来源补充",
+      revenue: "待公开来源补充",
+      employees: "待公开来源补充",
+      products: ["门锁及建筑五金（待采购证据确认）"],
+      certifications: ["待具体项目公告确认"],
+      score,
+      grade: score >= 85 ? "A" : score >= 75 ? "B" : "C",
+      stage: automatic ? "公开监测" : "人工核验",
+      owner: "待销售分配",
+      updated: buyerPool.generatedAt,
+      freshness: "按采集计划更新",
+      confidence: "官方来源 · 待采购证据",
+      source: "官方采购 / 供应商入口",
+      sourceId: targetId(target.country, target.name),
+      sourceUrl: target.officialUrl,
+      keySignal: signal,
+      channelEvidence: `已确认 ${target.name} 的官方采购或供应商入口，当前采集模式为 ${automatic ? "公开自动采集" : "人工核验"}。`,
+      buyingEvidence: "已核验官方采购入口；具体采购公告和产品需求待持续采集。",
+      currentSuppliers: ["待公开来源补充"],
+      purchaseTrend: "待采购公告确认",
+      estimatedValue: "待采购证据确认",
+      lastPurchase: "待采购公告确认",
+      hsCodes: ["待公告确认"],
+      contactName: "待补全",
+      contactTitle: "采购 / 工程 / 供应商管理联系人",
+      contactRole: "待官方来源核验",
+      contactEmail: "邮箱：待补充",
+      contactPhone: "电话：待补充",
+      contactLinkedIn: "职业主页：待补充",
+      contactVerified: "未发现可确认的公开联系人",
+      language: countryLanguages[target.country] ?? "待核验",
+      nextAction: automatic ? "持续监测官方采购公告与供应商页面" : "按网站条款进行人工核验",
+      nextActionDate: "本周",
+      lastActivity: `官方入口状态：${target.status}`,
+      tags: [target.priority, countryRegions[target.country] ?? "目标市场", "官方来源"],
+      compliance: "仅使用公开页面，不绕过登录、验证码或访问控制；缺失信息不会推测生成。",
+      channelFields: [
+        ["优先级", target.priority],
+        ["采集模式", automatic ? "公开自动采集" : "人工核验"],
+        ["来源状态", target.status],
+        ["国家代码", target.country],
+        ["采购入口", target.officialUrl],
+        ["档案状态", "待采购证据与联系人补充"],
+      ],
+    } satisfies Customer;
+  });
+
+const verifiedContactCount = customers.filter((customer) => customer.contactName !== "待补全").length;
+const automaticTargetCount = buyerPool.targets.filter((target) => target.status.startsWith("official_") && target.crawlMode === "public").length;
+const manualTargetCount = buyerPool.targets.filter((target) => target.status.startsWith("official_") && target.crawlMode === "manual_only").length;
 
 const channelMap = Object.fromEntries(channels.map((channel) => [channel.id, channel]));
 
@@ -976,10 +1103,10 @@ export default function Home() {
         </header>
 
         <section className="metrics" aria-label="客户池概览">
-          <article><span>已核验账户</span><strong>0</strong><small>等待接入真实数据源</small></article>
-          <article><span>已核验联系人</span><strong>0</strong><small>不展示虚拟联系人</small></article>
-          <article><span>今日新信号</span><strong>0</strong><small>等待实时抓取</small></article>
-          <article><span>待销售接手</span><strong>0</strong><small>暂无真实线索</small></article>
+          <article><span>已核验账户</span><strong>{customers.length}</strong><small>均保留官方来源</small></article>
+          <article><span>已核验联系人</span><strong>{verifiedContactCount}</strong><small>不展示虚拟联系人</small></article>
+          <article><span>自动采集目标</span><strong>{automaticTargetCount}</strong><small>持续监测公开页面</small></article>
+          <article><span>人工核验目标</span><strong>{manualTargetCount}</strong><small>遵守网站访问条款</small></article>
         </section>
 
         <section className="channel-panel">
@@ -1012,7 +1139,7 @@ export default function Home() {
               />
             </label>
             <select aria-label="地区" value={region} onChange={(event) => setRegion(event.target.value)}>
-              <option>全部地区</option><option>北美</option><option>欧洲</option><option>中东</option><option>拉美</option><option>亚太</option><option>非洲</option>
+              <option>全部地区</option><option>北美</option><option>欧洲</option><option>中东</option><option>中亚</option><option>拉美</option><option>亚太</option><option>非洲</option>
             </select>
             <select aria-label="账户等级" value={grade} onChange={(event) => setGrade(event.target.value)}>
               <option>全部等级</option><option>A</option><option>B</option><option>C</option>
@@ -1037,7 +1164,19 @@ export default function Home() {
               </thead>
               <tbody>
                 {filtered.map((customer) => (
-                  <tr key={customer.id} onClick={() => openCustomer(customer)}>
+                  <tr
+                    key={customer.id}
+                    role="button"
+                    tabIndex={0}
+                    aria-label={`查看 ${customer.company} 详情`}
+                    onClick={() => openCustomer(customer)}
+                    onKeyDown={(event) => {
+                      if (event.key === "Enter" || event.key === " ") {
+                        event.preventDefault();
+                        openCustomer(customer);
+                      }
+                    }}
+                  >
                     <td>
                       <div className="account-main"><span className="company-logo">{customer.company.slice(0, 2).toUpperCase()}</span><div><strong>{customer.company}</strong><small>{customer.legalName}</small><div className="tag-line">{customer.tags.slice(0, 2).map((tag) => <span key={tag}>{tag}</span>)}</div></div></div>
                     </td>
@@ -1047,7 +1186,7 @@ export default function Home() {
                     <td><strong>{customer.contactName}</strong><small>{customer.contactTitle}</small><small>{customer.contactVerified}</small></td>
                     <td><div className={`score score-${scoreTone(customer.score)}`}>{customer.score}</div><small>{customer.confidence}</small></td>
                     <td><span className={`grade grade-${customer.grade}`}>{customer.grade}级</span><strong>{customer.stage}</strong><small>{customer.owner}</small></td>
-                    <td><strong>{customer.updated}</strong><small>{customer.freshness}</small><small>{customer.sourceId}</small></td>
+                    <td><a className="source-link" href={customer.sourceUrl} target="_blank" rel="noreferrer" onClick={(event) => event.stopPropagation()}>查看来源</a><small>{customer.updated}</small><small>{customer.sourceId}</small></td>
                   </tr>
                 ))}
               </tbody>
@@ -1070,7 +1209,7 @@ export default function Home() {
               <div className="decision-copy"><span>为什么现在值得跟进</span><strong>{selected.keySignal}</strong><small>置信度 {selected.confidence} · 数据新鲜度 {selected.freshness}</small></div>
             </div>
 
-            <div className="drawer-actions"><button className="primary-btn">创建跟进任务</button><button className="secondary-btn">加入客户名单</button><button className="secondary-btn">反馈数据问题</button></div>
+            <div className="drawer-actions"><a className="primary-btn action-link" href={selected.sourceUrl} target="_blank" rel="noreferrer">查看官方来源</a><button className="secondary-btn" onClick={() => setDetailOpen(false)}>返回列表</button></div>
 
             <section className="detail-section">
               <div className="section-title"><h3>企业画像</h3><span>标准账户 · {selected.id}</span></div>
