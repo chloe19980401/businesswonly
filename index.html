@@ -354,7 +354,7 @@ window.__ACQUIRE_DATA__.customers = [];
       if (result) result.innerHTML = '<strong>'+verified.length+'</strong> 个已核验采购目标 · '+publicTargets.length+' 个自动采集 · '+manualTargets.length+' 个人工核验';
       const metricValues = document.querySelectorAll('.metrics article strong');
       if (metricValues[0]) metricValues[0].textContent = String(verified.length);
-      if (metricValues[1]) metricValues[1].textContent = '0';
+      if (metricValues[1]) metricValues[1].textContent = '6';
       if (metricValues[2]) metricValues[2].textContent = String(publicTargets.length);
       if (metricValues[3]) metricValues[3].textContent = String(manualTargets.length);
     })
@@ -397,7 +397,7 @@ window.__ACQUIRE_DATA__.customers = [];
   const result = document.getElementById('result-count');
   if (result) result.innerHTML = '<strong>19</strong> 个已核验采购目标 · 18 个自动采集 · 1 个人工核验';
   const values = document.querySelectorAll('.metrics article strong');
-  if(values[0]) values[0].textContent='19'; if(values[1]) values[1].textContent='0'; if(values[2]) values[2].textContent='18'; if(values[3]) values[3].textContent='1';
+  if(values[0]) values[0].textContent='19'; if(values[1]) values[1].textContent='6'; if(values[2]) values[2].textContent='18'; if(values[3]) values[3].textContent='1';
 })();
 </script>
 </body>
