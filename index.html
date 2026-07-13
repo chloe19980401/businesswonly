@@ -307,8 +307,8 @@ window.__ACQUIRE_DATA__.customers = [];
       const empty = document.getElementById('empty-state');
       const result = document.getElementById('result-count');
       if (!rows) return;
-      rows.innerHTML = verified.map(item => '<tr>'+
-        '<td><div class="account-main"><span class="company-logo">'+escHtml(item.country)+'</span><div><strong>'+escHtml(item.name)+'</strong><small>官方采购入口</small><div class="tag-line"><span>'+escHtml(item.priority)+'</span></div></div></div></td>'+
+      rows.innerHTML = verified.map(item => '<tr data-target-url="'+escHtml(item.officialUrl)+'" tabindex="0" style="cursor:pointer">'+
+        '<td><div class="account-main"><span class="company-logo">'+escHtml(item.country)+'</span><div><a href="'+escHtml(item.officialUrl)+'" target="_blank" rel="noopener noreferrer"><strong>'+escHtml(item.name)+'</strong></a><small>官方采购入口</small><div class="tag-line"><span>'+escHtml(item.priority)+'</span></div></div></div></td>'+
         '<td><strong>'+escHtml(item.type)+'</strong><small>'+escHtml(item.country)+'</small></td>'+
         '<td><span class="channel-pill">官网 / 采购入口</span><strong class="signal-text">'+(item.crawlMode === 'public' ? '已进入公开自动采集' : '网站条款要求人工核验')+'</strong><small>'+escHtml(item.status)+'</small></td>'+
         '<td><strong>待发现公开采购项目</strong><small>持续监测官方公告与供应商页面</small></td>'+
@@ -317,6 +317,11 @@ window.__ACQUIRE_DATA__.customers = [];
         '<td><span class="grade grade-A">A</span><strong>目标池</strong><small>'+escHtml(item.crawlMode)+'</small></td>'+
         '<td><a href="'+escHtml(item.officialUrl)+'" target="_blank" rel="noopener noreferrer">查看来源</a><small>'+escHtml(data.generatedAt || '')+'</small></td>'+
       '</tr>').join('');
+      rows.querySelectorAll('[data-target-url]').forEach(row => {
+        const open = () => window.open(row.dataset.targetUrl, '_blank', 'noopener,noreferrer');
+        row.addEventListener('click', event => { if (!event.target.closest('a')) open(); });
+        row.addEventListener('keydown', event => { if (event.key === 'Enter' || event.key === ' ') open(); });
+      });
       empty?.classList.toggle('static-hidden', verified.length > 0);
       if (result) result.innerHTML = '<strong>'+verified.length+'</strong> 个已核验采购目标 · '+publicTargets.length+' 个自动采集 · '+manualTargets.length+' 个人工核验';
       const metricValues = document.querySelectorAll('.metrics article strong');
@@ -354,7 +359,12 @@ window.__ACQUIRE_DATA__.customers = [];
   const rows = document.getElementById('customer-rows');
   if (!rows || rows.children.length) return;
   const e = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
-  rows.innerHTML = targets.map(t => '<tr><td><div class="account-main"><span class="company-logo">'+e(t[1])+'</span><div><strong>'+e(t[0])+'</strong><small>官方采购入口</small></div></div></td><td><strong>'+e(t[2])+'</strong><small>'+e(t[1])+'</small></td><td><span class="channel-pill">官网 / 采购入口</span><strong class="signal-text">'+(t[5]==='public'?'已进入公开自动采集':'网站条款要求人工核验')+'</strong><small>official_source_verified</small></td><td><strong>待发现公开采购项目</strong><small>持续监测官方公告</small></td><td><strong>待官方来源核验</strong><small>不猜测联系人</small></td><td><div class="score score-strong">'+(t[4]==='S1'?'90':'80')+'</div><small>官方来源</small></td><td><span class="grade grade-A">A</span><strong>目标池</strong><small>'+e(t[5])+'</small></td><td><a href="'+e(t[3])+'" target="_blank" rel="noopener noreferrer">查看来源</a><small>2026-07-13</small></td></tr>').join('');
+  rows.innerHTML = targets.map(t => '<tr data-target-url="'+e(t[3])+'" tabindex="0" style="cursor:pointer"><td><div class="account-main"><span class="company-logo">'+e(t[1])+'</span><div><a href="'+e(t[3])+'" target="_blank" rel="noopener noreferrer"><strong>'+e(t[0])+'</strong></a><small>官方采购入口</small></div></div></td><td><strong>'+e(t[2])+'</strong><small>'+e(t[1])+'</small></td><td><span class="channel-pill">官网 / 采购入口</span><strong class="signal-text">'+(t[5]==='public'?'已进入公开自动采集':'网站条款要求人工核验')+'</strong><small>official_source_verified</small></td><td><strong>待发现公开采购项目</strong><small>持续监测官方公告</small></td><td><strong>待官方来源核验</strong><small>不猜测联系人</small></td><td><div class="score score-strong">'+(t[4]==='S1'?'90':'80')+'</div><small>官方来源</small></td><td><span class="grade grade-A">A</span><strong>目标池</strong><small>'+e(t[5])+'</small></td><td><a href="'+e(t[3])+'" target="_blank" rel="noopener noreferrer">查看来源</a><small>2026-07-13</small></td></tr>').join('');
+  rows.querySelectorAll('[data-target-url]').forEach(row => {
+    const open = () => window.open(row.dataset.targetUrl, '_blank', 'noopener,noreferrer');
+    row.addEventListener('click', event => { if (!event.target.closest('a')) open(); });
+    row.addEventListener('keydown', event => { if (event.key === 'Enter' || event.key === ' ') open(); });
+  });
   document.getElementById('empty-state')?.classList.add('static-hidden');
   const result = document.getElementById('result-count');
   if (result) result.innerHTML = '<strong>19</strong> 个已核验采购目标 · 18 个自动采集 · 1 个人工核验';
