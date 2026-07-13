@@ -7,7 +7,14 @@
     "seeds": [
       "https://www.roshn.sa/partnerships",
       "https://www.aldar.com/ar/explore-aldar/about-aldar/procurement",
-      "https://www.emaar.com/en/about-emaar"
+      "https://www.emaar.com/en/about-emaar",
+      "https://www.redseaglobal.com/en/vendor-registration/",
+      "https://www.neom.com/en-us/our-business/suppliers",
+      "https://qiddiya.com/contact/vendor/",
+      "https://www.ashghal.gov.qa/en/Pages/CompanyRegisteration.aspx",
+      "https://www.customs.gov.qa/English/Services/Procurement/Pages/SupplierAgreement.aspx",
+      "https://www.qu.edu.qa/ar/Offices/procurement/Pages/suppliers.aspx",
+      "https://mof.gov.ae/en/public-finance/government-procurement/federal-supplier-register/"
     ],
     "allowedPaths": ["/", "/products", "/about", "/news", "/contact", "/careers", "/distributors", "/suppliers", "/supplier", "/vendors", "/vendor", "/partners", "/projects", "/tenders", "/procurement", "/sourcing"],
     "maxPages": 80,
@@ -78,7 +85,10 @@
     "seeds": [
       "https://www.roshn.sa/partnerships",
       "https://www.aldar.com/ar/explore-aldar/about-aldar/procurement",
-      "https://www.emaar.com/en/about-emaar"
+      "https://www.emaar.com/en/about-emaar",
+      "https://www.redseaglobal.com/en/vendor-registration/",
+      "https://www.neom.com/en-us/our-business/suppliers",
+      "https://qiddiya.com/contact/vendor/"
     ],
     "allowedPaths": ["/news", "/media", "/press", "/press-releases", "/announcements", "/partnerships", "/procurement", "/investors", "/about"],
     "maxPages": 80,

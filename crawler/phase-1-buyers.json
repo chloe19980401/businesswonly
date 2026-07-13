@@ -1,0 +1,185 @@
+{
+  "phase": 1,
+  "goal": 200,
+  "market": "Middle East and Central Asia",
+  "generatedAt": "2026-07-13",
+  "rules": {
+    "evidenceRequired": true,
+    "publicBusinessContactsOnly": true,
+    "respectRobotsAndTerms": true,
+    "noLoginOrCaptchaBypass": true
+  },
+  "targets": [
+    {
+      "name": "UAE Ministry of Finance Federal Supplier Register",
+      "country": "AE",
+      "type": "government_buyer_network",
+      "officialUrl": "https://mof.gov.ae/en/public-finance/government-procurement/federal-supplier-register/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "Abu Dhabi Government Procurement Gate",
+      "country": "AE",
+      "type": "government_buyer_network",
+      "officialUrl": "https://adgpg.gov.ae/en",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "Dubai Government eSupply",
+      "country": "AE",
+      "type": "government_buyer_network",
+      "officialUrl": "https://esupply.dubai.gov.ae/web/index.html",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "Aldar Properties",
+      "country": "AE",
+      "type": "real_estate_developer",
+      "officialUrl": "https://www.aldar.com/ar/explore-aldar/about-aldar/procurement",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "Emaar Properties",
+      "country": "AE",
+      "type": "real_estate_developer",
+      "officialUrl": "https://www.emaar.com/en/about-emaar",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "ROSHN Group",
+      "country": "SA",
+      "type": "real_estate_developer",
+      "officialUrl": "https://www.roshn.sa/partnerships",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "Red Sea Global",
+      "country": "SA",
+      "type": "tourism_real_estate_developer",
+      "officialUrl": "https://www.redseaglobal.com/en/vendor-registration/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "NEOM",
+      "country": "SA",
+      "type": "mega_project_developer",
+      "officialUrl": "https://www.neom.com/en-us/our-business/suppliers",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "Qiddiya Investment Company",
+      "country": "SA",
+      "type": "mega_project_developer",
+      "officialUrl": "https://qiddiya.com/contact/vendor/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "Diriyah Company",
+      "country": "SA",
+      "type": "mega_project_developer",
+      "officialUrl": "https://www.diriyahcompany.sa/en/partners",
+      "priority": "S1",
+      "crawlMode": "manual_only",
+      "status": "official_terms_restrict_automated_collection"
+    },
+    {
+      "name": "Saudi Etimad",
+      "country": "SA",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://tenders.etimad.sa/Tender/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "Ashghal Public Works Authority",
+      "country": "QA",
+      "type": "public_works_buyer",
+      "officialUrl": "https://www.ashghal.gov.qa/en/Pages/CompanyRegisteration.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "Qatar General Authority of Customs",
+      "country": "QA",
+      "type": "government_buyer",
+      "officialUrl": "https://www.customs.gov.qa/English/Services/Procurement/Pages/SupplierAgreement.aspx",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "Qatar University Procurement and Contracts",
+      "country": "QA",
+      "type": "institutional_buyer",
+      "officialUrl": "https://www.qu.edu.qa/ar/Offices/procurement/Pages/suppliers.aspx",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "Oman Tender Board",
+      "country": "OM",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://etendering.tenderboard.gov.om/product/publicDash?CTRL_STRDIRECTION=LTR",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "Bahrain Tender Board",
+      "country": "BH",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://etendering.tenderboard.gov.bh/Tenders/publicDash",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "Kazakhstan State Procurement",
+      "country": "KZ",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://procurement.gov.kz/ru/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "Samruk-Kazyna Procurement",
+      "country": "KZ",
+      "type": "quasi_state_procurement_portal",
+      "officialUrl": "https://zakup.sk.kz/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    },
+    {
+      "name": "Uzbekistan Government Procurement Directory",
+      "country": "UZ",
+      "type": "government_procurement_directory",
+      "officialUrl": "https://gov.uz/en/pages/davlat_xaridlari",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified"
+    }
+  ]
+}
