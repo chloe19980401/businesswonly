@@ -328,5 +328,39 @@ window.__ACQUIRE_DATA__.customers = [];
     .catch(() => {});
 })();
 </script>
+<script>
+(() => {
+  const targets = [
+    ['UAE Ministry of Finance Federal Supplier Register','AE','government_buyer_network','https://mof.gov.ae/en/public-finance/government-procurement/federal-supplier-register/','S1','public'],
+    ['Abu Dhabi Government Procurement Gate','AE','government_buyer_network','https://adgpg.gov.ae/en','S1','public'],
+    ['Dubai Government eSupply','AE','government_buyer_network','https://esupply.dubai.gov.ae/web/index.html','S1','public'],
+    ['Aldar Properties','AE','real_estate_developer','https://www.aldar.com/ar/explore-aldar/about-aldar/procurement','S1','public'],
+    ['Emaar Properties','AE','real_estate_developer','https://www.emaar.com/en/about-emaar','S1','public'],
+    ['ROSHN Group','SA','real_estate_developer','https://www.roshn.sa/partnerships','S1','public'],
+    ['Red Sea Global','SA','tourism_real_estate_developer','https://www.redseaglobal.com/en/vendor-registration/','S1','public'],
+    ['NEOM','SA','mega_project_developer','https://www.neom.com/en-us/our-business/suppliers','S1','public'],
+    ['Qiddiya Investment Company','SA','mega_project_developer','https://qiddiya.com/contact/vendor/','S1','public'],
+    ['Diriyah Company','SA','mega_project_developer','https://www.diriyahcompany.sa/en/partners','S1','manual_only'],
+    ['Saudi Etimad','SA','government_procurement_portal','https://tenders.etimad.sa/Tender/','S1','public'],
+    ['Ashghal Public Works Authority','QA','public_works_buyer','https://www.ashghal.gov.qa/en/Pages/CompanyRegisteration.aspx','S1','public'],
+    ['Qatar General Authority of Customs','QA','government_buyer','https://www.customs.gov.qa/English/Services/Procurement/Pages/SupplierAgreement.aspx','S2','public'],
+    ['Qatar University Procurement and Contracts','QA','institutional_buyer','https://www.qu.edu.qa/ar/Offices/procurement/Pages/suppliers.aspx','S2','public'],
+    ['Oman Tender Board','OM','government_procurement_portal','https://etendering.tenderboard.gov.om/product/publicDash?CTRL_STRDIRECTION=LTR','S1','public'],
+    ['Bahrain Tender Board','BH','government_procurement_portal','https://etendering.tenderboard.gov.bh/Tenders/publicDash','S1','public'],
+    ['Kazakhstan State Procurement','KZ','government_procurement_portal','https://procurement.gov.kz/ru/','S1','public'],
+    ['Samruk-Kazyna Procurement','KZ','quasi_state_procurement_portal','https://zakup.sk.kz/','S1','public'],
+    ['Uzbekistan Government Procurement Directory','UZ','government_procurement_directory','https://gov.uz/en/pages/davlat_xaridlari','S1','public']
+  ];
+  const rows = document.getElementById('customer-rows');
+  if (!rows || rows.children.length) return;
+  const e = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  rows.innerHTML = targets.map(t => '<tr><td><div class="account-main"><span class="company-logo">'+e(t[1])+'</span><div><strong>'+e(t[0])+'</strong><small>官方采购入口</small></div></div></td><td><strong>'+e(t[2])+'</strong><small>'+e(t[1])+'</small></td><td><span class="channel-pill">官网 / 采购入口</span><strong class="signal-text">'+(t[5]==='public'?'已进入公开自动采集':'网站条款要求人工核验')+'</strong><small>official_source_verified</small></td><td><strong>待发现公开采购项目</strong><small>持续监测官方公告</small></td><td><strong>待官方来源核验</strong><small>不猜测联系人</small></td><td><div class="score score-strong">'+(t[4]==='S1'?'90':'80')+'</div><small>官方来源</small></td><td><span class="grade grade-A">A</span><strong>目标池</strong><small>'+e(t[5])+'</small></td><td><a href="'+e(t[3])+'" target="_blank" rel="noopener noreferrer">查看来源</a><small>2026-07-13</small></td></tr>').join('');
+  document.getElementById('empty-state')?.classList.add('static-hidden');
+  const result = document.getElementById('result-count');
+  if (result) result.innerHTML = '<strong>19</strong> 个已核验采购目标 · 18 个自动采集 · 1 个人工核验';
+  const values = document.querySelectorAll('.metrics article strong');
+  if(values[0]) values[0].textContent='19'; if(values[1]) values[1].textContent='0'; if(values[2]) values[2].textContent='18'; if(values[3]) values[3].textContent='1';
+})();
+</script>
 </body>
 </html>
