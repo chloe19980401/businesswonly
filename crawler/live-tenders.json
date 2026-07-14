@@ -1,0 +1,575 @@
+{
+  "generatedAt": "2026-07-14T06:14:26.012Z",
+  "crawlerVersion": "0.2",
+  "renderEnabled": true,
+  "summary": {
+    "countries": 9,
+    "tenders": 6,
+    "pages": 222,
+    "contacts": 54
+  },
+  "countryStats": [
+    {
+      "code": "QA",
+      "name": "卡塔尔",
+      "region": "中东",
+      "tenders": 2,
+      "pages": 3,
+      "contacts": 3
+    },
+    {
+      "code": "AE",
+      "name": "阿联酋",
+      "region": "中东",
+      "tenders": 1,
+      "pages": 159,
+      "contacts": 4
+    },
+    {
+      "code": "BH",
+      "name": "巴林",
+      "region": "中东",
+      "tenders": 1,
+      "pages": 1,
+      "contacts": 2
+    },
+    {
+      "code": "KZ",
+      "name": "哈萨克斯坦",
+      "region": "中亚",
+      "tenders": 1,
+      "pages": 1,
+      "contacts": 1
+    },
+    {
+      "code": "UZ",
+      "name": "乌兹别克斯坦",
+      "region": "中亚",
+      "tenders": 1,
+      "pages": 1,
+      "contacts": 0
+    },
+    {
+      "code": "SA",
+      "name": "沙特阿拉伯",
+      "region": "中东",
+      "tenders": 0,
+      "pages": 49,
+      "contacts": 3
+    },
+    {
+      "code": "KW",
+      "name": "科威特",
+      "region": "中东",
+      "tenders": 0,
+      "pages": 1,
+      "contacts": 0
+    },
+    {
+      "code": "GE",
+      "name": "格鲁吉亚",
+      "region": "高加索/中亚",
+      "tenders": 0,
+      "pages": 1,
+      "contacts": 1
+    },
+    {
+      "code": "XX",
+      "name": "XX",
+      "region": "待归类",
+      "tenders": 0,
+      "pages": 0,
+      "contacts": 34
+    }
+  ],
+  "tenders": [
+    {
+      "title": "Государственные закупки Республики Казахстан",
+      "reference": null,
+      "publishDate": null,
+      "closingDate": "10.07.2026",
+      "estimatedValue": null,
+      "buyerEntity": "а и поставщика с любого компьютера подключенного к сети Интернет",
+      "category": null,
+      "fieldsFound": 2,
+      "sourceUrl": "https://www.goszakup.gov.kz/ru/",
+      "capturedAt": "2026-07-14T05:44:38.833Z",
+      "verificationStatus": "unreviewed",
+      "country": "KZ",
+      "countryName": "哈萨克斯坦",
+      "region": "中亚",
+      "sourceName": "Public construction projects",
+      "sourceType": "public_project"
+    },
+    {
+      "title": "Current Business Opportunities | Ministry of Finance - United Arab Emirates",
+      "reference": null,
+      "publishDate": null,
+      "closingDate": "22 July 2026",
+      "estimatedValue": null,
+      "buyerEntity": null,
+      "category": null,
+      "fieldsFound": 1,
+      "sourceUrl": "https://mof.gov.ae/en/public-finance/government-procurement/current-business-opportunities/",
+      "capturedAt": "2026-07-14T06:12:28.778Z",
+      "verificationStatus": "unreviewed",
+      "country": "AE",
+      "countryName": "阿联酋",
+      "region": "中东",
+      "sourceName": "Public construction projects",
+      "sourceType": "public_project"
+    },
+    {
+      "title": "Company Registration",
+      "reference": null,
+      "publishDate": null,
+      "closingDate": null,
+      "estimatedValue": null,
+      "buyerEntity": null,
+      "category": "=Auditing&backtype=item&ID={ItemId}&List={ListId}')",
+      "fieldsFound": 1,
+      "sourceUrl": "https://www.ashghal.gov.qa/en/Pages/CompanyRegisteration.aspx",
+      "capturedAt": "2026-07-14T05:27:49.296Z",
+      "verificationStatus": "unreviewed",
+      "country": "QA",
+      "countryName": "卡塔尔",
+      "region": "中东",
+      "sourceName": "Company websites",
+      "sourceType": "company_website"
+    },
+    {
+      "title": "Supplier Agreement - General Authority of Customs",
+      "reference": null,
+      "publishDate": null,
+      "closingDate": null,
+      "estimatedValue": null,
+      "buyerEntity": null,
+      "category": "issued by the Harmonized System Committee of the World Customs",
+      "fieldsFound": 1,
+      "sourceUrl": "https://www.customs.gov.qa/English/Services/Procurement/Pages/SupplierAgreement.aspx",
+      "capturedAt": "2026-07-14T05:30:43.288Z",
+      "verificationStatus": "unreviewed",
+      "country": "QA",
+      "countryName": "卡塔尔",
+      "region": "中东",
+      "sourceName": "Company websites",
+      "sourceType": "company_website"
+    },
+    {
+      "title": "Welcome To Bahrain Tender Board",
+      "reference": null,
+      "publishDate": null,
+      "closingDate": null,
+      "estimatedValue": null,
+      "buyerEntity": null,
+      "category": "Sub",
+      "fieldsFound": 1,
+      "sourceUrl": "https://etendering.tenderboard.gov.bh/Tenders/publicDash",
+      "capturedAt": "2026-07-14T05:44:16.430Z",
+      "verificationStatus": "unreviewed",
+      "country": "BH",
+      "countryName": "巴林",
+      "region": "中东",
+      "sourceName": "Public construction projects",
+      "sourceType": "public_project"
+    },
+    {
+      "title": "Public Procurement",
+      "reference": null,
+      "publishDate": null,
+      "closingDate": null,
+      "estimatedValue": null,
+      "buyerEntity": "s The Government portal of the Republic of Uzbekistan 13:44:51 (GMT+8) 14",
+      "category": null,
+      "fieldsFound": 1,
+      "sourceUrl": "https://gov.uz/en/pages/davlat_xaridlari",
+      "capturedAt": "2026-07-14T05:44:52.463Z",
+      "verificationStatus": "unreviewed",
+      "country": "UZ",
+      "countryName": "乌兹别克斯坦",
+      "region": "中亚",
+      "sourceName": "Public construction projects",
+      "sourceType": "public_project"
+    }
+  ],
+  "contacts": [
+    {
+      "value": "procurement@aldar.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "example_email@example.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "sweetalert2@8.js",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "info.pr@customs.gov.qa",
+      "kind": "email",
+      "country": "QA",
+      "countryName": "卡塔尔",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "procurement@qu.edu.qa",
+      "kind": "email",
+      "country": "QA",
+      "countryName": "卡塔尔",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "t@qu.edu.qa",
+      "kind": "email",
+      "country": "QA",
+      "countryName": "卡塔尔",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "email@company.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "customercare@roshn.sa",
+      "kind": "email",
+      "country": "SA",
+      "countryName": "沙特阿拉伯",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "blur_masterplan-warefa@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "large_masterplan-warefa@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "small_masterplan-warefa@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "medium_masterplan-warefa@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "xlarge_masterplan-warefa@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "xsmall_masterplan-warefa@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "thumbnail_masterplan-warefa@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "masterplan-warefa@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "marafy-3@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "blur_marafy-3@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "large_marafy-3@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "small_marafy-3@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "medium_marafy-3@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "xsmall_marafy-3@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "thumbnail_marafy-3@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "marafy-2@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "blur_marafy-2@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "large_marafy-2@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "small_marafy-2@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "medium_marafy-2@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "xsmall_marafy-2@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "thumbnail_marafy-2@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "roshnext@roshn.sa",
+      "kind": "email",
+      "country": "SA",
+      "countryName": "沙特阿拉伯",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "privacy@roshn.sa",
+      "kind": "email",
+      "country": "SA",
+      "countryName": "沙特阿拉伯",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "customermanagement@aldar.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "sales@aldar.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "international@londonsquare.co.uk",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "innovation@aldar.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "corporatecommunication@aldar.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "customercare@aldar.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "cutomercare@aldar.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "customer.privacy@emaar.ae",
+      "kind": "email",
+      "country": "AE",
+      "countryName": "阿联酋",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+974 444 574 57",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+974 444 572 47",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "email@company.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Public construction projects"
+    },
+    {
+      "value": "helpdesk@tenderboard.gov.bh",
+      "kind": "email",
+      "country": "BH",
+      "countryName": "巴林",
+      "sourceName": "Public construction projects"
+    },
+    {
+      "value": "info@tenderboard.gov.bh",
+      "kind": "email",
+      "country": "BH",
+      "countryName": "巴林",
+      "sourceName": "Public construction projects"
+    },
+    {
+      "value": "support@ecc.kz",
+      "kind": "email",
+      "country": "KZ",
+      "countryName": "哈萨克斯坦",
+      "sourceName": "Public construction projects"
+    },
+    {
+      "value": "info@procurement.gov.ge",
+      "kind": "email",
+      "country": "GE",
+      "countryName": "格鲁吉亚",
+      "sourceName": "Public construction projects"
+    },
+    {
+      "value": "info@mof.gov.ae",
+      "kind": "email",
+      "country": "AE",
+      "countryName": "阿联酋",
+      "sourceName": "Public construction projects"
+    },
+    {
+      "value": "fssupport@mof.gov.ae",
+      "kind": "email",
+      "country": "AE",
+      "countryName": "阿联酋",
+      "sourceName": "Public construction projects"
+    },
+    {
+      "value": "autotax@mof.gov.ae",
+      "kind": "email",
+      "country": "AE",
+      "countryName": "阿联酋",
+      "sourceName": "Public construction projects"
+    },
+    {
+      "value": "+973 1756 6666",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Public construction projects"
+    },
+    {
+      "value": "+973 1758 7855",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Public construction projects"
+    },
+    {
+      "value": "+7 705 956 53 88",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Public construction projects"
+    },
+    {
+      "value": "+995 32 2 242 248",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Public construction projects"
+    }
+  ]
+}

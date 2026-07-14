@@ -4,6 +4,11 @@
     "name": "Company websites",
     "type": "company_website",
     "enabled": true,
+    "render": "auto",
+    "maxDepth": 2,
+    "followDetail": true,
+    "paginate": true,
+    "useSitemap": false,
     "seeds": [
       "https://www.roshn.sa/partnerships",
       "https://www.aldar.com/ar/explore-aldar/about-aldar/procurement",
@@ -17,15 +22,20 @@
       "https://mof.gov.ae/en/public-finance/government-procurement/federal-supplier-register/"
     ],
     "allowedPaths": ["/", "/products", "/about", "/news", "/contact", "/careers", "/distributors", "/suppliers", "/supplier", "/vendors", "/vendor", "/partners", "/projects", "/tenders", "/procurement", "/sourcing"],
-    "maxPages": 80,
+    "maxPages": 120,
     "intervalHours": 24,
-    "notes": "Add public company domains to seeds."
+    "notes": "Add public company domains to seeds. render=auto renders JS pages only when static HTML looks empty."
   },
   {
     "id": "source-events",
     "name": "Event and association directories",
     "type": "event_directory",
     "enabled": true,
+    "render": "auto",
+    "maxDepth": 2,
+    "followDetail": true,
+    "paginate": true,
+    "useSitemap": false,
     "seeds": [
       "https://monaqasat.mof.gov.qa/TendersOnlineServices",
       "https://etendering.tenderboard.gov.om/product/publicDash?CTRL_STRDIRECTION=LTR",
@@ -33,10 +43,13 @@
       "https://www.goszakup.gov.kz/ru/",
       "https://zakup.sk.kz/",
       "https://etender.gov.az/",
-      "https://tenders.procurement.gov.ge/"
+      "https://tenders.procurement.gov.ge/",
+      "https://mof.gov.ae/en/public-finance/government-procurement/digital-procurement-platform/",
+      "https://capt.gov.kw/en/",
+      "https://procurement.gov.ge/en/"
     ],
     "allowedPaths": ["/exhibitors", "/exhibitor-list", "/members", "/directory", "/events"],
-    "maxPages": 60,
+    "maxPages": 80,
     "intervalHours": 72,
     "notes": "Use public exhibitor or member pages only."
   },
@@ -45,6 +58,14 @@
     "name": "Public construction projects",
     "type": "public_project",
     "enabled": true,
+    "render": "always",
+    "maxDepth": 3,
+    "followDetail": true,
+    "paginate": true,
+    "useSitemap": true,
+    "sitemapLimit": 40,
+    "waitForSelector": null,
+    "renderTimeoutMs": 30000,
     "seeds": [
       "https://mof.gov.ae/en/public-finance/government-procurement/digital-procurement-platform/",
       "https://esupply.dubai.gov.ae/web/index.html",
@@ -61,27 +82,37 @@
       "https://procurement.gov.ge/en/",
       "https://tenders.procurement.gov.ge/"
     ],
-    "allowedPaths": ["/tenders", "/projects", "/procurement", "/notices", "/bids"],
-    "maxPages": 60,
+    "allowedPaths": ["/tenders", "/tender", "/projects", "/project", "/procurement", "/notices", "/notice", "/bids", "/bid", "/product", "/publicdash", "/tendersonlineservices", "/web", "/ru", "/en", "/pages"],
+    "maxPages": 100,
     "intervalHours": 24,
-    "notes": "Collect public tenders, project notices and procurement notices only."
+    "notes": "Portals here are mostly JS-rendered SPAs, so render=always + maxDepth 3 drills listing -> detail. Collect public tenders, project notices and procurement notices only."
   },
   {
     "id": "source-public-buyers",
     "name": "Large buyer public disclosures",
     "type": "public_buyer",
     "enabled": true,
+    "render": "auto",
+    "maxDepth": 2,
+    "followDetail": true,
+    "paginate": true,
+    "useSitemap": false,
     "seeds": [],
     "allowedPaths": ["/investors", "/annual-report", "/reports", "/suppliers", "/supplier", "/vendors", "/vendor", "/procurement", "/sourcing", "/partners", "/projects", "/tenders"],
-    "maxPages": 80,
+    "maxPages": 100,
     "intervalHours": 168,
-    "notes": "Use annual reports, supplier policies and public procurement disclosures."
+    "notes": "Use annual reports, supplier policies and public procurement disclosures. Add buyer domains to seeds."
   },
   {
     "id": "source-official-news",
     "name": "Official company news and public announcements",
     "type": "official_news",
     "enabled": true,
+    "render": "auto",
+    "maxDepth": 2,
+    "followDetail": true,
+    "paginate": true,
+    "useSitemap": false,
     "seeds": [
       "https://www.roshn.sa/partnerships",
       "https://www.aldar.com/ar/explore-aldar/about-aldar/procurement",
@@ -91,7 +122,7 @@
       "https://qiddiya.com/contact/vendor/"
     ],
     "allowedPaths": ["/news", "/media", "/press", "/press-releases", "/announcements", "/partnerships", "/procurement", "/investors", "/about"],
-    "maxPages": 80,
+    "maxPages": 100,
     "intervalHours": 24,
     "notes": "Extract only public business contacts and named people appearing in official announcements."
   },
@@ -100,10 +131,15 @@
     "name": "Public procurement awards",
     "type": "procurement_award",
     "enabled": true,
+    "render": "always",
+    "maxDepth": 3,
+    "followDetail": true,
+    "paginate": true,
+    "useSitemap": false,
     "seeds": [],
-    "allowedPaths": ["/notice", "/awards", "/contract", "/tenders", "/opportunities", "/procurement"],
-    "maxPages": 80,
+    "allowedPaths": ["/notice", "/notices", "/awards", "/award", "/contract", "/contracts", "/tenders", "/tender", "/opportunities", "/procurement"],
+    "maxPages": 100,
     "intervalHours": 24,
-    "notes": "Prefer official procurement portals or open-data APIs; capture buyer, contractor, amount and date."
+    "notes": "Prefer official procurement portals or open-data APIs; capture buyer, contractor, amount and date. Add award-list URLs to seeds."
   }
 ]

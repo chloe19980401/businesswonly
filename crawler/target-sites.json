@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12",
+  "generatedAt": "2026-07-14",
   "scope": "Middle East and Central Asia public buyer discovery",
   "usage": "Review and approve each seed before enabling scheduled crawling.",
   "sites": [
@@ -155,6 +155,56 @@
       "entryType": "company_website",
       "accessDifficulty": "high",
       "notes": "Large real-estate and hospitality group; use public supplier, investor and project pages only."
+    },
+    {
+      "name": "UAE Digital Procurement Platform",
+      "country": "AE",
+      "category": "government_procurement",
+      "url": "https://mof.gov.ae/en/public-finance/government-procurement/digital-procurement-platform/",
+      "entryType": "public_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official federal procurement entry and current business opportunities.",
+      "verifiedAt": "2026-07-14"
+    },
+    {
+      "name": "Kuwait Central Agency for Public Tenders",
+      "country": "KW",
+      "category": "government_procurement",
+      "url": "https://capt.gov.kw/en/",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official public tender and supplier registration portal.",
+      "verifiedAt": "2026-07-14"
+    },
+    {
+      "name": "Qatar Monaqasat",
+      "country": "QA",
+      "category": "government_procurement",
+      "url": "https://monaqasat.mof.gov.qa/TendersOnlineServices",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Unified state procurement website; public tenders and tender services.",
+      "verifiedAt": "2026-07-14"
+    },
+    {
+      "name": "Azerbaijan eTender",
+      "country": "AZ",
+      "category": "government_procurement",
+      "url": "https://etender.gov.az/",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official eTender domain listed by the Azerbaijan government.",
+      "verifiedAt": "2026-07-14"
+    },
+    {
+      "name": "Georgia Procurement Agency",
+      "country": "GE",
+      "category": "government_procurement",
+      "url": "https://procurement.gov.ge/en/",
+      "entryType": "official_directory",
+      "accessDifficulty": "low",
+      "notes": "Official agency site; links to the e-procurement portal and market research.",
+      "verifiedAt": "2026-07-14"
     }
   ]
 }

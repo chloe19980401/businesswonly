@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-07-14T06:27:23+08:00",
+  "automationId": "automation-2",
+  "task": "Expand phase-1 buyer pool",
+  "market": "Middle East and Central Asia",
+  "summary": {
+    "addedTargets": 5,
+    "addedTargetSiteRows": 5,
+    "addedPublicSeedUrls": 4,
+    "manualOnlyAdded": 0
+  },
+  "addedTargets": [
+    {
+      "name": "UAE Digital Procurement Platform",
+      "country": "AE",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://mof.gov.ae/en/public-finance/government-procurement/digital-procurement-platform/",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-07-14"
+    },
+    {
+      "name": "Kuwait Central Agency for Public Tenders",
+      "country": "KW",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://capt.gov.kw/en/",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-07-14"
+    },
+    {
+      "name": "Qatar Monaqasat",
+      "country": "QA",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://monaqasat.mof.gov.qa/TendersOnlineServices",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-07-14"
+    },
+    {
+      "name": "Azerbaijan eTender",
+      "country": "AZ",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://etender.gov.az/",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-07-14"
+    },
+    {
+      "name": "Georgia State Procurement Agency",
+      "country": "GE",
+      "type": "government_procurement_directory",
+      "officialUrl": "https://procurement.gov.ge/en/",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-07-14"
+    }
+  ],
+  "sourceSeedsAddedToCrawler": [
+    "https://mof.gov.ae/en/public-finance/government-procurement/digital-procurement-platform/",
+    "https://capt.gov.kw/en/",
+    "https://monaqasat.mof.gov.qa/TendersOnlineServices",
+    "https://procurement.gov.ge/en/"
+  ],
+  "validation": {
+    "jsonParse": "passed",
+    "phase1CountAfter": 24,
+    "targetSitesCountAfter": 22,
+    "sourceProjectsSeedCountAfter": 14
+  },
+  "notes": [
+    "Added only official public procurement portals or directories.",
+    "No contact details, emails, or supplier relationships were inferred.",
+    "Git was not available in PATH during this run, so commit and push remain pending."
+  ]
+}

@@ -1,0 +1,2604 @@
+{
+  "generatedAt": "2026-07-13T04:58:23.119Z",
+  "userAgent": "AcquireOS-PublicResearch/0.1 (+public-source; contact-your-admin)",
+  "marketConfig": {
+    "marketGroup": "Middle East and Central Asia",
+    "priorityMarkets": [
+      {
+        "country": "United Arab Emirates",
+        "code": "AE",
+        "cluster": "Gulf core",
+        "priority": "S1",
+        "languages": [
+          "English",
+          "Arabic"
+        ]
+      },
+      {
+        "country": "Saudi Arabia",
+        "code": "SA",
+        "cluster": "Gulf core",
+        "priority": "S1",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Qatar",
+        "code": "QA",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Kuwait",
+        "code": "KW",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Oman",
+        "code": "OM",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Bahrain",
+        "code": "BH",
+        "cluster": "Gulf core",
+        "priority": "S3",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Kazakhstan",
+        "code": "KZ",
+        "cluster": "Central Asia",
+        "priority": "S1",
+        "languages": [
+          "Russian",
+          "Kazakh",
+          "English"
+        ]
+      },
+      {
+        "country": "Uzbekistan",
+        "code": "UZ",
+        "cluster": "Central Asia",
+        "priority": "S1",
+        "languages": [
+          "Uzbek",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Azerbaijan",
+        "code": "AZ",
+        "cluster": "Central Asia adjacency",
+        "priority": "S2",
+        "languages": [
+          "Azerbaijani",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Georgia",
+        "code": "GE",
+        "cluster": "Central Asia adjacency",
+        "priority": "S2",
+        "languages": [
+          "Georgian",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Kyrgyzstan",
+        "code": "KG",
+        "cluster": "Central Asia",
+        "priority": "S3",
+        "languages": [
+          "Kyrgyz",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Tajikistan",
+        "code": "TJ",
+        "cluster": "Central Asia",
+        "priority": "S3",
+        "languages": [
+          "Tajik",
+          "Russian",
+          "English"
+        ]
+      }
+    ],
+    "holdForComplianceReview": [
+      "Iran",
+      "Syria",
+      "Yemen"
+    ],
+    "recommendedCustomerTypes": [
+      "door hardware brand",
+      "building materials chain",
+      "door manufacturer",
+      "importer wholesaler",
+      "hotel real estate project",
+      "government procurement"
+    ],
+    "recommendedProducts": [
+      "mechanical door lock",
+      "smart lock",
+      "hotel lock",
+      "mortise lock body",
+      "lever handle",
+      "door hardware set",
+      "OEM ODM product line"
+    ]
+  },
+  "results": [
+    {
+      "sourceId": "source-company-sites",
+      "sourceName": "Company websites",
+      "type": "company_website",
+      "startedAt": "2026-07-13T04:58:10.117Z",
+      "pageCount": 80,
+      "pages": [
+        {
+          "url": "https://www.roshn.sa/partnerships",
+          "capturedAt": "2026-07-13T04:53:49.802Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Partnerships",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "To achieve this, the Group seeks collaboration with both local and global suppliers to deliver pioneering products that enhance the quality of life within its destinations and communities, aligning with its high standards. Check Here I acknowledge that I have read, understand and I agree to the terms and conditions SIGN IN Click Here PARTNER WITH US Click Here Check Here Vendor&#x27;s user manual Check Here Non-Disclosure Agreement (to be signed & submitted) Check Here Code of Ethics (to be sign"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Partnerships Home Click Here / Partnerships Partnerships Economic growth across different regions of the Kingdom As the leading national multi-asset class real estate developer, ROSHN Group is dedicated to creating transformative spaces and mixed-use destinations that reflect Saudi Arabia&#x27;s dynamic vision for the future. We actively collaborate with the private sector, building long-term partnerships that drive progress and development across the Kingdom. As a key contributor to Saudi Arabia’s dynamic and evolving economy, the private sector is essential to our mission, and we are committed to supporting its growth and accelerating mutual success. Partner With ROSHN Group If you share our vision for connecting people and places with the rhythms of life, while delivering on the",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/partnerships",
+            "capturedAt": "2026-07-13T04:53:49.803Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/explore-aldar/about-aldar/procurement",
+          "capturedAt": "2026-07-13T04:53:53.660Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "التوريد العقاري وإدارة المشتريات - شركة الدار العقارية",
+          "description": "تعرّف في صفحة التوريد العقاري وإدارة المشتريات لشركة الدار العقارية على مبادئ الاستدامة في المشتريات والتوريد، بما في ذلك الكفاءة والجودة والإنصاف والشفافية.",
+          "emails": [
+            "procurement@aldar.com"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "التوريد العقاري وإدارة المشتريات - شركة الدار العقارية اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار اكتشف الدار عن الدار التوريد والمشتريات ملتزمون بمبادئ المشتريات المستدامة إشراك جهات الطلب الجودة والإنصاف التفاعل مع المورّدين إدارة مصادر التوريد المستدامة الشفافية الوثائق لا يوجد مستندات متاحة حسب المعايير المحددة. 0 التواصل معنا البريد الإلكتروني هاتف اتصل بنا 800ALDAR اتصل بشركة شارك تعليقاتك تسجيل دخول الموردين شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز المساهمين مستثمرو الديون تغطية المحللين التقويم المالي الأخبار وتقارير الإفصاح اتصل بنا دليل حقوق المستثمرين التوظيف اك",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/explore-aldar/about-aldar/procurement",
+            "capturedAt": "2026-07-13T04:53:53.660Z"
+          }
+        },
+        {
+          "url": "https://www.emaar.com/en/about-emaar",
+          "capturedAt": "2026-07-13T04:53:56.998Z",
+          "status": "skipped",
+          "reason": "http_403"
+        },
+        {
+          "url": "https://www.redseaglobal.com/en/vendor-registration/",
+          "capturedAt": "2026-07-13T04:54:00.143Z",
+          "status": "skipped",
+          "reason": "http_403"
+        },
+        {
+          "url": "https://www.neom.com/en-us/our-business/suppliers",
+          "capturedAt": "2026-07-13T04:54:03.498Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "NEOM Suppliers portal",
+          "description": "LEARN MORE ABOUT BECOMING A SUPPLIER TO NEOM AND ITS PROJECTS",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "OEM/ODM",
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "d supporting documents and accept our terms. Once approved, you’ll receive a supplier questionnaire to fill out. Participate in tenders Once selected, you’ll gain access to NEOM’s procurement opportunities and be invited to participate in relevant tenders. Key Benefits Zero Fees Global visibility Step-by-step online guide Dedicated support Streamlined and smarter procurement Defining our suppliers&#39; role in achieving the vision Construction Streamlined and smarter procurement Defining our sup",
+            "the newly created user by clicking on forgot password. I am not able to access NEOM page on SAP Ariba. What can I do? Make sure you logout and close all the tabs related to ARIBA Sourcing in all browsers. Clear your browser Cache and Cookies. Open new browser, right side top corner, click on 3 dots, select History, click on clear Browsing data, select the Time ranges - all time and then click on Clear data). Have your ARIBA account credentials ready, then click the link below to log in and ente",
+            "ents and accept our terms. Once approved, you’ll receive a supplier questionnaire to fill out. Participate in tenders Once selected, you’ll gain access to NEOM’s procurement opportunities and be invited to participate in relevant tenders. Key Benefits Zero Fees Global visibility Step-by-step online guide Dedicated support Streamlined and smarter procurement Defining our suppliers&#39; role in achieving the vision Construction Streamlined and smarter procurement Defining our suppliers&#39; role i"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "NEOM Suppliers portal About About US Our leadership Social Responsibility Our Region Oxagon THE LINE Trojena Nature Islands of NEOM Magna Our Business Sectors Biotech Design and Construction Education, research, and innovation energy Food Health and Wellbeing Media, Entertainment and Culture Mobility Sport Technology and Digital tourism Water Partners Port of NEOM NEOM Bay Airport News & Media Center News & Media Center events Careers Working at NEOM Job Search GET IN TOUCH English العربية Join the global supplier network in NEOM Register now Sign in HOME Our Business Suppliers Building the future together Become a supplier at NEOM and share our vision to accelerate human progress. NEOM is looking to team up with world-leading companies across all industries to collaborate on our mission t",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.neom.com/en-us/our-business/suppliers",
+            "capturedAt": "2026-07-13T04:54:03.498Z"
+          }
+        },
+        {
+          "url": "https://qiddiya.com/contact/vendor/",
+          "capturedAt": "2026-07-13T04:54:06.599Z",
+          "status": "skipped",
+          "reason": "http_403"
+        },
+        {
+          "url": "https://www.ashghal.gov.qa/en/Pages/CompanyRegisteration.aspx",
+          "capturedAt": "2026-07-13T04:54:12.991Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Company Registration",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "OEM/ODM",
+            "采购/项目"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [
+            "e server. Please enable scripts and reload this page. Advanced Search Login Register Register as an Individual Register as a Company Register as a Government Register as a Turkish Manufacturer Contact Us Site Map Home About Us Overview of Ashghal President Organisation Chart Mission, Vision & Values Our Projects Overview Roads Buildings Drainage Tenders & Auctions Overview The Unified Website of State Procurement - Monaqasat List of Projects to be launched in 2026 e-Tenders (GTC/STC) General Ten"
+          ],
+          "buyerScaleSignals": [
+            "s Overview of Ashghal President Organisation Chart Mission, Vision & Values Our Projects Overview Roads Buildings Drainage Tenders & Auctions Overview The Unified Website of State Procurement - Monaqasat List of Projects to be launched in 2026 e-Tenders (GTC/STC) General Tenders e-Tenders Registration e-Tendering User Guide Participation Terms Awarded Tenders Pre-Qualifications - Expression Of Interests Contractors e-Payment APMS Non-Construction Payments Media Hub Overview Our News Photo Galler",
+            "nka Sudan Suriname Svalbard Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Uganda Ukraine United Arab Emirates United Kingdom United States Uruguay Uzbekistan Venezuela Vietnam Yemen Zambia Zimbabwe Trade Licence Company Owner Phone Number * Country Code - Phone Number (e.g.: 974XXXXXX) Fax Number Country Code - Phone Number (e.g.: 974XXXXXX) Company Capital (Q.R.) Qatari Shares (%) Others Shares (%) Electr"
+          ],
+          "supplierStatus": "publicly_mentioned_needs_verification",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "Company Registration You may be trying to access this site from a secured browser on the server. Please enable scripts and reload this page. Advanced Search Login Register Register as an Individual Register as a Company Register as a Government Register as a Turkish Manufacturer Contact Us Site Map Home About Us Overview of Ashghal President Organisation Chart Mission, Vision & Values Our Projects Overview Roads Buildings Drainage Tenders & Auctions Overview The Unified Website of State Procurement - Monaqasat List of Projects to be launched in 2026 e-Tenders (GTC/STC) General Tenders e-Tenders Registration e-Tendering User Guide Participation Terms Awarded Tenders Pre-Qualifications - Expression Of Interests Contractors e-Payment APMS Non-Construction Payments Media Hub Overview Our News ",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.ashghal.gov.qa/en/Pages/CompanyRegisteration.aspx",
+            "capturedAt": "2026-07-13T04:54:12.991Z"
+          }
+        },
+        {
+          "url": "https://www.customs.gov.qa/English/Services/Procurement/Pages/SupplierAgreement.aspx",
+          "capturedAt": "2026-07-13T04:54:18.809Z",
+          "status": "error",
+          "reason": "fetch failed"
+        },
+        {
+          "url": "https://www.qu.edu.qa/ar/Offices/procurement/Pages/suppliers.aspx",
+          "capturedAt": "2026-07-13T04:54:25.453Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "نظام تسجيل الموردين الإلكتروني",
+          "description": "جامعة قطر: QU",
+          "emails": [
+            "procurement@qu.edu.qa",
+            "t@qu.edu.qa"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ال على&#58; إدارة المشتريـــــات&#160;والعقود&#160; جامــعة قطــــــر صندوق بريد ص. ب &#58; 2713 هاتف &#58; 97444033222+ فاكس &#58;97444033201+&#160; البريد الإلكتروني &#58;&#160; procurement@qu.edu.qa تسجيل SHARE --> من خلال الاستمرار في التصفح أو النقر على قبول جميع ملفات جمع البيانات \"كوكيز\"، فإنك توافق على تخزين ملفات جمع البيانات للطرف الأول والغير على جهازك لتسهيل تصفحك للموقع وتحليل استخدام الموقع والمساعدة في جهودنا التسويقية. رفض قبول"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "نظام تسجيل الموردين الإلكتروني --> قد تحاول الوصول إلى هذا الموقع من مستعرض آمن موجود على الخادم. يرجى تمكين البرامج النصية وإعادة تحميل هذه الصفحة. تشغيل وضع قابل للوصول بشكل أفضل إيقاف تشغيل الوضع القابل للوصول بشكل أفضل تخطي أوامر الشريط التخطي إلى المحتوى الأساسي إيقاف تشغيل الحركات تشغيل الحركات تسجيل الدخول English English --> يبدو أن JavaScript غير مُمكن على المستعرض. الرجاء تشغيل JavaScript والمحاولة مرة أخرى. English --> English English --> يبدو أن JavaScript غير مُمكن على المستعرض. الرجاء تشغيل JavaScript والمحاولة مرة أخرى. مكتب رئيس الجامعة مكتب الابتكار الاستراتيجي والريادة مهام وواجبات رئيس الجامعة نبذه تاريخية السيرة الذاتية الطاقم الإداري الحساب الرسمي لرئيس الجامعة على منصة اكس اتصل بنا مكتب نائب رئيس الجامعة للشؤون الأكاديمية عن نائب الرئيس رسالة مهام المكتب مكتب التخطيط ",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.qu.edu.qa/ar/Offices/procurement/Pages/suppliers.aspx",
+            "capturedAt": "2026-07-13T04:54:25.453Z"
+          }
+        },
+        {
+          "url": "https://mof.gov.ae/en/public-finance/government-procurement/federal-supplier-register/",
+          "capturedAt": "2026-07-13T04:54:32.361Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Federal Supplier Register | Ministry of Finance - United Arab Emirates",
+          "description": "View registered suppliers in the MoF Federal Supplier Register. Designed for businesses looking into G2B services&amp;supplier information in UAE",
+          "emails": [
+            "email@company.com"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "渠道/经销",
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ral Budget 2025 UAE Federal Budget 2022 – 2026 UAE Federal Budget Archive Government Financial Statistics Tax Value Added Tax (VAT) Corporate Tax​ in the UAE Top-up Tax Government Procurement Federal Supplier Register Digital Procurement Platform DPP Catalogue Federal Government Procurement Procedures Guide Current Business Opportunities Supporting SMEs International Relations GCC Economic Integration Regional and International Partnerships and Agreements Protection and Promotion of Investments",
+            "GTag, Yoast, etc.) inject their own hints at runtime. Hints are emitted from mof_resource_hints() in inc/enqueue-scripts.php. --> Federal Supplier Register | Ministry of Finance - United Arab Emirates Skip to main content Skip to main content --> Search Home Services div]:p-3\" role=\"group\" aria-labelledby=\"ServicesMenus\"> Individuals & Corporate Services Trust Voice Submit Inquiries about the Ministry’s Services Submitting a Suggestion Regarding the Ministry’s Services Submitting Complaints Abou"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "are present. Keep ONLY origins that are needed for the critical render path on the initial page load. Everything else should be dns-prefetch (cheap) so we stay well under the preconnect budget once core/plugins (Site Kit, GTag, Yoast, etc.) inject their own hints at runtime. Hints are emitted from mof_resource_hints() in inc/enqueue-scripts.php. --> Federal Supplier Register | Ministry of Finance - United Arab Emirates Skip to main content Skip to main content --> Search Home Services div]:p-3\" role=\"group\" aria-labelledby=\"ServicesMenus\"> Individuals & Corporate Services Trust Voice Submit Inquiries about the Ministry’s Services Submitting a Suggestion Regarding the Ministry’s Services Submitting Complaints About the Services of the Ministry of Finance Register Suppliers in the Federal Su",
+          "evidence": {
+            "field": "page",
+            "url": "https://mof.gov.ae/en/public-finance/government-procurement/federal-supplier-register/",
+            "capturedAt": "2026-07-13T04:54:32.361Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/",
+          "capturedAt": "2026-07-13T04:54:35.872Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Building the Difference",
+          "description": "We are a national real estate developer powered by the Public Investment Fund.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "re Sub-Developer Click Here Click Here CSR Partners Click Here Click Here Partners What’s New Latest Updates from ROSHN View All View All Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Building the Difference The National Champion of Destination Real Estate Building the Difference Shaping Immersive Places, Elevating People, Inspiring Life Learn More Learn More Your browser does not support the video tag. watch About ROSHN The Leading Multi-asset Class Real-estate Developer ROSHN Group is a key enabler of Saudi Vision 2030, transforming the urban landscape through human-centric integrated developments that elevate connectivity and enhance quality of life across the Kingdom. Learn More Learn More Click Here Click Here Your browser does not support the video tag. SEDRA 30K+ Homes 20M sqm Land Area SEDRA 30K+ Homes 20M sqm Land Area Click Here Click Here Your browser does not support the video tag. ALAROUS 18K+ Homes 4M sqm Land Area ALAROUS 18K+ Homes 4M sqm Land Ar",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/",
+            "capturedAt": "2026-07-13T04:54:35.872Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/terms-and-conditions",
+          "capturedAt": "2026-07-13T04:54:38.285Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Terms &amp; Conditions",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "gic bombs or other material which is malicious or technologically harmful. You must not attempt to gain unauthorised access to Our Platforms, the server on which Our Platforms are stored or any server, and computer or database connected to Our Platforms. By breaching this provision, You would commit under the laws of the Kingdom of Saudi Arabia and other countries. We will report any such breach to the relevant law enforcement authorities, and We will cooperate with those authorities by disclosi",
+            "ovider of a Third-Party Service may restrict or terminate your access to such Third-Party Service at any time; and You shall not bring a suit or claim against ROSHN, its partners, employees, agents, contractors, suppliers, or any of them arising from or based on your purchase or use of resources, products or services through any Third-Party Service. Changes and Updates to These Terms of Use Certain links on Our Platform lead to content and resources that are located on websites and servers not u",
+            "of the Kingdom of Saudi Arabia, with its registered office address at ROSHN Group Company, King Abdullah Financial District – King Fahad Road, Alaqiq District – Building No. 2877, Unit No. 4898, Additional No. 6686, Zip Code 13519 – Riyadh, Kingdom of Saudi Arabia and You and govern your access to and use of the Site and the Platforms (as defined below). ROSHN offers the Site, including all information, tools, and services available from the Site, to You conditioned upon your acceptance of these",
+            "y Service at any time; and You shall not bring a suit or claim against ROSHN, its partners, employees, agents, contractors, suppliers, or any of them arising from or based on your purchase or use of resources, products or services through any Third-Party Service. Changes and Updates to These Terms of Use Certain links on Our Platform lead to content and resources that are located on websites and servers not under the control of ROSHN, or for which organisations other than ROSHN are responsible."
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Terms & Conditions Home Click Here / Terms & Conditions Terms & Conditions Welcome to the ROSHN website (www.ROSHN.sa and/or its sub-sites, &#x27;the Site&#x27;). These Terms and Conditions of Use (“Terms of Use”) are made between ROSHN Group Company (&#x27;ROSHN&#x27;, &#x27;We&#x27;, &#x27;Our&#x27;, &#x27;Us&#x27;) a company established under the laws of the Kingdom of Saudi Arabia, with its registered office address at ROSHN Group Company, King Abdullah Financial District – King Fahad Road, Alaqiq District – Building No. 2877, Unit No. 4898, Additional No. 6686, Zip Code 13519 – Riyadh, Kingdom of Saudi Arabia and You and govern your access to and use of the Site and the Platforms (as defined below). ROSHN offers the Site, including all information, tools, and services availabl",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/terms-and-conditions",
+            "capturedAt": "2026-07-13T04:54:38.285Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/en",
+          "capturedAt": "2026-07-13T04:54:42.258Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Building the Difference",
+          "description": "We are a national real estate developer powered by the Public Investment Fund.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "re Sub-Developer Click Here Click Here CSR Partners Click Here Click Here Partners What’s New Latest Updates from ROSHN View All View All Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Building the Difference The National Champion of Destination Real Estate Building the Difference Shaping Immersive Places, Elevating People, Inspiring Life Learn More Learn More Your browser does not support the video tag. watch About ROSHN The Leading Multi-asset Class Real-estate Developer ROSHN Group is a key enabler of Saudi Vision 2030, transforming the urban landscape through human-centric integrated developments that elevate connectivity and enhance quality of life across the Kingdom. Learn More Learn More Click Here Click Here Your browser does not support the video tag. SEDRA 30K+ Homes 20M sqm Land Area SEDRA 30K+ Homes 20M sqm Land Area Click Here Click Here Your browser does not support the video tag. ALAROUS 18K+ Homes 4M sqm Land Area ALAROUS 18K+ Homes 4M sqm Land Ar",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/en",
+            "capturedAt": "2026-07-13T04:54:42.258Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/press-releases",
+          "capturedAt": "2026-07-13T04:54:44.823Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Press Releases",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | Press Releases Home Click Here / News & Events Click Here / Press Releases Press Releases Featured News Click Here Loading Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Press Releases Home Click Here / News & Events Click Here / Press Releases Press Releases Featured News Click Here Loading Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the urban landscape with human-centric, integrated developments that elevate connectivity and enhance the quality of life across the Kingdom Learn More Leadership Click Here The Brand Story Click Here Saudi Vision 2030 Click Here Our Awards Click Here Corporate Social Responsibility Click Here Sponsorships Cli",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/press-releases",
+            "capturedAt": "2026-07-13T04:54:44.823Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/roshn-care",
+          "capturedAt": "2026-07-13T04:54:47.526Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ROSHN Care",
+          "description": "",
+          "emails": [
+            "customercare@roshn.sa"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "门锁/建筑五金",
+            "OEM/ODM",
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "eal estate economy of Saudi Arabia. Connecting people and places with the rhythms of life that extends beyond real estate— ensuring a holistic and harmonious lifestyle for its communities. What distinguishes ROSHN Group? ROSHN Group&#x27;s development projects are human-centric and provide a unique experience designed to enhance the quality of life and greater connectivity. Our communities offer residents a new way of life, built on the concept of integrated residential communities enhanced with"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ROSHN Care Home Click Here / ROSHN Care ROSHN Care At ROSHN Group, our mission goes beyond simply providing world-class homes; we are dedicated to creating lasting, meaningful experiences for every customer. Support Channels Other Ways to Reach Us 920022288 Phone Support [email&#160;protected] Email Support @roshnksa Social Media Support Our Sales Centers Our Offices Navigation Buttons Navigation Buttons Head Office Phone 920022288 Email [email&#160;protected] Location KAFD 5.08, Riyadh Working Hours Saturday to Thursday from 9 am to 9 pm Jeddah Office Phone 920022288 Email [email&#160;protected] Location The Headquarters Business Park, Jeddah Working Hours Saturday to Thursday from 9 am to 9 pm SEDRA Office Phone 920022288 Email [email&#160;protected] Location King Khalid Internat",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/roshn-care",
+            "capturedAt": "2026-07-13T04:54:47.526Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/interest",
+          "capturedAt": "2026-07-13T04:54:50.301Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Register Interest",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | Register Interest Home Click Here / Register Interest Register Interest Enjoy a new way of living in ROSHN Group communities Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enable"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Register Interest Home Click Here / Register Interest Register Interest Enjoy a new way of living in ROSHN Group communities Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the urban landscape with human-centric, integrated developments that elevate connectivity and enhance the quality of life across the Kingdom Learn More Leadership Click Here The Brand Story Click Here Saudi Vision 2030 Click Here Our Awards Click Here Corporate Social Responsibility Click Here Sponsorships C",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/interest",
+            "capturedAt": "2026-07-13T04:54:50.301Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/we-are-roshn",
+          "capturedAt": "2026-07-13T04:54:52.856Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | We Are ROSHN",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [
+              "Core Assets Residential Communities , Commercial"
+            ],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "we believe in being Human by Design. This means putting people first by creating transformative spaces that prioritize their well-being, talents, and achievements, and foster community growth and connection.​ Champion Mentality We pride ourselves on having a Champion Mentality. We are committed to leading by example through innovation and excellence Responsible Stewardship Making informed, transparent decisions, and upholding ethical practices and governance. Inspiring Generations At ROSHN Grou"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | We Are ROSHN Home Click Here / We Are ROSHN We Are ROSHN About Mandate Mission & Vision Values Brand Story Leadership Vision 2030 Projects CSR Innovation Awards About ROSHN Group Play Video Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company ROSHN Group is serving as a key enabler of Saudi Vision 2030. ROSHN Group is transforming the urban landscape with human-centric, integrated developments that elevate connectivity and enhance the quality of life across the Kingdom. With sustainability and innovation at the forefront, ROSHN Group ensures a holistic and harmonious lifestyle within its developments. The Group remains committed to advancing the objectives of Saudi Vision 2030 through its active participation in the Housing ",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/we-are-roshn",
+            "capturedAt": "2026-07-13T04:54:52.856Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/we-are-roshn/leadership",
+          "capturedAt": "2026-07-13T04:54:55.358Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Leadership",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | Leadership Home Click Here / We Are ROSHN Click Here / Leadership Leadership our leaders No results found Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Leadership Home Click Here / We Are ROSHN Click Here / Leadership Leadership our leaders No results found Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the urban landscape with human-centric, integrated developments that elevate connectivity and enhance the quality of life across the Kingdom Learn More Leadership Click Here The Brand Story Click Here Saudi Vision 2030 Click Here Our Awards Click Here Corporate Social Responsibility Click Here Sponsorships Click Here Communiti",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/we-are-roshn/leadership",
+            "capturedAt": "2026-07-13T04:54:55.358Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/we-are-roshn/the-brand-story",
+          "capturedAt": "2026-07-13T04:54:58.010Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | The Brand Story",
+          "description": "The story of ROSHN’s brand is deeply connected with Saudi Arabia’s cultural heritage, its urban landscape, and the ambitious aspirations of Vision 2030.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "OEM/ODM",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "green palm tree symbolizing life, sustainability, and the spirit of renewal and growth. Surrounding the palm tree is an interconnected circle of dots, reflecting our cohesive community and the network of relationships that bind us to our customers and partners. Emerging from the circle are triangles like warm rays, expressing our ambition to make a sustainable positive impact on our community. The color green represents our authentic national identity, our commitment to social responsibility, a"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | The Brand Story Home Click Here / We Are ROSHN Click Here / The Brand Story The Brand Story The Inspiration The Name The Beginning The Transformation The story of ROSHN’s brand is deeply connected with Saudi Arabia’s cultural heritage, its urban landscape, and the ambitious aspirations of Vision 2030. Play Video Design Inspiration The design of ROSHN’s logo tells a story of continuous transformation and growth inspired by the patterns of the regions of Saudi Arabia. At its heart lies a thriving green palm tree symbolizing life, sustainability, and the spirit of renewal and growth. Surrounding the palm tree is an interconnected circle of dots, reflecting our cohesive community and the network of relationships that bind us to our customers and partners. Emerging from the circle are t",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/we-are-roshn/the-brand-story",
+            "capturedAt": "2026-07-13T04:54:58.010Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/we-are-roshn/vision-2030",
+          "capturedAt": "2026-07-13T04:55:00.429Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ROSHN Group &amp; Saudi Vision 2030",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "0’s goal of inclusive growth while preserving the cultural essence of the Kingdom. Each project is designed to reshape how people experience their surroundings, creating new opportunities for connection and development. Learn More Click Here Our Contributions 01 The Housing Program Addressing the growing demand for housing by developing high-quality, sustainable, integrated human-centric residential communities across the Kingdom, contributing to increasing the homeownership rate to 70%. The Qua"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ROSHN Group & Saudi Vision 2030 Home Click Here / We Are ROSHN Click Here / ROSHN Group & Saudi Vision 2030 ROSHN Group & Saudi Vision 2030 ROSHN Group is dedicated to developing projects that cultivate a vibrant society, seamlessly blending modern advancements with Saudi Arabia’s rich heritage. Our focus is on delivering destinations that enhance daily life, offering spaces where people can connect and thrive within cohesive, forward-thinking spaces. By integrating cutting-edge technology and sustainable practices, ROSHN Group contributes to Saudi Vision 2030’s goal of inclusive growth while preserving the cultural essence of the Kingdom. Each project is designed to reshape how people experience their surroundings, creating new opportunities for connection and development. Learn M",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/we-are-roshn/vision-2030",
+            "capturedAt": "2026-07-13T04:55:00.429Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/we-are-roshn/our-awards",
+          "capturedAt": "2026-07-13T04:55:02.980Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Our Awards",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | Our Awards Home Click Here / We Are ROSHN Click Here / Our Awards Our Awards Loading ... Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Our Awards Home Click Here / We Are ROSHN Click Here / Our Awards Our Awards Loading ... Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the urban landscape with human-centric, integrated developments that elevate connectivity and enhance the quality of life across the Kingdom Learn More Leadership Click Here The Brand Story Click Here Saudi Vision 2030 Click Here Our Awards Click Here Corporate Social Responsibility Click Here Sponsorships Click Here Communities Our residentia",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/we-are-roshn/our-awards",
+            "capturedAt": "2026-07-13T04:55:02.980Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/we-are-roshn/corporate-social-responsibility",
+          "capturedAt": "2026-07-13T04:55:05.641Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Corporate Social Responsibility",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "tes to enhancing quality of life through our social responsibility initiatives under the &quot;YUHYEEK&quot; program, which aims to create a positive and lasting impact on the community. The program is centered around five key pillars of development: societal development, environmental sustainability, education and innovation, arts and culture, and public health. Play Video YUHYEEK: ROSHN Groups Social Responsibility Program ROSHN Group strives to leave a lasting impact through sponsorships, str"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Corporate Social Responsibility Home Click Here / Corporate Social Responsibility Corporate Social Responsibility Introduction Roshn Program YUHYEEK Initiatives For an Ambitious Nation ROSHN Group contributes to enhancing quality of life through our social responsibility initiatives under the &quot;YUHYEEK&quot; program, which aims to create a positive and lasting impact on the community. The program is centered around five key pillars of development: societal development, environmental sustainability, education and innovation, arts and culture, and public health. Play Video YUHYEEK: ROSHN Groups Social Responsibility Program ROSHN Group strives to leave a lasting impact through sponsorships, strategic partnerships, foster community engagement, and the application of sustainability",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/we-are-roshn/corporate-social-responsibility",
+            "capturedAt": "2026-07-13T04:55:05.641Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/we-are-roshn/sponsorships",
+          "capturedAt": "2026-07-13T04:55:08.461Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Sponsorships",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "g the urban landscape and playing a pivotal role in shaping the future of the Kingdom. Play Video ‎Our Purpose Contributing to enhancing quality of life and building a vibrant community. ROSHN Group is committed to contributing to enhancing quality of life and building a vibrant community through strategic sponsorships in partnership with local and international entities across various artistic, cultural, sports, and community fields, in addition to the real estate development sector. These spon"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Sponsorships Home Click Here / We Are ROSHN Click Here / Sponsorships Sponsorships Our Sponsorships ROSHN Group’s sponsorships align with our core values and the objectives of Saudi Vision 2030. The Group is committed to enhancing quality of life in the Kingdom by forging strategic partnerships that reflect ROSHN Group’s excellence and reinforce its position as a leading national real estate developer. Through these collaborations, ROSHN Group is transforming the urban landscape and playing a pivotal role in shaping the future of the Kingdom. Play Video ‎Our Purpose Contributing to enhancing quality of life and building a vibrant community. ROSHN Group is committed to contributing to enhancing quality of life and building a vibrant community through strategic sponsorships in partne",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/we-are-roshn/sponsorships",
+            "capturedAt": "2026-07-13T04:55:08.461Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/communities",
+          "capturedAt": "2026-07-13T04:55:11.232Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Communities",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "traditional architecture to celebrate the Kingdom&#x27;s rich culture and history. Fostering Local Content We are making positive contributions to the local business landscape by sourcing Saudi materials and working with local partners. A Sustainable Legacy ROSHN Group is dedicated to creating vibrant communities that enhance the quality of life for all our residents. By embracing innovative solutions and sustainable practices, we ensure our communities thrive for generations to come. Click Her",
+            "ROSHN | Communities Home Click Here / Communities Communities Why are ROSHN communities unique? A New Way of Living ROSHN provides a new way of living, presenting a complete city experience in a community that boasts designs like no other. Unique Design Our communities fuse modern design with traditional architecture to celebrate"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Communities Home Click Here / Communities Communities Why are ROSHN communities unique? A New Way of Living ROSHN provides a new way of living, presenting a complete city experience in a community that boasts designs like no other. Unique Design Our communities fuse modern design with traditional architecture to celebrate the Kingdom&#x27;s rich culture and history. Fostering Local Content We are making positive contributions to the local business landscape by sourcing Saudi materials and working with local partners. A Sustainable Legacy ROSHN Group is dedicated to creating vibrant communities that enhance the quality of life for all our residents. By embracing innovative solutions and sustainable practices, we ensure our communities thrive for generations to come. Click Here Click",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/communities",
+            "capturedAt": "2026-07-13T04:55:11.232Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/communities/sedra",
+          "capturedAt": "2026-07-13T04:55:14.388Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | SEDRA",
+          "description": "SEDRA is designed to enhance the well-being of you and your family, offering a healthy lifestyle along with market-leading community services.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "this thriving and growing city. Minutes from ROSHN Front As a resident of SEDRA, the restaurants, shops and cinema of ROSHN Front are on your doorstep. Showcasing both day-to-day stores and major retail brands, all overlook beautiful landscaping, water features and greenery. www.roshnfront.sa Embracing Nature In addition to the Wadi that winds through SEDRA, landscaped indigenous trees and plants provide shade and a beautiful backdrop to the whole community An Active Community A key focus for R",
+            "ROSHN | SEDRA Home Click Here / Communities SEDRA Phases Community Life Benefits Masterplan At Glance Location Sales centers Welcome to SEDRA Already a thriving community, SEDRA is one of Riyadh&#x27;s most sought-after residential developments. Reflective of the ROSHN Group approach, streets and public spaces are lined with native trees and plants, crea"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | SEDRA Home Click Here / Communities SEDRA Phases Community Life Benefits Masterplan At Glance Location Sales centers Welcome to SEDRA Already a thriving community, SEDRA is one of Riyadh&#x27;s most sought-after residential developments. Reflective of the ROSHN Group approach, streets and public spaces are lined with native trees and plants, creating a pedestrian-friendly naturally landscaped, beautiful environment in which to live. REGISTER YOUR INTEREST REGISTER YOUR INTEREST Location Riyadh Available Phases Navigation Buttons Navigation Buttons 01 — 06 Click Here Click Here Sales Launched SEDRA RESIDENCE In a prime location within the vibrant SEDRA community, SEDRA Residence introduces a gated apartment complex where privacy and comfort come together seamlessly. The community fe",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/communities/sedra",
+            "capturedAt": "2026-07-13T04:55:14.388Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/communities/alarous",
+          "capturedAt": "2026-07-13T04:55:17.321Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ALAROUS",
+          "description": "ROSHN Group is delighted to introduce ROSHN&#x27;s first community in the Western Region, ALAROUS, within minutes of the Red Sea coast.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | ALAROUS Home Click Here / Communities ALAROUS Phases Community Life Benefits Masterplan At Glance Sales centers Welcome to ALAROUS We are delighted to introduce ROSHN Group&#x27;s first community in the Western Region, ALAROUS, within minutes from the Red Sea coast. Located in the vibrant city of Jeddah and adjoining MARAFY, ROSHN Group&#x27;s rece"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ALAROUS Home Click Here / Communities ALAROUS Phases Community Life Benefits Masterplan At Glance Sales centers Welcome to ALAROUS We are delighted to introduce ROSHN Group&#x27;s first community in the Western Region, ALAROUS, within minutes from the Red Sea coast. Located in the vibrant city of Jeddah and adjoining MARAFY, ROSHN Group&#x27;s recently announced visionary destination, ALAROUS residents embrace a new way of living in high-quality homes. All day-to-day amenities, such as schools, mosques and shops, are within walking distance, and the waterside restaurants, green open spaces and stunning event venues of MARAFY are found just a few minutes away over a footbridge. Register Your Interest Register Your Interest Location Jeddah Available Phases Navigation Buttons Navigati",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/communities/alarous",
+            "capturedAt": "2026-07-13T04:55:17.321Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/communities/warefa",
+          "capturedAt": "2026-07-13T04:55:20.240Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | WAREFA",
+          "description": "Building on the huge success of SEDRA, we are delighted to introduce WAREFA, the extraordinary new development for eastern Riyadh by ROSHN",
+          "emails": [
+            "blur_masterplan-warefa@2x.png",
+            "large_masterplan-warefa@2x.png",
+            "small_masterplan-warefa@2x.png",
+            "medium_masterplan-warefa@2x.png",
+            "xlarge_masterplan-warefa@2x.png",
+            "xsmall_masterplan-warefa@2x.png",
+            "thumbnail_masterplan-warefa@2x.png",
+            "masterplan-warefa@2x.png"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | WAREFA Home Click Here / Communities WAREFA Video Homes Community Life Benefits The Masterplan At Glance Services Location Sales centers Welcome to WAREFA Welcome to WAREFA Community, nestled in the rapidly growing east of Riyadh. Covering an expansive 1.4 million square meters, the community features 2,380 homes designed with the grace and sophis"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | WAREFA Home Click Here / Communities WAREFA Video Homes Community Life Benefits The Masterplan At Glance Services Location Sales centers Welcome to WAREFA Welcome to WAREFA Community, nestled in the rapidly growing east of Riyadh. Covering an expansive 1.4 million square meters, the community features 2,380 homes designed with the grace and sophistication of Salmani architecture. WAREFA’s homes open onto pedestrian-friendly tree-lined streets where neighbors come together, and amenities to enhance the quality of life of our residents are only minutes away. The careful design of the individual neighborhoods creates small clusters of homes, allowing residents to become friends, and families to connect. View Brochure View Brochure Location Riyadh Play Video A Home for Everyone Loading",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/communities/warefa",
+            "capturedAt": "2026-07-13T04:55:20.240Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/communities/almanar",
+          "capturedAt": "2026-07-13T04:55:23.092Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ALMANAR",
+          "description": "A new chapter in contemporary living unfolds in Makkah, blending modern lifestyle options within 20 minutes of the Holy Mosque",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | ALMANAR Home Click Here / Communities ALMANAR Phases Community Life Benefits Masterplan At Glance Location Sales Center Welcome to ALMANAR Introducing ALMANAR, a residential community that transforms the quality of life available within the holiest of sites, Makkah Al-Mukarramah. ALMANAR gives you and your family the unique opportunity to live with"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ALMANAR Home Click Here / Communities ALMANAR Phases Community Life Benefits Masterplan At Glance Location Sales Center Welcome to ALMANAR Introducing ALMANAR, a residential community that transforms the quality of life available within the holiest of sites, Makkah Al-Mukarramah. ALMANAR gives you and your family the unique opportunity to live within sight of Makkah Gate and within a short drive to Al-Masjid Al-Haram, the most precious place in the Islamic World. With its perfect blend of comfort, safety, and sustainability, ALMANAR offers you and your family not just a home but a thriving community where serenity and family are paramount. Register Interest Now Register Interest Now Location Makkah Available Phases Navigation Buttons Navigation Buttons 01 — 01 Click Here Click Here",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/communities/almanar",
+            "capturedAt": "2026-07-13T04:55:23.092Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/communities/aldanah",
+          "capturedAt": "2026-07-13T04:55:26.104Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ALDANAH",
+          "description": "Introducing ALDANAH, ROSHN Group&#x27;s first community in the thriving port city of Dammam.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | ALDANAH Home Click Here / Communities ALDANAH Available Phases Nearby Locations Premium Villas Community Life Key Benefits Masterplan Key Numbers Location Sales Centers WELCOME TO ALDANAH Located in the heart of vibrant Dhahran in the Eastern Province, ALDANAH community by ROSHN Group offers an ideal modern living experience. This thoughtfully desi"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ALDANAH Home Click Here / Communities ALDANAH Available Phases Nearby Locations Premium Villas Community Life Key Benefits Masterplan Key Numbers Location Sales Centers WELCOME TO ALDANAH Located in the heart of vibrant Dhahran in the Eastern Province, ALDANAH community by ROSHN Group offers an ideal modern living experience. This thoughtfully designed community features a diverse range of contemporary homes that reflect the distinctive architectural character of the Eastern Province. For the first time, ROSHN Group introduces entirely new designs debuting within ALDANAH community. These include three Premium Villa typologies, as well many other home layouts. Explore The New Typologies Explore The New Typologies Location Dhahran Status New Typologies Available Available Phases Navi",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/communities/aldanah",
+            "capturedAt": "2026-07-13T04:55:26.104Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/by-roshn-group",
+          "capturedAt": "2026-07-13T04:55:28.799Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | By ROSHN Group",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "utions, commercial office spaces like the prestigious Business Front. The portfolio also features community retail destinations spanning district retail, outlet malls, and big-box stores, in addition to hospitality offerings. Enabling Asset Classes ROSHN Group’s Enabling Assets support its thriving residential communities through education, including schools, academic institutions, and knowledge hubs. It also features mosques and healthcare facilities. Opportunistic Asset Classes ROSHN Group’s O",
+            "Future of Real Estate As a national champion of destination real estate, ROSHN Group is redefining urban landscapes with a diversified multi-asset strategy. Beyond residential communities, ROSHN Group integrates commercial, hospitality, healthcare, education, retail, transport, logistics, and entertainment assets—creating dynamic, human-centric environments. With a holistic approach to development, ROSHN Group elevates quality of life, fuels economic growth, and aligns seamlessly with Saudi Visi"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | By ROSHN Group Home Click Here / By ROSHN Group By ROSHN Group Shaping the Future of Real Estate As a national champion of destination real estate, ROSHN Group is redefining urban landscapes with a diversified multi-asset strategy. Beyond residential communities, ROSHN Group integrates commercial, hospitality, healthcare, education, retail, transport, logistics, and entertainment assets—creating dynamic, human-centric environments. With a holistic approach to development, ROSHN Group elevates quality of life, fuels economic growth, and aligns seamlessly with Saudi Vision 2030’s transformative aspirations. Core Asset Classes ROSHN Group’s Core Assets include a wide range of residential solutions, commercial office spaces like the prestigious Business Front. The portfolio also featur",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/by-roshn-group",
+            "capturedAt": "2026-07-13T04:55:28.799Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/by-roshn-group/marafy",
+          "capturedAt": "2026-07-13T04:55:31.483Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | MARAFY",
+          "description": "",
+          "emails": [
+            "marafy-3@2x.png",
+            "blur_marafy-3@2x.png",
+            "large_marafy-3@2x.png",
+            "small_marafy-3@2x.png",
+            "medium_marafy-3@2x.png",
+            "xsmall_marafy-3@2x.png",
+            "thumbnail_marafy-3@2x.png",
+            "marafy-2@2x.png",
+            "blur_marafy-2@2x.png",
+            "large_marafy-2@2x.png",
+            "small_marafy-2@2x.png",
+            "medium_marafy-2@2x.png",
+            "xsmall_marafy-2@2x.png",
+            "thumbnail_marafy-2@2x.png"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ail, hospitality, and leisure facilities, this immersive destination will deliver an unparalleled, holistic living experience for both residents and visitors. MARAFY & ALAROUS COMMUNITY Expanding Horizons of Lifestyle Nestled along the vibrant waterfront canal, ALAROUS community seamlessly blends with its surroundings to offer a truly exceptional living experience that redefines modern lifestyles. From exhilarating water sports and waterfront dining to renowned retail brands, scenic walkways, an"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | MARAFY Home Click Here / By ROSHN Group Click Here / MARAFY MARAFY Overview Numbers Video Details ALAROUS Gallery FAQs Redefining Living Experience in North Jeddah MARAFY is the first fully integrated, mixed-use destination developed by ROSHN Group, redefining lifestyle in North Jeddah and positioning it as a world-class waterfront destination. Centered around an impressive 11-kilometer water canal, the first-of-its-kind in the Kingdom, MARAFY features scenic pedestrian promenades, premium retail shops, floating restaurants, luxury hotels, and beautifully landscaped parks, all complemented by a vibrant mix of cultural and entertainment attractions. Retail Offices Residential 100+ m Wide urban water canal 130K+ Expected residents 9.4M+ m² Integrated mixed-use area Play Video The Nex",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/by-roshn-group/marafy",
+            "capturedAt": "2026-07-13T04:55:31.483Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/by-roshn-group/roshn-front",
+          "capturedAt": "2026-07-13T04:55:34.186Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ROSHN Front",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ce that reimagines how we work, play, dine, shop, and share space. The area features cinemas, numerous upscale cafes and restaurants, major retail brands, and everyday convenience stores. Visit Website Visit Website Retail Offices 10M+ Visitors Annually 100+ Shops & Restaurants 30+ Amenities & Services Play Video The Ultimate Destination for Modern Lifestyle 01 Strategic location ROSHN Front is located in Riyadh&#x27;s most vibrant district, offering effortless access to everything the city has",
+            "igation Buttons Navigation Buttons National Celebrations & Events Saudi National Day and Founding Day mark annual milestones celebrating the Kingdom’s rich heritage and unwavering unity. ROSHN Front honors these national occasions with a unique blend of cultural performances, interactive experiences, and family-friendly entertainment, fostering an atmosphere of pride and deep-rooted belonging. ROSHN Front Summer – Unforgettable Moments As summer arrives, ROSHN Front comes to life as a dynamic hu"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ROSHN Front Home Click Here / By ROSHN Group Click Here / ROSHN Front ROSHN Front Overview Numbers Video Details Shopping Area Business Area Comfort and Convenience Events SEDRA Gallery ‘Shop, Work & Play’ Reimagined ROSHN Front is one of the most vibrant mixed-use destinations in North Riyadh. It offers an extraordinary urban experience that reimagines how we work, play, dine, shop, and share space. The area features cinemas, numerous upscale cafes and restaurants, major retail brands, and everyday convenience stores. Visit Website Visit Website Retail Offices 10M+ Visitors Annually 100+ Shops & Restaurants 30+ Amenities & Services Play Video The Ultimate Destination for Modern Lifestyle 01 Strategic location ROSHN Front is located in Riyadh&#x27;s most vibrant district, offering ",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/by-roshn-group/roshn-front",
+            "capturedAt": "2026-07-13T04:55:34.186Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/by-roshn-group/roshn-stadium",
+          "capturedAt": "2026-07-13T04:55:36.720Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ROSHN Stadium",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "premier sports venue, ROSHN Stadium will serve as a vibrant hub for entertainment, cultural, and social events, reflecting ROSHN Group’s commitment to innovation and enriching community life. Sport Retail Hospitality 45K Seats 450K m² Land Size Riyadh Location Stunning and Sustainable Design 01 A Crystal Landmark Lighting Up the Skyline With its luminous crystal-like design and soaring edges, ROSHN Stadium stands as a testament to architectural brilliance. Rooted in the urban heritage of central"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ROSHN Stadium Home Click Here / By ROSHN Group Click Here / ROSHN Stadium ROSHN Stadium Overview Key Numbers Design About Our Contribution Gallery Iconic ROSHN Stadium ROSHN Stadium is a landmark addition to the sports and entertainment landscape, featuring a state-of-the-art football stadium with a 45,000-seat capacity, designed to the highest standards. Set to host matches for the FIFA World Cup 2034 in Saudi Arabia, the stadium is surrounded by a seamlessly integrated ecosystem of retail outlets, restaurants, and hospitality facilities. Beyond its role as a premier sports venue, ROSHN Stadium will serve as a vibrant hub for entertainment, cultural, and social events, reflecting ROSHN Group’s commitment to innovation and enriching community life. Sport Retail Hospitality 45K Seat",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/by-roshn-group/roshn-stadium",
+            "capturedAt": "2026-07-13T04:55:36.720Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/by-roshn-group/kingscollege",
+          "capturedAt": "2026-07-13T04:55:39.150Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | King’s College at SEDRA",
+          "description": "SEDRA community will introduce King’s College Riyadh, the largest private educational campus in SEDRA community.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "OSHN | King’s College at SEDRA Home Click Here / By ROSHN Group Click Here / King’s College at SEDRA King’s College at SEDRA Expanding Horizons for World-Class Education SEDRA community will introduce King’s College Riyadh, the largest private educational campus in SEDRA community, featuring modern, world-class facilities and a values-led environment shaped by the King’s College core principles of community, courage, curiosity, collaboration, and creativity. The new school extends the heritage o"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | King’s College at SEDRA Home Click Here / By ROSHN Group Click Here / King’s College at SEDRA King’s College at SEDRA Expanding Horizons for World-Class Education SEDRA community will introduce King’s College Riyadh, the largest private educational campus in SEDRA community, featuring modern, world-class facilities and a values-led environment shaped by the King’s College core principles of community, courage, curiosity, collaboration, and creativity. The new school extends the heritage of King’s College UK, offering a forward-looking experience from pre-school to Year 13. Education Features 01 ROSHN Group&#x27;s Largest Educational Development SEDRA campus represents ROSHN Group’s largest private education facility, highlighting the scale and ambition of the project, spanning 36,3",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/by-roshn-group/kingscollege",
+            "capturedAt": "2026-07-13T04:55:39.150Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/programs",
+          "capturedAt": "2026-07-13T04:55:41.723Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Programs",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "g the Future ROSHN Group has invested in a wide range of transformational programs aimed at reshaping the future of urban development, from sustainable building initiatives to community-centric planning. As a national champion of destination real estate, the Group plays a key role in setting new benchmarks for quality, livability, and long-term value across the Kingdom. Our Programs Click Here Click Here ROSHNEXT As ROSHN Group’s innovation arm, ROSHNEXT is a program designed to develop human-ce"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Programs Home Click Here / Programs Programs Shaping the Future ROSHN Group has invested in a wide range of transformational programs aimed at reshaping the future of urban development, from sustainable building initiatives to community-centric planning. As a national champion of destination real estate, the Group plays a key role in setting new benchmarks for quality, livability, and long-term value across the Kingdom. Our Programs Click Here Click Here ROSHNEXT As ROSHN Group’s innovation arm, ROSHNEXT is a program designed to develop human-centric experiences that accelerate growth, enhance collaboration, and establish new standards within the real estate sector. Click Here Click Here ROSHN Group Local Content Program ROSHN Group Local Content Program (RGLCP) aims to deliver on ",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/programs",
+            "capturedAt": "2026-07-13T04:55:41.723Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/programs/roshnext",
+          "capturedAt": "2026-07-13T04:55:44.433Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ROSHNEXT",
+          "description": "",
+          "emails": [
+            "roshnext@roshn.sa"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | ROSHNEXT Home Click Here / Programs Click Here / ROSHNEXT ROSHNEXT Overview Innovation Themes Our Innovation Engine Innovation Initiatives Collaboration Opportunities Join Us We Create What’s Next in Real Estate As ROSHN Group’s innovation arm, ROSHNEXT is a program designed to develop human-centric experiences that accelerate growth, enhance collaboration, and establish new standards within the real estate sector. Play Video Our Strategic Innovation Themes 01 Future of Livi"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ROSHNEXT Home Click Here / Programs Click Here / ROSHNEXT ROSHNEXT Overview Innovation Themes Our Innovation Engine Innovation Initiatives Collaboration Opportunities Join Us We Create What’s Next in Real Estate As ROSHN Group’s innovation arm, ROSHNEXT is a program designed to develop human-centric experiences that accelerate growth, enhance collaboration, and establish new standards within the real estate sector. Play Video Our Strategic Innovation Themes 01 Future of Living Reimagining modern lifestyles through the integration of smart technologies, modular construction methods, and data-driven design. This theme focuses on creating adaptive, intuitive, and connected environments that enhance quality of life through personalization, automation, and seamless digital experiences. ",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/programs/roshnext",
+            "capturedAt": "2026-07-13T04:55:44.433Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/programs/local-content",
+          "capturedAt": "2026-07-13T04:55:46.918Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ROSHN Group Local Content Program",
+          "description": "As ROSHN Group&#x27;s innovation arm, our mission is to develop unique human-centric experiences that accelerate growth.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "di talent, in alignment with the goals of Saudi Vision 2030. RGLCP Pillars 01 Local Corporate and Supply Chain Spend RGLCP is transforming demand into predictable, long-term opportunities for local industry, driving manufacturing localization and enhancing competitiveness to ensure a robust and resilient local supply chain. Local Talent Development ROSHN Group maintains a Saudization rate of over 70% and is committed to attracting and developing specialized national talent. This commitment forms"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ROSHN Group Local Content Program Home Click Here / Programs Click Here / ROSHN Group Local Content Program ROSHN Group Local Content Program Overview Innovation Themes Our Innovation Engine Partner with ROSHN Group Join Us Localize to Realize ROSHN Group Local Content Program (RGLCP) aims to deliver on ROSHN Group’s localization objectives through a set of core pillars designed to strengthen the real estate sector’s contribution to the national economy and empower Saudi talent, in alignment with the goals of Saudi Vision 2030. RGLCP Pillars 01 Local Corporate and Supply Chain Spend RGLCP is transforming demand into predictable, long-term opportunities for local industry, driving manufacturing localization and enhancing competitiveness to ensure a robust and resilient local supply ",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/programs/local-content",
+            "capturedAt": "2026-07-13T04:55:46.918Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/the-brand-story",
+          "capturedAt": "2026-07-13T04:55:49.435Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | The Brand Story",
+          "description": "The story of ROSHN’s brand is deeply connected with Saudi Arabia’s cultural heritage, its urban landscape, and the ambitious aspirations of Vision 2030.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "OEM/ODM",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "green palm tree symbolizing life, sustainability, and the spirit of renewal and growth. Surrounding the palm tree is an interconnected circle of dots, reflecting our cohesive community and the network of relationships that bind us to our customers and partners. Emerging from the circle are triangles like warm rays, expressing our ambition to make a sustainable positive impact on our community. The color green represents our authentic national identity, our commitment to social responsibility, a"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | The Brand Story Home Click Here / We Are ROSHN Click Here / The Brand Story The Brand Story The Inspiration The Name The Beginning The Transformation The story of ROSHN’s brand is deeply connected with Saudi Arabia’s cultural heritage, its urban landscape, and the ambitious aspirations of Vision 2030. Play Video Design Inspiration The design of ROSHN’s logo tells a story of continuous transformation and growth inspired by the patterns of the regions of Saudi Arabia. At its heart lies a thriving green palm tree symbolizing life, sustainability, and the spirit of renewal and growth. Surrounding the palm tree is an interconnected circle of dots, reflecting our cohesive community and the network of relationships that bind us to our customers and partners. Emerging from the circle are t",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/the-brand-story",
+            "capturedAt": "2026-07-13T04:55:49.435Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/vision-2030",
+          "capturedAt": "2026-07-13T04:55:52.029Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ROSHN Group &amp; Saudi Vision 2030",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "0’s goal of inclusive growth while preserving the cultural essence of the Kingdom. Each project is designed to reshape how people experience their surroundings, creating new opportunities for connection and development. Learn More Click Here Our Contributions 01 The Housing Program Addressing the growing demand for housing by developing high-quality, sustainable, integrated human-centric residential communities across the Kingdom, contributing to increasing the homeownership rate to 70%. The Qua"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ROSHN Group & Saudi Vision 2030 Home Click Here / We Are ROSHN Click Here / ROSHN Group & Saudi Vision 2030 ROSHN Group & Saudi Vision 2030 ROSHN Group is dedicated to developing projects that cultivate a vibrant society, seamlessly blending modern advancements with Saudi Arabia’s rich heritage. Our focus is on delivering destinations that enhance daily life, offering spaces where people can connect and thrive within cohesive, forward-thinking spaces. By integrating cutting-edge technology and sustainable practices, ROSHN Group contributes to Saudi Vision 2030’s goal of inclusive growth while preserving the cultural essence of the Kingdom. Each project is designed to reshape how people experience their surroundings, creating new opportunities for connection and development. Learn M",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/vision-2030",
+            "capturedAt": "2026-07-13T04:55:52.029Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/our-awards",
+          "capturedAt": "2026-07-13T04:55:54.578Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Our Awards",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | Our Awards Home Click Here / We Are ROSHN Click Here / Our Awards Our Awards Loading ... Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Our Awards Home Click Here / We Are ROSHN Click Here / Our Awards Our Awards Loading ... Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the urban landscape with human-centric, integrated developments that elevate connectivity and enhance the quality of life across the Kingdom Learn More Leadership Click Here The Brand Story Click Here Saudi Vision 2030 Click Here Our Awards Click Here Corporate Social Responsibility Click Here Sponsorships Click Here Communities Our residentia",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/our-awards",
+            "capturedAt": "2026-07-13T04:55:54.578Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/corporate-social-responsibility",
+          "capturedAt": "2026-07-13T04:55:57.066Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Corporate Social Responsibility",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "tes to enhancing quality of life through our social responsibility initiatives under the &quot;YUHYEEK&quot; program, which aims to create a positive and lasting impact on the community. The program is centered around five key pillars of development: societal development, environmental sustainability, education and innovation, arts and culture, and public health. Play Video YUHYEEK: ROSHN Groups Social Responsibility Program ROSHN Group strives to leave a lasting impact through sponsorships, str"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Corporate Social Responsibility Home Click Here / Corporate Social Responsibility Corporate Social Responsibility Introduction Roshn Program YUHYEEK Initiatives For an Ambitious Nation ROSHN Group contributes to enhancing quality of life through our social responsibility initiatives under the &quot;YUHYEEK&quot; program, which aims to create a positive and lasting impact on the community. The program is centered around five key pillars of development: societal development, environmental sustainability, education and innovation, arts and culture, and public health. Play Video YUHYEEK: ROSHN Groups Social Responsibility Program ROSHN Group strives to leave a lasting impact through sponsorships, strategic partnerships, foster community engagement, and the application of sustainability",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/corporate-social-responsibility",
+            "capturedAt": "2026-07-13T04:55:57.066Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/marafy",
+          "capturedAt": "2026-07-13T04:55:59.758Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | MARAFY",
+          "description": "",
+          "emails": [
+            "marafy-3@2x.png",
+            "blur_marafy-3@2x.png",
+            "large_marafy-3@2x.png",
+            "small_marafy-3@2x.png",
+            "medium_marafy-3@2x.png",
+            "xsmall_marafy-3@2x.png",
+            "thumbnail_marafy-3@2x.png",
+            "marafy-2@2x.png",
+            "blur_marafy-2@2x.png",
+            "large_marafy-2@2x.png",
+            "small_marafy-2@2x.png",
+            "medium_marafy-2@2x.png",
+            "xsmall_marafy-2@2x.png",
+            "thumbnail_marafy-2@2x.png"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ail, hospitality, and leisure facilities, this immersive destination will deliver an unparalleled, holistic living experience for both residents and visitors. MARAFY & ALAROUS COMMUNITY Expanding Horizons of Lifestyle Nestled along the vibrant waterfront canal, ALAROUS community seamlessly blends with its surroundings to offer a truly exceptional living experience that redefines modern lifestyles. From exhilarating water sports and waterfront dining to renowned retail brands, scenic walkways, an"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | MARAFY Home Click Here / By ROSHN Group Click Here / MARAFY MARAFY Overview Numbers Video Details ALAROUS Gallery FAQs Redefining Living Experience in North Jeddah MARAFY is the first fully integrated, mixed-use destination developed by ROSHN Group, redefining lifestyle in North Jeddah and positioning it as a world-class waterfront destination. Centered around an impressive 11-kilometer water canal, the first-of-its-kind in the Kingdom, MARAFY features scenic pedestrian promenades, premium retail shops, floating restaurants, luxury hotels, and beautifully landscaped parks, all complemented by a vibrant mix of cultural and entertainment attractions. Retail Offices Residential 100+ m Wide urban water canal 130K+ Expected residents 9.4M+ m² Integrated mixed-use area Play Video The Nex",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/marafy",
+            "capturedAt": "2026-07-13T04:55:59.758Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/roshn-front",
+          "capturedAt": "2026-07-13T04:56:02.433Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ROSHN Front",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ce that reimagines how we work, play, dine, shop, and share space. The area features cinemas, numerous upscale cafes and restaurants, major retail brands, and everyday convenience stores. Visit Website Visit Website Retail Offices 10M+ Visitors Annually 100+ Shops & Restaurants 30+ Amenities & Services Play Video The Ultimate Destination for Modern Lifestyle 01 Strategic location ROSHN Front is located in Riyadh&#x27;s most vibrant district, offering effortless access to everything the city has",
+            "igation Buttons Navigation Buttons National Celebrations & Events Saudi National Day and Founding Day mark annual milestones celebrating the Kingdom’s rich heritage and unwavering unity. ROSHN Front honors these national occasions with a unique blend of cultural performances, interactive experiences, and family-friendly entertainment, fostering an atmosphere of pride and deep-rooted belonging. ROSHN Front Summer – Unforgettable Moments As summer arrives, ROSHN Front comes to life as a dynamic hu"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ROSHN Front Home Click Here / By ROSHN Group Click Here / ROSHN Front ROSHN Front Overview Numbers Video Details Shopping Area Business Area Comfort and Convenience Events SEDRA Gallery ‘Shop, Work & Play’ Reimagined ROSHN Front is one of the most vibrant mixed-use destinations in North Riyadh. It offers an extraordinary urban experience that reimagines how we work, play, dine, shop, and share space. The area features cinemas, numerous upscale cafes and restaurants, major retail brands, and everyday convenience stores. Visit Website Visit Website Retail Offices 10M+ Visitors Annually 100+ Shops & Restaurants 30+ Amenities & Services Play Video The Ultimate Destination for Modern Lifestyle 01 Strategic location ROSHN Front is located in Riyadh&#x27;s most vibrant district, offering ",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/roshn-front",
+            "capturedAt": "2026-07-13T04:56:02.433Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/roshn-stadium",
+          "capturedAt": "2026-07-13T04:56:05.121Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ROSHN Stadium",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "premier sports venue, ROSHN Stadium will serve as a vibrant hub for entertainment, cultural, and social events, reflecting ROSHN Group’s commitment to innovation and enriching community life. Sport Retail Hospitality 45K Seats 450K m² Land Size Riyadh Location Stunning and Sustainable Design 01 A Crystal Landmark Lighting Up the Skyline With its luminous crystal-like design and soaring edges, ROSHN Stadium stands as a testament to architectural brilliance. Rooted in the urban heritage of central"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ROSHN Stadium Home Click Here / By ROSHN Group Click Here / ROSHN Stadium ROSHN Stadium Overview Key Numbers Design About Our Contribution Gallery Iconic ROSHN Stadium ROSHN Stadium is a landmark addition to the sports and entertainment landscape, featuring a state-of-the-art football stadium with a 45,000-seat capacity, designed to the highest standards. Set to host matches for the FIFA World Cup 2034 in Saudi Arabia, the stadium is surrounded by a seamlessly integrated ecosystem of retail outlets, restaurants, and hospitality facilities. Beyond its role as a premier sports venue, ROSHN Stadium will serve as a vibrant hub for entertainment, cultural, and social events, reflecting ROSHN Group’s commitment to innovation and enriching community life. Sport Retail Hospitality 45K Seat",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/roshn-stadium",
+            "capturedAt": "2026-07-13T04:56:05.121Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/kingscollege",
+          "capturedAt": "2026-07-13T04:56:07.581Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | King’s College at SEDRA",
+          "description": "SEDRA community will introduce King’s College Riyadh, the largest private educational campus in SEDRA community.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "OSHN | King’s College at SEDRA Home Click Here / By ROSHN Group Click Here / King’s College at SEDRA King’s College at SEDRA Expanding Horizons for World-Class Education SEDRA community will introduce King’s College Riyadh, the largest private educational campus in SEDRA community, featuring modern, world-class facilities and a values-led environment shaped by the King’s College core principles of community, courage, curiosity, collaboration, and creativity. The new school extends the heritage o"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | King’s College at SEDRA Home Click Here / By ROSHN Group Click Here / King’s College at SEDRA King’s College at SEDRA Expanding Horizons for World-Class Education SEDRA community will introduce King’s College Riyadh, the largest private educational campus in SEDRA community, featuring modern, world-class facilities and a values-led environment shaped by the King’s College core principles of community, courage, curiosity, collaboration, and creativity. The new school extends the heritage of King’s College UK, offering a forward-looking experience from pre-school to Year 13. Education Features 01 ROSHN Group&#x27;s Largest Educational Development SEDRA campus represents ROSHN Group’s largest private education facility, highlighting the scale and ambition of the project, spanning 36,3",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/kingscollege",
+            "capturedAt": "2026-07-13T04:56:07.581Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/roshnext",
+          "capturedAt": "2026-07-13T04:56:09.419Z",
+          "status": "error",
+          "reason": "fetch failed"
+        },
+        {
+          "url": "https://www.roshn.sa/local-content",
+          "capturedAt": "2026-07-13T04:56:18.217Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | ROSHN Group Local Content Program",
+          "description": "As ROSHN Group&#x27;s innovation arm, our mission is to develop unique human-centric experiences that accelerate growth.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "di talent, in alignment with the goals of Saudi Vision 2030. RGLCP Pillars 01 Local Corporate and Supply Chain Spend RGLCP is transforming demand into predictable, long-term opportunities for local industry, driving manufacturing localization and enhancing competitiveness to ensure a robust and resilient local supply chain. Local Talent Development ROSHN Group maintains a Saudization rate of over 70% and is committed to attracting and developing specialized national talent. This commitment forms"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | ROSHN Group Local Content Program Home Click Here / Programs Click Here / ROSHN Group Local Content Program ROSHN Group Local Content Program Overview Innovation Themes Our Innovation Engine Partner with ROSHN Group Join Us Localize to Realize ROSHN Group Local Content Program (RGLCP) aims to deliver on ROSHN Group’s localization objectives through a set of core pillars designed to strengthen the real estate sector’s contribution to the national economy and empower Saudi talent, in alignment with the goals of Saudi Vision 2030. RGLCP Pillars 01 Local Corporate and Supply Chain Spend RGLCP is transforming demand into predictable, long-term opportunities for local industry, driving manufacturing localization and enhancing competitiveness to ensure a robust and resilient local supply ",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/local-content",
+            "capturedAt": "2026-07-13T04:56:18.217Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/careers",
+          "capturedAt": "2026-07-13T04:56:21.317Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Careers",
+          "description": "",
+          "emails": [
+            "customercare@roshn.sa"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "mental, social, and financial wellbeing. It includes a wellbeing allowance, best-in-class medical and life insurance, and access to confidential mental health support through our Employee Assistance Program. Your Family ROSHN Group provides comprehensive medical coverage for parents, spouses, and children, along with education and childcare allowances, as well as an exclusive summer training program for employees’ families. Your Growth Comprehensive learning opportunities, including tailored de",
+            "reers Home Click Here / Careers Careers Build the difference in your career with us! At ROSHN Group, you&#x27;re at the heart of everything we do. We&#x27;re not just building communities and destinations, we&#x27;re building a legacy where every individual is valued, empowered, and essential. Your talent fuels our success, and your potential shapes our future. Join us in shaping the future of Saudi Arabia’s real estate sector, where your growth drives impact, and every milestone becomes part of"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Careers Home Click Here / Careers Careers Build the difference in your career with us! At ROSHN Group, you&#x27;re at the heart of everything we do. We&#x27;re not just building communities and destinations, we&#x27;re building a legacy where every individual is valued, empowered, and essential. Your talent fuels our success, and your potential shapes our future. Join us in shaping the future of Saudi Arabia’s real estate sector, where your growth drives impact, and every milestone becomes part of your legacy. Together, we thrive. Your Benefits 01 Your Wellbeing ROSHN Well-Being Program (RWP) is a holistic wellbeing program covering your physical, mental, social, and financial wellbeing. It includes a wellbeing allowance, best-in-class medical and life insurance, and access to conf",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/careers",
+            "capturedAt": "2026-07-13T04:56:21.317Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/faqs",
+          "capturedAt": "2026-07-13T04:56:25.616Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | FAQs",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | FAQs Home Click Here / FAQs FAQs Loading Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | FAQs Home Click Here / FAQs FAQs Loading Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the urban landscape with human-centric, integrated developments that elevate connectivity and enhance the quality of life across the Kingdom Learn More Leadership Click Here The Brand Story Click Here Saudi Vision 2030 Click Here Our Awards Click Here Corporate Social Responsibility Click Here Sponsorships Click Here Communities Our residential communities are distinguished by their vibrant",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/faqs",
+            "capturedAt": "2026-07-13T04:56:25.616Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/whistleblowing",
+          "capturedAt": "2026-07-13T04:56:29.543Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Whistleblowing",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "门锁/建筑五金",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ons, are invaluable, and we are dedicated to providing robust protection for their health, safety, and dignity. A Secure and Confidential Channel to Speak Up We believe that every employee, supplier, and partner should feel empowered to raise concerns without fear of reprisal. Any conduct that violates our policies or the law is unacceptable and will not be tolerated. To ensure a straightforward and secure reporting process, our Compliance team independently manages our whistleblowing program. K",
+            "gh Action Every concern raised will be reviewed and investigated swiftly and impartially. We are committed to taking appropriate action to safeguard ROSHN, our people, and our communities. By speaking up, you play a vital role in helping us maintain ROSHN Group as a place where integrity and trust are paramount in everything we do. To report a concern, please contact in the form below: Or you can contact us directly at 920014438 Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Pr"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Whistleblowing Home Click Here / Whistleblowing Whistleblowing ROSHN Group’s Commitment to Integrity At ROSHN Group, integrity is the cornerstone of our mission to be the Kingdom&#x27;s most trusted multi-asset developer. We are deeply committed to upholding all laws and regulations and fostering an environment where every individual is treated with respect, kindness, and inclusion. Our diverse teams, representing many nations, are invaluable, and we are dedicated to providing robust protection for their health, safety, and dignity. A Secure and Confidential Channel to Speak Up We believe that every employee, supplier, and partner should feel empowered to raise concerns without fear of reprisal. Any conduct that violates our policies or the law is unacceptable and will not be toler",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/whistleblowing",
+            "capturedAt": "2026-07-13T04:56:29.543Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/privacy-policy",
+          "capturedAt": "2026-07-13T04:56:32.735Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Privacy Policy",
+          "description": "",
+          "emails": [
+            "privacy@roshn.sa"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "OEM/ODM",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ent appropriate measures to ensure that your Data remains protected and secure while and for as long as it remains under our control.The Data that you submit will be processed and stored on servers and disclosed to recipients based in the KSA. You can choose not to provide certain Data that we request. However, this may affect access and functionality of our Platforms. Your rights Your right as a Data owner may include the following: The right to access your Data The right to delete your Data th",
+            "your Data, you can contact our Data Privacy Office in one of the following ways: Email us at [email&#160;protected] Call us at 920022288 Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Privacy Policy Home Click Here / Privacy Policy Privacy Policy This Privacy Statement describes how ROSHN Group (“ROSHN”, “we”, “our”, “us”) a company established under the laws of the Kingdom of Saudi Arabia, with its registered office address at ROSHN Group, King Abdullah Financial District, Alaqiq District - Building No. 5.08, RRAD 2877-6686, Riyadh 13519, Kingdom of Saudi Arabia (“KSA”), processes, collects, uses, treats, and protects personal data (the “Data”) when you visit our website and other platforms and applications (the “Platforms”). Data we collect ROSHN will collect and receive information when you send us an enquiry about our offerings, visit our Platforms or through other interactions with ROSHN. We process, collect, or use the Data only as reasonably necessary to ",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/privacy-policy",
+            "capturedAt": "2026-07-13T04:56:32.735Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/disclaimers",
+          "capturedAt": "2026-07-13T04:56:35.784Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Disclaimers",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "y in negligence or otherwise for any loss or damage suffered by any party resulting from reliance on the information in this walkthrough. Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the",
+            "e brochure. This means that ROSHN Group reserves the right to make changes to specifications as necessary and without notice. These details should not be relied upon when making a purchase decision and do not constitute a contract or guarantee of use. Please make inquiries and obtain valid advice where necessary before signing any legally binding agreement. The level of growth of trees and other landscaping shown in this brochure is at least one year after project completion. Any computer-genera"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Disclaimers Home Click Here / Disclaimers Disclaimers Brochure Disclaimer While we make every effort to ensure the accuracy of the product to be supplied by ROSHN Group, the information contained in this brochure is for guidance and illustrative purposes only and is intended as a brochure showing the final product. Accordingly, the final product may differ from the information contained in the brochure. This means that ROSHN Group reserves the right to make changes to specifications as necessary and without notice. These details should not be relied upon when making a purchase decision and do not constitute a contract or guarantee of use. Please make inquiries and obtain valid advice where necessary before signing any legally binding agreement. The level of growth of trees and othe",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/disclaimers",
+            "capturedAt": "2026-07-13T04:56:35.784Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/",
+          "capturedAt": "2026-07-13T04:56:42.451Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Aldar - Explore Our Real Estate Properties in Abu Dhabi",
+          "description": "Aldar offers UAE residents and investors a range of premium properties and real estate services. Explore our villas, apartments, and offices in Abu Dhabi.",
+          "emails": [
+            "customermanagement@aldar.com"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "OEM/ODM",
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "lyst Coverage Financial Calendar Company Announcements Contact Us Investor Rights Guide Careers Explore Aldar About Aldar Story Leadership Culture and Values Strategy Sponsorships Procurement Aldar Square E-Services Customer Portal Khidmah Asteco Aldar Brokers Aldar IOS App Aldar Android App Businesses - Development Residential Businesses - Investment Commercial Retail Education Hospitality Projects Corporate Governance Sustainability Sustainability Strategy Governance & Policies Reporting & Per",
+            "Investment Commercial Retail Education Hospitality Projects Corporate Governance Sustainability Sustainability Strategy Governance & Policies Reporting & Performance Net Zero Community Outreach Aldar Brand Live Aldar Aldar Dialogue Year of Sustainability Emirati Women&#x27;s Day Ahal Aldar Aldar Stories In Focus Driven by Details The Round Up Ramadan Campaigns The Cube National Day 54 years Art Innovation Tax Strategy Subscribe to Our Newsletter All News Events Follow us on Phone Contact Privac"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "Aldar - Explore Our Real Estate Properties in Abu Dhabi Explore Abu Dhabi Explore Aldar Media Investor Relations Careers Buy Rent Share Your Feedback Call800ALDAR Live Life to the Fullest with Aldar Step into a space curated for your lifestyle, where innovation meets luxury. Our commitment to thoughtful design ensures every home, from apartments to villas, exceeds your expectations. Discover our attention to detail in every corner and let us help you find your dream home. Your journey to living life to the fullest starts here. Our Latest Reports FY 2025 Results – Press Release View PDF FY 2025 Results - Presentation View PDF FY 2025 Results – Financial Statements View PDF Q4 2025 – Earnings Call Transcript View PDF Our Latest Launches Residential Project Residential Residential Project The",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/",
+            "capturedAt": "2026-07-13T04:56:42.451Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/about-abu-dhabi",
+          "capturedAt": "2026-07-13T04:56:45.755Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "الدار: التزام بالتطوير العقاري والابتكار | الدار",
+          "description": "الدار تقدم حلول تطوير عقاري مبتكرة في أبوظبي، تجمع بين الجودة العالية والرؤية المستقبلية لتحقيق التنمية المستدامة والمشاريع الرائدة في المنطقة بفعالية كبيرة.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "الدار: التزام بالتطوير العقاري والابتكار | الدار اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار اكتشف أبوظبي أبرز معالم المدينة #في_أبوظبي #جزيرة_ياس #جزيرة_السعديات #جزيرة_الريم #سباق_أبوظبي روابط مفيدة دائرة الثقافة والسياحة -أبوظبي زيارة الموقع الإلكتروني الاتحاد للطيران زيارة الموقع الإلكتروني اللوفر أبوظبي زيارة الموقع الإلكتروني جزيرة ياس زيارة الموقع الإلكتروني أبوظبي زيارة الموقع الإلكتروني شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز المساهمين مستثمرو الديون تغطية المحللين التقويم المالي الأخبار وتقارير الإفصاح اتصل بنا دليل حقوق المستثمرين التوظيف اكتشف الدار عن الدار قص",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/about-abu-dhabi",
+            "capturedAt": "2026-07-13T04:56:45.755Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/explore-aldar",
+          "capturedAt": "2026-07-13T04:56:48.379Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "استكشف شركة الدار - حيث تجد كل ما تحتاجه | الدار",
+          "description": "استكشف شركة الدار واكتشف مجموعة متنوعة من المشاريع والخدمات المتميزة التي تلبي احتياجات العملاء والمستثمرين في سوق أبوظبي والمجتمعات المحلية المحيطة.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "استكشف شركة الدار - حيث تجد كل ما تحتاجه | الدار اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار اكتشف الدار التنوع والشمولية أولوية أساسية اعرف المزيد عن التنوع والشمولية نساء 38% جنسية 46 إماراتيين 36% مبادرة للتنوع والشمولية 22 مديرات تنفيذيات 25% محور اهتمامنا مدينتنا اكتشف مجتمعنا اكتشف فريقنا اكتشف تطوير مجتمعات مستدامة نصمم مجتمعات مزدهرة وأحياء سكنية نابضة بالحياة في أرقى وجهات أبوظبي، مثل جزيرة ياس وجزيرة السعديات وجزيرة الريم. بفضل رؤيتها الثاقبة وإنجازاتها المميزة، اكتسبت الدار شهرة واسعة في القطاع العقاري الدولي، وقد تجسد ذلك في مشاريعنا الرائدة، بما فيها مقرنا الرئيسي في شاطئ الراحة، وأبراج البوابة في جزيرة الريم، وفندق دبليو وحلبة ياس مارينا في جزيرة ياس. اقرأ قصتنا هدفنا المحاور الإستراتيجية استراتيجيتنا التميز في المنتجات التجربة المميزة إدارة رأس ال",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/explore-aldar",
+            "capturedAt": "2026-07-13T04:56:48.379Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/careers",
+          "capturedAt": "2026-07-13T04:56:51.477Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "انضم إلى وظائف الدار العقارية وطور مسيرتك | الدار",
+          "description": "استعرض أحدث فرص العمل في شركة الدار العقارية، وانضم إلى بيئة عمل محفزة تدعم التطور المهني والنمو الوظيفي في قطاع التطوير العقاري الرائد في الإمارات.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "انضم إلى وظائف الدار العقارية وطور مسيرتك | الدار اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار التوظيف برنامج الدار لمواهب المستقبل اكتشف المزيد المرشحون ذوي الخبرة اكتشف المزيد شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز المساهمين مستثمرو الديون تغطية المحللين التقويم المالي الأخبار وتقارير الإفصاح اتصل بنا دليل حقوق المستثمرين التوظيف اكتشف الدار عن الدار قصتنا الإدارة العليا قيم وبيئة العمل الاستراتيجية الرعاية المشتريات والتوريد الدار سكوير الخدمات الإلكترونية بوابة العملاء خدمة استيكو وسطاء الدار تطبيق الدار على نظام آي أو إس تطبيق الدار على نظام الأندرويد الأعمال - التطوي",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/careers",
+            "capturedAt": "2026-07-13T04:56:51.477Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar",
+          "capturedAt": "2026-07-13T04:56:54.003Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "شركة الدار العقارية - المطور العقاري الأفضل في أبو ظبي",
+          "description": "اكتشف المزيد عن شركة الدار العقارية والتي تعد الأكثر تميزاً والرائدة في الاستثمار العقاري في أبو ظبي تعرف على آخر نجاحتنا وأرقامنا وأحدث مشاريعنا العقارية.",
+          "emails": [
+            "customermanagement@aldar.com"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "شركة الدار العقارية - المطور العقاري الأفضل في أبو ظبي اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار شارك تعليقاتك 800ALDAR اتصل بشركة عِش حياتك على أكمل وجه مع الدار مرحباً بكم في مساحات مبتكرة صُمِمت بعناية فائقة لإثراء أسلوب حياتكم، حيث ينسجم الإبداع مع الفخامة. عندما نلتزم بوضع تصاميم رُوعي فيها كافة التفاصيل، نضمن لكم منزلاً يتجاوز توقعاتكم. سواء كانت شقةً مريحةً أو فيلا فاخرة، فإننا نقدم لكم تحفة فنية تلبي جميع احتياجاتكم. ندرك حرصكم على أدق التفاصيل عند اختيار منزلكم الجديد. دعونا نوجهكم بخبراتنا الطويلة نحو منزل أحلامكم. بداية رحلتكم نحو حياة مثالية تنطلق من هنا. أحدث التقارير نتائج السنة المالية 2025 - الخبر الصحفي عرض التقرير عرض نتائج السنة المالية 2025 عرض ملف PDF القوائم المالية للسنة المالية 2025 عرض ملف PDF نَص تسجيل مكالمة الأرباح لسنة 2025 عرض ملف",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar",
+            "capturedAt": "2026-07-13T04:56:54.003Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/explore-aldar/about-aldar",
+          "capturedAt": "2026-07-13T04:56:57.129Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "تعرف على قصتنا المهنية وبيئة العمل في الدار | الدار",
+          "description": "اكتشف قصتنا المهنية وبيئة العمل المميزة في شركة الدار العقارية. نحن نقدم فرص عمل شيقة ومجتمع محفز للابتكار. تعرف على المزيد مع شركة الدار العقارية.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "تعرف على قصتنا المهنية وبيئة العمل في الدار | الدار اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار اكتشف الدار عن الدار شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز المساهمين مستثمرو الديون تغطية المحللين التقويم المالي الأخبار وتقارير الإفصاح اتصل بنا دليل حقوق المستثمرين التوظيف اكتشف الدار عن الدار قصتنا الإدارة العليا قيم وبيئة العمل الاستراتيجية الرعاية المشتريات والتوريد الدار سكوير الخدمات الإلكترونية بوابة العملاء خدمة استيكو وسطاء الدار تطبيق الدار على نظام آي أو إس تطبيق الدار على نظام الأندرويد الأعمال - التطوير سكني الأعمال - الاستثمار تجاري قطاع التجزئة التعليم الضياف",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/explore-aldar/about-aldar",
+            "capturedAt": "2026-07-13T04:56:57.129Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/contact-us",
+          "capturedAt": "2026-07-13T04:56:59.596Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "تواصل معنا اليوم للحصول على الدعم والاستفسارات | الدار",
+          "description": "تواصل مع فريق شركة الدار للحصول على الدعم أو الاستفسار عن خدماتنا وعقاراتنا. نحن هنا للإجابة على جميع تساؤلاتك وتقديم المساعدة بكل احترافية.",
+          "emails": [
+            "sales@aldar.com",
+            "international@londonsquare.co.uk"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "تواصل معنا اليوم للحصول على الدعم والاستفسارات | الدار اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار اتصل بنا اتصل بنا الدار سكوير جزيرة ياس، أبو ظبي الموقع هاتف الدولي ص.ب ساعات العمل الرسمية مركز العملاء الدار سكوير، جزيرة ياس، أبو ظبي الموقع هاتف الدولي ساعات العمل الرسمية مكتب مبيعات الدار العقارية - دبي شارع شاطئ جميرا - ام سقيم 1 الموقع هاتف الدولي البريد الإلكتروني ساعات العمل الرسمية مكاتب هونغ كونغ تو إكستشينج سكوير، 8 كونوت بليس، سنترال، هونغ كونغ، الطابق 30، مكتب 3007 الموقع هاتف الدولي البريد الإلكتروني ساعات العمل الرسمية اتصل بنا تابعونا على متواجدون لخدمتكم المستثمرين اكتشف المزيد التجزئة اكتشف المزيد الأخبار ووسائط الإعلام اكتشف المزيد نحن نهتم بتعليقاتك القيمة ملاحظات الموقع ملء النموذج شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج ",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/contact-us",
+            "capturedAt": "2026-07-13T04:56:59.596Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/properties/en/communities",
+          "capturedAt": "2026-07-13T04:57:03.107Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Aldar - Residential Properties for Sale",
+          "description": "Find the best home for you",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "s Analyst Coverage Financial Calendar Company Announcements Contact Us CAREERS Graduate program EXPLORE ALDAR About Aldar Story Leadership Culture and Values Strategy Sponsorships Procurement Aldar Square E-Services Khidmah Aldar Brokers Aldar iOS App Aldar Android App Business - Development Residential Business - Investment Commercial Retail Education Hospitality Projects Corporate Governance Sustainability Sustainability Strategy Governance & Policies Reporting & Performance Net Zero Community",
+            "Investment Commercial Retail Education Hospitality Projects Corporate Governance Sustainability Sustainability Strategy Governance & Policies Reporting & Performance Net Zero Community Outreach Aldar Brand Live Aldar Year of Sustainability Emirati Women&#x27;s Day In Focus Ahal Aldar Aldar Stories Art Innovation Subscribe to Our Newsletter FOLLOW US ON Phone 800-ALDAR / 800-25327 Contact Us Privacy Policy Terms of Use Copyright &amp;copy; 2026 Aldar Properties. All Rights Reserved. This site is"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "Aldar - Residential Properties for Sale FAQS ABU DHABI DARNA LOYALTY PROGRAM CONTACT US WHISTLEBLOWER SYSTEM EXPLORE ABU DHABI Market Overview Golden Visa Dari MEDIA News Gallery Blog INVESTORS RELATIONS Reports & Presentations Shareholder Center Debt Investors Analyst Coverage Financial Calendar Company Announcements Contact Us CAREERS Graduate program EXPLORE ALDAR About Aldar Story Leadership Culture and Values Strategy Sponsorships Procurement Aldar Square E-Services Khidmah Aldar Brokers Aldar iOS App Aldar Android App Business - Development Residential Business - Investment Commercial Retail Education Hospitality Projects Corporate Governance Sustainability Sustainability Strategy Governance & Policies Reporting & Performance Net Zero Community Outreach Aldar Brand Live Aldar Year of",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/properties/en/communities",
+            "capturedAt": "2026-07-13T04:57:03.107Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/explore-aldar/businesses/development/land",
+          "capturedAt": "2026-07-13T04:57:06.970Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "قطع اراضي للبناء في أبوظبي: ابن بيت احلامك | الدار",
+          "description": "هل تبحث عن أراضٍ للبناء في أبوظبي؟ اكتشف خيارات الأراضي التي توفرها مجموعة الدار بمواقعها المختلفة وابنِ بيت أحلامك حسب متطلباتك الخاصة. اكتشف المزيد.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "قطع اراضي للبناء في أبوظبي: ابن بيت احلامك | الدار اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار اكتشف الدار الأعمال التطوير محفظة الأراضي شارك تعليقاتك 800ALDAR اتصل بشركة استكشف محفظتنا من الأراضي العنوان (A-Z) شاهد الخريطة الريمان 1 الشامخة أبوظبي بالقرب من مطار أبوظبي الدولي والطرق السريعة الرئيسية، يمثل الريمان 1 مشروعاً تطويرياً متعدد الاستخدامات، يوفر فرص شراء قطع أرض للبناء لأغراض السكن أو التجارية. 4500 متراً مربعاً خطط سداد مرنة الريمان II الشامخة أبوظبي بدأ مشروع تطوير جزيرة ياس عام 2006، لتغدو الوجهة الأروع للفخامة والترفيه والتسوّق. 6600 متراً مربعاً خطط سداد مرنة الغدير سيح السديرة أبوظبي يمتاز الغدير بموقع حيوي فريد في سيح السديرة، قرب الحدود بين إمارتي أبوظبي ودبي. 5000 متراً مربعاً خطط سداد مرنة الفلاح الفلاح أبوظبي الفلاح مجتمع يضم فيلات مخصصة لل",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/explore-aldar/businesses/development/land",
+            "capturedAt": "2026-07-13T04:57:06.970Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/properties/en",
+          "capturedAt": "2026-07-13T04:57:13.168Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Aldar - Residential Properties for Sale",
+          "description": "Find the best home for you",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "s Analyst Coverage Financial Calendar Company Announcements Contact Us CAREERS Graduate program EXPLORE ALDAR About Aldar Story Leadership Culture and Values Strategy Sponsorships Procurement Aldar Square E-Services Khidmah Aldar Brokers Aldar iOS App Aldar Android App Business - Development Residential Business - Investment Commercial Retail Education Hospitality Projects Corporate Governance Sustainability Sustainability Strategy Governance & Policies Reporting & Performance Net Zero Community",
+            "es you unlimited cashback every time you spend. Join A 360 view of your investment Designed exclusively for Aldar property owners, manage, transact and engage with Live Aldar. App Store Play Store FAQS ABU DHABI DARNA LOYALTY PROGRAM CONTACT US WHISTLEBLOWER SYSTEM EXPLORE ABU DHABI Market Overview Golden Visa Dari MEDIA News Gallery Blog INVESTORS RELATIONS Reports & Presentations Shareholder Center Debt Investors Analyst Coverage Financial Calendar Company Announcements Contact Us CAREERS Grad",
+            "Aldar - Residential Properties for Sale Previous Al Ghadeer Gardens Initial Phase Sold Out Find out more about the new release Learn more The Wilds Residences A Community Designed With Mother Nature Learn more London Square Explore Homes in London Yas Mall | 12 June – 17 July Learn more SODIC Explore Homes in Egypt Yas Mall | 12 June – 17 July Learn more Next 1 2 3 4 Find your Community Premium Launch Explore Mandarin Oriental Featured Communities The Wilds Residences Designed wit"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "Aldar - Residential Properties for Sale Previous Al Ghadeer Gardens Initial Phase Sold Out Find out more about the new release Learn more The Wilds Residences A Community Designed With Mother Nature Learn more London Square Explore Homes in London Yas Mall | 12 June – 17 July Learn more SODIC Explore Homes in Egypt Yas Mall | 12 June – 17 July Learn more Next 1 2 3 4 Find your Community Premium Launch Explore Mandarin Oriental Featured Communities The Wilds Residences Designed with mother nature Al Ghadeer Gardens Live where life grows. Bermondsey Feast on city living Ogami Island inspired living in Egypt Bermondsey Feast on city living Ogami Island inspired living in Egypt The Wilds Residences Designed with mother nature Al Ghadeer Gardens Live where life grows. Bermondsey Feast on city l",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/properties/en",
+            "capturedAt": "2026-07-13T04:57:13.168Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/renting-commercial",
+          "capturedAt": "2026-07-13T04:57:15.621Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "احصل على أرقى مكاتب للإيجار في أبوظبي بسهولة | الدار",
+          "description": "احصل على مكاتب للإيجار اليومي في أبوظبي بسهولة مع الدار. استعرض مجموعة من الخيارات المكتبية المتاحة في مواقع مميزة. اعثر على المساحة المثالية لنمو عملك.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "احصل على أرقى مكاتب للإيجار في أبوظبي بسهولة | الدار اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار تجاري إيجار في أبوظبي ابدأ بمشروعك التجاري وخذ أولى الخطوات نحو تحقيق أحلامك مع الدار. نوفر لك العديد من العقارات التجارية للإيجار ومنها المكاتب التجارية المتواجدة في مواقع استراتيجية في أبوظبي. شارك تعليقاتك 800ALDAR اتصل بشركة المكاتب العنوان (A-Z) شاهد الخريطة أبراج بني ياس بالقرب من بلدية أبوظبي أبوظبي تمتاز أبراج بني ياس بموقع حيوي يوفر سهولة الوصول إلى الوزارات والمؤسسات الحكومية، وتمزج الأبراج بين التصميم المعماري العصري والداخلي فائق الفخامة والمرونة. 26700 متراً مربعاً البرج العالمي شاطئ الراحة أبوظبي مع جائزة أفضل تصميم مستقبلي لعام 2008 من قبل مؤتمر Building Exchange، يوفر مقر شركة الدار مساحات مكتبية مرنة للشركات العالمية 39000 متراً مربعاً برج سكاي تاور ",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/renting-commercial",
+            "capturedAt": "2026-07-13T04:57:15.621Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/properties/en/retail",
+          "capturedAt": "2026-07-13T04:57:19.191Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Aldar - Retail Space",
+          "description": "For Lease",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "OEM/ODM",
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "s Analyst Coverage Financial Calendar Company Announcements Contact Us CAREERS Graduate program EXPLORE ALDAR About Aldar Story Leadership Culture and Values Strategy Sponsorships Procurement Aldar Square E-Services Khidmah Aldar Brokers Aldar iOS App Aldar Android App Business - Development Residential Business - Investment Commercial Retail Education Hospitality Projects Corporate Governance Sustainability Sustainability Strategy Governance & Policies Reporting & Performance Net Zero Community",
+            "operties Experience Aldar+ Aldar - Retail Space For Lease COMBINING MILLIONS OF CUSTOMERS WITH UNPARALLELED BUZZ AND GLOBAL REACH, ALDAR RETAIL HAS THE IDEAL LOCATION TO HOST YOUR STORE, NESTLED IN VIBRANT ISLANDS OF LEISURE AND EXCITEMENT. Discover the ideal retail space in the most sought-after places to rent in Abu Dhabi, tailored to elevate your business presence. 0 Retail units found for lease Loading... FAQS ABU DHABI DARNA LOYALTY PROGRAM CONTACT US WHISTLEBLOWER SYSTEM EXPLORE ABU DHABI",
+            "Aldar - Retail Space Destinations Communities Properties Experience Aldar+ Aldar - Retail Space For Lease COMBINING MILLIONS OF CUSTOMERS WITH UNPARALLELED BUZZ AND GLOBAL REACH, ALDAR RETAIL HAS THE IDEAL LOCATION TO HOST YOUR STORE, NESTLED IN VIBRANT ISLANDS OF LEISURE AND EXCITEMENT. Discover the ideal retail space in the most sought-after places to re"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "Aldar - Retail Space Destinations Communities Properties Experience Aldar+ Aldar - Retail Space For Lease COMBINING MILLIONS OF CUSTOMERS WITH UNPARALLELED BUZZ AND GLOBAL REACH, ALDAR RETAIL HAS THE IDEAL LOCATION TO HOST YOUR STORE, NESTLED IN VIBRANT ISLANDS OF LEISURE AND EXCITEMENT. Discover the ideal retail space in the most sought-after places to rent in Abu Dhabi, tailored to elevate your business presence. 0 Retail units found for lease Loading... FAQS ABU DHABI DARNA LOYALTY PROGRAM CONTACT US WHISTLEBLOWER SYSTEM EXPLORE ABU DHABI Market Overview Golden Visa Dari MEDIA News Gallery Blog INVESTORS RELATIONS Reports & Presentations Shareholder Center Debt Investors Analyst Coverage Financial Calendar Company Announcements Contact Us CAREERS Graduate program EXPLORE ALDAR About Ald",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/properties/en/retail",
+            "capturedAt": "2026-07-13T04:57:19.191Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/whistleblower-system",
+          "capturedAt": "2026-07-13T04:57:21.579Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "كيف تقدم بلاغاً عبر نظام الإبلاغ؟ | الدار",
+          "description": "تلتزم الدار بأعلى معايير النزاهة والشفافية في العمل. استخدم نظام الإبلاغ عن المخالفات لتقديم بلاغك بسرية تامة ومساعدتنا في الحفاظ على بيئة عمل أخلاقية.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "كيف تقدم بلاغاً عبر نظام الإبلاغ؟ | الدار اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار نظام الإبلاغ التزامنا تلتزم الدار التزاماً راسخاً بكافة القوانين واللوائح المعمول بها وتمتثل لأعلى القيم الأخلاقية. وتتضمن معاييرنا وسياساتنا المكتوبة مبادئ توجيهية عامة لممارسة الأعمال بما يتوافق مع أفضل ممارسات السلوك المهني. وتحرص الدار على توفير بيئة عمل تدعم التواصل المفتوح والصادق، بحيث تشعر براحة وثقة في التواصل مع إدارة التدقيق الداخلي بشأن أي استفسارات أو مخاوف تخص الجانب الأخلاقي. وفي بعض الحالات، قد تفضل استخدام الخط الساخن EthicsPoint، وهي خدمة يقدمها مزود من طرف ثالث، حيث يمكنك الإبلاغ عن انتهاكات معاييرنا وسياساتنا المكتوبة، وكذلك طلب توجيهات تتعلق بالامتثال أو المسائل الأخلاقية. سيتم إرسال المعلومات التي تُقدِّمها إلى EthicsPoint بصيغة تحمي سريتك، فنحن نأخذ جميع ",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/whistleblower-system",
+            "capturedAt": "2026-07-13T04:57:21.579Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/about-abu-dhabi/market-overview",
+          "capturedAt": "2026-07-13T04:57:23.983Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "شركات عقارية في أبوظبي: اكتشف مع الدار | الدار",
+          "description": "اكتشف أفضل شركات عقارية في أبوظبي مع الدار، حيث تجد حلولاً عقارية متميزة وخبرات واسعة لتحقيق تطلعاتك في سوق العقارات الديناميكية المتطورة بفعالية واحترافية.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "شركات عقارية في أبوظبي: اكتشف مع الدار | الدار اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار اكتشف أبوظبي نظرة عامة على السوق أبوظبي: تحتفظ بصدارتها كأكثر مدن العالم أماناً للعام الثامن على التوالي باعتبارها عاصمة دولة الإمارات العربية المتحدة، أبوظبي ليست مجرد أكثر مدينة آمنة في العالم فحسب، بل هي قلب نابض بالحياة يضم مجتمعاً متنوع الثقافات يتجاوز 3 ملايين نسمة. تتميز المدينة بكونها مركزاً عالمياً جاذباً للأعمال، حيث تزدهر فيها مختلف القطاعات الاقتصادية. كما تعتبر وجهة تعليمية رائدة، وغنية بالأنشطة الثقافية والوجهات الترفيهية المتنوعة. تمتد أبوظبي على مساحة شاسعة تشكل أكثر من 80% من مساحة الدولة، وتطل على ساحل الخليج العربي بطول 700 كيلومتر، مما يجعلها أكبر إمارات الدولة السبع. اكتشف منزل أحلامك ابدأ في الاستكشاف نبني مستقبلاً واعداً ابدأ في الاستكشاف مساحة عمل م",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/about-abu-dhabi/market-overview",
+            "capturedAt": "2026-07-13T04:57:23.983Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/en/about-abu-dhabi/golden-visa",
+          "capturedAt": "2026-07-13T04:57:26.583Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "UAE Golden Visa: Requirements &amp; Fastest Route | Aldar",
+          "description": "UAE Golden Visa offers long-term residency with benefits through Aldar. Learn the requirements, eligibility, and fastest route to securing your golden visa.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "OEM/ODM",
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "lyst Coverage Financial Calendar Company Announcements Contact Us Investor Rights Guide Careers Explore Aldar About Aldar Story Leadership Culture and Values Strategy Sponsorships Procurement Aldar Square E-Services Customer Portal Khidmah Asteco Aldar Brokers Aldar IOS App Aldar Android App Businesses - Development Residential Businesses - Investment Commercial Retail Education Hospitality Projects Corporate Governance Sustainability Sustainability Strategy Governance & Policies Reporting & Per",
+            "Investment Commercial Retail Education Hospitality Projects Corporate Governance Sustainability Sustainability Strategy Governance & Policies Reporting & Performance Net Zero Community Outreach Aldar Brand Live Aldar Aldar Dialogue Year of Sustainability Emirati Women&#x27;s Day Ahal Aldar Aldar Stories In Focus Driven by Details The Round Up Ramadan Campaigns The Cube National Day 54 years Art Innovation Tax Strategy Subscribe to Our Newsletter All News Events Follow us on Phone Contact Privac"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "UAE Golden Visa: Requirements & Fastest Route | Aldar Explore Abu Dhabi Explore Aldar Media Investor Relations Careers Buy Rent Explore Abu Dhabi Golden Visa Eligibility Criteria AED 2M + 2 Years 10 Years Inclusivity FAQs View all FAQs Our Latest Launches Residential Residential The Row Saadiyat Learn More Residential Residential Mandarin Oriental Residences Learn More Residential Residential The Wilds Learn More Residential Residential Mamsha Palm Learn More Loading form... Buy Residential Building Plots Rent Residential Commercial Logistics Centre Retail Abu Dhabi Darna Loyalty Program Contact Us WHISTLEBLOWER SYSTEM Explore Abu Dhabi Market Overview Golden Visa Dari Media News Gallery Blog Investors Relations Reports & Presentations Shareholder Center Debt Investors Analyst Coverage Fin",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/en/about-abu-dhabi/golden-visa",
+            "capturedAt": "2026-07-13T04:57:26.583Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/about-abu-dhabi/dari",
+          "capturedAt": "2026-07-13T04:57:29.964Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "تمتع بتجربة عقارية سلسة مع مكتب داري في الدار سكوير | الدار",
+          "description": "استكشف عالمًا جديدًا مع مكتب داري في الدار سكوير، حيث نتجاوز الحدود لنقدم لك تجربة لا مثيل لها، وفرصة للوصول إلى خدمات البلدية وتسجيل العقارات بكل سهولة.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "تمتع بتجربة عقارية سلسة مع مكتب داري في الدار سكوير | الدار اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار اكتشف أبوظبي داري مرحباً بكم في مكتب داري الجديد يقع مكتب داري الذي تم افتتاحه حديثًا في موقع مناسب داخل منطقة خدمة العملاء في الدار سكوير. هدفنا هو تبسيط الاستفادة من خدمات العقارات البلدية، وضمان تجربة سلسة وممتعة أثناء كل زيارة. للمعرفة المزيد عن خدماتنا، هيكل الرسوم، وحجز المواعيد، يرجى الضغط هنا . وفي حال وجود أي استفسارات، فريقنا على استعداد لتقديم المساعدة على مدار الساعة. تواصل معنا على الرقم المجاني 800 - ALDAR (25327) شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز الم",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/about-abu-dhabi/dari",
+            "capturedAt": "2026-07-13T04:57:29.964Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/news-and-media",
+          "capturedAt": "2026-07-13T04:57:32.868Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "آخر أخبار الدار وبياناتها الصحفية الرسمية | الدار",
+          "description": "تابع آخر أخبار وفعاليات مجموعة الدار. نضع بين يديك كافة التفاصيل حول مشاريعنا الجديدة ونتائجنا المالية ومبادراتنا المجتمعية الهامة في دولة الإمارات.",
+          "emails": [
+            "customermanagement@aldar.com"
+          ],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "آخر أخبار الدار وبياناتها الصحفية الرسمية | الدار اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار الأخبار الفئة النوع السنة الشهر عرض 0 من النتائج إزالة فلاتر البحث أخبار أخرى الأحدث لا يوجد عناصر “ الكل ” معرض عرض المزيد الدار نتائج الدار لعام 2022 13 February 2022 الدار نتائج الدار لعام 2023 30 December 2023 الدار هنا لبعضنا البعض 9 October 2021 الدار قصص الدار: مريم 21 September 2021 شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز المساهمين مستثمرو الديون تغطية المحللين التقويم المالي الأخبار وتقارير الإفصاح اتصل بنا دليل حقوق المستثمرين التوظيف اكتشف الدار عن الدار قصتنا الإدارة ا",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/news-and-media",
+            "capturedAt": "2026-07-13T04:57:32.868Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/media/gallery",
+          "capturedAt": "2026-07-13T04:57:36.098Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "معرض الصور",
+          "description": "تصفّح معرض الدار للاطلاع على أبرز القصص والفيديوهات التي تغطي آخر أخبار مجموعة الدار العقارية ومستجداتها، والتي تتناول الأخبار العامة والتعليم والاستدامة وغيرها.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "معرض الصور اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار الإعلام معرض الصور الدار نتائج الدار لعام 2023 30 December 2023 الدار نتائج الدار لعام 2022 13 February 2022 الدار هنا لبعضنا البعض 9 October 2021 الدار قصص الدار: مريم 21 September 2021 الدار قصص الدار: ساسي 8 June 2021 الدار قصص الدار: فايشيكا 30 May 2021 الدار قصص الدار: نوران البناي 8 March 2021 الدار قصص الدار: الدانة 6 April 2021 الدار اكتشف مكانك في أبوظبي 28 February 2021 التعليم مجموعة مؤسساتنا التعليمية 31 January 2021 أخبار عامة نتائج الدار لسنة 2020 8 March 2021 الضيافة وجهات تأسر الخيال 14 February 2021 التجزئة مجمعات تجارية تجمعنا 1 January 2021 الاستدامة اطلع على إنجازاتنا على مستوى الاستدامة 8 March 2021 الدار الدار عامرة بأهلها 8 March 2021 عائلتنا عائلتنا 8 March 2021 شراء سكني أراضي البناء",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/media/gallery",
+            "capturedAt": "2026-07-13T04:57:36.098Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/blog",
+          "capturedAt": "2026-07-13T04:57:38.813Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "مدونة عقار: نصائح وأفكار عن العقارات | الدار",
+          "description": "مدونة عقار تقدم مقالات متخصصة عن سوق العقارات وأهم النصائح للشراء والاستثمار، مع تغطية شاملة للاتجاهات العقارية والتطورات الحديثة في جميع أنحاء الإمارات.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "مدونة عقار: نصائح وأفكار عن العقارات | الدار اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار المدونة الفئة النوع السنة الشهر عرض 0 من النتائج إزالة فلاتر البحث إكتشف المزيد الأحدث لا يوجد عناصر “ الكل ” شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز المساهمين مستثمرو الديون تغطية المحللين التقويم المالي الأخبار وتقارير الإفصاح اتصل بنا دليل حقوق المستثمرين التوظيف اكتشف الدار عن الدار قصتنا الإدارة العليا قيم وبيئة العمل الاستراتيجية الرعاية المشتريات والتوريد الدار سكوير الخدمات الإلكترونية بوابة العملاء خدمة استيكو وسطاء الدار تطبيق الدار على نظام آي أو إس تطبيق الدار على نظام الأن",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/blog",
+            "capturedAt": "2026-07-13T04:57:38.813Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/investors",
+          "capturedAt": "2026-07-13T04:57:42.761Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Terms of Use | Investor Relations | Aldar",
+          "description": "Please read and accept the terms of use before accessing the Investor Relations section",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "Terms of Use | Investor Relations | Aldar اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار علاقات المستثمرين شروط الاستخدام Loading... شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز المساهمين مستثمرو الديون تغطية المحللين التقويم المالي الأخبار وتقارير الإفصاح اتصل بنا دليل حقوق المستثمرين التوظيف اكتشف الدار عن الدار قصتنا الإدارة العليا قيم وبيئة العمل الاستراتيجية الرعاية المشتريات والتوريد الدار سكوير الخدمات الإلكترونية بوابة العملاء خدمة استيكو وسطاء الدار تطبيق الدار على نظام آي أو إس تطبيق الدار على نظام الأندرويد الأعمال - التطوير سكني الأعمال - الاستثمار تجاري قطاع التجزئة ا",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/investors",
+            "capturedAt": "2026-07-13T04:57:42.761Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/investors/reports",
+          "capturedAt": "2026-07-13T04:57:45.614Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Terms of Use | Investor Relations | Aldar",
+          "description": "Please read and accept the terms of use before accessing the Investor Relations section",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "Terms of Use | Investor Relations | Aldar اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار علاقات المستثمرين شروط الاستخدام Loading... شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز المساهمين مستثمرو الديون تغطية المحللين التقويم المالي الأخبار وتقارير الإفصاح اتصل بنا دليل حقوق المستثمرين التوظيف اكتشف الدار عن الدار قصتنا الإدارة العليا قيم وبيئة العمل الاستراتيجية الرعاية المشتريات والتوريد الدار سكوير الخدمات الإلكترونية بوابة العملاء خدمة استيكو وسطاء الدار تطبيق الدار على نظام آي أو إس تطبيق الدار على نظام الأندرويد الأعمال - التطوير سكني الأعمال - الاستثمار تجاري قطاع التجزئة ا",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/investors/reports",
+            "capturedAt": "2026-07-13T04:57:45.614Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/investors/shareholders",
+          "capturedAt": "2026-07-13T04:57:48.784Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Terms of Use | Investor Relations | Aldar",
+          "description": "Please read and accept the terms of use before accessing the Investor Relations section",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "Terms of Use | Investor Relations | Aldar اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار علاقات المستثمرين شروط الاستخدام Loading... شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز المساهمين مستثمرو الديون تغطية المحللين التقويم المالي الأخبار وتقارير الإفصاح اتصل بنا دليل حقوق المستثمرين التوظيف اكتشف الدار عن الدار قصتنا الإدارة العليا قيم وبيئة العمل الاستراتيجية الرعاية المشتريات والتوريد الدار سكوير الخدمات الإلكترونية بوابة العملاء خدمة استيكو وسطاء الدار تطبيق الدار على نظام آي أو إس تطبيق الدار على نظام الأندرويد الأعمال - التطوير سكني الأعمال - الاستثمار تجاري قطاع التجزئة ا",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/investors/shareholders",
+            "capturedAt": "2026-07-13T04:57:48.784Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/investors/debt",
+          "capturedAt": "2026-07-13T04:57:52.088Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Terms of Use | Investor Relations | Aldar",
+          "description": "Please read and accept the terms of use before accessing the Investor Relations section",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "Terms of Use | Investor Relations | Aldar اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار علاقات المستثمرين شروط الاستخدام Loading... شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز المساهمين مستثمرو الديون تغطية المحللين التقويم المالي الأخبار وتقارير الإفصاح اتصل بنا دليل حقوق المستثمرين التوظيف اكتشف الدار عن الدار قصتنا الإدارة العليا قيم وبيئة العمل الاستراتيجية الرعاية المشتريات والتوريد الدار سكوير الخدمات الإلكترونية بوابة العملاء خدمة استيكو وسطاء الدار تطبيق الدار على نظام آي أو إس تطبيق الدار على نظام الأندرويد الأعمال - التطوير سكني الأعمال - الاستثمار تجاري قطاع التجزئة ا",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/investors/debt",
+            "capturedAt": "2026-07-13T04:57:52.088Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/investors/coverage",
+          "capturedAt": "2026-07-13T04:57:55.350Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Terms of Use | Investor Relations | Aldar",
+          "description": "Please read and accept the terms of use before accessing the Investor Relations section",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "Terms of Use | Investor Relations | Aldar اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار علاقات المستثمرين شروط الاستخدام Loading... شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز المساهمين مستثمرو الديون تغطية المحللين التقويم المالي الأخبار وتقارير الإفصاح اتصل بنا دليل حقوق المستثمرين التوظيف اكتشف الدار عن الدار قصتنا الإدارة العليا قيم وبيئة العمل الاستراتيجية الرعاية المشتريات والتوريد الدار سكوير الخدمات الإلكترونية بوابة العملاء خدمة استيكو وسطاء الدار تطبيق الدار على نظام آي أو إس تطبيق الدار على نظام الأندرويد الأعمال - التطوير سكني الأعمال - الاستثمار تجاري قطاع التجزئة ا",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/investors/coverage",
+            "capturedAt": "2026-07-13T04:57:55.350Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/investors/financial-calendar",
+          "capturedAt": "2026-07-13T04:57:58.177Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Terms of Use | Investor Relations | Aldar",
+          "description": "Please read and accept the terms of use before accessing the Investor Relations section",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "Terms of Use | Investor Relations | Aldar اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار علاقات المستثمرين شروط الاستخدام Loading... شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز المساهمين مستثمرو الديون تغطية المحللين التقويم المالي الأخبار وتقارير الإفصاح اتصل بنا دليل حقوق المستثمرين التوظيف اكتشف الدار عن الدار قصتنا الإدارة العليا قيم وبيئة العمل الاستراتيجية الرعاية المشتريات والتوريد الدار سكوير الخدمات الإلكترونية بوابة العملاء خدمة استيكو وسطاء الدار تطبيق الدار على نظام آي أو إس تطبيق الدار على نظام الأندرويد الأعمال - التطوير سكني الأعمال - الاستثمار تجاري قطاع التجزئة ا",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/investors/financial-calendar",
+            "capturedAt": "2026-07-13T04:57:58.177Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/investors/company-announcements",
+          "capturedAt": "2026-07-13T04:58:02.398Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Terms of Use | Investor Relations | Aldar",
+          "description": "Please read and accept the terms of use before accessing the Investor Relations section",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "Terms of Use | Investor Relations | Aldar اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار علاقات المستثمرين شروط الاستخدام Loading... شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز المساهمين مستثمرو الديون تغطية المحللين التقويم المالي الأخبار وتقارير الإفصاح اتصل بنا دليل حقوق المستثمرين التوظيف اكتشف الدار عن الدار قصتنا الإدارة العليا قيم وبيئة العمل الاستراتيجية الرعاية المشتريات والتوريد الدار سكوير الخدمات الإلكترونية بوابة العملاء خدمة استيكو وسطاء الدار تطبيق الدار على نظام آي أو إس تطبيق الدار على نظام الأندرويد الأعمال - التطوير سكني الأعمال - الاستثمار تجاري قطاع التجزئة ا",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/investors/company-announcements",
+            "capturedAt": "2026-07-13T04:58:02.398Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/investors/contact-us",
+          "capturedAt": "2026-07-13T04:58:07.513Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Terms of Use | Investor Relations | Aldar",
+          "description": "Please read and accept the terms of use before accessing the Investor Relations section",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "Terms of Use | Investor Relations | Aldar اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار علاقات المستثمرين شروط الاستخدام Loading... شراء سكني أراضي البناء إيجار سكني تجاري تجزئة أبو ظبي برنامج الولاء - دارنا اتصل بنا سياسة الإبلاغ عن المخالفات اكتشف أبوظبي نظرة عامة على السوق الاقامة الذهبية داري الإعلام الأخبار معرض الصور المدونة علاقات المستثمرين التقارير مركز المساهمين مستثمرو الديون تغطية المحللين التقويم المالي الأخبار وتقارير الإفصاح اتصل بنا دليل حقوق المستثمرين التوظيف اكتشف الدار عن الدار قصتنا الإدارة العليا قيم وبيئة العمل الاستراتيجية الرعاية المشتريات والتوريد الدار سكوير الخدمات الإلكترونية بوابة العملاء خدمة استيكو وسطاء الدار تطبيق الدار على نظام آي أو إس تطبيق الدار على نظام الأندرويد الأعمال - التطوير سكني الأعمال - الاستثمار تجاري قطاع التجزئة ا",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/investors/contact-us",
+            "capturedAt": "2026-07-13T04:58:07.513Z"
+          }
+        },
+        {
+          "url": "https://www.aldar.com/ar/explore-aldar/about-aldar/story",
+          "capturedAt": "2026-07-13T04:58:10.117Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "قصة الدار: اكتشف تاريخنا ورحلتنا بالتطوير العقاري | الدار",
+          "description": "تعرف على قصة شركة الدار، الرائدة في تطوير وإدارة العقارات في الإمارات، واستراتيجيتها المستدامة ومحفظتها الواسعة من المشاريع التي تشمل مناطق متنوعة. اكتشف المزيد.",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [],
+          "evidenceType": "company_website",
+          "supplierMentions": [],
+          "buyerScaleSignals": [],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "not_found",
+          "textSample": "قصة الدار: اكتشف تاريخنا ورحلتنا بالتطوير العقاري | الدار اكتشف أبوظبي اكتشف الدار الإعلام علاقات المستثمرين التوظيف شراء للإيجار اكتشف الدار عن الدار قصتنا نبذة عنا تُعتبر شركة الدار رائدةً في مجال تطوير وإدارة العقارات في دولة الإمارات، حيث إنها تعتمد نموذج تشغيل متنوع ومستدام تدعمه شركتان أساسيتان، وهما \"الدار للتطوير\" و\"الدار للاستثمار\". تواصل شركة \"الدار للتطوير\" دورها الريادي في تطوير مجتمعات متكاملة تُثري حياة السكّان عبر أكثر الوجهات المرغوبة في إمارة أبوظبي، بما في ذلك جزيرة ياس وجزيرة السعديات وشاطئ الراحة وجزيرة الريم. كما أنها تمتلك محفظة أراضي بمساحة 65 مليون متر مربع، وتشمل ثلاث وحدات أعمال، وهي: الدار للمشاريع، وستكون مسؤولة عن إدارة وحدة أعمال إدارة المشروعات القائمة على الرسوم، بما في ذلك محفظة بقيمة 45 مليار درهم من مشروعات إسكان المواطنين والبنية التحتية الرئيسية؛ و\"الدا",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.aldar.com/ar/explore-aldar/about-aldar/story",
+            "capturedAt": "2026-07-13T04:58:10.117Z"
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "source-events",
+      "sourceName": "Event and association directories",
+      "type": "event_directory",
+      "startedAt": "2026-07-13T04:58:10.117Z",
+      "pageCount": 0,
+      "pages": []
+    },
+    {
+      "sourceId": "source-projects",
+      "sourceName": "Public construction projects",
+      "type": "public_project",
+      "startedAt": "2026-07-13T04:58:16.695Z",
+      "pageCount": 1,
+      "pages": [
+        {
+          "url": "https://etendering.tenderboard.gov.bh/Tenders/publicDash",
+          "capturedAt": "2026-07-13T04:58:16.695Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "Welcome To Bahrain Tender Board",
+          "description": "",
+          "emails": [
+            "helpdesk@tenderboard.gov.bh",
+            "info@tenderboard.gov.bh"
+          ],
+          "phones": [
+            "+973 1756 6666",
+            "+973 1758 7855"
+          ],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "门锁/建筑五金",
+            "采购/项目"
+          ],
+          "evidenceType": "public_project",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "254/2026/BTB (CPD-26/0003) (Secondary Girls School At Ma.....) Bahrain Tender Board 20 Days -5 Hours 43/2026/CSD (IN/CSD/MA/2026/..... (Supply of End Sealing and Jo.....) Central Stores Directorate -..... 21 Days -7 Hours CLICK HERE TO VIEW MORE TENDERS Please feel free to contact us --> Please Feel Free to Contact Us Bahrain Tender Board Bahrain Bay, Arcapita, Second Floor P.O. Box 18686 Manama, Kingdom of Bahrain Phone +973 1756 6666 Fax +973 1758 7855 Email Us info@tenderboard.gov.bh Helplin",
+            "ast Blacklist Supplier 10911 On 23-11-2022 12:56:12 PM --> Total Registered Suppliers: 14539 Total Tender Published ( 9530 ) Current Year Total Published Tenders MOH --> 566 Total Purchased of Documents ( 62738 ) Current Year Total Published Document MOE --> 4653 Total Bids Received ( 27209 ) Current Year Total Bids Received GTB --> 2192 Total ECV ( 8,183,668,804.140 ) Current Year Estimated Contract Value MOH --> 422,681,894.149 Total Tender Published: 9530 No. of Trees Saved :1490 CO2Emission"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "Welcome To Bahrain Tender Board --> --> --> Welcome To Bahrain eTendering System | Ministry User Training going On | Supplier User Training going On | For Any Support, Kindly Contact at +973 1756 6666 Or Send Email at helpdesk@tenderboard.gov.bh --> Toggle navigation --> (BST) | Font Size: - + Supplier Registration Log-In Connect with BTB Tenders --> e-Tendering Systems Tenders Registered Supplier Tender Statistics Pre Qualification Green Initiative Published ( 53 ) Last Tender Published By CSD On 12-07-2026 08:27:59 AM To Be Opened ( 1366 ) Next Tender To Be Opened By MOIA On 09-07-2026 08:00:00 AM Opened ( 3252 ) Last Tender Opened By BTB On 09-07-2026 03:59:41 PM Cancelled ( 969 ) Last Tender Cancelled By UOB On 12-07-2026 02:02:05 PM Total Tender: 6262 e-Tendering --> Total Registered ",
+          "evidence": {
+            "field": "page",
+            "url": "https://etendering.tenderboard.gov.bh/Tenders/publicDash",
+            "capturedAt": "2026-07-13T04:58:16.695Z"
+          }
+        }
+      ]
+    },
+    {
+      "sourceId": "source-official-news",
+      "sourceName": "Official company news and public announcements",
+      "type": "official_news",
+      "startedAt": "2026-07-13T04:58:23.115Z",
+      "pageCount": 2,
+      "pages": [
+        {
+          "url": "https://www.roshn.sa/partnerships",
+          "capturedAt": "2026-07-13T04:58:20.580Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Partnerships",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "official_news",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "To achieve this, the Group seeks collaboration with both local and global suppliers to deliver pioneering products that enhance the quality of life within its destinations and communities, aligning with its high standards. Check Here I acknowledge that I have read, understand and I agree to the terms and conditions SIGN IN Click Here PARTNER WITH US Click Here Check Here Vendor&#x27;s user manual Check Here Non-Disclosure Agreement (to be signed & submitted) Check Here Code of Ethics (to be sign"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Partnerships Home Click Here / Partnerships Partnerships Economic growth across different regions of the Kingdom As the leading national multi-asset class real estate developer, ROSHN Group is dedicated to creating transformative spaces and mixed-use destinations that reflect Saudi Arabia&#x27;s dynamic vision for the future. We actively collaborate with the private sector, building long-term partnerships that drive progress and development across the Kingdom. As a key contributor to Saudi Arabia’s dynamic and evolving economy, the private sector is essential to our mission, and we are committed to supporting its growth and accelerating mutual success. Partner With ROSHN Group If you share our vision for connecting people and places with the rhythms of life, while delivering on the",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/partnerships",
+            "capturedAt": "2026-07-13T04:58:20.580Z"
+          }
+        },
+        {
+          "url": "https://www.roshn.sa/press-releases",
+          "capturedAt": "2026-07-13T04:58:23.114Z",
+          "status": "ok",
+          "statusCode": 200,
+          "title": "ROSHN | Press Releases",
+          "description": "",
+          "emails": [],
+          "phones": [],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "招聘信号"
+          ],
+          "evidenceType": "official_news",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "ROSHN | Press Releases Home Click Here / News & Events Click Here / Press Releases Press Releases Featured News Click Here Loading Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "ROSHN | Press Releases Home Click Here / News & Events Click Here / Press Releases Press Releases Featured News Click Here Loading Scroll To Top Click Here We Are ROSHN Communities By ROSHN Group Programs News Click Here ROSHN Care Click Here العربية REGISTER INTEREST Click Here We Are ROSHN ROSHN Group is Saudi Arabia&#x27;s leading multi-asset class real estate developer and a Public Investment Fund (PIF) company, serving as a key enabler of Saudi Vision 2030. ROSHN is transforming the urban landscape with human-centric, integrated developments that elevate connectivity and enhance the quality of life across the Kingdom Learn More Leadership Click Here The Brand Story Click Here Saudi Vision 2030 Click Here Our Awards Click Here Corporate Social Responsibility Click Here Sponsorships Cli",
+          "evidence": {
+            "field": "page",
+            "url": "https://www.roshn.sa/press-releases",
+            "capturedAt": "2026-07-13T04:58:23.114Z"
+          }
+        }
+      ]
+    }
+  ]
+}

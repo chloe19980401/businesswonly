@@ -2,7 +2,7 @@
   "phase": 1,
   "goal": 200,
   "market": "Middle East and Central Asia",
-  "generatedAt": "2026-07-13",
+  "generatedAt": "2026-07-14",
   "rules": {
     "evidenceRequired": true,
     "publicBusinessContactsOnly": true,
@@ -180,6 +180,56 @@
       "priority": "S1",
       "crawlMode": "public",
       "status": "official_source_verified"
+    },
+    {
+      "name": "UAE Digital Procurement Platform",
+      "country": "AE",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://mof.gov.ae/en/public-finance/government-procurement/digital-procurement-platform/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-07-14"
+    },
+    {
+      "name": "Kuwait Central Agency for Public Tenders",
+      "country": "KW",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://capt.gov.kw/en/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-07-14"
+    },
+    {
+      "name": "Qatar Monaqasat",
+      "country": "QA",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://monaqasat.mof.gov.qa/TendersOnlineServices",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-07-14"
+    },
+    {
+      "name": "Azerbaijan eTender",
+      "country": "AZ",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://etender.gov.az/",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-07-14"
+    },
+    {
+      "name": "Georgia State Procurement Agency",
+      "country": "GE",
+      "type": "government_procurement_directory",
+      "officialUrl": "https://procurement.gov.ge/en/",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-07-14"
     }
   ]
 }
