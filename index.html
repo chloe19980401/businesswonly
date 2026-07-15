@@ -152,6 +152,22 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
 .grade-A { color: var(--green); background: var(--green-soft); }
 .grade-B { color: var(--amber); background: var(--amber-soft); }
 .grade-C { color: var(--muted); background: #eef1f5; }
+.fit-badge { display:inline-block; font-size:11px; font-weight:800; letter-spacing:-1px; padding:3px 7px; border-radius:8px; white-space:nowrap; }
+.fit-5 { color:#157347; background:#c6efce; }
+.fit-4 { color:#9c6500; background:#ffeb9c; }
+.fit-3 { color:#595959; background:#f0f2f5; }
+.fit-2, .fit-1 { color:#8a94a6; background:#f5f6f8; }
+.fit-0 { color:#b8c0cc; background:#f7f8fa; letter-spacing:0; }
+.lead-row { cursor:pointer; }
+.lead-row:hover { background:#f6f9ff; }
+.lead-open { background:#eef3fc; }
+.dd-caret { font-size:9px; color:#8a94a6; transition:transform .15s; display:inline-block; }
+.lead-open .dd-caret { transform:rotate(90deg); color:#1f3a5f; }
+.dd-panel { background:#f8fafd; border-left:3px solid #1f3a5f; border-radius:6px; padding:12px 16px; margin:2px 0 6px; display:grid; grid-template-columns:1fr 1fr; gap:6px 26px; }
+.dd-field { display:flex; flex-direction:column; gap:1px; }
+.dd-label { font-size:9px; font-weight:800; color:#1f3a5f; text-transform:uppercase; letter-spacing:.4px; }
+.dd-val { font-size:11.5px; color:#3a4455; line-height:1.5; }
+@media (max-width:760px){ .dd-panel { grid-template-columns:1fr; } }
 .empty-state { padding: 60px; display: grid; place-items: center; gap: 8px; color: var(--muted); }
 .empty-state strong { color: var(--ink); }
 
@@ -541,11 +557,11 @@ window.__ACQUIRE_DATA__.customers = [];
       '<section class="chart-card" style="margin-top:12px"><h3>合规底线</h3><div class="compliance-note"><strong>统一原则</strong><span>只使用公开页面与授权数据；不绕过登录、验证码或访问控制；不猜测个人邮箱或电话；每条线索保留来源 URL 与抓取时间，人工核验后再进 CRM。</span></div></section>';
   };
   const renderLeads = () => {
-    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 客户线索库</div><h1>真实客户线索库</h1><p>中东 + 中亚 12 国公开检索的门锁 / 门五金潜在买家与渠道，每条带来源，邮箱可发信、电话可拨号。</p></div><div class="top-actions"><span class="demo-badge" id="leads-stamp">读取中…</span></div></header>'+
-      '<section class="metrics"><article><span>客户线索</span><strong id="leads-total">0</strong><small>公开企业名录 / 官网核验</small></article><article><span>含公开邮箱</span><strong id="leads-emails">0</strong><small>点击直接发信</small></article><article><span>含公开电话</span><strong id="leads-phones">0</strong><small>点击直接拨号</small></article><article><span>覆盖国家</span><strong id="leads-countries">0</strong><small>中东 6 · 中亚/高加索 6</small></article></section>'+
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 客户线索库</div><h1>真实客户线索库 · 含背调</h1><p>中东 + 中亚 + 非洲 21 国公开检索的门锁 / 门五金潜在买家与渠道，每条含背景调查、契合度评分与来源。点击任意公司行可展开背调详情（现有代理品牌、进口信号、决策人、切入角度、风险）。</p></div><div class="top-actions"><span class="demo-badge" id="leads-stamp">读取中…</span></div></header>'+
+      '<section class="metrics"><article><span>客户线索</span><strong id="leads-total">0</strong><small>公开企业名录 / 官网核验</small></article><article><span>重点客户 5★</span><strong id="leads-fit5">0</strong><small>门锁五金进口经销 / 酒店锁集成</small></article><article><span>次重点 4★</span><strong id="leads-fit4">0</strong><small>经营门锁的零售 / 门禁集成</small></article><article><span>覆盖国家</span><strong id="leads-countries">0</strong><small>中东 6 · 中亚 6 · 非洲 9</small></article></section>'+
       '<section class="chart-card" style="margin-bottom:12px"><h3>各国线索分布</h3><p>按已收录真实公司数量排序</p><div class="bar-list" id="leads-country-bars"></div></section>'+
-      '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="leads-query" aria-label="搜索线索" placeholder="搜索公司、城市、产品或类别"></label><select id="leads-region" aria-label="大区"><option value="">全部大区</option></select>'+countryFilter('leads-country')+'<select id="leads-cat" aria-label="客户类别"><option value="">全部类别</option></select><select id="leads-contact" aria-label="联系方式"><option value="">全部</option><option value="email">有邮箱</option><option value="phone">有电话</option></select><div class="result-count" id="leads-result-count">正在读取…</div></div>'+
-      '<div class="table-wrap"><table><thead><tr><th>公司</th><th>国家 / 地区</th><th>类别</th><th>主营 / 产品</th><th>公开邮箱</th><th>公开电话</th><th>来源</th></tr></thead><tbody id="leads-rows"></tbody></table><div class="empty-state static-hidden" id="leads-empty"><strong>没有匹配的线索</strong><span>请调整国家、类别或搜索词。</span></div></div></section>';
+      '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="leads-query" aria-label="搜索线索" placeholder="搜索公司、城市、产品、类别或代理品牌"></label><select id="leads-fit" aria-label="契合度"><option value="">全部契合度</option><option value="45">重点（4-5★）</option><option value="5">5★ 主攻</option><option value="4">4★</option><option value="3">3★</option></select><select id="leads-region" aria-label="大区"><option value="">全部大区</option></select>'+countryFilter('leads-country')+'<select id="leads-cat" aria-label="客户类别"><option value="">全部类别</option></select><select id="leads-contact" aria-label="联系方式"><option value="">全部</option><option value="email">有邮箱</option><option value="phone">有电话</option></select><div class="result-count" id="leads-result-count">正在读取…</div></div>'+
+      '<div class="table-wrap"><table><thead><tr><th>契合度</th><th>公司</th><th>国家 / 地区</th><th>类别</th><th>主营 / 产品</th><th>公开邮箱</th><th>公开电话</th><th>来源</th></tr></thead><tbody id="leads-rows"></tbody></table><div class="empty-state static-hidden" id="leads-empty"><strong>没有匹配的线索</strong><span>请调整契合度、国家、类别或搜索词。</span></div></div></section>';
     fetch('./crawler/leads.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject(new Error('no_leads'))).then(data=>{
       const all=Array.isArray(data.leads)?data.leads:[];
       const stats=Array.isArray(data.countryStats)?data.countryStats:[];
@@ -557,25 +573,34 @@ window.__ACQUIRE_DATA__.customers = [];
       const badge=c=>c==='high'?'<span class="grade grade-A">高</span>':'<span class="grade grade-B">中</span>';
       const maxC=Math.max(1,...stats.map(s=>s.count));
       document.getElementById('leads-country-bars').innerHTML=stats.map(s=>'<div class="bar-row"><span class="bar-label">'+escContact(window.countryLabel(s.code))+'</span><div class="bar-track"><div class="bar-fill" style="width:'+(s.count/maxC*100).toFixed(0)+'%"></div></div><span class="bar-value">'+s.count+'</span></div>').join('');
-      const draw=list=>{rows.innerHTML=list.map(l=>'<tr>'+
-        '<td><div class="account-main"><span class="company-logo">'+escContact(l.country)+'</span><div><strong>'+escContact(l.company)+'</strong><small>'+escContact(l.city||'')+(l.website?' · <a href="'+escContact(l.website)+'" target="_blank" rel="noopener noreferrer">官网 ↗</a>':'')+'</small><div class="tag-line">'+badge(l.confidence)+'</div></div></div></td>'+
+      const fitBadge=fs=>{fs=Number(fs)||0; if(!fs) return '<span class="fit-badge fit-0" title="未评级">—</span>'; const stars='★'.repeat(fs); return '<span class="fit-badge fit-'+fs+'" title="契合度 '+fs+'/5">'+stars+'</span>';};
+      const ddRow=(label,val,icon)=>val?'<div class="dd-field"><span class="dd-label">'+(icon||'')+escContact(label)+'</span><span class="dd-val">'+escContact(val)+'</span></div>':'';
+      const ddDetail=l=>{const body=ddRow('现有代理品牌 / 竞品',l.brandsCarried)+ddRow('规模',l.scale)+ddRow('项目 / 客户',l.projects)+ddRow('进口信号',l.importSignal)+ddRow('决策人',l.decisionContact)+ddRow('机会切入角度',l.angle,'▶ ')+ddRow('风险',l.risk,'⚠ ')+ddRow('契合理由',l.fitReason); return body||'<div class="dd-field"><span class="dd-val" style="color:#8a94a6">该线索暂无背调分析（未纳入本轮背调或名称待核）。</span></div>';};
+      const draw=list=>{rows.innerHTML=list.map((l,idx)=>'<tr class="lead-row" data-idx="'+idx+'">'+
+        '<td>'+fitBadge(l.fitScore)+'</td>'+
+        '<td><div class="account-main"><span class="company-logo">'+escContact(l.country)+'</span><div><strong>'+escContact(l.company)+' <span class="dd-caret">▸</span></strong><small>'+escContact(l.city||'')+(l.website?' · <a href="'+escContact(l.website)+'" target="_blank" rel="noopener noreferrer">官网 ↗</a>':'')+'</small><div class="tag-line">'+badge(l.confidence)+(l.brandsCarried?' <span class="channel-pill" style="background:#eef2fb;color:#1f3a5f">代理:'+escContact(String(l.brandsCarried).slice(0,42))+(String(l.brandsCarried).length>42?'…':'')+'</span>':'')+'</div></div></div></td>'+
         '<td><strong>'+escContact(window.countryLabel(l.country))+'</strong><small>'+escContact(l.region)+'</small></td>'+
         '<td><span class="channel-pill">'+escContact(l.categoryName)+'</span></td>'+
         '<td><small>'+escContact(l.productFocus||'')+'</small></td>'+
         '<td>'+(l.email?'<a href="mailto:'+escContact(l.email)+'"><strong>'+escContact(l.email)+'</strong></a>':'<small>待核验</small>')+'</td>'+
         '<td>'+(l.phone?'<a href="tel:'+escContact(String(l.phone).replace(/[^+\\d]/g,''))+'"><strong>'+escContact(l.phone)+'</strong></a>':'<small>待核验</small>')+'</td>'+
         '<td>'+(l.contactSource||l.sourceUrl?'<a href="'+escContact(l.contactSource||l.sourceUrl)+'" target="_blank" rel="noopener noreferrer">查看来源 ↗</a>':'<small>—</small>')+'</td>'+
-      '</tr>').join(''); count.innerHTML='<strong>'+list.length+'</strong> / '+all.length+' 条线索'; empty.classList.toggle('static-hidden',list.length>0);};
+      '</tr>'+
+      '<tr class="lead-detail static-hidden" data-detail="'+idx+'"><td colspan="8"><div class="dd-panel">'+ddDetail(l)+'</div></td></tr>').join(''); count.innerHTML='<strong>'+list.length+'</strong> / '+all.length+' 条线索'; empty.classList.toggle('static-hidden',list.length>0);};
+      rows.addEventListener('click',e=>{if(e.target.closest('a'))return; const tr=e.target.closest('.lead-row'); if(!tr)return; const det=tr.nextElementSibling; if(det&&det.classList.contains('lead-detail')){det.classList.toggle('static-hidden'); tr.classList.toggle('lead-open');}});
+      all.sort((a,b)=>(Number(b.fitScore)||0)-(Number(a.fitScore)||0)||a.country.localeCompare(b.country));
       let getCountries=()=>new Set();
-      const applyFilters=()=>{const q=document.getElementById('leads-query').value.trim().toLowerCase(); const cs=getCountries(); const cat=catSel.value; const cf=document.getElementById('leads-contact').value; const reg=regSel.value;
-        draw(all.filter(l=>(!cs.size||cs.has(l.country))&&(!reg||l.region===reg)&&(!cat||l.category===cat)&&(cf!=='email'||l.email)&&(cf!=='phone'||l.phone)&&(!q||[l.company,l.city,l.productFocus,l.categoryName,l.countryName].join(' ').toLowerCase().includes(q))));};
+      const fitSel=document.getElementById('leads-fit');
+      const applyFilters=()=>{const q=document.getElementById('leads-query').value.trim().toLowerCase(); const cs=getCountries(); const cat=catSel.value; const cf=document.getElementById('leads-contact').value; const reg=regSel.value; const ff=fitSel.value;
+        draw(all.filter(l=>{const fs=Number(l.fitScore)||0; const fitOk=!ff||(ff==='45'?fs>=4:fs===Number(ff)); return fitOk&&(!cs.size||cs.has(l.country))&&(!reg||l.region===reg)&&(!cat||l.category===cat)&&(cf!=='email'||l.email)&&(cf!=='phone'||l.phone)&&(!q||[l.company,l.city,l.productFocus,l.categoryName,l.countryName,l.brandsCarried,l.angle].join(' ').toLowerCase().includes(q));}));};
       getCountries=bindCountryFilter('leads-country',applyFilters);
       document.getElementById('leads-query').addEventListener('input',applyFilters);
+      fitSel.addEventListener('change',applyFilters);
       catSel.addEventListener('change',applyFilters);
       regSel.addEventListener('change',applyFilters);
       document.getElementById('leads-contact').addEventListener('change',applyFilters);
       applyFilters();
-      const s=data.summary||{}; document.getElementById('leads-total').textContent=s.total??all.length; document.getElementById('leads-emails').textContent=s.emails??0; document.getElementById('leads-phones').textContent=s.phones??0; document.getElementById('leads-countries').textContent=s.countries??stats.length;
+      const s=data.summary||{}; const dd=s.dueDiligence||{}; document.getElementById('leads-total').textContent=s.total??all.length; document.getElementById('leads-fit5').textContent=dd.fit5??all.filter(l=>Number(l.fitScore)===5).length; document.getElementById('leads-fit4').textContent=dd.fit4??all.filter(l=>Number(l.fitScore)===4).length; document.getElementById('leads-countries').textContent=s.countries??stats.length;
       document.getElementById('leads-stamp').textContent='更新 '+String(data.generatedAt||'');
     }).catch(()=>{
       document.getElementById('leads-stamp').textContent='尚未生成';
