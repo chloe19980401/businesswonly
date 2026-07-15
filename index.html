@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Acquire OS｜全球B2B获客系统</title>
+<title>Wonly Acquire OS｜全球B2B获客系统</title>
 <meta name="description" content="门锁出海工厂全渠道客户情报系统演示版">
 <style>
 
@@ -255,17 +255,67 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
 }
 
 .static-hidden{display:none!important}.static-channel-tabs{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:5px}.detail-drawer{padding-bottom:20px}
+.leads-table td, .leads-table th { overflow-wrap:anywhere; word-break:break-word; vertical-align:top; }
+.leads-table td a { overflow-wrap:anywhere; word-break:break-all; }
+.login-gate{position:fixed;inset:0;z-index:99999;background:linear-gradient(140deg,#0f1b2d 0%,#1f3a5f 60%,#25507f 100%);display:flex;align-items:center;justify-content:center;padding:20px;}
+.login-card{background:#fff;border-radius:16px;padding:34px 32px 30px;width:352px;max-width:100%;box-shadow:0 24px 70px rgba(6,16,30,.45);display:flex;flex-direction:column;gap:14px;}
+.login-brand{display:flex;align-items:center;gap:11px;margin-bottom:4px;}
+.login-logo{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,#2f6bd6,#1f3a5f);color:#fff;font-weight:800;font-size:18px;display:flex;align-items:center;justify-content:center;}
+.login-brand strong{font-size:16px;color:#12203a;display:block;}
+.login-brand small{font-size:11px;color:#7d8798;}
+.login-card h2{font-size:19px;color:#12203a;margin:6px 0 2px;}
+.login-card label{display:flex;flex-direction:column;gap:5px;font-size:12px;font-weight:700;color:#41506a;}
+.login-card input{border:1px solid #d5dce7;border-radius:9px;padding:11px 12px;font-size:14px;color:#12203a;outline:none;transition:border-color .15s;}
+.login-card input:focus{border-color:#2f6bd6;box-shadow:0 0 0 3px rgba(47,107,214,.15);}
+.login-err{font-size:12px;font-weight:700;color:#c0362c;background:#fdeceb;border-radius:8px;padding:8px 10px;}
+.login-btn{margin-top:4px;border:none;border-radius:10px;background:linear-gradient(135deg,#2f6bd6,#1f3a5f);color:#fff;font-size:15px;font-weight:700;padding:12px;cursor:pointer;transition:opacity .15s;}
+.login-btn:hover{opacity:.92;}
+.login-foot{font-size:10.5px;color:#9aa4b4;text-align:center;margin-top:2px;}
+.logout-link{margin-top:12px;font-size:11px;color:rgba(255,255,255,.55);cursor:pointer;display:inline-flex;align-items:center;gap:5px;background:none;border:none;padding:0;}
+.logout-link:hover{color:rgba(255,255,255,.9);}
 @media(max-width:1280px){.static-channel-tabs{grid-template-columns:repeat(5,minmax(0,1fr))}}@media(max-width:900px){.static-channel-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:620px){.static-channel-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 </head>
 <body>
+<div id="login-gate" class="login-gate">
+  <form class="login-card" id="login-form" autocomplete="on">
+    <div class="login-brand"><span class="login-logo">A</span><div><strong>Wonly Acquire OS</strong><small>全球客户情报系统</small></div></div>
+    <h2>登录</h2>
+    <label>账号<input id="login-user" name="username" autocomplete="username" placeholder="请输入账号" autofocus></label>
+    <label>密码<input id="login-pass" name="password" type="password" autocomplete="current-password" placeholder="请输入密码"></label>
+    <div class="login-err static-hidden" id="login-err">账号或密码错误，请重试</div>
+    <button type="submit" class="login-btn">登 录</button>
+    <div class="login-foot">仅授权用户访问 · Wonly Acquire OS</div>
+  </form>
+</div>
+<script>
+(function(){
+  var gate=document.getElementById('login-gate');
+  var authed=false; try{ authed=sessionStorage.getItem('wonly_auth')==='1'; }catch(e){}
+  if(authed){ gate.style.display='none'; }
+  else{ document.documentElement.style.overflow='hidden'; document.body.style.overflow='hidden'; }
+  document.getElementById('login-form').addEventListener('submit',function(e){
+    e.preventDefault();
+    var u=(document.getElementById('login-user').value||'').trim();
+    var p=document.getElementById('login-pass').value||'';
+    if(u==='wonly'&&p==='wonly123'){
+      try{ sessionStorage.setItem('wonly_auth','1'); }catch(e){}
+      gate.style.display='none';
+      document.documentElement.style.overflow=''; document.body.style.overflow='';
+    } else {
+      document.getElementById('login-err').classList.remove('static-hidden');
+    }
+  });
+  window.__wonlyLogout=function(){ try{ sessionStorage.removeItem('wonly_auth'); }catch(e){} location.reload(); };
+})();
+</script>
 <main class="app-shell">
   <aside class="sidebar">
-    <div class="brand-block"><div class="brand-mark">A</div><div><strong>Acquire OS</strong><span>全球客户情报系统</span></div></div>
+    <div class="brand-block"><div class="brand-mark">A</div><div><strong>Wonly Acquire OS</strong><span>全球客户情报系统</span></div></div>
     <nav class="primary-nav" aria-label="主导航">
       <button class="nav-item active"><span>⌂</span>获客中心</button><button class="nav-item"><span>◎</span>账户雷达</button><button class="nav-item"><span>◇</span>联系人</button><button class="nav-item"><span>✓</span>任务与商机</button><button class="nav-item"><span>▦</span>数据源中心</button><button class="nav-item"><span>◫</span>分析中心</button><button class="nav-item"><span>◧</span>深度抓取</button><button class="nav-item"><span>◈</span>获客方式</button><button class="nav-item"><span>☷</span>客户线索库</button>
     </nav>
-    <div class="sidebar-foot"><div class="sync-status"><span class="status-dot"></span>8个渠道正常同步</div><div class="user-row"><span class="avatar">陈</span><div><strong>陈睿</strong><small>北美品牌客户组</small></div></div></div>
+    <div class="sidebar-foot"><div class="sync-status"><span class="status-dot"></span>8个渠道正常同步</div><div class="user-row"><span class="avatar">陈</span><div><strong>陈睿</strong><small>北美品牌客户组</small></div></div><button class="logout-link" onclick="window.__wonlyLogout&&window.__wonlyLogout()">⎋ 退出登录</button></div>
   </aside>
   <section class="workspace">
     <header class="topbar"><div><div class="eyebrow">获客中心 / 全渠道客户池</div><h1>全球目标客户</h1><p>从采购证据、决策人、项目与主动意向中识别最值得跟进的账户。</p></div><div class="top-actions"><span class="demo-badge">演示数据</span><button class="secondary-btn">导入数据</button><button class="primary-btn">＋ 新建名单</button></div></header>
@@ -361,7 +411,7 @@ window.__ACQUIRE_DATA__.customers = [];
     return selected;
   };
   const renderContacts = () => {
-    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 联系人</div><h1>公开商务联系人</h1><p>来自客户线索库中已获取公开邮箱或电话的真实企业；每条保留来源，邮箱可发信、电话可拨号。</p></div><div class="top-actions"><span class="demo-badge">公开来源 · 非猜测</span></div></header>'+
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / 联系人</div><h1>公开商务联系人</h1><p>来自客户线索库中已获取公开邮箱或电话的真实企业；每条保留来源，邮箱可发信、电话可拨号。</p></div><div class="top-actions"><span class="demo-badge">公开来源 · 非猜测</span></div></header>'+
       '<section class="metrics"><article><span>有联系方式的公司</span><strong id="verified-contact-count">0</strong><small>至少含公开邮箱或电话</small></article><article><span>含公开邮箱</span><strong id="ct-emails">0</strong><small>点击直接发信</small></article><article><span>含公开电话</span><strong id="ct-phones">0</strong><small>点击直接拨号</small></article><article><span>覆盖国家</span><strong id="ct-countries">0</strong><small>中东 / 中亚</small></article></section>'+
       '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="contact-query" aria-label="搜索联系人" placeholder="搜索公司、城市、类别或国家"></label>'+countryFilter('contact-country')+'<select id="contact-cat" aria-label="客户类别"><option value="">全部类别</option></select><div class="result-count" id="contact-result-count">正在读取联系人…</div></div>'+
       '<div class="table-wrap"><table><thead><tr><th>公司 / 国家</th><th>类别</th><th>主营 / 产品</th><th>公开邮箱</th><th>公开电话</th><th>来源</th></tr></thead><tbody id="verified-contact-rows"></tbody></table><div class="empty-state static-hidden" id="contact-empty"><strong>没有匹配的联系人</strong><span>请调整国家、类别或搜索词。</span></div></div></section>';
@@ -393,7 +443,7 @@ window.__ACQUIRE_DATA__.customers = [];
     });
   };
   const renderRadar = () => {
-    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 项目雷达</div><h1>真实采购项目</h1><p>项目名称、采购机构、日期与官方来源齐全后才进入项目池。</p></div><div class="top-actions"><span class="demo-badge">官方项目 · 非模拟数据</span></div></header>'+
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / 项目雷达</div><h1>真实采购项目</h1><p>项目名称、采购机构、日期与官方来源齐全后才进入项目池。</p></div><div class="top-actions"><span class="demo-badge">官方项目 · 非模拟数据</span></div></header>'+
       '<section class="metrics"><article><span>已核验项目</span><strong id="project-count">200</strong><small>按官方项目ID去重</small></article><article><span>门锁潜在相关</span><strong id="project-relevant">55</strong><small>建筑、安防、酒店等关键词</small></article><article><span>当前发布</span><strong>51</strong><small>仍在官方发布列表</small></article><article><span>具名采购负责人</span><strong>1</strong><small>其余仅展示部门或平台联系人</small></article></section>'+
       '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="project-query" aria-label="搜索项目" placeholder="搜索项目、采购机构或招标编号"></label>'+countryFilter('project-country')+'<select id="project-relevance" aria-label="项目相关性"><option value="all">全部相关性</option><option value="potential">门锁潜在相关</option><option value="general">一般项目</option></select><div class="result-count" id="project-result-count">正在读取项目…</div></div><div class="table-wrap"><table><thead><tr><th>项目</th><th>采购机构 / 国家</th><th>招标编号</th><th>日期 / 阶段</th><th>相关性</th><th>公开联系人</th><th>官方证据</th></tr></thead><tbody id="project-rows"></tbody></table><div class="empty-state static-hidden" id="project-empty"><strong>没有匹配的项目</strong><span>请调整国家、关键词或相关性。</span></div></div></section>';
     fetch('./crawler/projects-200.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(data=>{
@@ -403,7 +453,7 @@ window.__ACQUIRE_DATA__.customers = [];
     }).catch(()=>{document.getElementById('project-result-count').textContent='项目数据读取失败';});
   };
   const renderSources = () => {
-    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 数据源中心</div><h1>数据源中心</h1><p>展示实际接入并完成官方来源核验的公开采购入口。</p></div><div class="top-actions"><span class="demo-badge">仅显示官方来源</span></div></header>'+
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / 数据源中心</div><h1>数据源中心</h1><p>展示实际接入并完成官方来源核验的公开采购入口。</p></div><div class="top-actions"><span class="demo-badge">仅显示官方来源</span></div></header>'+
       '<section class="metrics"><article><span>正常同步源</span><strong id="source-count">8</strong><small>全部保留官方入口</small></article><article><span>自动采集</span><strong>8</strong><small>不绕过登录或验证码</small></article><article><span>覆盖国家</span><strong>7</strong><small>中东与中亚</small></article><article><span>核验日期</span><strong style="font-size:18px">2026-07-13</strong><small>官方网页来源</small></article></section>'+
       '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="source-query" aria-label="搜索数据源" placeholder="搜索来源、国家或类型"></label>'+countryFilter('source-country')+'<div class="result-count" id="source-result-count">正在读取数据源…</div></div><div class="table-wrap"><table><thead><tr><th>官方来源</th><th>国家 / 类型</th><th>采集方式</th><th>状态</th><th>覆盖目标</th><th>最近核验</th><th>入口</th></tr></thead><tbody id="source-rows"></tbody></table><div class="empty-state static-hidden" id="source-empty"><strong>没有匹配的数据源</strong><span>请调整搜索词。</span></div></div></section>';
     fetch('./crawler/data-sources.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(data=>{
@@ -413,7 +463,7 @@ window.__ACQUIRE_DATA__.customers = [];
     }).catch(()=>{document.getElementById('source-result-count').textContent='数据源读取失败';});
   };
   const renderTasks = () => {
-    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 任务与商机</div><h1>任务与商机</h1><p>把已核验的官方采购入口和商务联系人转化为可执行动作。</p></div><div class="top-actions"><span class="demo-badge">系统建议 · 非采购意向</span></div></header>'+
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / 任务与商机</div><h1>任务与商机</h1><p>把已核验的官方采购入口和商务联系人转化为可执行动作。</p></div><div class="top-actions"><span class="demo-badge">系统建议 · 非采购意向</span></div></header>'+
       '<section class="metrics"><article><span>待处理任务</span><strong id="task-count">6</strong><small>来源可追溯</small></article><article><span>S1 优先</span><strong>5</strong><small>建议优先处理</small></article><article><span>公开联系人任务</span><strong>4</strong><small>仅使用机构公开商务邮箱</small></article><article><span>真实采购意向</span><strong>0</strong><small>目前未发现可证实的主动询盘</small></article></section>'+
       '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="task-query" aria-label="搜索任务" placeholder="搜索企业、国家、任务或邮箱"></label>'+countryFilter('task-country')+'<div class="result-count" id="task-result-count">正在读取任务…</div></div><div class="table-wrap"><table><thead><tr><th>任务</th><th>目标机构</th><th>类型 / 优先级</th><th>下一步</th><th>公开联系入口</th><th>证据</th><th>状态</th></tr></thead><tbody id="task-rows"></tbody></table><div class="empty-state static-hidden" id="task-empty"><strong>没有匹配的任务</strong><span>请调整搜索词。</span></div></div></section>';
     fetch('./crawler/action-tasks.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(data=>{
@@ -423,7 +473,7 @@ window.__ACQUIRE_DATA__.customers = [];
     }).catch(()=>{document.getElementById('task-result-count').textContent='任务数据读取失败';});
   };
   const renderAnalytics = () => {
-    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 分析中心</div><h1>分析中心</h1><p>基于客户线索库、深度抓取招标与官方目标池实时计算，不展示虚拟指标。</p></div><div class="top-actions"><span class="demo-badge" id="ana-stamp">实时计算</span></div></header>'+
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / 分析中心</div><h1>分析中心</h1><p>基于客户线索库、深度抓取招标与官方目标池实时计算，不展示虚拟指标。</p></div><div class="top-actions"><span class="demo-badge" id="ana-stamp">实时计算</span></div></header>'+
       '<section class="metrics"><article><span>客户线索</span><strong id="ana-leads">0</strong><small>公开企业线索</small></article><article><span>含公开联系方式</span><strong id="ana-contacts">0</strong><small>邮箱或电话</small></article><article><span>覆盖国家</span><strong id="ana-countries">0</strong><small>中东 / 中亚</small></article><article><span>已抓取招标</span><strong id="ana-tenders">0</strong><small>深度抓取结构化</small></article></section>'+
       '<section class="analytics-grid"><article class="chart-card"><h3>各国线索分布</h3><p>按客户线索数量排序</p><div class="bar-list" id="country-bars"></div></article><article class="chart-card"><h3>客户类别结构</h3><p>按线索客户类别汇总</p><div class="bar-list" id="type-bars"></div></article><article class="chart-card"><h3>重点市场判断</h3><p>由线索库直接计算</p><div class="insight-list" id="market-insights"></div></article><article class="chart-card"><h3>数据质量</h3><p>联系方式与来源覆盖</p><div class="insight-list" id="quality-insights"></div></article></section>';
     const safe=(u)=>fetch(u,{cache:'no-store'}).then(r=>r.ok?r.json():{}).catch(()=>({}));
@@ -461,7 +511,7 @@ window.__ACQUIRE_DATA__.customers = [];
     }).catch(()=>{document.getElementById('country-bars').innerHTML='<div class="empty-state"><strong>分析数据读取失败</strong><span>请刷新后重试。</span></div>';});
   };
   const renderLiveTenders = () => {
-    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 深度抓取</div><h1>实时招标抓取</h1><p>由深度爬虫渲染 JS 门户、下钻详情页后抽取的结构化招标；每条保留官方来源与抓取时间。</p></div><div class="top-actions"><span class="demo-badge" id="live-stamp">读取中…</span></div></header>'+
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / 深度抓取</div><h1>实时招标抓取</h1><p>由深度爬虫渲染 JS 门户、下钻详情页后抽取的结构化招标；每条保留官方来源与抓取时间。</p></div><div class="top-actions"><span class="demo-badge" id="live-stamp">读取中…</span></div></header>'+
       '<section class="metrics"><article><span>已抓取招标</span><strong id="live-tenders">0</strong><small>结构化字段：标题/编号/截止日/金额/采购方</small></article><article><span>覆盖国家</span><strong id="live-countries">0</strong><small>按官方域名 / ccTLD 识别</small></article><article><span>已解析页面</span><strong id="live-pages">0</strong><small>含 JS 渲染页</small></article><article><span>公开联系方式</span><strong id="live-contacts">0</strong><small>公开邮箱 / 电话</small></article></section>'+
       '<section class="chart-card" style="margin-bottom:12px"><h3>国家招标分布</h3><p>按本次抓取到的招标数量排序</p><div class="bar-list" id="live-country-bars"></div></section>'+
       '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="live-query" aria-label="搜索招标" placeholder="搜索标题、采购方、编号或类别"></label>'+countryFilter('live-country')+'<div class="result-count" id="live-result-count">正在读取抓取结果…</div></div>'+
@@ -547,7 +597,7 @@ window.__ACQUIRE_DATA__.customers = [];
       '<div class="info-item"><span>门锁出海打法</span><strong>'+escContact(m.play)+'</strong></div></div>'+
       '<div class="compliance-note" style="margin-top:10px"><strong>状态：'+escContact(m.status)+'</strong><span>'+escContact(m.note)+'</span></div></article>';
     const s1=methods.filter(m=>m.prio.indexOf('S1')===0).length;
-    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 获客方式</div><h1>获客方式与落地方案</h1><p>除招标外的全部公开合规获客渠道汇总，以及分阶段执行方案。门锁出海（中东 / 中亚）场景。</p></div><div class="top-actions"><span class="demo-badge">公开合规 · 不绕登录/验证码</span></div></header>'+
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / 获客方式</div><h1>获客方式与落地方案</h1><p>除招标外的全部公开合规获客渠道汇总，以及分阶段执行方案。门锁出海（中东 / 中亚）场景。</p></div><div class="top-actions"><span class="demo-badge">公开合规 · 不绕登录/验证码</span></div></header>'+
       '<section class="metrics"><article><span>获客渠道</span><strong>'+methods.length+'</strong><small>招标 + 7 类其他方式</small></article><article><span>S1 优先渠道</span><strong>'+s1+'</strong><small>招标 / 官网 / 展会 / 转介绍</small></article><article><span>已上线</span><strong>3</strong><small>招标·官网目标池·分析</small></article><article><span>待接入</span><strong>2</strong><small>海关数据 · B2B 平台（需授权）</small></article></section>'+
       '<section class="chart-card" style="margin-bottom:12px"><h3>落地方案（三阶段）</h3><p>从公开渠道快速起量，再接授权数据源，最后做转介绍闭环</p><div class="insight-list">'+
         '<div class="insight-item"><span>阶段一 · 0–4 周（公开渠道起量）</span><strong>招标 + 官网/供应商页 + 展会名录 三条公开线跑通</strong><small>用深度抓取生成目标池与公开联系方式，按国家×客户类型分组，人工核验后进 CRM。</small></div>'+
@@ -557,11 +607,11 @@ window.__ACQUIRE_DATA__.customers = [];
       '<section class="chart-card" style="margin-top:12px"><h3>合规底线</h3><div class="compliance-note"><strong>统一原则</strong><span>只使用公开页面与授权数据；不绕过登录、验证码或访问控制；不猜测个人邮箱或电话；每条线索保留来源 URL 与抓取时间，人工核验后再进 CRM。</span></div></section>';
   };
   const renderLeads = () => {
-    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / 客户线索库</div><h1>真实客户线索库 · 含背调</h1><p>中东 + 中亚 + 非洲 21 国公开检索的门锁 / 门五金潜在买家与渠道，每条含背景调查、契合度评分与来源。点击任意公司行可展开背调详情（现有代理品牌、进口信号、决策人、切入角度、风险）。</p></div><div class="top-actions"><span class="demo-badge" id="leads-stamp">读取中…</span></div></header>'+
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / 客户线索库</div><h1>真实客户线索库 · 含背调</h1><p>中东 + 中亚 + 非洲 21 国公开检索的门锁 / 门五金潜在买家与渠道，每条含背景调查、契合度评分与来源。点击任意公司行可展开背调详情（现有代理品牌、进口信号、决策人、切入角度、风险）。</p></div><div class="top-actions"><span class="demo-badge" id="leads-stamp">读取中…</span></div></header>'+
       '<section class="metrics"><article><span>客户线索</span><strong id="leads-total">0</strong><small>公开企业名录 / 官网核验</small></article><article><span>重点客户 5★</span><strong id="leads-fit5">0</strong><small>门锁五金进口经销 / 酒店锁集成</small></article><article><span>次重点 4★</span><strong id="leads-fit4">0</strong><small>经营门锁的零售 / 门禁集成</small></article><article><span>覆盖国家</span><strong id="leads-countries">0</strong><small>中东 6 · 中亚 6 · 非洲 9</small></article></section>'+
       '<section class="chart-card" style="margin-bottom:12px"><h3>各国线索分布</h3><p>按已收录真实公司数量排序</p><div class="bar-list" id="leads-country-bars"></div></section>'+
       '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="leads-query" aria-label="搜索线索" placeholder="搜索公司、城市、产品、类别或代理品牌"></label><select id="leads-fit" aria-label="契合度"><option value="">全部契合度</option><option value="45">重点（4-5★）</option><option value="5">5★ 主攻</option><option value="4">4★</option><option value="3">3★</option></select><select id="leads-region" aria-label="大区"><option value="">全部大区</option></select>'+countryFilter('leads-country')+'<select id="leads-cat" aria-label="客户类别"><option value="">全部类别</option></select><select id="leads-contact" aria-label="联系方式"><option value="">全部</option><option value="email">有邮箱</option><option value="phone">有电话</option></select><div class="result-count" id="leads-result-count">正在读取…</div></div>'+
-      '<div class="table-wrap"><table><thead><tr><th>契合度</th><th>公司</th><th>国家 / 地区</th><th>类别</th><th>主营 / 产品</th><th>公开邮箱</th><th>公开电话</th><th>来源</th></tr></thead><tbody id="leads-rows"></tbody></table><div class="empty-state static-hidden" id="leads-empty"><strong>没有匹配的线索</strong><span>请调整契合度、国家、类别或搜索词。</span></div></div></section>';
+      '<div class="table-wrap"><table class="leads-table"><colgroup><col style="width:74px"><col style="width:230px"><col style="width:118px"><col style="width:120px"><col style="width:250px"><col style="width:210px"><col style="width:158px"><col style="width:100px"></colgroup><thead><tr><th>契合度</th><th>公司</th><th>国家 / 地区</th><th>类别</th><th>主营 / 产品</th><th>公开邮箱</th><th>公开电话</th><th>来源</th></tr></thead><tbody id="leads-rows"></tbody></table><div class="empty-state static-hidden" id="leads-empty"><strong>没有匹配的线索</strong><span>请调整契合度、国家、类别或搜索词。</span></div></div></section>';
     fetch('./crawler/leads.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject(new Error('no_leads'))).then(data=>{
       const all=Array.isArray(data.leads)?data.leads:[];
       const stats=Array.isArray(data.countryStats)?data.countryStats:[];
@@ -619,7 +669,7 @@ window.__ACQUIRE_DATA__.customers = [];
     if (i === 7) { renderMethods(); return; }
     if (i === 8) { renderLeads(); return; }
     const p = pages[i-1];
-    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Acquire OS / '+p[0]+'</div><h1>'+p[0]+'</h1><p>'+p[1]+'</p></div><div class="top-actions"><span class="demo-badge">仅显示已核验数据</span><button class="primary-btn">＋ 新建</button></div></header><section class="metrics"><article><span>'+p[2]+'</span><strong>'+p[3]+'</strong><small>'+p[4]+'</small></article><article><span>数据可信度</span><strong>公开来源</strong><small>每条记录保留来源 URL 和抓取时间</small></article><article><span>地区范围</span><strong>中东 / 中亚</strong><small>可扩展到更多目标市场</small></article><article><span>合规状态</span><strong>正常</strong><small>不绕过登录、验证码或访问限制</small></article></section><section class="content-panel"><div class="empty-state"><strong>'+p[4]+'</strong><span>系统不会展示虚拟客户或未经核验的联系人。运行采集器后，结果将从公开来源进入这里。</span><button class="secondary-btn" style="margin-top:18px">查看采集记录</button></div></section>';
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / '+p[0]+'</div><h1>'+p[0]+'</h1><p>'+p[1]+'</p></div><div class="top-actions"><span class="demo-badge">仅显示已核验数据</span><button class="primary-btn">＋ 新建</button></div></header><section class="metrics"><article><span>'+p[2]+'</span><strong>'+p[3]+'</strong><small>'+p[4]+'</small></article><article><span>数据可信度</span><strong>公开来源</strong><small>每条记录保留来源 URL 和抓取时间</small></article><article><span>地区范围</span><strong>中东 / 中亚</strong><small>可扩展到更多目标市场</small></article><article><span>合规状态</span><strong>正常</strong><small>不绕过登录、验证码或访问限制</small></article></section><section class="content-panel"><div class="empty-state"><strong>'+p[4]+'</strong><span>系统不会展示虚拟客户或未经核验的联系人。运行采集器后，结果将从公开来源进入这里。</span><button class="secondary-btn" style="margin-top:18px">查看采集记录</button></div></section>';
   };
   nav.forEach((item, i) => item.addEventListener('click', () => { nav.forEach(x => x.classList.remove('active')); item.classList.add('active'); render(i); }));
   const openMetric = target => {
