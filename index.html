@@ -32,7 +32,9 @@ body { font-family: Inter, "Microsoft YaHei", "PingFang SC", Arial, sans-serif; 
 button, input, select { font: inherit; }
 button { cursor: pointer; }
 
-.app-shell { min-height: 100vh; display: grid; grid-template-columns: 232px minmax(0, 1fr); }
+.app-shell { min-height: 100vh; display: grid; grid-template-columns: var(--navw, 232px) minmax(0, 1fr); transition: grid-template-columns .24s ease; }
+.app-shell.nav-collapsed { --navw: 0px; }
+.app-shell.nav-collapsed .sidebar { overflow: hidden; padding-left: 0; padding-right: 0; }
 .sidebar { background: #101a2d; color: #fff; padding: 24px 16px; display: flex; flex-direction: column; position: sticky; top: 0; height: 100vh; }
 .brand-block { display: flex; align-items: center; gap: 12px; padding: 0 8px 24px; border-bottom: 1px solid rgba(255,255,255,.1); }
 .brand-mark { width: 38px; height: 38px; border-radius: 12px; background: linear-gradient(145deg, #3f8cff, #1768e5); display: grid; place-items: center; font-weight: 700; box-shadow: 0 8px 20px rgba(23,104,229,.35); }
@@ -173,7 +175,27 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
 .load-more-wrap { text-align:center; padding:14px 0 4px; }
 .load-more-btn { border:1px solid #d5dce7; background:#fff; color:#1f3a5f; font-size:12.5px; font-weight:700; border-radius:9px; padding:9px 20px; cursor:pointer; transition:background .15s; }
 .load-more-btn:hover { background:#f0f4fb; }
-.table-wrap { overflow:auto; -webkit-overflow-scrolling:touch; }
+#leads-tablewrap { overflow-x:scroll; overflow-y:auto; -webkit-overflow-scrolling:touch; scrollbar-color:#1f3a5f #e6ebf3; scrollbar-width:auto; padding-bottom:2px; }
+#leads-tablewrap::-webkit-scrollbar { height:15px; }
+#leads-tablewrap::-webkit-scrollbar-track { background:#e6ebf3; border-radius:8px; }
+#leads-tablewrap::-webkit-scrollbar-thumb { background:#1f3a5f; border-radius:8px; border:3px solid #e6ebf3; }
+#leads-tablewrap::-webkit-scrollbar-thumb:hover { background:#2f6bd6; }
+.scroll-toolbar { display:flex; align-items:center; gap:10px; margin:2px 0 9px; flex-wrap:wrap; }
+.scroll-btn { border:1px solid #cdd6e4; background:#fff; color:#1f3a5f; font-size:13px; font-weight:800; border-radius:9px; padding:7px 16px; cursor:pointer; display:inline-flex; align-items:center; gap:5px; transition:background .12s,border-color .12s; }
+.scroll-btn:hover:not(:disabled) { background:#eef3fc; border-color:#2f6bd6; }
+.scroll-btn:disabled { opacity:.35; cursor:default; }
+.scroll-toolbar .sh { font-size:11.5px; color:#6b7686; }
+.scroll-toolbar .sh b { color:#1f3a5f; }
+.scroll-cue { margin-left:auto; font-size:11px; font-weight:800; color:#2f6bd6; display:inline-flex; align-items:center; gap:4px; animation:cueSlide 1.4s ease-in-out infinite; }
+@keyframes cueSlide { 0%,100%{transform:translateX(0);opacity:.55;} 50%{transform:translateX(5px);opacity:1;} }
+.brand-block { position:relative; }
+.nav-collapse-btn { position:absolute; top:2px; right:0; width:28px; height:28px; border-radius:8px; border:1px solid rgba(255,255,255,.16); background:rgba(255,255,255,.06); color:#cfe0f5; font-size:15px; line-height:1; cursor:pointer; display:flex; align-items:center; justify-content:center; }
+.nav-collapse-btn:hover { background:rgba(255,255,255,.16); color:#fff; }
+.nav-expand-btn { display:none; position:fixed; top:15px; left:14px; z-index:1200; width:40px; height:40px; border-radius:10px; border:1px solid #d5dce7; background:#fff; color:#1f3a5f; font-size:17px; cursor:pointer; box-shadow:0 6px 18px rgba(15,27,45,.18); align-items:center; justify-content:center; }
+.nav-expand-btn:hover { background:#eef3fc; border-color:#2f6bd6; }
+.app-shell.nav-collapsed .nav-expand-btn { display:flex; }
+.export-btn { border:1px solid #1f3a5f; background:#1f3a5f; color:#fff; font-size:12.5px; font-weight:700; border-radius:9px; padding:8px 15px; cursor:pointer; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; transition:background .12s; }
+.export-btn:hover { background:#2f6bd6; border-color:#2f6bd6; }
 .empty-state { padding: 60px; display: grid; place-items: center; gap: 8px; color: var(--muted); }
 .empty-state strong { color: var(--ink); }
 
@@ -317,7 +339,7 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
 </script>
 <main class="app-shell">
   <aside class="sidebar">
-    <div class="brand-block"><div class="brand-mark">A</div><div><strong>Wonly Acquire OS</strong><span>全球客户情报系统</span></div></div>
+    <div class="brand-block"><div class="brand-mark">A</div><div><strong>Wonly Acquire OS</strong><span>全球客户情报系统</span></div><button class="nav-collapse-btn" id="nav-collapse-btn" title="收起侧栏" aria-label="收起侧栏">⟨</button></div>
     <nav class="primary-nav" aria-label="主导航">
       <button class="nav-item active"><span>⌂</span>获客中心</button><button class="nav-item"><span>◎</span>账户雷达</button><button class="nav-item"><span>◇</span>联系人</button><button class="nav-item"><span>✓</span>任务与商机</button><button class="nav-item"><span>▦</span>数据源中心</button><button class="nav-item"><span>◫</span>分析中心</button><button class="nav-item"><span>◧</span>深度抓取</button><button class="nav-item"><span>◈</span>获客方式</button><button class="nav-item"><span>☷</span>客户线索库</button>
     </nav>
@@ -333,7 +355,19 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
     </section>
   </section>
   <div class="drawer-layer static-hidden" id="drawer-layer"><aside class="detail-drawer" role="dialog" aria-modal="true" aria-label="客户详情" id="detail-drawer"></aside></div>
+  <button class="nav-expand-btn" id="nav-expand-btn" title="展开侧栏" aria-label="展开侧栏">☰</button>
 </main>
+<script>
+(function(){
+  var shell=document.querySelector('.app-shell');
+  var collapsed=false; try{ collapsed=sessionStorage.getItem('nav_collapsed')==='1'; }catch(e){}
+  if(collapsed) shell.classList.add('nav-collapsed');
+  function setNav(v){ shell.classList.toggle('nav-collapsed',v); try{ sessionStorage.setItem('nav_collapsed',v?'1':'0'); }catch(e){} window.dispatchEvent(new Event('resize')); }
+  var cb=document.getElementById('nav-collapse-btn'), eb=document.getElementById('nav-expand-btn');
+  cb&&cb.addEventListener('click',function(){setNav(true);});
+  eb&&eb.addEventListener('click',function(){setNav(false);});
+})();
+</script>
 <script>window.__ACQUIRE_DATA__={"channels":[{"id":"all","label":"全部渠道","short":"全","note":"统一账户池"},{"id":"customs","label":"海关 / 提单","short":"关","note":"采购关系与供应商"},{"id":"linkedin","label":"LinkedIn","short":"领","note":"决策人与任职信号"},{"id":"events","label":"展会 / 协会","short":"展","note":"参展与会面机会"},{"id":"registry","label":"官网 / 工商","short":"企","note":"企业主体与产品"},{"id":"search","label":"Google / 独立站","short":"搜","note":"主动搜索意图"},{"id":"projects","label":"工程 / 招投标","short":"项","note":"项目采购窗口"},{"id":"rfq","label":"B2B平台 / RFQ","short":"询","note":"明确采购需求"},{"id":"referral","label":"转介绍 / CRM","short":"荐","note":"高信任关系"}],"customers":[]};</script>
 <script>
 /* Shared country dictionary — single source of truth so country labels are always clear */
@@ -616,8 +650,8 @@ window.__ACQUIRE_DATA__.customers = [];
     workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / 客户线索库</div><h1>真实客户线索库 · 含背调</h1><p>中东 + 中亚 + 非洲 21 国公开检索的门锁 / 门五金潜在买家与渠道，每条含背景调查、契合度评分与来源。点击任意公司行可展开背调详情（现有代理品牌、进口信号、决策人、切入角度、风险）。</p></div><div class="top-actions"><span class="demo-badge" id="leads-stamp">读取中…</span></div></header>'+
       '<section class="metrics"><article><span>客户线索</span><strong id="leads-total">0</strong><small>公开企业名录 / 官网核验</small></article><article><span>重点客户 5★</span><strong id="leads-fit5">0</strong><small>门锁五金进口经销 / 酒店锁集成</small></article><article><span>次重点 4★</span><strong id="leads-fit4">0</strong><small>经营门锁的零售 / 门禁集成</small></article><article><span>覆盖国家</span><strong id="leads-countries">0</strong><small>中东 6 · 中亚 6 · 非洲 9</small></article></section>'+
       '<section class="chart-card" style="margin-bottom:12px"><h3>各国线索分布</h3><p>按已收录真实公司数量排序</p><div class="bar-list" id="leads-country-bars"></div></section>'+
-      '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="leads-query" aria-label="搜索线索" placeholder="搜索公司、城市、产品、类别或代理品牌"></label><select id="leads-fit" aria-label="契合度"><option value="">全部契合度</option><option value="45">重点（4-5★）</option><option value="5">5★ 主攻</option><option value="4">4★</option><option value="3">3★</option></select><select id="leads-region" aria-label="大区"><option value="">全部大区</option></select>'+countryFilter('leads-country')+'<select id="leads-cat" aria-label="客户类别"><option value="">全部类别</option></select><select id="leads-contact" aria-label="联系方式"><option value="">全部</option><option value="email">有邮箱</option><option value="phone">有电话</option></select><div class="result-count" id="leads-result-count">正在读取…</div></div>'+
-      '<div class="leads-scrollhint">提示：点击任意公司行展开<b>背调详情</b>（吸附左侧完整可读）；列较多时可<b>左右滑动</b>表格查看邮箱 / 电话 / 来源。</div>'+
+      '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="leads-query" aria-label="搜索线索" placeholder="搜索公司、城市、产品、类别或代理品牌"></label><select id="leads-fit" aria-label="契合度"><option value="">全部契合度</option><option value="45">重点（4-5★）</option><option value="5">5★ 主攻</option><option value="4">4★</option><option value="3">3★</option></select><select id="leads-region" aria-label="大区"><option value="">全部大区</option></select>'+countryFilter('leads-country')+'<select id="leads-cat" aria-label="客户类别"><option value="">全部类别</option></select><select id="leads-contact" aria-label="联系方式"><option value="">全部</option><option value="email">有邮箱</option><option value="phone">有电话</option></select><button class="export-btn" id="leads-export" title="按当前筛选导出 CSV（含背调字段，Excel 可直接打开）">⭳ 导出筛选结果</button><div class="result-count" id="leads-result-count">正在读取…</div></div>'+
+      '<div class="scroll-toolbar" id="leads-scroll-tb"><button class="scroll-btn" id="leads-sl">◀ 左滑</button><button class="scroll-btn" id="leads-sr">右滑 ▶</button><span class="sh">点击公司行展开<b>背调详情</b>；表格列较多，可用按钮或拖动下方滚动条<b>左右查看</b>邮箱 / 电话 / 来源</span><span class="scroll-cue" id="leads-cue">右滑查看更多 ▶▶</span></div>'+
       '<div class="table-wrap" id="leads-tablewrap"><table class="leads-table"><colgroup><col style="width:74px"><col style="width:230px"><col style="width:118px"><col style="width:120px"><col style="width:250px"><col style="width:210px"><col style="width:158px"><col style="width:100px"></colgroup><thead><tr><th>契合度</th><th>公司</th><th>国家 / 地区</th><th>类别</th><th>主营 / 产品</th><th>公开邮箱</th><th>公开电话</th><th>来源</th></tr></thead><tbody id="leads-rows"></tbody></table><div class="empty-state static-hidden" id="leads-empty"><strong>没有匹配的线索</strong><span>请调整契合度、国家、类别或搜索词。</span></div></div>'+
       '<div class="load-more-wrap static-hidden" id="leads-more-wrap"><button class="load-more-btn" id="leads-more-btn">显示更多</button></div></section>';
     const boot=data=>{
@@ -630,6 +664,12 @@ window.__ACQUIRE_DATA__.customers = [];
       (data.regions||[...new Set(all.map(l=>l.region))]).forEach(rg=>{const o=document.createElement('option');o.value=rg;o.textContent=rg;regSel.appendChild(o);});
       const rows=document.getElementById('leads-rows'), count=document.getElementById('leads-result-count'), empty=document.getElementById('leads-empty');
       const wrap=document.getElementById('leads-tablewrap'), moreWrap=document.getElementById('leads-more-wrap'), moreBtn=document.getElementById('leads-more-btn');
+      const sBtnL=document.getElementById('leads-sl'), sBtnR=document.getElementById('leads-sr'), sTb=document.getElementById('leads-scroll-tb'), sCue=document.getElementById('leads-cue');
+      const syncScroll=()=>{ const can=wrap.scrollWidth>wrap.clientWidth+2; sTb.style.display=can?'':'none'; if(can){ const atL=wrap.scrollLeft<=1, atR=wrap.scrollLeft+wrap.clientWidth>=wrap.scrollWidth-1; sBtnL.disabled=atL; sBtnR.disabled=atR; if(sCue) sCue.style.display=atR?'none':''; } };
+      sBtnL.addEventListener('click',()=>wrap.scrollBy({left:-Math.round(wrap.clientWidth*0.72),behavior:'smooth'}));
+      sBtnR.addEventListener('click',()=>wrap.scrollBy({left:Math.round(wrap.clientWidth*0.72),behavior:'smooth'}));
+      wrap.addEventListener('scroll',syncScroll);
+      window.addEventListener('resize',syncScroll);
       const badge=c=>c==='high'?'<span class="grade grade-A">高</span>':'<span class="grade grade-B">中</span>';
       const maxC=Math.max(1,...stats.map(s=>s.count));
       document.getElementById('leads-country-bars').innerHTML=stats.map(s=>'<div class="bar-row"><span class="bar-label">'+escContact(window.countryLabel(s.code))+'</span><div class="bar-track"><div class="bar-fill" style="width:'+(s.count/maxC*100).toFixed(0)+'%"></div></div><span class="bar-value">'+s.count+'</span></div>').join('');
@@ -646,11 +686,24 @@ window.__ACQUIRE_DATA__.customers = [];
         '<td>'+(l.phone?'<a href="tel:'+escContact(String(l.phone).replace(/[^+\\d]/g,''))+'"><strong>'+escContact(l.phone)+'</strong></a>':'<small>待核验</small>')+'</td>'+
         '<td>'+(l.contactSource||l.sourceUrl?'<a href="'+escContact(l.contactSource||l.sourceUrl)+'" target="_blank" rel="noopener noreferrer">查看来源 ↗</a>':'<small>—</small>')+'</td>'+
       '</tr>';
+      const expBtn=document.getElementById('leads-export');
+      const CSV_COLS=[['契合度','fitScore'],['公司','company'],['国家','countryName'],['地区','region'],['城市','city'],['客户类别','categoryName'],['主营/产品','productFocus'],['现有代理品牌/竞品','brandsCarried'],['规模','scale'],['项目/客户','projects'],['进口信号','importSignal'],['决策人','decisionContact'],['切入角度','angle'],['风险','risk'],['契合理由','fitReason'],['网站','website'],['公开邮箱','email'],['公开电话','phone'],['信息来源','sourceUrl']];
+      const csvCell=v=>'"'+(v==null?'':String(v)).replace(/"/g,'""')+'"';
+      expBtn&&expBtn.addEventListener('click',()=>{
+        if(!curList.length){ return; }
+        const header=CSV_COLS.map(c=>csvCell(c[0])).join(',');
+        const rowsCsv=curList.map(l=>CSV_COLS.map(c=>csvCell(l[c[1]])).join(',')).join('\r\n');
+        const csv='﻿'+header+'\r\n'+rowsCsv;
+        const blob=new Blob([csv],{type:'text/csv;charset=utf-8;'});
+        const url=URL.createObjectURL(blob);
+        const a=document.createElement('a'); a.href=url; a.download='客户线索_筛选导出_'+curList.length+'条.csv';
+        document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(url),1500);
+      });
       const PAGE=80; let curList=all; let shown=0;
       const renderChunk=(start,end)=>{let h=''; for(let i=start;i<end&&i<curList.length;i++) h+=rowHTML(curList[i],i); return h;};
       const updateMore=()=>{const remain=curList.length-shown; if(remain>0){moreWrap.classList.remove('static-hidden'); moreBtn.textContent='显示更多（还剩 '+remain+' 条）';} else moreWrap.classList.add('static-hidden');};
-      const drawReset=()=>{shown=Math.min(PAGE,curList.length); rows.innerHTML=renderChunk(0,shown); count.innerHTML='<strong>'+curList.length+'</strong> / '+all.length+' 条线索'; empty.classList.toggle('static-hidden',curList.length>0); updateMore();};
-      moreBtn.addEventListener('click',()=>{const prev=shown; shown=Math.min(shown+PAGE,curList.length); rows.insertAdjacentHTML('beforeend',renderChunk(prev,shown)); updateMore();});
+      const drawReset=()=>{shown=Math.min(PAGE,curList.length); rows.innerHTML=renderChunk(0,shown); count.innerHTML='<strong>'+curList.length+'</strong> / '+all.length+' 条线索'; empty.classList.toggle('static-hidden',curList.length>0); if(expBtn){expBtn.textContent='⭳ 导出筛选结果（'+curList.length+'）'; expBtn.disabled=!curList.length;} updateMore(); requestAnimationFrame(syncScroll);};
+      moreBtn.addEventListener('click',()=>{const prev=shown; shown=Math.min(shown+PAGE,curList.length); rows.insertAdjacentHTML('beforeend',renderChunk(prev,shown)); updateMore(); syncScroll();});
       // lazy expand: build detail row on demand, sticky to visible width
       rows.addEventListener('click',e=>{if(e.target.closest('a'))return; const tr=e.target.closest('.lead-row'); if(!tr)return;
         const nxt=tr.nextElementSibling;
