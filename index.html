@@ -175,11 +175,12 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
 .load-more-wrap { text-align:center; padding:14px 0 4px; }
 .load-more-btn { border:1px solid #d5dce7; background:#fff; color:#1f3a5f; font-size:12.5px; font-weight:700; border-radius:9px; padding:9px 20px; cursor:pointer; transition:background .15s; }
 .load-more-btn:hover { background:#f0f4fb; }
-#leads-tablewrap { overflow-x:scroll; overflow-y:auto; -webkit-overflow-scrolling:touch; scrollbar-color:#1f3a5f #e6ebf3; scrollbar-width:auto; padding-bottom:2px; }
-#leads-tablewrap::-webkit-scrollbar { height:15px; }
-#leads-tablewrap::-webkit-scrollbar-track { background:#e6ebf3; border-radius:8px; }
-#leads-tablewrap::-webkit-scrollbar-thumb { background:#1f3a5f; border-radius:8px; border:3px solid #e6ebf3; }
-#leads-tablewrap::-webkit-scrollbar-thumb:hover { background:#2f6bd6; }
+.table-wrap { scrollbar-color:#1f3a5f #e6ebf3; scrollbar-width:auto; -webkit-overflow-scrolling:touch; }
+#leads-tablewrap, #mkt-rank-wrap { overflow-x:scroll; overflow-y:auto; padding-bottom:2px; }
+.table-wrap::-webkit-scrollbar { height:15px; }
+.table-wrap::-webkit-scrollbar-track { background:#e6ebf3; border-radius:8px; }
+.table-wrap::-webkit-scrollbar-thumb { background:#1f3a5f; border-radius:8px; border:3px solid #e6ebf3; }
+.table-wrap::-webkit-scrollbar-thumb:hover { background:#2f6bd6; }
 .scroll-toolbar { display:flex; align-items:center; gap:10px; margin:2px 0 9px; flex-wrap:wrap; }
 .scroll-btn { border:1px solid #cdd6e4; background:#fff; color:#1f3a5f; font-size:13px; font-weight:800; border-radius:9px; padding:7px 16px; cursor:pointer; display:inline-flex; align-items:center; gap:5px; transition:background .12s,border-color .12s; }
 .scroll-btn:hover:not(:disabled) { background:#eef3fc; border-color:#2f6bd6; }
@@ -196,6 +197,30 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
 .app-shell.nav-collapsed .nav-expand-btn { display:flex; }
 .export-btn { border:1px solid #1f3a5f; background:#1f3a5f; color:#fff; font-size:12.5px; font-weight:700; border-radius:9px; padding:8px 15px; cursor:pointer; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; transition:background .12s; }
 .export-btn:hover { background:#2f6bd6; border-color:#2f6bd6; }
+.mkt-bar { position:relative; height:7px; background:#edf2f8; border-radius:999px; overflow:hidden; min-width:56px; }
+.mkt-bar span { position:absolute; left:0; top:0; bottom:0; border-radius:999px; }
+.mkt-score { font-size:15px; font-weight:800; }
+.mkt-rank-row { cursor:pointer; }
+.mkt-rank-row:hover { background:#f6f9ff; }
+.mkt-rank-row.sel { background:#eef3fc; box-shadow:inset 3px 0 0 #1f3a5f; }
+.mkt-sec { margin:20px 0 6px; }
+.mkt-sec h3 { font-size:14px; color:#12203a; margin:0 0 3px; display:flex; align-items:center; gap:7px; }
+.mkt-sec h3::before { content:''; width:4px; height:15px; background:#1f3a5f; border-radius:2px; display:inline-block; }
+.mkt-sec p { font-size:11px; color:#8a94a6; margin:0 0 8px 11px; }
+.conf { font-size:8.5px; font-weight:700; padding:2px 7px; border-radius:999px; white-space:nowrap; display:inline-block; }
+.conf-v { color:#157347; background:#c6efce; }
+.conf-e { color:#9c6500; background:#ffeb9c; }
+.conf-a { color:#595959; background:#eef1f5; }
+.conf-p { color:#8a94a6; background:#f5f6f8; }
+.mkt-cards { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:14px 0 4px; }
+.mkt-card { background:linear-gradient(135deg,#f4f8ff,#eef3fb); border:1px solid var(--line); border-radius:11px; padding:15px 17px; }
+.mkt-card span { font-size:10.5px; color:#6b7686; display:block; margin-bottom:3px; }
+.mkt-card strong { font-size:22px; color:#12203a; }
+.mkt-detail-head { display:flex; align-items:center; gap:14px; flex-wrap:wrap; padding-bottom:6px; border-bottom:1px solid var(--line); }
+.mkt-detail-head .flag { font-size:30px; }
+.mkt-detail-head h2 { font-size:20px; color:#12203a; margin:0; }
+.mkt-detail-head .scorepill { margin-left:auto; font-size:13px; font-weight:800; color:#fff; background:#1f3a5f; padding:6px 14px; border-radius:10px; }
+@media (max-width:760px){ .mkt-cards { grid-template-columns:1fr; } }
 .empty-state { padding: 60px; display: grid; place-items: center; gap: 8px; color: var(--muted); }
 .empty-state strong { color: var(--ink); }
 
@@ -341,7 +366,7 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
   <aside class="sidebar">
     <div class="brand-block"><div class="brand-mark">A</div><div><strong>Wonly Acquire OS</strong><span>全球客户情报系统</span></div><button class="nav-collapse-btn" id="nav-collapse-btn" title="收起侧栏" aria-label="收起侧栏">⟨</button></div>
     <nav class="primary-nav" aria-label="主导航">
-      <button class="nav-item active"><span>⌂</span>获客中心</button><button class="nav-item"><span>◎</span>账户雷达</button><button class="nav-item"><span>◇</span>联系人</button><button class="nav-item"><span>✓</span>任务与商机</button><button class="nav-item"><span>▦</span>数据源中心</button><button class="nav-item"><span>◫</span>分析中心</button><button class="nav-item"><span>◧</span>深度抓取</button><button class="nav-item"><span>◈</span>获客方式</button><button class="nav-item"><span>☷</span>客户线索库</button>
+      <button class="nav-item active"><span>⌂</span>获客中心</button><button class="nav-item"><span>◎</span>账户雷达</button><button class="nav-item"><span>◇</span>联系人</button><button class="nav-item"><span>✓</span>任务与商机</button><button class="nav-item"><span>▦</span>数据源中心</button><button class="nav-item"><span>◫</span>分析中心</button><button class="nav-item"><span>◧</span>深度抓取</button><button class="nav-item"><span>◈</span>获客方式</button><button class="nav-item"><span>☷</span>客户线索库</button><button class="nav-item"><span>▥</span>市场调研</button>
     </nav>
     <div class="sidebar-foot"><div class="sync-status"><span class="status-dot"></span>8个渠道正常同步</div><div class="user-row"><span class="avatar">陈</span><div><strong>陈睿</strong><small>北美品牌客户组</small></div></div><button class="logout-link" onclick="window.__wonlyLogout&&window.__wonlyLogout()">⎋ 退出登录</button></div>
   </aside>
@@ -735,6 +760,51 @@ window.__ACQUIRE_DATA__.customers = [];
     if(window.__LEADS_CACHE__){ boot(window.__LEADS_CACHE__); }
     else { fetch('./crawler/leads.json').then(r=>r.ok?r.json():Promise.reject(new Error('no_leads'))).then(data=>{ window.__LEADS_CACHE__=data; boot(data); }).catch(fail); }
   };
+  const renderMarket = () => {
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / 市场调研</div><h1>国家市场进入调研</h1><p>门锁 / 门五金出口目标市场的进入吸引力评分与深度调研：市场机会、利润空间、竞争格局、认证清关、消费人群、价格构成与毛利。点击排名中任一国家查看完整调研表。</p></div><div class="top-actions"><span class="demo-badge" id="mkt-stamp">读取中…</span></div></header>'+
+      '<section class="metrics"><article><span>已调研国家</span><strong id="mkt-count">0</strong><small>持续挖掘更多目标市场</small></article><article><span>最高吸引力</span><strong id="mkt-top">—</strong><small id="mkt-top-name">评分 0-100 加权</small></article><article><span>平均毛利</span><strong id="mkt-gm">—</strong><small>到岸成本 → 零售价</small></article><article><span>数据可信度</span><strong>分级标注</strong><small>已核实 / 估算 / 假设</small></article></section>'+
+      '<section class="content-panel"><h3 style="margin:0 0 3px">市场进入吸引力排名</h3><p style="font-size:11px;color:#8a94a6;margin:0 0 12px">按加权评分排序 · 点击行查看该国完整调研（表格可左右滑动查看全部六维评分）</p><div class="table-wrap" id="mkt-rank-wrap"><table><colgroup><col style="width:52px"><col style="width:210px"><col style="width:130px"><col style="width:78px"><col style="width:96px"><col style="width:96px"><col style="width:96px"><col style="width:96px"><col style="width:96px"><col style="width:96px"><col style="width:88px"><col style="width:76px"></colgroup><thead><tr><th>#</th><th>国家</th><th>地区</th><th>评分</th><th>市场机会</th><th>利润空间</th><th>竞争空间</th><th>市场准入</th><th>财务安全</th><th>产品契合</th><th>零售价$</th><th>毛利%</th></tr></thead><tbody id="mkt-rank-rows"></tbody></table></div></section>'+
+      '<section class="content-panel" id="mkt-detail-panel"><div id="mkt-detail"></div></section>';
+    const sc=v=>{v=parseFloat(v)||0; return v>=68?'#157347':v>=55?'#9c6500':'#8a94a6';};
+    const bar=v=>{v=parseFloat(v)||0; return '<div class="mkt-bar" title="'+v+'"><span style="width:'+Math.min(100,v)+'%;background:'+sc(v)+'"></span></div>';};
+    const confCls=t=>{t=String(t||''); return t.indexOf('已核实')>=0?'conf-v':t.indexOf('估算')>=0?'conf-e':t.indexOf('假设')>=0?'conf-a':t.indexOf('待补充')>=0?'conf-p':'conf-a';};
+    const confBadge=t=>t?'<span class="conf '+confCls(t)+'">'+escContact(t)+'</span>':'';
+    const kvTable=(arr)=>'<div class="table-wrap"><table><colgroup><col style="width:210px"><col><col style="width:150px"><col style="width:90px"></colgroup><thead><tr><th>字段</th><th>内容</th><th>来源</th><th>可信度</th></tr></thead><tbody>'+arr.map(x=>'<tr><td><strong>'+escContact(x.field)+'</strong></td><td>'+escContact(x.value)+'</td><td>'+(x.source?'<small>'+escContact(x.source)+'</small>':'—')+'</td><td>'+confBadge(x.confidence)+'</td></tr>').join('')+'</tbody></table></div>';
+    const sec=(title,desc,html)=>'<div class="mkt-sec"><h3>'+escContact(title)+'</h3>'+(desc?'<p>'+escContact(desc)+'</p>':'')+'</div>'+html;
+    const renderDetail=(cd)=>{
+      if(!cd){document.getElementById('mkt-detail').innerHTML='<div class="empty-state"><strong>请选择国家</strong><span>点击上方排名中的任一国家。</span></div>';return;}
+      let h='<div class="mkt-detail-head"><span class="flag">'+escContact(cd.flag)+'</span><div><h2>'+escContact(cd.title||cd.code)+'</h2><small style="color:#8a94a6">'+escContact(cd.region||'')+'</small></div><span class="scorepill">吸引力 '+escContact(cd.score)+' / 100</span></div>';
+      // score breakdown
+      h+=sec('评分依据 Score Breakdown','六维加权评分','<div class="table-wrap"><table><colgroup><col style="width:150px"><col style="width:150px"><col style="width:70px"><col></colgroup><thead><tr><th>维度</th><th>评分 0-100</th><th>权重</th><th>理由</th></tr></thead><tbody>'+(cd.scoreBreakdown||[]).map(x=>'<tr><td><strong>'+escContact(x.dim)+'</strong></td><td><div style="display:flex;align-items:center;gap:8px">'+bar(x.score)+'<b style="color:'+sc(x.score)+'">'+escContact(x.score)+'</b></div></td><td>'+escContact(x.weight)+'</td><td><small>'+escContact(x.rationale)+'</small></td></tr>').join('')+'</tbody></table></div>');
+      if((cd.overview||[]).length) h+=sec('国情总览 Country Overview','政局 / 经济 / 人口 / 付款 / 政策 / 气候',kvTable(cd.overview));
+      if((cd.competition||[]).length) h+=sec('竞争格局 Competitive Landscape','当地品牌 / 渠道 / 中国供应商 / 本地制造商',kvTable(cd.competition));
+      if((cd.certification||[]).length) h+=sec('认证与清关 Certifications & Clearance','准入认证 / 辅助认证 / 清关文件',kvTable(cd.certification));
+      if((cd.consumer||[]).length) h+=sec('消费人群 Consumer Profile','决策人 / 驱动力 / 关注点 / 溢价点',kvTable(cd.consumer));
+      if((cd.service||[]).length) h+=sec('服务要求 Service Expectations','时效 / 安装 / 售后',kvTable(cd.service));
+      if((cd.product||[]).length) h+=sec('产品分析 Product Analysis','钢制门 vs 智能锁','<div class="table-wrap"><table><colgroup><col style="width:150px"><col><col></colgroup><thead><tr><th>属性</th><th>钢制门 Steel door</th><th>智能锁 Smart lock</th></tr></thead><tbody>'+cd.product.map(x=>'<tr><td><strong>'+escContact(x.attr)+'</strong></td><td><small>'+escContact(x.steel)+'</small></td><td><small>'+escContact(x.smart)+'</small></td></tr>').join('')+'</tbody></table></div>');
+      if((cd.pricing||[]).length) h+=sec('价格构成 Landed-cost → Retail','FOB → 零售的成本与加价明细（FOB 为占位符，请替换为真实成本）','<div class="table-wrap"><table><colgroup><col style="width:230px"><col style="width:120px"><col style="width:120px"><col style="width:90px"></colgroup><thead><tr><th>项目</th><th>值</th><th>类型</th><th>可信度</th></tr></thead><tbody>'+cd.pricing.map(x=>'<tr><td>'+escContact(x.line)+'</td><td><strong>'+escContact(x.value)+'</strong></td><td><small>'+escContact(x.type)+'</small></td><td>'+confBadge(x.confidence)+'</td></tr>').join('')+'</tbody></table></div>');
+      h+='<div class="mkt-cards"><div class="mkt-card"><span>你的到岸成本 Delivered cost</span><strong>'+escContact(cd.deliveredCost||'—')+'</strong></div><div class="mkt-card"><span>零售价 Retail price</span><strong>'+escContact(cd.retailPrice||('$'+(cd.retail||'')))+'</strong></div><div class="mkt-card"><span>毛利率 Gross margin</span><strong style="color:#157347">'+escContact(cd.grossMargin||(cd.gm?cd.gm+'%':'—'))+'</strong></div></div>';
+      document.getElementById('mkt-detail').innerHTML=h;
+    };
+    const boot=data=>{
+      const countries=data.countries||{};
+      const ranking=(data.ranking||[]).slice().filter(r=>r&&r.country).sort((a,b)=>(parseFloat(b.score)||0)-(parseFloat(a.score)||0));
+      const rowsEl=document.getElementById('mkt-rank-rows');
+      const dimKeys=['opportunity','profit','competition','access','financial','fit'];
+      rowsEl.innerHTML=ranking.map((r,i)=>'<tr class="mkt-rank-row" data-code="'+escContact(r.code||'')+'"><td><strong>'+(i+1)+'</strong></td><td><strong>'+escContact(r.flag||'')+' '+escContact(r.country)+'</strong></td><td><small>'+escContact(r.region)+'</small></td><td><span class="mkt-score" style="color:'+sc(r.score)+'">'+escContact(r.score)+'</span></td>'+dimKeys.map(k=>'<td><div style="display:flex;align-items:center;gap:6px">'+bar(r[k])+'<small>'+escContact(r[k]||'')+'</small></div></td>').join('')+'<td><strong>'+escContact(r.retail)+'</strong></td><td><small>'+escContact(r.gm)+'</small></td></tr>').join('');
+      const selectCode=code=>{ [...rowsEl.querySelectorAll('.mkt-rank-row')].forEach(x=>x.classList.toggle('sel',x.dataset.code===code)); renderDetail(countries[code]); document.getElementById('mkt-detail-panel').scrollIntoView({behavior:'smooth',block:'start'}); };
+      rowsEl.addEventListener('click',e=>{const tr=e.target.closest('.mkt-rank-row'); if(!tr)return; const code=tr.dataset.code; if(countries[code]) selectCode(code);});
+      // metrics
+      document.getElementById('mkt-count').textContent=ranking.length;
+      if(ranking.length){ document.getElementById('mkt-top').textContent=ranking[0].score; document.getElementById('mkt-top-name').textContent=(ranking[0].flag||'')+' '+ranking[0].country; }
+      const gms=ranking.map(r=>parseFloat(r.gm)).filter(v=>!isNaN(v)); if(gms.length) document.getElementById('mkt-gm').textContent=(gms.reduce((a,b)=>a+b,0)/gms.length).toFixed(1)+'%';
+      document.getElementById('mkt-stamp').textContent='更新 '+String(data.generatedAt||'');
+      // default select first with detail data
+      const firstWithData=ranking.find(r=>countries[r.code]); if(firstWithData){ [...rowsEl.querySelectorAll('.mkt-rank-row')].forEach(x=>x.classList.toggle('sel',x.dataset.code===firstWithData.code)); renderDetail(countries[firstWithData.code]); } else renderDetail(null);
+    };
+    if(window.__MARKET_CACHE__){ boot(window.__MARKET_CACHE__); }
+    else { fetch('./crawler/market.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject(new Error('no_market'))).then(d=>{window.__MARKET_CACHE__=d; boot(d);}).catch(()=>{ document.getElementById('mkt-stamp').textContent='尚未生成'; document.getElementById('mkt-detail').innerHTML='<div class="empty-state"><strong>尚未生成市场调研</strong><span>数据文件 crawler/market.json 未找到。</span></div>'; }); }
+  };
   const render = (i) => {
     if (i === 0) { location.reload(); return; }
     if (i === 1) { renderRadar(); return; }
@@ -745,6 +815,7 @@ window.__ACQUIRE_DATA__.customers = [];
     if (i === 6) { renderLiveTenders(); return; }
     if (i === 7) { renderMethods(); return; }
     if (i === 8) { renderLeads(); return; }
+    if (i === 9) { renderMarket(); return; }
     const p = pages[i-1];
     workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / '+p[0]+'</div><h1>'+p[0]+'</h1><p>'+p[1]+'</p></div><div class="top-actions"><span class="demo-badge">仅显示已核验数据</span><button class="primary-btn">＋ 新建</button></div></header><section class="metrics"><article><span>'+p[2]+'</span><strong>'+p[3]+'</strong><small>'+p[4]+'</small></article><article><span>数据可信度</span><strong>公开来源</strong><small>每条记录保留来源 URL 和抓取时间</small></article><article><span>地区范围</span><strong>中东 / 中亚</strong><small>可扩展到更多目标市场</small></article><article><span>合规状态</span><strong>正常</strong><small>不绕过登录、验证码或访问限制</small></article></section><section class="content-panel"><div class="empty-state"><strong>'+p[4]+'</strong><span>系统不会展示虚拟客户或未经核验的联系人。运行采集器后，结果将从公开来源进入这里。</span><button class="secondary-btn" style="margin-top:18px">查看采集记录</button></div></section>';
   };

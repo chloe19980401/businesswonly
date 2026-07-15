@@ -1,0 +1,2124 @@
+{
+ "generatedAt": "2026-07-15",
+ "source": "市场调研表（用户提供）+ 联网补充",
+ "note": "市场规模等第三方数据为估算(Estimated)，认证/关税/官方数据为已核实(Verified)。价格构成中的FOB为占位符，需替换为真实成本。",
+ "ranking": [
+  {
+   "rank": 1,
+   "flag": "🇸🇦",
+   "country": "Saudi Arabia 沙特阿拉伯",
+   "region": "Middle East / Gulf",
+   "score": "70.5",
+   "opportunity": "85",
+   "profit": "66",
+   "competition": "50",
+   "access": "52",
+   "financial": "85",
+   "fit": "80",
+   "retail": "406.6",
+   "gm": "44.9",
+   "code": "SA"
+  },
+  {
+   "rank": 2,
+   "flag": "🇦🇪",
+   "country": "United Arab Emirates 阿联酋",
+   "region": "Middle East / Gulf",
+   "score": "69.9",
+   "opportunity": "68",
+   "profit": "66",
+   "competition": "42",
+   "access": "76",
+   "financial": "90",
+   "fit": "85",
+   "retail": "373",
+   "gm": "47.5",
+   "code": "AE"
+  },
+  {
+   "rank": 3,
+   "flag": "🇰🇿",
+   "country": "Kazakhstan 哈萨克斯坦",
+   "region": "Central Asia / CIS",
+   "score": "60.5",
+   "opportunity": "72",
+   "profit": "60",
+   "competition": "46",
+   "access": "58",
+   "financial": "50",
+   "fit": "74",
+   "retail": "410.3",
+   "gm": "45.4",
+   "code": "KZ"
+  },
+  {
+   "rank": 4,
+   "flag": "🇺🇿",
+   "country": "Uzbekistan 乌兹别克斯坦",
+   "region": "Central Asia / CIS",
+   "score": "59.2",
+   "opportunity": "74",
+   "profit": "52",
+   "competition": "52",
+   "access": "50",
+   "financial": "52",
+   "fit": "72",
+   "retail": "405.8",
+   "gm": "44.9",
+   "code": "UZ"
+  },
+  {
+   "rank": 5,
+   "flag": "🇳🇬",
+   "country": "Nigeria 尼日利亚",
+   "region": "Africa",
+   "score": "51.6",
+   "opportunity": "70",
+   "profit": "46",
+   "competition": "56",
+   "access": "36",
+   "financial": "30",
+   "fit": "66",
+   "retail": "378",
+   "gm": "46.9",
+   "code": "NG"
+  }
+ ],
+ "countries": {
+  "SA": {
+   "code": "SA",
+   "title": "🇸🇦  Saudi Arabia  沙特阿拉伯  ·  市场调研表",
+   "subtitle": "Middle East / Gulf   |   吸引力评分 Attractiveness Score: 70.5 / 100",
+   "flag": "🇸🇦",
+   "region": "Middle East / Gulf",
+   "score": "70.5",
+   "retail": "406.6",
+   "gm": "44.9",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "85",
+     "weight": "25%",
+     "rationale": "门类市场约14亿美元，年增约5.3%；Sakani计划2030年前建成200万套住房，加上NEOM/红海等超级项目。智能锁规模小（约2800万美元）但年增约15%。"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "66",
+     "weight": "20%",
+     "rationale": "高端别墅/酒店市场可承受较高价格，但2025年金属关税上调（最高约15–20%）加15%增值税压缩利润，且面对本地防火门厂竞争。待补充贵司FOB。"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "50",
+     "weight": "15%",
+     "rationale": "分散但拥挤：本地防火/钢门厂实力强（SFFECO、Riyadh Door、Al Manashy）+ ASSA ABLOY + 大量中国出口商已在供货。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "52",
+     "weight": "15%",
+     "rationale": "SABER/SASO强制认证（产品CoC+装运CoC）；防火门需UL/EN测试报告+民防备案；15%增值税；关税上升。认证成本与周期高。"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "85",
+     "weight": "15%",
+     "rationale": "里亚尔盯住美元（3.75），外储约4300亿美元，君主制稳定，信用证（含伊斯兰LC）成熟。三国中付款风险最低。"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "80",
+     "weight": "10%",
+     "rationale": "安全意识高→钢门/铸铝门；新建住宅智能锁接受度上升；高温加风沙要求密封耐用门。社会示范效应推动采用。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability / 政局",
+     "value": "绝对君主制，高度稳定；愿景2030改革驱动",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Foreign relations / 国家关系",
+     "value": "历史上与伊朗紧张；与海湾/美国/中国关系密切",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Population / 人口",
+     "value": "约3300万",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita / 人均GDP",
+     "value": "约3.3万美元",
+     "source": "IMF 2024",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income / 月收入中位数",
+     "value": "本国平均薪资高；大量低薪外籍劳工",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization / 城市化水平",
+     "value": "约85%",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves / 外汇储备",
+     "value": "约4300亿美元——充足，无短缺风险",
+     "source": "SAMA",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice / 付款方式",
+     "value": "大额订单常用信用证（伊斯兰/Murabaha LC常见）；长期合作后可赊账",
+     "source": "Riyad Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Incentive policies / 利好政策",
+     "value": "愿景2030住房计划（70%自有率目标）+ Sakani补贴；本地化政策或倾向本地组装",
+     "source": "vision2030.gov.sa",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Religion / 宗教",
+     "value": "伊斯兰教（逊尼派为主）",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Education level / 受教育水平",
+     "value": "上升；青年人口庞大，智能手机普及率高",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Aesthetic preference / 审美观念",
+     "value": "偏好宏大/华丽入户门，金色/深色调；智能家居兴趣增长",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate / 气候",
+     "value": "炎热沙漠，内陆干燥，沿海潮湿",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range (summer/winter) / 夏最高温/冬最低温",
+     "value": "夏季45–50°C / 冬季8–15°C",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Sand / dust / 风沙",
+     "value": "沙尘暴频繁——利好密封/耐候门",
+     "source": "",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top 5 selling brands / share / Top5当地销量最好品牌/占比",
+     "value": "分散；ASSA ABLOY/Yale在场。本地龙头：SFFECO、Riyadh Door、Al Manashy、Al-Oraini、Al Barrak、Elite Doors。无单一主导品牌",
+     "source": "imarcgroup.com; doorwinwindows.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top 5 sales channels / share / Top5当地最大销售渠道/占比",
+     "value": "工程/合约（超级项目、住房）+ 展厅 + 分销/车销。大型囤货商：Al Muhaidib、Saudi Group。智能锁经Amazon.sa、Jarir、Microless",
+     "source": "mojaf-sa.com; constructionweekonline.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Top 5 Chinese suppliers / share / TOP5中国供应商/占比",
+     "value": "Zonle Doors、CN Grandsea（多次整柜发沙特）、Simto（铸铝）、Foshan Dongya（钢门）、Keyplus（智能锁）",
+     "source": "cngrandsea.com; keyplusys.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top 5 local manufacturers / share / TOP5当地制造商/占比",
+     "value": "SFFECO、Riyadh Door、Al Manashy、Al-Oraini、Al Barrak（UL防火门）、Elite Doors、SANA/ZAN（WPC）",
+     "source": "sffeco.com; riyadhdoor.com",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "certification": [
+    {
+     "field": "Mandatory access certification / 准入认证",
+     "value": "SABER/SASO强制：产品CoC（每型号，1年）+ 装运CoC（每批）。未注册货物由进口商承担费用退运",
+     "source": "tuvsud.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Auxiliary certifications / 其他辅助性认证",
+     "value": "防火门：需经ISO 17025实验室的UL 10C / NFPA 252 / EN 1634-1 / BS 476测试报告 + 民防认可。智能锁：SASO + EMC/电气，无线需CITC型号核准",
+     "source": "sffeco.com; appluslaboratories.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Customs clearance documents / 清关文件",
+     "value": "SABER CoC、商业发票、装箱单、提单、原产地证",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "Age-group share / 消费人群年龄段占比",
+     "value": "青年人口；40岁以下高可支配收入群体推动智能化采用",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Decision maker / 消费决策人",
+     "value": "业主/别墅主（改造）；开发商/承包商/顾问（项目）",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Purchase drivers / 消费驱动力",
+     "value": "安全、便利/自动化、现代美学、彰显身份",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Info channels / 获取渠道",
+     "value": "项目指定、展厅、电商（Amazon.sa、Jarir）",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Buyer concerns / 消费者关注点",
+     "value": "SASO合规、联网锁网络安全、耐高温",
+     "source": "mdpi.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Pain points / 消费者痛点",
+     "value": "高温与风沙致生锈/变形；售后慢；对廉价进口不信任",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Premium willingness / 溢价点",
+     "value": "华丽设计、智能/指纹门禁、更厚钢板、质保",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "Delivery lead time / 送货上门时效",
+     "value": "受项目周期驱动；本地分销备货为加分项",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Installation cost norm / 安装成本",
+     "value": "含于项目范围；改造由安装商完成",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "After-sales policy / 售后政策",
+     "value": "期望质保；本地服务网点具差异化",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Other services / 其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "属沙特约14亿美元门类市场（2024）",
+     "smart": "约2400–2800万美元（2024）"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "至2033年约5.3–5.6%年复合增长",
+     "smart": "约14.7%年复合，2033年达约9600万美元"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "项目 + 展厅零售",
+     "smart": "电商 + 智能家居集成商"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "—",
+     "smart": "—"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "强劲（愿景2030/Sakani住房）",
+     "smart": "从小基数在新建住宅上升"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "趋向智能 + 高端饰面",
+     "smart": "指纹 + App；Yale/Aqara/ZKTeco主导"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "斋月、国庆（9月23日）",
+     "smart": "白色星期五（11月）"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "18",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "12",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "15",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "20",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "406.6",
+     "type": "计算值 derived",
+     "confidence": ""
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "$406.6",
+     "type": "",
+     "confidence": ""
+    },
+    {
+     "line": "毛利率 Gross margin (cost→retail)",
+     "value": "44.9%",
+     "type": "",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$224.1",
+   "retailPrice": "$406.6",
+   "grossMargin": "44.9%",
+   "researched": false
+  },
+  "AE": {
+   "code": "AE",
+   "title": "🇦🇪  United Arab Emirates  阿联酋  ·  市场调研表",
+   "subtitle": "Middle East / Gulf   |   吸引力评分 Attractiveness Score: 69.9 / 100",
+   "flag": "🇦🇪",
+   "region": "Middle East / Gulf",
+   "score": "69.9",
+   "retail": "373",
+   "gm": "47.5",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "68",
+     "weight": "25%",
+     "rationale": "门窗市场约34亿美元；防火门2.69亿→4.49亿美元、年增8.9%。人口小但消费力极高，且作为转口枢纽辐射海湾/非洲15亿人口。"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "66",
+     "weight": "20%",
+     "rationale": "仅5%关税+5%增值税（转口可保税）保护利润，但高端市场竞争激烈。待补充贵司FOB。"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "42",
+     "weight": "15%",
+     "rationale": "全球最拥挤市场之一——Vulcan、NAFFCO、DNK、QMI、ASSA ABLOY + 所有智能锁品牌（Yale、Samsung、Kaadas）都在迪拜。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "76",
+     "weight": "15%",
+     "rationale": "低5%增值税与5%关税，港口高效，自贸区保税。需ECAS/EQM + 民防防火门核准，但流程顺畅。"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "90",
+     "weight": "15%",
+     "rationale": "迪拉姆盯住美元，外储庞大，极稳定；信用证支撑40%+贸易，贸易融资成熟。海湾最安全付款环境。"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "85",
+     "weight": "10%",
+     "rationale": "奢华美学 + 强劲智能家居采用（迪拜占全国约60%需求）契合高端门与智能锁；潮湿利好镀锌/WPC/处理铝材。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability / 政局",
+     "value": "酋长国联邦，非常稳定",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Foreign relations / 国家关系",
+     "value": "中立的全球贸易枢纽；各方关系良好",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Population / 人口",
+     "value": "约1000万（外籍为主）；2025年迪拜净增20万居民",
+     "source": "World Bank; propertyfinder",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita / 人均GDP",
+     "value": "约5万美元",
+     "source": "IMF 2024",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income / 月收入中位数",
+     "value": "差距大；富裕本国人 + 劳工阶层外籍",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization / 城市化水平",
+     "value": "约87%",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves / 外汇储备",
+     "value": "充足；迪拉姆盯住美元",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice / 付款方式",
+     "value": "信用证占阿联酋贸易40%+（2024）；老客户用赊账",
+     "source": "UAE Central Bank / tulpartax.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Incentive policies / 利好政策",
+     "value": "自贸区（Jafza）保税、低税制",
+     "source": "jafza.ae",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Religion / 宗教",
+     "value": "伊斯兰教（官方）；高度多元",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Education level / 受教育水平",
+     "value": "高；科技导向消费者",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Aesthetic preference / 审美观念",
+     "value": "奢华、现代、智能家居；设计敏感度强",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate / 气候",
+     "value": "炎热沙漠；沿海潮湿（腐蚀风险）",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range (summer/winter) / 夏最高温/冬最低温",
+     "value": "夏季45–48°C / 冬季14–20°C",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Sand / dust / 风沙",
+     "value": "偶有扬尘；沿海高湿",
+     "source": "",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top 5 selling brands / share / Top5当地销量最好品牌/占比",
+     "value": "本地厂商主导（项目导向）：Vulcan（月产超3000樘）、NAFFCO、DNK、QMI、TASKDOOR、Bin Ghurair FORT。ASSA ABLOY在项目层面",
+     "source": "dnkme.com; vulcanuae.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top 5 sales channels / share / Top5当地最大销售渠道/占比",
+     "value": "工程/合约（开发商、承包商、贸易商）主导；高端走展厅；智能锁走电商。转口枢纽：海湾61%货物经阿联酋港口（Jafza）",
+     "source": "jafza.ae; uaehumanjourney.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Top 5 Chinese suppliers / share / TOP5中国供应商/占比",
+     "value": "Zonle Doors、Shandong FZ、Yesporting（WPC）。锁具多经Alibaba/Made-in-China（广东占中国锁产能约68%）",
+     "source": "zonledoors.com; made-in-china.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top 5 local manufacturers / share / TOP5当地制造商/占比",
+     "value": "Vulcan（阿治曼）、NAFFCO、DNK、QMI、Bin Ghurair FORT、TASKDOOR。集群：Ras Al Khor、Al Qusais、沙迦IA13",
+     "source": "vallisco.com",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "Mandatory access certification / 准入认证",
+     "value": "经MOIAT的ECAS证书（1年）或EQM质量标志（3年，需质量体系）——建筑类受管制产品强制",
+     "source": "moiat.gov.ae; sgs.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Auxiliary certifications / 其他辅助性认证",
+     "value": "防火门：阿联酋消防与生命安全规范；迪拜（DCD）与阿布扎比（ADCD）民防须在项目使用前完成产品注册 + UL或BS EN测试报告",
+     "source": "ul.com; yunngd.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Customs clearance documents / 清关文件",
+     "value": "发票、装箱单、提单、原产地证、合规证书",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "Age-group share / 消费人群年龄段占比",
+     "value": "高收入、懂科技家庭偏向智能采用",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Decision maker / 消费决策人",
+     "value": "开发商/承包商（新建指定）；业主/别墅主（智能与更换）",
+     "source": "ordoh.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Purchase drivers / 消费驱动力",
+     "value": "设计/品牌、消防合规、智能家居集成",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Info channels / 获取渠道",
+     "value": "项目指定、展厅、电商（智能锁）",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Buyer concerns / 消费者关注点",
+     "value": "潮湿腐蚀、设计匹配、联网/App可靠性",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Pain points / 消费者痛点",
+     "value": "沿海生锈；交期长",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Premium willingness / 溢价点",
+     "value": "智能/生物识别门禁、设计师饰面、酒店级系统",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "Delivery lead time / 送货上门时效",
+     "value": "期望快速；自贸区备货可快速周转",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Installation cost norm / 安装成本",
+     "value": "项目范围；零售由锁匠安装",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "After-sales policy / 售后政策",
+     "value": "期望强质保 + 本地支持",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Other services / 其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "2.687亿美元（2024）阿联酋防火门与隔断",
+     "smart": "880万美元（2025）"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "8.9%年复合（2025–30）→ 4.49亿美元",
+     "smart": "21.5%年复合（2026–33）→ 4130万美元"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "经民防核准名录的项目指定",
+     "smart": "电商 + 集成商；迪拜占约60%需求"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "—",
+     "smart": "—"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "强劲（消防规范执行）",
+     "smart": "增长最快的切入点；强势在位者"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "钢/金属为最大材料细分",
+     "smart": "插芯最大；App/生物识别；Yale/Samsung/Kaadas"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "—",
+     "smart": "—"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "16",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "5",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "5",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "9",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "7",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "11",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "30",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "22",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "373",
+     "type": "计算值 derived",
+     "confidence": ""
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "$373",
+     "type": "",
+     "confidence": ""
+    },
+    {
+     "line": "毛利率 Gross margin (cost→retail)",
+     "value": "47.5%",
+     "type": "",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$195.6",
+   "retailPrice": "$373",
+   "grossMargin": "47.5%",
+   "researched": false
+  },
+  "KZ": {
+   "code": "KZ",
+   "title": "🇰🇿  Kazakhstan  哈萨克斯坦  ·  市场调研表",
+   "subtitle": "Central Asia / CIS   |   吸引力评分 Attractiveness Score: 60.5 / 100",
+   "flag": "🇰🇿",
+   "region": "Central Asia / CIS",
+   "score": "60.5",
+   "retail": "410.3",
+   "gm": "45.4",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "72",
+     "weight": "25%",
+     "rationale": "上中等收入（人均约1.25万美元）=真实购买力；76亿美元住房投资，年竣工2000万㎡。人口2050万较小但消费力高。"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "60",
+     "weight": "20%",
+     "rationale": "钢门关税仅6%（HS 7308.30！）；高收入支撑价格。但16%增值税 + EAEU对手（俄罗斯）零关税。待补充贵司FOB。"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "46",
+     "weight": "15%",
+     "rationale": "非常拥挤：中国占阿拉木图零售面约60% + 建材进口47%；俄罗斯按货值最大；Torex、Guardian、Promet、DoorHan。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "58",
+     "weight": "15%",
+     "rationale": "低6%门关税是优势；但强制EAC：防火门（TR EAEU 043/2017）与智能锁（TR CU 020/2011 + 037/2016）。普通金属门仅自愿GOST。内陆（铁路好）。"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "50",
+     "weight": "15%",
+     "rationale": "坚戈自由浮动但波动大（创545/美元），通胀约12%，基准利率16.5%；企业购汇>5万美元受限。上中等收入，对华关系强。"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "74",
+     "weight": "10%",
+     "rationale": "极端大陆性气候（-45°C冬季）使保温+隔音成为必备规格——真正的差异点。智能锁经Kaspi 0%分期采用。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability / 政局",
+     "value": "相对稳定的威权治理；对华经济关系强",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Foreign relations / 国家关系",
+     "value": "一带一路第一大目的地（2025上半年230亿美元中国资本）；双边贸易438亿美元（2024）",
+     "source": "astanatimes.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Population / 人口",
+     "value": "约2050万（2025年12月）",
+     "source": "astanatimes.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita / 人均GDP",
+     "value": "约1.25万美元（上中等收入）",
+     "source": "tradingeconomics.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income / 月收入中位数",
+     "value": "高于中亚同侪；Kaspi分期支持中价位购买",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization / 城市化水平",
+     "value": "约65%城镇化，上升",
+     "source": "macrotrends",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves / 外汇储备",
+     "value": "坚戈浮动/波动；企业无理由购汇上限5万美元",
+     "source": "ainvest.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice / 付款方式",
+     "value": "TT/LC常见；鉴于坚戈波动建议LC/部分预付",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Incentive policies / 利好政策",
+     "value": "2025年76亿美元住房投资；新建筑法规（更长质保、数字化）",
+     "source": "astanatimes.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Religion / 宗教",
+     "value": "约70%穆斯林（逊尼/哈乃斐），东正教少数",
+     "source": "wikipedia",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Education level / 受教育水平",
+     "value": "识字率高；经Kaspi超级App数字化",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Aesthetic preference / 审美观念",
+     "value": "俄罗斯品牌=质量/保温联想；保温钢入户门为常态",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate / 气候",
+     "value": "极端大陆性——冬季低至-45°C，夏季高至+45°C",
+     "source": "bluegreenatlas.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range (summer/winter) / 夏最高温/冬最低温",
+     "value": "夏季+45°C / 冬季-45°C（阿斯塔纳为最冷首都之一）",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Sand / dust / 风沙",
+     "value": "部分地区草原尘/风；寒冷是主导设计因素",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top 5 selling brands / share / Top5当地销量最好品牌/占比",
+     "value": "中国占阿拉木图零售面约60%（按量）。俄罗斯按海关货值最大（2023约为中国10倍）。俄品牌：Torex、Guardian、Promet、Buldoors、Bravo",
+     "source": "indexbox.io; metako.kz",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Top 5 sales channels / share / Top5当地最大销售渠道/占比",
+     "value": "Kaspi.kz超级App（零售主导 + 0%分期）；阿拉木图集市（Barys、Tastak）；阿斯塔纳批发商（TBM）；品牌经销网；开发商（约90%私营住房）",
+     "source": "kaspi.kz; astanatimes.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Top 5 Chinese suppliers / share / TOP5中国供应商/占比",
+     "value": "中国按货值第2、按量主导；多为经Alibaba的OEM/贴牌“哈萨克市场”钢门。智能锁经Xiaomi/Aqara。无知名品牌龙头",
+     "source": "indexbox.io; alibaba.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top 5 local manufacturers / share / TOP5当地制造商/占比",
+     "value": "NGO Promet（金属门+保险柜，阿斯塔纳/阿拉木图/阿特劳）、DoorHan KZ、Alprof、ASPAN、Petrotall（门）",
+     "source": "pakitchencabinets.com; raxdoor.com",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "Mandatory access certification / 准入认证",
+     "value": "EAEU成员 → 适用EAC。普通金属入户门：非强制（自愿GOST 31173-2016或豁免函）",
+     "source": "gortest.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Auxiliary certifications / 其他辅助性认证",
+     "value": "强制EAC：防火门依TR EAEU 043/2017；电子/智能锁依TR CU 020/2011（EMC）+ TR EAEU 037/2016（RoHS）；机械锁需合格证书",
+     "source": "tuv.com; sertiki.ru",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Customs clearance documents / 清关文件",
+     "value": "合同、发票、装箱单、CMR、原产地证（CT-1/CT-KZ）、适用EAC证书/声明",
+     "source": "trade.gov",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "Age-group share / 消费人群年龄段占比",
+     "value": "城市、经Kaspi数字化活跃",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Decision maker / 消费决策人",
+     "value": "业主（零售）；开发商/承包商（项目）",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Purchase drivers / 消费驱动力",
+     "value": "保温+隔音、防撬、价格、可得性、质保",
+     "source": "kaspi.kz",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Info channels / 获取渠道",
+     "value": "Kaspi.kz（+分期）、集市、经销商展厅",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Buyer concerns / 消费者关注点",
+     "value": "保温性能、安全、质保（新建筑法规）",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Pain points / 消费者痛点",
+     "value": "寒冷气候性能；价格；坚戈致价格波动",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Premium willingness / 溢价点",
+     "value": "可验证保温、饰面质量、优于廉价进口的质保",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "Delivery lead time / 送货上门时效",
+     "value": "自中国铁路周期（一带一路走廊，内陆）",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Installation cost norm / 安装成本",
+     "value": "中等；Kaspi分期覆盖安装套餐",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "After-sales policy / 售后政策",
+     "value": "现期望更长质保（建筑法规）",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Other services / 其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "大；年住房2000万㎡。细分美元规模付费墙",
+     "smart": "早期、城市（阿拉木图/阿斯塔纳）；Kaspi上超1000款"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "强劲（76亿美元投资；2026计划1850万㎡）",
+     "smart": "上升；Kaspi 0%分期为关键推动"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "Kaspi + 集市 + 经销商 + 开发商",
+     "smart": "—"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "—",
+     "smart": "—"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "强劲；保温门必备",
+     "smart": "城市高端；耐寒机型（-10至+55°C）"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "保温/隔音钢门；中国走量对俄罗斯高端",
+     "smart": "Xiaomi Aqara/Loock；指纹/PIN/NFC"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "Nauryz（3月）、入冬前（9–10月）",
+     "smart": "—"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "115",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "28",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "6",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "16",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "12",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "7",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "7",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "9",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "18",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "14",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "410.3",
+     "type": "计算值 derived",
+     "confidence": ""
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "$410.3",
+     "type": "",
+     "confidence": ""
+    },
+    {
+     "line": "毛利率 Gross margin (cost→retail)",
+     "value": "45.4%",
+     "type": "",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$223.9",
+   "retailPrice": "$410.3",
+   "grossMargin": "45.4%",
+   "researched": false
+  },
+  "UZ": {
+   "code": "UZ",
+   "title": "🇺🇿  Uzbekistan  乌兹别克斯坦  ·  市场调研表",
+   "subtitle": "Central Asia / CIS   |   吸引力评分 Attractiveness Score: 59.2 / 100",
+   "flag": "🇺🇿",
+   "region": "Central Asia / CIS",
+   "score": "59.2",
+   "retail": "405.8",
+   "gm": "44.9",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "74",
+     "weight": "25%",
+     "rationale": "GDP+7.7%，建筑+14%（2025）；住房到2040年扩至年42.1万套 + “新塔什干”2万公顷。3800万人口大，但约3800美元人均GDP限制负担能力。"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "52",
+     "weight": "20%",
+     "rationale": "高度价格敏感的低价市场；关税约10–30%（估）+ 12%增值税。中国产品已在锁具占优。仅中低价位。待补充贵司FOB。"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "52",
+     "weight": "15%",
+     "rationale": "本地厂商增长（Urban Doors、Dacros、Orient、AKFA、IMZO）+ 俄罗斯品牌（Torex、Promet）+ 土耳其进口；中国主导锁具。拥挤但快速扩张。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "50",
+     "weight": "15%",
+     "rationale": "国家O'ZST合格证（非EAC——仅观察员），须由本地进口商/分销商作为申请人。内陆=铁路/公路运输。关税约10–30% + 12%增值税。"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "52",
+     "weight": "15%",
+     "rationale": "苏姆为管理浮动、非完全可兑换；周期性外汇管制、渐进贬值（约12600/美元）。改革导向、稳定、一带一路伙伴。以美元计价。"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "72",
+     "weight": "10%",
+     "rationale": "大陆性气候（夏热多尘、冬冷）→ 保温密封门。安全意识上升；土耳其装饰钢门风格流行；智能锁增长。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability / 政局",
+     "value": "改革导向、稳定的主导党制；官方中立",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Foreign relations / 国家关系",
+     "value": "一带一路伙伴；对华+对俄贸易依存重；EAEU观察员（非成员）",
+     "source": "thediplomat.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Population / 人口",
+     "value": "约3800万（年增约70万）",
+     "source": "invest.gov.uz",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita / 人均GDP",
+     "value": "约3800美元",
+     "source": "World Bank / 推算",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Median monthly income / 月收入中位数",
+     "value": "低但上升；消费者高度价格敏感",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization / 城市化水平",
+     "value": "在住房/新城驱动下加速",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves / 外汇储备",
+     "value": "2025年FDI超430亿美元；管理浮动苏姆，周期性外汇限制",
+     "source": "invest.gov.uz",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice / 付款方式",
+     "value": "跨境以美元/欧元报价结算；经进口商TT/LC——须确认外汇额度",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Incentive policies / 利好政策",
+     "value": "“新乌兹别克斯坦”住房计划；审批环节缩减3倍；亲建筑改革",
+     "source": "theasiatoday.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Religion / 宗教",
+     "value": "以穆斯林为主（逊尼派为主）",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Education level / 受教育水平",
+     "value": "年轻、数字化活跃（18–24岁群体推动线上购买）",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Aesthetic preference / 审美观念",
+     "value": "土耳其风格艺术+安全门流行；装饰MDF包钢门",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate / 气候",
+     "value": "大陆性——夏季干热多尘，冬季寒冷",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Temp range (summer/winter) / 夏最高温/冬最低温",
+     "value": "夏季高达约40°C+ / 冬季寒冷",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Sand / dust / 风沙",
+     "value": "多尘利好密封/耐候门",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top 5 selling brands / share / Top5当地销量最好品牌/占比",
+     "value": "本地：Urban Doors、Dacros、Orient、AKFA、IMZO、Texnodoor。俄罗斯零售：Torex、Promet。土耳其进口强。无核实份额",
+     "source": "orient-metal.uz; torex.ru",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top 5 sales channels / share / Top5当地最大销售渠道/占比",
+     "value": "建材集市（Orikzor、Qoyliq，塔什干；全国约66个市场）；进口分销商/代理；直供开发商（如Dacros→Golden House）；线上（OLX、Uzum/MiHome）",
+     "source": "charterexpatservices.com; trade.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Top 5 Chinese suppliers / share / TOP5中国供应商/占比",
+     "value": "无确认门类OEM；中国=最大锁进口来源（某品类约54%）。智能锁经Xiaomi/Aqara与ZKTeco上架",
+     "source": "volza.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top 5 local manufacturers / share / TOP5当地制造商/占比",
+     "value": "Urban Doors（月产超5000樘）、Dacros（CNC钢门）、Orient Metal、Texnodoor、AKFA/IMZO（uPVC/铝）",
+     "source": "urbandoors.uz; dacros.uz",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "Mandatory access certification / 准入认证",
+     "value": "经O'zStandart的国家O'ZST合格证（非EAC/EAC标志——乌为EAEU观察员）。须由本地申请人（进口商/分销商）申请",
+     "source": "wwbridge-cert.com; trade.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Auxiliary certifications / 其他辅助性认证",
+     "value": "防火门：预计国家O'zDST耐火测试（EI-30/EI-60标准）——发货前向O'zStandart确认",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Customs clearance documents / 清关文件",
+     "value": "盖章申请、产品/法规文件、标签样品、运单、发票、带海关到货备注的单据",
+     "source": "wwbridge-cert.com",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "Age-group share / 消费人群年龄段占比",
+     "value": "年轻人口；18–24岁数字化活跃",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Decision maker / 消费决策人",
+     "value": "业主（零售）；开发商/承包商（项目量）",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Purchase drivers / 消费驱动力",
+     "value": "安全、保温、耐用、日益重视美学",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Info channels / 获取渠道",
+     "value": "集市、线上评价与社媒、分销商展厅",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Buyer concerns / 消费者关注点",
+     "value": "防撬、保温、价格",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Pain points / 消费者痛点",
+     "value": "负担能力；抵触超50%溢价；质量一致性",
+     "source": "sciencedirect.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Premium willingness / 溢价点",
+     "value": "装饰饰面、保温、安全功能",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "Delivery lead time / 送货上门时效",
+     "value": "自中国铁路/公路运输周期（内陆）",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Installation cost norm / 安装成本",
+     "value": "本地人工低",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "After-sales policy / 售后政策",
+     "value": "经分销商质保 + 本地服务具差异化",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Other services / 其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "随2025年约23.8万套公寓上升；单位美元规模未公开",
+     "smart": "塔什干零售品类增长"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "高（建筑+14%；住房到2040年年42.1万套）",
+     "smart": "快速扩张（2024.6–2025.5约111批中国货）"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "集市 + 分销商 + 直供开发商",
+     "smart": "—"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "—",
+     "smart": "—"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "结构性上升（住房热）",
+     "smart": "随收入与智能家居兴趣上升"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "保温装饰钢门；土耳其风格",
+     "smart": "Xiaomi/Aqara、ZKTeco、Kaadas"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "Navruz（春节）、婚庆季",
+     "smart": "—"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "105",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "30",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "20",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "12",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "12",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "5",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "3",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "18",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "405.8",
+     "type": "计算值 derived",
+     "confidence": ""
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "$405.8",
+     "type": "",
+     "confidence": ""
+    },
+    {
+     "line": "毛利率 Gross margin (cost→retail)",
+     "value": "44.9%",
+     "type": "",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$223.6",
+   "retailPrice": "$405.8",
+   "grossMargin": "44.9%",
+   "researched": false
+  },
+  "NG": {
+   "code": "NG",
+   "title": "🇳🇬  Nigeria  尼日利亚  ·  市场调研表",
+   "subtitle": "Africa   |   吸引力评分 Attractiveness Score: 51.6 / 100",
+   "flag": "🇳🇬",
+   "region": "Africa",
+   "score": "51.6",
+   "retail": "378",
+   "gm": "46.9",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "70",
+     "weight": "25%",
+     "rationale": "官方住房缺口约1490万套（2025），实际约2800万——潜在体量巨大。但约32%房贷利率 + 通胀抑制短期正规住房需求。"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "46",
+     "weight": "20%",
+     "rationale": "极度价格敏感 + 假货泛滥；约20%关税 + 附加税 + 7.5%增值税 + 奈拉波动。走量薄利。"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "56",
+     "weight": "15%",
+     "rationale": "廉价中国/土耳其进口与本地贴牌（Superdoor、Goltava）泛滥；高端/正品空间竞争较少。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "36",
+     "weight": "15%",
+     "rationale": "SONCAP强制（PC→Form M→SC→PAAR，每型号需原产地检测）；约20%关税 + 7%附加 + 4% CISS + 0.5% ETLS；拉各斯港清关慢。"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "30",
+     "weight": "15%",
+     "rationale": "美元短缺，信用证难开，通常需TT/预付，回款延迟。标普2026上调至B，但2027大选风险与通胀。"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "66",
+     "weight": "10%",
+     "rationale": "安全是首要关切→钢门/安全门需求强；智能锁与高端受价格、电力与网络可靠性限制。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability / 政局",
+     "value": "民主制；2027大选=政策/货币不确定",
+     "source": "businessday.ng",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Foreign relations / 国家关系",
+     "value": "西非ECOWAS区域领袖；贸易关系广泛",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Population / 人口",
+     "value": "约2.23亿（非洲最多）",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita / 人均GDP",
+     "value": "约1600美元",
+     "source": "IMF 2024",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income / 月收入中位数",
+     "value": "低；庞大非正规经济；被通胀侵蚀",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization / 城市化水平",
+     "value": "约54%",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves / 外汇储备",
+     "value": "承压；美元短缺反复（2026年2月净流入环比-24%）",
+     "source": "businessday.ng",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice / 付款方式",
+     "value": "信用证难开（美元短缺）；通常需TT/预付定金；回款风险",
+     "source": "fxcintel.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Incentive policies / 利好政策",
+     "value": "本地制造/进口替代压力",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Religion / 宗教",
+     "value": "约50%穆斯林（北部），约50%基督徒（南部）",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Education level / 受教育水平",
+     "value": "改善中；人口非常年轻",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Aesthetic preference / 审美观念",
+     "value": "大胆装饰性安全门；土耳其产地=身份象征",
+     "source": "somadoors.com.ng",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate / 气候",
+     "value": "热带；南部潮湿，北部干旱",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range (summer/winter) / 夏最高温/冬最低温",
+     "value": "北部高达40°C / 南部温和潮湿",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Sand / dust / 风沙",
+     "value": "哈马丹尘（北部，12–2月）",
+     "source": "",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top 5 selling brands / share / Top5当地销量最好品牌/占比",
+     "value": "土耳其风格钢制安全门为主打。进口/零售品牌：Superdoor、Ovas Doors、Goltava、Goldline。土耳其/中国/意大利=高端象征",
+     "source": "superdoor.ng; ovasdoors.com.ng",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Top 5 sales channels / share / Top5当地最大销售渠道/占比",
+     "value": "露天建材市场（拉各斯Orile、Mile 2–Trade Fair）；带展厅进口分销商；线上（Jiji、Jumia）；项目/小区/银行",
+     "source": "connectnigeria.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Top 5 Chinese suppliers / share / TOP5中国供应商/占比",
+     "value": "永康（浙江）钢门集群：Doway、Badaju、Haojun；多经Made-in-China/Alibaba",
+     "source": "made-in-china.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Top 5 local manufacturers / share / TOP5当地制造商/占比",
+     "value": "Superdoor（2004年，拉各斯）、Goltava、Goldline——多为组装/精加工/贴牌进口的土耳其/中国门",
+     "source": "superdoor.ng; goltava.com",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "certification": [
+    {
+     "field": "Mandatory access certification / 准入认证",
+     "value": "SONCAP强制：产品证书 → 开CBN Form M → 装运SONCAP证（每批，原产地检验）→ PAAR清关",
+     "source": "son.gov.ng; cotecna.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Auxiliary certifications / 其他辅助性认证",
+     "value": "原产地（中国）每型号发货前检测/检验；预留周期与费用",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Customs clearance documents / 清关文件",
+     "value": "Form M、PAAR、SONCAP CoC、发票、提单、原产地证、TIN",
+     "source": "exports-to-nigeria.com",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "Age-group share / 消费人群年龄段占比",
+     "value": "中位年龄极低（约17岁）",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Decision maker / 消费决策人",
+     "value": "业主；小区开发商；安全门用于银行/使馆",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Purchase drivers / 消费驱动力",
+     "value": "安全、耐用、设计、品牌/产地声望（土耳其）",
+     "source": "somadoors.com.ng",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Info channels / 获取渠道",
+     "value": "实体市场、口碑、社媒（Jiji/Jumia）",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Buyer concerns / 消费者关注点",
+     "value": "防撬、价格、假冒仿牌",
+     "source": "guardian.ng",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Pain points / 消费者痛点",
+     "value": "负担能力、假冒/劣质进口、汇率致价格波动、廉价锁易坏",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Premium willingness / 溢价点",
+     "value": "可验证质量、防伪标记、质保、知名品牌",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "Delivery lead time / 送货上门时效",
+     "value": "拉各斯港常延误",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Installation cost norm / 安装成本",
+     "value": "低（本地人工便宜）",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "After-sales policy / 售后政策",
+     "value": "规范薄弱——差异化机会",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Other services / 其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "按量非常大（1490万套住房缺口）；美元市场规模无可靠公开数据",
+     "smart": "小众高端（拉各斯/阿布贾）"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "潜力高；受约32%房贷利率制约",
+     "smart": "上升但受电力/网络/成本制约"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "进口商 → 市场摊贩/展厅 → 终端",
+     "smart": "—"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "—",
+     "smart": "—"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "安全门需求强；身份驱动",
+     "smart": "城市、安全驱动"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "低价主导；智能采用慢；假货问题",
+     "smart": "Yale、ZKTeco、Pulmos、Zendric、SecureTech在场"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "圣诞/开斋节/复活节",
+     "smart": "—"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "95",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "22",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "20",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "5",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "7.5",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "14",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "7",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "5",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "5",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "3",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "18",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "22",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "28",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "378",
+     "type": "计算值 derived",
+     "confidence": ""
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "$378",
+     "type": "",
+     "confidence": ""
+    },
+    {
+     "line": "毛利率 Gross margin (cost→retail)",
+     "value": "46.9%",
+     "type": "",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$200.8",
+   "retailPrice": "$378",
+   "grossMargin": "46.9%",
+   "researched": false
+  }
+ }
+}
