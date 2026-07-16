@@ -1,10 +1,26 @@
 {
- "generatedAt": "2026-07-15",
+ "generatedAt": "2026-07-16",
  "source": "市场调研表（用户提供）+ 联网补充",
  "note": "市场规模等第三方数据为估算(Estimated)，认证/关税/官方数据为已核实(Verified)。价格构成中的FOB为占位符，需替换为真实成本。",
  "ranking": [
   {
-   "rank": 1,
+   "flag": "🇶🇦",
+   "country": "Qatar 卡塔尔",
+   "region": "Middle East / Gulf",
+   "score": "71.4",
+   "opportunity": "72",
+   "profit": "70",
+   "competition": "55",
+   "access": "72",
+   "financial": "86",
+   "fit": "75",
+   "retail": "345.9",
+   "gm": "45.4",
+   "code": "QA",
+   "rank": 1
+  },
+  {
+   "rank": 2,
    "flag": "🇸🇦",
    "country": "Saudi Arabia 沙特阿拉伯",
    "region": "Middle East / Gulf",
@@ -20,7 +36,7 @@
    "code": "SA"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "flag": "🇦🇪",
    "country": "United Arab Emirates 阿联酋",
    "region": "Middle East / Gulf",
@@ -36,7 +52,87 @@
    "code": "AE"
   },
   {
-   "rank": 3,
+   "flag": "🇰🇼",
+   "country": "Kuwait 科威特",
+   "region": "Middle East / Gulf",
+   "score": "67.8",
+   "opportunity": "62",
+   "profit": "72",
+   "competition": "58",
+   "access": "63",
+   "financial": "86",
+   "fit": "68",
+   "retail": "345.9",
+   "gm": "45.4",
+   "code": "KW",
+   "rank": 4
+  },
+  {
+   "flag": "🇴🇲",
+   "country": "Oman 阿曼",
+   "region": "Middle East / Gulf",
+   "score": "65.5",
+   "opportunity": "62",
+   "profit": "66",
+   "competition": "61",
+   "access": "67",
+   "financial": "74",
+   "fit": "65",
+   "retail": "358.4",
+   "gm": "45.3",
+   "code": "OM",
+   "rank": 5
+  },
+  {
+   "flag": "🇬🇪",
+   "country": "Georgia 格鲁吉亚",
+   "region": "Central Asia / CIS",
+   "score": "63.2",
+   "opportunity": "62",
+   "profit": "58",
+   "competition": "55",
+   "access": "86",
+   "financial": "54",
+   "fit": "68",
+   "retail": "380.9",
+   "gm": "44.5",
+   "code": "GE",
+   "rank": 6
+  },
+  {
+   "flag": "🇰🇪",
+   "country": "Kenya 肯尼亚",
+   "region": "Africa",
+   "score": "61.5",
+   "opportunity": "68",
+   "profit": "55",
+   "competition": "57",
+   "access": "60",
+   "financial": "58",
+   "fit": "72",
+   "retail": "433.1",
+   "gm": "43.6",
+   "code": "KE",
+   "rank": 7
+  },
+  {
+   "flag": "🇲🇦",
+   "country": "Morocco 摩洛哥",
+   "region": "Africa",
+   "score": "61.3",
+   "opportunity": "68",
+   "profit": "52",
+   "competition": "55",
+   "access": "58",
+   "financial": "70",
+   "fit": "65",
+   "retail": "423.1",
+   "gm": "43.9",
+   "code": "MA",
+   "rank": 8
+  },
+  {
+   "rank": 9,
    "flag": "🇰🇿",
    "country": "Kazakhstan 哈萨克斯坦",
    "region": "Central Asia / CIS",
@@ -52,7 +148,23 @@
    "code": "KZ"
   },
   {
-   "rank": 4,
+   "flag": "🇦🇿",
+   "country": "Azerbaijan 阿塞拜疆",
+   "region": "Central Asia / CIS",
+   "score": "60.1",
+   "opportunity": "62",
+   "profit": "55",
+   "competition": "54",
+   "access": "57",
+   "financial": "69",
+   "fit": "66",
+   "retail": "426.3",
+   "gm": "44.5",
+   "code": "AZ",
+   "rank": 10
+  },
+  {
+   "rank": 11,
    "flag": "🇺🇿",
    "country": "Uzbekistan 乌兹别克斯坦",
    "region": "Central Asia / CIS",
@@ -68,7 +180,119 @@
    "code": "UZ"
   },
   {
-   "rank": 5,
+   "flag": "🇧🇭",
+   "country": "Bahrain 巴林",
+   "region": "Middle East / Gulf",
+   "score": "58.4",
+   "opportunity": "47",
+   "profit": "58",
+   "competition": "55",
+   "access": "63",
+   "financial": "72",
+   "fit": "66",
+   "retail": "370.8",
+   "gm": "45.2",
+   "code": "BH",
+   "rank": 12
+  },
+  {
+   "flag": "🇿🇦",
+   "country": "South Africa 南非",
+   "region": "Africa",
+   "score": "56.8",
+   "opportunity": "68",
+   "profit": "55",
+   "competition": "40",
+   "access": "55",
+   "financial": "50",
+   "fit": "70",
+   "retail": "413.3",
+   "gm": "44.6",
+   "code": "ZA",
+   "rank": 13
+  },
+  {
+   "flag": "🇩🇿",
+   "country": "Algeria 阿尔及利亚",
+   "region": "Africa",
+   "score": "55.8",
+   "opportunity": "72",
+   "profit": "52",
+   "competition": "56",
+   "access": "34",
+   "financial": "47",
+   "fit": "68",
+   "retail": "456.2",
+   "gm": "43.6",
+   "code": "DZ",
+   "rank": 14
+  },
+  {
+   "flag": "🇹🇿",
+   "country": "Tanzania 坦桑尼亚",
+   "region": "Africa",
+   "score": "55.8",
+   "opportunity": "63",
+   "profit": "48",
+   "competition": "55",
+   "access": "50",
+   "financial": "57",
+   "fit": "61",
+   "retail": "437.0",
+   "gm": "43.4",
+   "code": "TZ",
+   "rank": 15
+  },
+  {
+   "flag": "🇰🇬",
+   "country": "Kyrgyzstan 吉尔吉斯斯坦",
+   "region": "Central Asia / CIS",
+   "score": "54.4",
+   "opportunity": "62",
+   "profit": "45",
+   "competition": "42",
+   "access": "58",
+   "financial": "55",
+   "fit": "66",
+   "retail": "396.1",
+   "gm": "43.8",
+   "code": "KG",
+   "rank": 16
+  },
+  {
+   "flag": "🇬🇭",
+   "country": "Ghana 加纳",
+   "region": "Africa",
+   "score": "54.3",
+   "opportunity": "62",
+   "profit": "47",
+   "competition": "54",
+   "access": "55",
+   "financial": "42",
+   "fit": "68",
+   "retail": "416.8",
+   "gm": "43.4",
+   "code": "GH",
+   "rank": 17
+  },
+  {
+   "flag": "🇪🇬",
+   "country": "Egypt 埃及",
+   "region": "Africa",
+   "score": "52.0",
+   "opportunity": "68",
+   "profit": "44",
+   "competition": "47",
+   "access": "45",
+   "financial": "41",
+   "fit": "63",
+   "retail": "435.6",
+   "gm": "43.6",
+   "code": "EG",
+   "rank": 18
+  },
+  {
+   "rank": 19,
    "flag": "🇳🇬",
    "country": "Nigeria 尼日利亚",
    "region": "Africa",
@@ -82,6 +306,38 @@
    "retail": "378",
    "gm": "46.9",
    "code": "NG"
+  },
+  {
+   "flag": "🇪🇹",
+   "country": "Ethiopia 埃塞俄比亚",
+   "region": "Africa",
+   "score": "44.8",
+   "opportunity": "62",
+   "profit": "38",
+   "competition": "56",
+   "access": "30",
+   "financial": "20",
+   "fit": "58",
+   "retail": "455.3",
+   "gm": "43.0",
+   "code": "ET",
+   "rank": 20
+  },
+  {
+   "flag": "🇹🇯",
+   "country": "Tajikistan 塔吉克斯坦",
+   "region": "Central Asia / CIS",
+   "score": "44.6",
+   "opportunity": "40",
+   "profit": "37",
+   "competition": "52",
+   "access": "54",
+   "financial": "38",
+   "fit": "56",
+   "retail": "416.3",
+   "gm": "43.4",
+   "code": "TJ",
+   "rank": 21
   }
  ],
  "countries": {
@@ -2119,6 +2375,6326 @@
    "retailPrice": "$378",
    "grossMargin": "46.9%",
    "researched": false
+  },
+  "QA": {
+   "code": "QA",
+   "title": "🇶🇦  Qatar  卡塔尔  ·  市场调研表",
+   "subtitle": "Middle East / Gulf   |   吸引力评分 Attractiveness Score: 71.4 / 100",
+   "flag": "🇶🇦",
+   "region": "Middle East / Gulf",
+   "score": "71.4",
+   "retail": "345.9",
+   "gm": "45.4",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "72",
+     "weight": "25%",
+     "rationale": "卡塔尔智能门锁市场2026-2031年CAGR约16.75%，Lusail等在建项目管线约2500亿美元、城市化近99%，但人口仅约286万，绝对市场偏小"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "70",
+     "weight": "20%",
+     "rationale": "人均GDP约7.67万美元、高端承受力强，进口关税仅5%且目前无VAT(0%)，但Assa Abloy/Yale/Dorma等国际品牌与中国供应商竞争压缩溢价"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "55",
+     "weight": "15%",
+     "rationale": "国际高端品牌(Yale/Assa Abloy/Dormakaba/Häfele)经本地经销商(如AlMoajil、Stebilex)深耕，中国供应商众多，市场小而拥挤"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "72",
+     "weight": "15%",
+     "rationale": "GCC统一关税5%、无增值税、GSO标准与CoC/PVoC相对清晰，但防火门/五金需卡塔尔民防(QCD)认可，清关整体顺畅"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "86",
+     "weight": "15%",
+     "rationale": "里亚尔自2001年锚定美元3.64、政局稳定、QCB外储加QIA主权基金雄厚，B2B多用L/C，付款与货币风险低"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "75",
+     "weight": "10%",
+     "rationale": "炎热多沙气候利好钢门/铸铝门与耐候五金，高收入科技人群接受智能锁，但沙尘对电子锁可靠性提出更高要求"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "高度稳定，君主制(Emir Al Thani)，治理连续性强，2022世界杯后基建持续",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "2021年海湾断交危机已和解，与中国为战略伙伴、一带一路合作紧密，中卡贸易活跃",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约286万(2024)，外籍人口占比约85-90%",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约76,689美元(2024，名义)，全球最高之一",
+     "source": "World Bank/IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "整体约QAR 8,000-12,000(约2,200-3,300美元)，卡塔尔籍家庭远高、蓝领外劳偏低，收入两极",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约99%，为全球城市化率最高国家之一(多哈/Lusail集中)",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "QCB官方外储约600-700亿美元，另有QIA主权基金约4,500-5,000亿美元",
+     "source": "qcb.gov.qa",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "B2B多用信用证(L/C)与T/T，大项目按里程碑付款，商业信用良好",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "国家愿景2030、Lusail等超级项目、100%外资持股政策、自由区吸引投资",
+     "source": "invest.qa",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "官方伊斯兰教(逊尼派为主)；外籍人口含印度教、基督教等，穆斯林约占总人口65-70%",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "本国识字率高、Education City汇聚国际名校，专业人群英语普及",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "偏好现代豪华风格，金/玫瑰金/亚光黑金属五金、大气厚重门型，重品牌与质感",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "热带沙漠气候，夏季酷热潮湿、干燥少雨",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "夏季最高约45-50°C，冬季最低约7-15°C",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "频繁沙尘暴与扬沙，对门缝密封、五金防腐与电子锁防尘要求高",
+     "source": "",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "Yale/Assa Abloy、Dormakaba、Häfele、Hettich、Kwikset/CISA(估算合计国际品牌占中高端约50-60%)",
+     "source": "stebilex.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "项目工程直供(承包商/开发商)约55-65%，建材五金分销商(如AlMoajil、Stebilex)约25%，零售/电商约10-15%",
+     "source": "almoajilholding.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "KABA-china代工、Kaadas、Dessmann、Philips智能锁、及众多义乌/广东通用五金OEM(中国货占中低端约40-50%，多以贴牌/项目集采进入)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "卡塔尔本地锁具制造几乎空白，主要为钢门/铝门加工与门厂(如本地金属门窗厂)，五金件几乎全进口，本地制造占比<5%",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "符合GSO海湾标准；进口受QGOSM/MOCI监管，部分受管制品需CoC/PVoC符合性证书；防火门及闭门器等消防五金需卡塔尔民防(QCD)认可",
+     "source": "trade.gov;intertek.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "防火门UL10C/BS476/EN1634测试报告、EN1935(合页)/EN1634/EN12209(锁)、CE、智能锁FCC/CE/RoHS及QCD/ictQATAR无线许可",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "商业发票、装箱单、原产地证(经认证)、提单、进口许可/CR营业执照，受管制品附CoC；C.I.F.计税",
+     "source": "trade.gov",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "25-45岁为购房/装修与智能家居主力(占比约55-60%)，青壮年外籍专业人群集中",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "住宅:业主/家庭男主人及承包商;项目:开发商、总包、五金采购与建筑师规范指定",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "安全性、品牌与豪华质感、智能家居联动、项目按规范强制配置(防火/门控)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "工程集采、建材五金经销商门店、品牌展厅，零售兼有Amazon.qa/线上",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "防盗与防火合规、耐候防腐防沙尘、品牌保修、外观与智能功能(指纹/App/联动)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "沙尘高温致电子锁故障、售后与备件缺、劣质五金锈蚀、安装与本地服务不足",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "防火认证齐全、高端金属饰面(玫瑰金/PVD)、静音耐用、智能生态兼容、质保与本地服务",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "本地现货1-3天;从中国海运约20-30天到港+清关，项目备货需提前",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "单件约QAR 70-150(约20-40美元)，智能锁及防火门更高，人工由外籍技工承担",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "品牌普遍1-2年保修，高端至5年;智能锁需本地技术支持与固件更新，备件供应关键",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "钢门/铸铝门+门控五金:估算年需求约1.5-2.5亿美元(受项目管线驱动)",
+     "smart": "智能门锁:估算年规模约1,500-3,000万美元并快速扩大"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "约5-8%(与建筑/交付周期挂钩)",
+     "smart": "约16.75% CAGR(2026-2031，Bonafide Research)"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "以项目工程直供+五金分销为主",
+     "smart": "零售/电商比重上升，兼有智能家居集成商与项目配置"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "防火钢门、入户铸铝门、闭门器/合页/推杆锁等门控五金",
+     "smart": "指纹+密码+卡+App多合一、推拉直板锁、酒店/公寓联网门锁"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "住宅/酒店/商办防火与安防合规刚需，耐候防沙尘",
+     "smart": "高收入科技人群与新建高端住宅/酒店拉动，联动智能家居"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "规范趋严(防火/门控合规)、金属豪华饰面",
+     "smart": "生物识别、IoT/BMS集成、无钥匙化、酒店无缝入住"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "Project Qatar/Cityscape展会、财年项目集采季",
+     "smart": "斋月/开斋节、白色星期五(Black Friday)、Cityscape与新盘交付季"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "18",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "5",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "20",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "345.9",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$188.9",
+   "retailPrice": "$345.9",
+   "grossMargin": "45.4%",
+   "researched": true
+  },
+  "KW": {
+   "code": "KW",
+   "title": "🇰🇼  Kuwait  科威特  ·  市场调研表",
+   "subtitle": "Middle East / Gulf   |   吸引力评分 Attractiveness Score: 67.8 / 100",
+   "flag": "🇰🇼",
+   "region": "Middle East / Gulf",
+   "score": "67.8",
+   "retail": "345.9",
+   "gm": "45.4",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "62",
+     "weight": "25%",
+     "rationale": "人口仅约490万(2024,约70%为外籍)、市场基数小；但城市化近100%、人均GDP约3.27万美元，购买力强。PAHW正推进大型保障房：Salmi路南9,800套(2025年1月开工)、South Saad Al-Abdullah、Mutlaa City等新城合计数万户；'New Kuwait 2035'与丝绸城/Al-Mutlaa带动门/五金新增需求。规模中等、增长稳(worldbank.org, zawya.com)"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "72",
+     "weight": "20%",
+     "rationale": "高端承受力强(KWD为全球币值最高货币，高净值人群多、偏好豪华)；进口关税仅GCC统一5%、当前无VAT(0%)，税负轻，溢价与净利空间较好(taxsummaries.pwc.com)"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "58",
+     "weight": "15%",
+     "rationale": "海湾市场机电/智能锁被Yale、Samsung、Philips、Kaba及本地五金商占据，中低端已有大量中国货源，较拥挤但智能锁渗透仍低、留有空间"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "63",
+     "weight": "15%",
+     "rationale": "KUCAS(科威特符合性保证计划)强制，需TIR/COC装运前认证增加时间成本；但5%低关税、无VAT、GCC统一清关，整体中等偏易(intertek.com)"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "86",
+     "weight": "15%",
+     "rationale": "KWD为全球最坚挺货币、KIA主权基金逾9000亿美元、外储充裕，主权/政局稳定，LC付款普遍，收汇风险低"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "68",
+     "weight": "10%",
+     "rationale": "极端干热(夏>50°C)+频繁风沙，利好钢制/铸铝防沙耐候门与防尘门控五金；智能锁需耐高温，高收入群体接受度上升，契合度较高"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "君主立宪、埃米尔主政；2024年5月议会被解散、暂停部分宪法条款，行政集权提升，社会总体稳定，营商连续性尚可",
+     "source": "reuters.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "美国主要非北约盟友；对华关系友好，'一带一路'与丝绸城/北部经济区合作密切，中企基建参与度高",
+     "source": "mofa.gov.kw",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约490万(2024)，其中外籍约占70%",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约32,718美元(2024,名义)",
+     "source": "IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "约1,500-2,300美元(全体含外劳)；科威特籍显著更高(约KWD1,500+/月)",
+     "source": "paci.gov.kw",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约100%(全球最高之一)",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "央行官方储备约450-500亿美元；另有KIA主权基金约9,000亿美元",
+     "source": "cbk.gov.kw",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "信用证L/C与电汇T/T为主，大项目多用L/C；账期审慎",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "'New Kuwait 2035'愿景、丝绸城(Silk City)与北部经济特区、PAHW大规模保障房计划拉动门/五金采购",
+     "source": "newkuwait.gov.kw",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "伊斯兰教为国教(逊尼派为主，什叶派约30%)",
+     "source": "cia.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "成人识字率约96%，免费公共教育，中高等教育普及",
+     "source": "unesco.org",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "偏好豪华厚重、金色/香槟色与镀铬亮面五金，重气派与品牌感，中东雕花/大门造型受欢迎",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "热带沙漠气候(BWh)，极端干热少雨",
+     "source": "met.gov.kw",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "夏季常达48-52°C(全球最热地区之一)；冬季夜间最低约3-8°C",
+     "source": "met.gov.kw",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "风沙频繁(尤春夏Toz沙尘暴)，对锁芯/门控密封件防尘要求高",
+     "source": "met.gov.kw",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "高端:Yale、Kaba/Dorma(门控);智能锁:Samsung SDS、Philips、Xiaomi/Aqara等中国品牌上升;数据无公开精确占比",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "建材/五金批发商与项目工程分销为主(约50-60%);零售:X-cite、Ace Hardware、Sheeel等电商/门店;直供承包商",
+     "source": "sheeel.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "小米/Aqara、凯迪仕Kaadas、德施曼、TTLock方案商及各钢门/五金OEM;无公开占比",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "本地以钢门/铝门加工与五金组装为主(如United Steel等金属加工厂);高端锁芯/智能锁基本依赖进口",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "KUCAS(科威特符合性保证计划)强制，需装运前取得TIR(技术检验报告)/COC(符合性证书);受管制机电/智能产品另需PAI/相关型式认可",
+     "source": "intertek.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "辅助:GCC标准/GSO、防火门需EN 1634或UL/BS认证、CE、ISO 9001;智能锁无线模块需科威特CITRA型号核准",
+     "source": "citra.gov.kw",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "商业发票、装箱单、原产地证、提单、KUCAS COC/TIR;经科威特总关税署申报，CIF基础征5%关税",
+     "source": "customs.gov.kw",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "25-44岁为主力(约45-50%),人口结构年轻、外籍青壮年占比大",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "住宅:业主/家庭男性户主与承包商;项目:开发商、总包与PAHW采购;分销商影响选型",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "安全防盗、耐高温防沙耐用、气派外观、品牌信任;智能锁受便利与身份象征驱动",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "五金/建材批发、承包商项目采购、X-cite/Ace等零售与本地电商(Sheeel等)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "耐候/防尘防卡、售后与备件、认证合规、外观质感、锁具安全等级",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "高温风沙致锁具卡涩/电子件失效、劣质货售后无门、安装与本地服务不足",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "耐50°C高温+防沙密封、豪华金色/香槟面、品牌与质保、静音顺滑门控",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "本地库存3-7天;海运整柜自中国约20-30天到岸",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "单件约15-30美元(智能锁偏高),受人工与项目规模影响",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "通常1-2年质保,项目单要求本地备件与响应;智能锁需固件/APP支持",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "钢/铝门与门控五金随住房项目形成稳定基础需求,项目型为主(估算)",
+     "smart": "智能锁体量尚小但基数低起步,MEA区高增长带动(估算)"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "随PAHW数万套保障房与新城建设,中个位数增长(估算)",
+     "smart": "MEA电子/智能锁约CAGR18.7%(2024-2031),科威特高于门类均值(cognitivemarketresearch.com)"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "以项目/承包商与五金批发分销为主",
+     "smart": "零售+电商比重高于钢门,依赖分销商与集成商"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "入户钢制安全门、铸铝别墅大门、闭门器/合页/地弹簧等门控",
+     "smart": "指纹/密码/APP电子锁,渐向人脸/猫眼一体机升级"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "防盗+耐候+气派,项目走量",
+     "smart": "便利+安全+身份象征,高收入家庭先行"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "向铝合金豪华大门与防火门升级",
+     "smart": "渗透率上升、无钥匙化与智能家居联动"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "项目招标周期、白盒季末",
+     "smart": "斋月/开斋节、国庆(2月25-26日)、GITEX/白色星期五电商大促"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "18",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "5",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "20",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "345.9",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$188.9",
+   "retailPrice": "$345.9",
+   "grossMargin": "45.4%",
+   "researched": true
+  },
+  "OM": {
+   "code": "OM",
+   "title": "🇴🇲  Oman  阿曼  ·  市场调研表",
+   "subtitle": "Middle East / Gulf   |   吸引力评分 Attractiveness Score: 65.5 / 100",
+   "flag": "🇴🇲",
+   "region": "Middle East / Gulf",
+   "score": "65.5",
+   "retail": "358.4",
+   "gm": "45.3",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "62",
+     "weight": "25%",
+     "rationale": "人口仅约528万、体量小，但住房与工程管线强劲：建筑市场2026年约72.7亿美元、2031年84.6亿美元(3.08% CAGR，mordorintelligence.com已核实)；Sultan Haitham City交付7000套住宅、合同额OMR 10亿约26亿美元(mohup.gov.om)；2025房地产交易超81亿美元(economymiddleeast.com)；愿景2040+Duqm经济特区拉动门与门五金增量需求，但增速温和。"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "66",
+     "weight": "20%",
+     "rationale": "购买力较高(人均GDP约2万美元,IMF)，关税仅GCC统一5%+VAT 5%(已核实)，进口成本可控；欧系品牌(Yale等)定价高留有价差；智能锁高端化溢价空间好，但机械门锁走量段价格竞争激烈。"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "61",
+     "weight": "15%",
+     "rationale": "Yale、Hettich、Dorma等欧美/国际品牌已进驻(microless.com/noon.com)；本地五金分销商(AlMoajil、AH Market等)成熟；中国供应商多经Alibaba及贸易商进入。机械五金较拥挤，但智能锁渗透率仍低、空间较大。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "67",
+     "weight": "15%",
+     "rationale": "GCC统一关税5%+VAT 5%(已核实,trade.gov/pwc)；智能锁属低压电子产品需GSO海湾一致性G-Mark，机械锁需符合GSO标准+阿曼一致性评估(OCAS/PCA,SGS/TUV)。流程规范但门槛适中。"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "74",
+     "weight": "15%",
+     "rationale": "里亚尔OMR自1986锚定美元(1 OMR≈2.6008 USD)极稳；主权评级已升至投资级BBB-/A-3展望稳定(spglobal.com/fm.gov.om)；外储约183亿美元(约3.7个月进口);政局稳定；付款多用L/C+电汇，风险低。"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "65",
+     "weight": "10%",
+     "rationale": "海湾普遍用钢制/铸铝门，契合度高；智能锁在阿曼渗透率低于UAE但随MEA智能锁18.7% CAGR快速上升(cognitivemarketresearch.com)；沿海高湿(Batinah/Muscat)+内陆高温干燥多风沙，要求防腐蚀、耐高温与防尘等级。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "高度稳定；Sultan Haitham bin Tariq执政，社会安定，2040愿景改革推进",
+     "source": "spglobal.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "中立温和外交，与中国关系良好(一带一路伙伴、Duqm中阿产业园)，与GCC及西方均友好",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约528万(2024，含约43%外籍)",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约1.95–2.1万美元(名义,2024–2027)",
+     "source": "IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "本地家庭约OMR 900–1100(约2300–2900美元)；外籍蓝领约OMR 150–300",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约79%城市化(2024)",
+     "source": "statisticsoftheworld.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "约183亿美元(2024,约3.7个月进口覆盖)",
+     "source": "statisticsoftheworld.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "B2B多用信用证L/C+电汇T/T；大项目分期，账期30–90天",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "愿景2040、Sultan Haitham City(7000套住宅)、Duqm经济特区(SEZAD)、首套房优惠按揭",
+     "source": "mohup.gov.om",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "以伊斯兰教为主(Ibadi派为主，另有逊尼/什叶)，宗教氛围温和",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "识字率约95%以上，成人教育普及率高",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "偏好厚重气派、金色/古铜/暗色调金属，伊斯兰几何纹样，重质感与门面气派",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "热带沙漠气候；沿海(Muscat/Batinah)高温高湿，内陆干热，南部Salalah季风(khareef)",
+     "source": "climatestotravel.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "夏季普遍40–48°C(内陆可达50°C)，冬季夜间约14–18°C",
+     "source": "climatestotravel.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "内陆及边缘沙漠区多扬尘/沙尘天气，沿海盐雾腐蚀强，需高防尘防腐等级",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "Yale、Hettich、Dorma/dormakaba、Hafele、Union/Assa Abloy系为主(具体占比无公开数据)",
+     "source": "microless.com/noon.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "五金/建材分销商与工程直供为主(约50–60%)，专业门窗/门厂配套，零售电商(noon、microless、AH Market)占少数(约10–15%)",
+     "source": "noon.com/oman.ahmarket.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "多经贸易商与Alibaba进入(如各类OEM门锁/智能锁厂)，无按品牌统计的公开占比",
+     "source": "alibaba.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "本地几无规模门锁制造，多为组装/进口分销(AlMoajil、AH Market等经销为主)",
+     "source": "hwdev.almoajilholding.org",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "智能锁(低压电子)需GSO海湾一致性标志G-Mark；机械门锁/五金需符合GSO标准并通过阿曼一致性评估(OCAS/PCA)",
+     "source": "trade.gov/gso.org.sa",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "CE/RoHS/FCC(电子件)、防火门锁需相应耐火测试(如UL/EN认证)、无线模块型号核准(TRA)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "商业发票、装箱单、原产地证、提单/空运单、符合性证书(G-Mark/GSO)、进口商VAT登记",
+     "source": "trade.gov",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "25–45岁为购房与装修主力(占比高)，人口结构年轻，外籍占约43%影响租赁段需求",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "家庭男性户主/业主主导，工程段由开发商、承包商、五金采购决定",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "安全防盗、门面气派、耐候耐腐、智能便捷(手机/指纹)与家庭升级",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "五金/建材商行、门厂配套、大型零售(如Lulu建材)、电商(noon/microless)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "耐用性、防腐防尘、锁体安全等级、品牌与售后、外观质感",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "高温高湿盐雾下生锈卡滞、智能锁本地售后与配件难、廉价货质量参差",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "防腐蚀等级、静音耐用锁体、气派金属饰面、可靠指纹/APP及本地质保",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "Muscat及主要城市1–3天，偏远地区3–7天；工程订单按批交付",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "单件安装约OMR 5–12(约13–31美元)，智能锁偏上",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "通常1–2年质保；智能锁需本地配件与技术支持，退换依经销商政策",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "钢/铝门与机械五金随建筑市场(2026约72.7亿美元总盘)派生，估门与门五金细分约数千万美元级",
+     "smart": "智能锁尚处早期、渗透率低于UAE，估年规模低个位数千万美元"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "随建筑3.08% CAGR(至2031)温和增长",
+     "smart": "高增速，参考MEA电子智能锁约18.7% CAGR(2024–2031)"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "工程直供+五金建材分销为主",
+     "smart": "零售电商+品牌专卖+高端项目配套上升"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "防盗钢门、铸铝入户门、执手锁/插芯锁、闭门器合页等门控五金",
+     "smart": "指纹/密码/APP/卡片多合一，逐步加入人脸与Wi-Fi/BLE联动"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "新建住房与商业项目、翻新替换需求稳定",
+     "smart": "高端住宅、别墅、公寓与短租/民宿智能化需求上升"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "耐候防腐、气派饰面、防火门配套增长",
+     "smart": "从UAE外溢的智能家居趋势带动，重本地售后与耐高温可靠性"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "斋月/开斋节、国庆(11月18日)、年终建材采购季",
+     "smart": "斋月/开斋节、白色星期五(电商促销)、国庆季"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "18",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "5",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "5",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "20",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "358.4",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$196.1",
+   "retailPrice": "$358.4",
+   "grossMargin": "45.3%",
+   "researched": true
+  },
+  "BH": {
+   "code": "BH",
+   "title": "🇧🇭  Bahrain  巴林  ·  市场调研表",
+   "subtitle": "Middle East / Gulf   |   吸引力评分 Attractiveness Score: 58.4 / 100",
+   "flag": "🇧🇭",
+   "region": "Middle East / Gulf",
+   "score": "58.4",
+   "retail": "370.8",
+   "gm": "45.2",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "47",
+     "weight": "25%",
+     "rationale": "人口仅约160万(GCC最小体量之一),门锁/门五金绝对市场很小;但人均GDP高($29,573),社会住房计划(40,000+套)、Vision 2030、Diyar Al Muharraq/Bahrain Bay等地产项目提供刚性新建需求,智能锁在高收入群体渗透上升。规模小压低分值,增长与项目托底。"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "58",
+     "weight": "20%",
+     "rationale": "消费者购买力强、偏好中高端与安全性,溢价空间存在;但VAT 10%(2022年提高一倍)+GCC 5%关税+海运费叠加,且需与Yale/dormakaba/土耳其品牌竞价,中低端价格战明显,净利润被认证与渠道费侵蚀。"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "55",
+     "weight": "15%",
+     "rationale": "市场虽小但已被欧洲(Yale/Assa Abloy/dormakaba)、土耳其(Kale)、中国及本地五金商充分覆盖,零售集中在少数经销商;智能锁细分尚新、空位相对多,机械门锁较拥挤。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "63",
+     "weight": "15%",
+     "rationale": "整体开放、采用GCC/GSO统一标准;电子智能锁属低压设备需G-Mark(GSO)认证,机械门锁准入门槛低;关税5%较低,但VAT 10%偏高抬升到岸成本。清关文件标准化。"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "72",
+     "weight": "15%",
+     "rationale": "第纳尔BHD锚定美元(0.376固定),汇率风险极低,银行体系成熟(海湾金融中心),L/C/T/T付款规范;负面为财政赤字与外储偏薄依赖GCC支持,2011年后偶有政治敏感,总体安全度较高。"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "66",
+     "weight": "10%",
+     "rationale": "炎热潮湿海岛+盐雾腐蚀,利好钢/铸铝防盗门与耐蚀五金,需注重防腐等级;智能锁在年轻高收入及高端住宅接受度提升,指纹/密码/App需求增长,契合度良好但需应对高温高湿对电子件的可靠性要求。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "君主立宪,王室稳固;2011年动荡后基本平息,偶有教派敏感,总体安全",
+     "source": "trade.gov",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "GCC成员,亲沙特/美国(美第五舰队驻地),2020年与以色列签署《亚伯拉罕协议》;与卡塔尔已复交,与伊朗关系谨慎;与中国经贸友好",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约160万(2024)",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约$29,573(2024,名义)",
+     "source": "IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "巴林籍中位约BHD 600-700(约$1,600-1,850);大量低薪外籍劳工拉低总体",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约89-90%(全球最高之一)",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "约$45-50亿,偏薄,依赖GCC支持",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "L/C与T/T为主,银行体系成熟,大额项目多信用证",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "经济愿景2030、社会住房计划、Tamkeen补贴、100%外资持股、自由区",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "伊斯兰教为国教(什叶/逊尼混合),另有外籍基督徒/印度教徒",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "识字率约97-99%,教育水平高",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "海湾风格偏华丽厚重,金/古铜/亮色五金,重安全与品牌,青睐中高端",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "热带沙漠海岛气候,夏季酷热高湿,盐雾腐蚀强",
+     "source": "bahrainweather.gov.bh",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "夏季最高约45°C,冬季最低约10°C",
+     "source": "climatestotravel.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "中等;偶有Shamal沙尘,沿海高湿+盐分对五金防腐要求高",
+     "source": "bluegreenatlas.com",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "Yale、Assa Abloy、dormakaba、Kale Kilit(土耳其)、中国品牌;具体占比无公开统计",
+     "source": "microless.com(零售在售)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "五金/建材经销商、项目工程直供、电商(Microless/Noon)、大型超市(Ace)、地产商集采;占比无公开数据",
+     "source": "microless.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "无公开统计;中国产多经贸易商/贴牌进入,占中低端可观份额",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "本地几无规模化门锁制造,以进口和组装为主",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "电子/智能锁(低压电器)需GSO G-Mark认证;采用GCC/GSO统一标准,由BSMD(巴林标准计量局)监管;机械门锁准入门槛低",
+     "source": "tuv.com / trade.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "防火门需GSO/EN/UL防火与耐火等级测试;CE/ISO 9001有助投标;蓝牙/WiFi智能锁需TRA电信型号核准",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "商业发票、装箱单、原产地证、提单/空运单、进口报关单;受管制品经Khalifa Bin Salman港BSMD查验",
+     "source": "trade.gov",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "以25-45岁购房/装修家庭及高收入群体为主,青年偏好智能锁",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "户主/男性家庭成员、项目采购与承包商、地产开发商",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "安全防盗、品牌与身份、耐用防腐、便利(免钥匙/远程)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "五金建材店、电商、工程集采、品牌授权经销商",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "防腐防潮可靠性、品牌口碑、售后与备件、外观质感",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "高温高湿致电子锁故障/生锈、正品与售后不足、安装服务参差",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "防盐雾腐蚀等级、品牌背书、指纹/App智能功能、质保与本地服务",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "本地经销备货1-3天;进口集装箱海运约25-35天到港",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "约占货值20%,智能锁上门安装单价较高",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "机械锁1-2年、智能锁1-3年质保为普遍预期,需本地备件与响应",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "小体量(约160万人口),年新建/翻新钢/铝门需求以住房项目为主,绝对规模有限",
+     "smart": "更小但增长快的高端细分,主要在高收入住宅与新地产项目"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "低-中个位数,随社会住房与地产项目波动",
+     "smart": "两位数增长(GCC智能锁高增速映射),基数低"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "以工程集采/承包商与建材经销为主",
+     "smart": "电商+品牌经销+高端住宅项目集成"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "防盗钢门、铸铝入户门、防火门+配套五金(合页/闭门器/执手)",
+     "smart": "指纹/密码/卡/App多模智能锁,偏中高端"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "防腐防潮、耐高温、安全防盗、防火合规",
+     "smart": "免钥匙便利、远程管理、与智能家居联动、可靠性"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "住房项目驱动稳定需求,轻量化铝门与防腐涂层提升",
+     "smart": "智能化渗透上升、公寓/短租(Airbnb)与新住宅带动、品牌化"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "Q4-Q1建筑旺季(避开酷暑)、项目招标周期",
+     "smart": "斋月/开斋节、白色星期五(电商大促)、Gulf/Big5建材展"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "18",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "5",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "10",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "20",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "370.8",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$203.4",
+   "retailPrice": "$370.8",
+   "grossMargin": "45.2%",
+   "researched": true
+  },
+  "AZ": {
+   "code": "AZ",
+   "title": "🇦🇿  Azerbaijan  阿塞拜疆  ·  市场调研表",
+   "subtitle": "Central Asia / CIS   |   吸引力评分 Attractiveness Score: 60.1 / 100",
+   "flag": "🇦🇿",
+   "region": "Central Asia / CIS",
+   "score": "60.1",
+   "retail": "426.3",
+   "gm": "44.5",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "62",
+     "weight": "25%",
+     "rationale": "人口约1020万(World Bank 2024)偏小,但建筑周期强劲:卡拉巴赫/东赞格祖尔战后重建累计投入约143亿美元、2025年拨款23.5亿美元,大批新建住宅与返迁社区释放门/锁/五金刚需(caspiannews.com/caliber.az/apa.az);巴库城市更新持续。智能锁基数低但增长快。总量有限故给62。"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "55",
+     "weight": "20%",
+     "rationale": "月均工资约1094马纳特/≈644美元(report.az 2025),中端承受力尚可但成品门锁进口关税15%+增值税18%叠加,落地成本抬升,压缩终端毛利;智能锁溢价空间好于机械锁。给55。"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "54",
+     "weight": "15%",
+     "rationale": "土耳其Kale Kilit已本地化设厂/渠道深(kalekilit.com.az),俄系/中系并存,机械钢门锁较拥挤;智能锁仍属蓝海但需教育市场。整体中度拥挤,给54。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "57",
+     "weight": "15%",
+     "rationale": "强制AZS符合性认证(Azstand,方案9可认可外国文件/1年,方案10本地测试/最长3年),阿塞拜疆语标签与说明书、清关文件均需阿语翻译(gost-standard.com/certus.az);成品关税15%、增值税18%。门槛中等偏高但路径清晰,给57。"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "69",
+     "weight": "15%",
+     "rationale": "战略外汇储备约737.7亿美元(2025.4:SOFAZ 627.4亿+央行110.3亿,apa.az),马纳特对美元长期钉住≈1.70,汇率稳定;付款以T/T+L/C为主。主要扣分为政治集权与地区地缘风险。给69。"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "66",
+     "weight": "10%",
+     "rationale": "钢制/铸铝入户门在阿高度普及、锁具需求刚性;里海沿岸(阿普歇伦)多风沙盐雾,利好防腐蚀锁芯与耐候五金;智能锁在巴库中高端新房逐步被接受。给66。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "总统制集权、政局稳定,阿利耶夫政府控制力强;2023年收复卡拉巴赫后国内局势平稳,营商可预期但缺竞争性政治",
+     "source": "state.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "与土耳其\"一族两国\"紧密、与以色列/欧盟能源合作深;与亚美尼亚趋向和谈,与伊朗关系起伏;与中国\"一带一路\"合作、跨里海中间走廊枢纽",
+     "source": "state.gov/weforum.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约1020万(2024:10,202,830)",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约7,284美元(2024,现价)",
+     "source": "IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "月均工资约1094马纳特/≈644美元(2025年1–8月,中位数低于均值,估约800–900马纳特)",
+     "source": "report.az/stat.gov.az",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约57%城镇化,巴库-苏姆盖特都市圈集中全国约1/4人口",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "战略外汇储备约737.7亿美元(2025.4:SOFAZ 627.4亿+央行110.3亿)",
+     "source": "apa.az/oilfund.az",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "进口商惯用T/T电汇与信用证L/C,大单倾向L/C;首单建议预付+尾款见提单",
+     "source": "",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "工业园/经济特区对进口设备10年增值税与关税豁免;卡拉巴赫重建为国家优先项目并配套采购",
+     "source": "trade.gov/rebuildkarabakh.az",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "以什叶派为主的穆斯林约96%,但社会高度世俗化;AZS标签常与Halal标并列",
+     "source": "gost-standard.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "识字率约99%,基础教育普及;技术工人可得,俄语/土耳其语通行",
+     "source": "World Bank",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "偏土耳其/南欧风格,入户门重厚重感与金属拉丝/仿木纹,五金偏金色-古铜-哑黑;智能锁要求外观简洁现代",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "巴库-阿普歇伦半岛为半干旱气候,夏热少雨、冬温和;里海沿岸盐雾+多风",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "夏季最高约35–40℃,冬季最低约-3至-5℃(内陆山区更低)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "阿普歇伦以强北风\"Khazri\"著称,盐尘/扬沙多,利好耐腐蚀锁芯与防尘密封五金",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "机械锁/钢门锁以土耳其Kale为首(估20–30%),其余为Kale竞品、俄系及中系白牌;智能锁多为中国品牌(小米/Aqara/凯迪仕等经俄语区流入),尚无绝对主导",
+     "source": "kalekilit.com.az",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "建材市场/五金批发(如巴库Sədərək等)为主(估50%+),门厂/工程配套、家装门店,线上(Trendyol/本地电商)占比小但升",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "待核实:多为深圳/温州智能锁及浙江/广东机械锁厂,经贸易商分销,单一厂占比低且分散",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "本地以钢门/铸铝门组装厂为主,锁芯与智能模块基本进口;Kale在阿设有分销/组装,本土纯锁具制造薄弱",
+     "source": "kalekilit.com.az",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "强制AZS符合性证书(Azstand签发):方案9认可外国文件/有效1年、无需本地测试;方案10本地实验室测试+工厂检查/最长3年;申请须阿塞拜疆语",
+     "source": "gost-standard.com/certus.az",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "电子/智能锁涉无线模块需类型核准(Type Approval);产品标签常需AZS标(部分品类并列Halal标);CE/ISO9001作辅助信任背书",
+     "source": "nanotechsol.com/certus.az",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "报关单、商业发票、装箱单、原产地证、运输单据、合同,及AZS符合性证书;标签/说明书需阿语翻译",
+     "source": "gost-standard.com/customs.gov.az",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "购房与装修主力25–45岁(估约55%),46–60岁改善型约25%,青年租房群体带动智能锁尝鲜",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "家庭男性户主与夫妻共同决策为主;工程/项目由开发商与总包采购决定",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "安全防盗、耐用与门体匹配为核心;新房交付、返迁重建与旧锁更换为触发点;智能锁受便利与身份象征驱动",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "建材市场/五金店线下选购为主,门厂随门配锁;线上比价与社媒(Instagram/YouTube)影响升温",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "锁芯防撬防钻等级、与钢门孔位兼容、耐盐雾防锈、备件与钥匙可得、价格",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "低价白牌质量参差、售后与配件难寻、智能锁本地语言/App与售后支持不足、断电与网络稳定担忧",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "高安防等级锁芯、防腐蚀耐候、指纹+密码+卡+App多模、静音顺滑手感、质保与本地安装售后",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "巴库都市圈1–3天,地区及卡拉巴赫工地3–7天;经俄罗斯/格鲁吉亚陆运或经巴库港到货后本地分拨",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "单件安装约15–30美元,智能锁含调试偏高;工程批量更低",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "机械锁质保通常1–2年、智能锁1年,当地缺备件与授权网点是主要短板,建议随货备件包+本地服务商",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "钢/铸铝门锁及门五金为存量刚需大盘,受住房与重建拉动,规模居主导(估年数千万美元级)",
+     "smart": "智能锁基数小、渗透率低(估个位数%),但年增速最快"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "随建筑周期稳健增长(估中个位数%)",
+     "smart": "高速增长(估年20%+),城市中高端新房带动"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "建材市场/五金批发+门厂工程配套为主,线上占比低",
+     "smart": "3C/智能家居店、线上与工程样板房带动,渠道仍在成型"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "以钢门插芯锁/多点锁、把手拉手、合页闭门器等门控五金为主",
+     "smart": "指纹+密码+卡+App多模推拉直板锁为主流方向,兼容欧标锁体"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "防盗耐用、与钢门孔位兼容、耐盐雾防锈",
+     "smart": "便利安防、可靠断电应急、本地语言App与售后"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "重建与新房推动量增,向更高安防等级与耐候升级",
+     "smart": "从尝鲜走向普及,中高端项目集成智能门锁与门禁"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "春秋装修旺季、年底交房季、重建项目招采窗口",
+     "smart": "诺鲁孜节(Novruz,3月)、开斋节、\"黑色星期五\"及新房交付季"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "22",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "15",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "18",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "18",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "426.3",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$236.7",
+   "retailPrice": "$426.3",
+   "grossMargin": "44.5%",
+   "researched": true
+  },
+  "GE": {
+   "code": "GE",
+   "title": "🇬🇪  Georgia  格鲁吉亚  ·  市场调研表",
+   "subtitle": "Central Asia / CIS   |   吸引力评分 Attractiveness Score: 63.2 / 100",
+   "flag": "🇬🇪",
+   "region": "Central Asia / CIS",
+   "score": "63.2",
+   "retail": "380.9",
+   "gm": "44.5",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "62",
+     "weight": "25%",
+     "rationale": "人口仅约370万、市场基数小；但2025年为地产创纪录年，第比利斯+巴统共成交约5.9万套住宅、总额43亿美元（同比+7%，巴统新盘+34%），新建住房占比高、外资购房活跃(第比利斯外资购房86%买新盘)，直接拉动门锁/门五金安装需求。建筑热+旅游地产(巴统)构成结构性机会，但总量受小国体量限制。来源:gbc.ge/Colliers Georgia"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "58",
+     "weight": "20%",
+     "rationale": "进口关税0%(HS8301门锁属工业五金，且中格FTA下多数税目免税)几乎不侵蚀成本，但18%增值税抬高终端价；居民月收入中位数偏低(约600–850美元)，价格敏感，中低端锁价格战明显；智能锁面向高端住宅/外资买家可获溢价。综合利润可控但中端拥挤。已核实(关税/VAT):rs.ge/trade.gov"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "55",
+     "weight": "15%",
+     "rationale": "当地已有俄系Apecs、土/俄机械锁Kale、Guardian、Border及中国货源(keylocker.ge、smartdoor.ge等本地经销)；市场小而参与者多，机械锁红海化，但智能锁渗透仍低、品牌集中度不高，留有中高端与全屋方案切入空间。来源:apecs.com/keylocker.ge/yell.ge"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "86",
+     "weight": "15%",
+     "rationale": "格鲁吉亚自由贸易导向：约90%货物0%关税；采用自愿性标准体系，进口商可选格标或EU/OECD标准，门锁无强制认证/无EAC强制；中格FTA(2018年生效)进一步降税；清关文件简单。准入门槛在区域内最低之一。已核实:trade.gov(标准/关税)"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "54",
+     "weight": "15%",
+     "rationale": "拉里(GEL)浮动汇率、历史波动较大；外储约71亿美元(2026年6月，NBG)尚稳健；但政治面存在EU入盟进程受阻、2024年以来内政抗议与对俄关系敏感等不确定性；付款多为电汇/预付，信用证少，回款需前TT控制风险。来源:tradingeconomics/NBG"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "68",
+     "weight": "10%",
+     "rationale": "高加索大陆性气候、冬季寒冷(内陆可至-5~-7℃、山区更低)，青睐保温性好、防冻可靠的钢制/铸铝入户门与耐候门控五金；风沙低对锁芯友好；智能锁在第比利斯/巴统新盘与外资业主中接受度上升。钢门契合度高、智能锁成长性好。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "中等偏弱：格鲁吉亚梦想党执政，2024年选举后爆发亲欧抗议、EU入盟进程实质冻结，社会与政治对立上升，但无武装冲突、治理连续",
+     "source": "综合媒体/trade.gov",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "与EU签DCFTA但入盟受阻；与中国有自贸协定(2018生效，多数商品0关税)；与土耳其、阿塞拜疆密切；与俄无外交关系但保持贸易与人员往来",
+     "source": "trade.gov/中格FTA",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约370万(2024)",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约8,900–9,500美元(名义，2024–2025)",
+     "source": "IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "约1,700–1,900 GEL(≈600–700美元/月)，平均薪资约2,300 GEL≈850美元",
+     "source": "geostat.ge",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约60–63%，人口高度集中于第比利斯(约120万)与巴统",
+     "source": "World Bank",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "约71.2亿美元(2026年6月)",
+     "source": "tradingeconomics/NBG",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "以电汇T/T为主，小额进口商常预付；信用证使用较少",
+     "source": "",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "自由贸易导向、约90%货物0关税；自由工业区(FIZ)税收优惠；中格FTA、EU DCFTA双重降税通道",
+     "source": "trade.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "格鲁吉亚东正教约83%，穆斯林约11%，亚美尼亚使徒教会等其他",
+     "source": "CIA Factbook",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "识字率约99.6%，基础教育普及，技术工人可获",
+     "source": "World Bank/UNESCO",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "偏欧式简约与经典兼具；入户门青睐深色/木纹钢门与拉丝不锈钢/古铜五金，巴统高端项目偏现代极简",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "西部黑海沿岸(巴统)湿润亚热带，内陆(第比利斯)为大陆性，高山区寒冷多雪",
+     "source": "世界气候数据",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "第比利斯夏季约32–35℃，冬季可至-5~-7℃；山区冬季更低于-10℃",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "总体低；东部半干旱区偶有扬尘，对锁具影响有限",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "机械锁以Apecs(俄)、Kale(土)、Guardian/Гардиан(俄)、Border(俄)及中国代工品牌为主；智能锁由本地商(keylocker.ge、smartdoor.ge)引入中国及国际品牌。具体份额无公开统计",
+     "source": "apecs.com/keylocker.ge",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "建材市场/五金店、门窗与家装门店(如Domino)、线上目录(yell.ge、all.biz)、开发商工程集采、专营智能锁店。工程渠道占比大",
+     "source": "domino.com.ge/yell.ge",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "以广东(中山小榄门锁带)、浙江温州锁具及智能锁厂为主，多经本地经销/贸易商入市，无公开占比",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "格鲁吉亚本土门锁制造几乎缺失，以进口为主(俄/土/中国/EU)，本地多为组装与门体加工",
+     "source": "",
+     "confidence": "假设 Assumption"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "门锁/门五金无强制认证；格采用自愿性标准体系，可援引EU EN/OECD或格标；无强制EAC/GOST要求",
+     "source": "trade.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "建议自备CE(EN12209锁体/EN1906执手等)、RoHS，智能锁附CE-RED/FCC及电池UN38.3——提升工程投标与商超入场竞争力(非强制)",
+     "source": "",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "商业发票、装箱单、提单/运单、原产地证(用中格FTA享零关税需Form)、报关单;可选合规声明。关税0%+18%VAT进口环节征收",
+     "source": "rs.ge/trade.gov",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "购房与装修主力25–45岁(城市中产、外资购房者及租赁投资者)，45岁以上换新为辅",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "入户钢门/机械锁多由开发商与工长决定(工程集采)；家庭零售由户主(常为男性)与配偶共同决策；智能锁多为年轻业主/租赁运营者主导",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "新房交付与二手翻新、安防需求、短租/民宿运营(无接触门禁)、外资业主对便利性的偏好",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "建材市场与五金店、门窗家装门店、开发商配套、线上目录(yell.ge/all.biz)与专营智能锁店/社媒(Facebook)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "价格、耐用与防冻可靠、防撬安全等级、锁芯品牌、售后与配钥匙便利、智能锁的稳定性与语言(俄/格/英)支持",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "低价货质量参差、冬季机械故障、智能锁本地售后与备件缺、俄/格语说明与App本地化不足",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "高安防等级钢门+品牌锁芯、C级叶片/多点锁、智能锁(指纹+密码+App+临时钥匙)面向民宿与高端新盘、耐候表面处理",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "第比利斯/巴统本地备货1–3天；海运至波季/巴统港约25–40天(经苏伊士)或经中亚陆路",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "单件门锁/门体安装约30–60 GEL(≈11–22美元)，智能锁改装偏高",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "经销商通常提供12个月质保、易损件更换与配钥匙服务；智能锁需本地备件与远程技术支持",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "中偏小但活跃：随5.9万套/年住宅成交，钢/铸铝入户门与配套锁需求稳定，估算年进口数十万套级",
+     "smart": "新兴、基数小：集中在第比利斯/巴统新盘与短租，年销预计万套级并快速增长"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "约中个位数(随地产成交+7%及新房交付)",
+     "smart": "两位数高增长(渗透率低+民宿/外资业主驱动)"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "以开发商工程集采+建材/五金市场为主，零售为辅",
+     "smart": "专营智能锁店/线上/社媒+民宿运营渠道,工程配套开始出现"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "中低端俄/土/中国钢门锁为主流,防撬多点锁向上走",
+     "smart": "指纹+密码+卡+App多模,Tuya/涂鸦生态与国际品牌并存"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "安全、防冻耐用、价格与配钥匙便利",
+     "smart": "便利门禁、临时钥匙、远程管理(短租)、稳定性"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "向高安防等级与更好表面处理升级",
+     "smart": "渗透率上升、与民宿/智能家居融合、本地化App与售后需求增强"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "春秋装修旺季、新盘交付季、年末打折",
+     "smart": "黑五/年末、旅游旺季前(春末夏初,巴统民宿备货)"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "22",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "18",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "16",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "380.9",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$211.6",
+   "retailPrice": "$380.9",
+   "grossMargin": "44.5%",
+   "researched": true
+  },
+  "KG": {
+   "code": "KG",
+   "title": "🇰🇬  Kyrgyzstan  吉尔吉斯斯坦  ·  市场调研表",
+   "subtitle": "Central Asia / CIS   |   吸引力评分 Attractiveness Score: 54.4 / 100",
+   "flag": "🇰🇬",
+   "region": "Central Asia / CIS",
+   "score": "54.4",
+   "retail": "396.1",
+   "gm": "43.8",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "62",
+     "weight": "25%",
+     "rationale": "人口仅约722万(World Bank 2024,已核实),内需规模小;但2025年GDP增速预计9.2%(World Bank,已核实),比什凯克住宅/商业建筑活跃拉动钢门与门五金需求。核心加分:Dordoi大巴扎是中亚最大批发再出口枢纽,中国货经此转口至哈萨克/乌兹别克/塔吉克/俄罗斯,实际可服务市场远超本国人口。智能锁基数极低但城市青年增长快。"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "45",
+     "weight": "20%",
+     "rationale": "承受力弱:人均GDP约2,420美元(2024 World Bank/IMF,已核实),平均月薪约4.1万索姆≈470美元(NatStatCom,已核实),中位数更低,极度价格敏感。叠加对华10%统一对外关税+12%增值税(已核实)与Dordoi低价中国/俄系货充斥,终端加价被严重压缩,单品毛利薄,需靠走量。"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "42",
+     "weight": "15%",
+     "rationale": "高度拥挤:钢制入户门有俄系Torex、土耳其/俄系KALE及大量比什凯克本地作坊(gm.kg、stolyar.kg);中国货经Dordoi海量涌入,同质化严重。智能锁段相对空白(lalafo在售BE-TECH、TTLock、小米/Aqara、经哈萨克转入的Kaadas),差异化机会略高但整体越拥挤评分越低。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "58",
+     "weight": "15%",
+     "rationale": "KG为EAEU成员,对华进口适用统一对外关税(门锁HS8301约10%)+增值税12%(已核实);机械锁通常走EAC符合性声明,智能/电子锁受TR CU 004/2011(低压)与TR CU 020/2011(电磁兼容)约束需EAC认证(已核实)。认证一次可覆盖全EAEU五国,准入标准化;门槛存在但清晰,且入盟后关内零关税利于以KG为跳板。"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "55",
+     "weight": "15%",
+     "rationale": "外汇储备约79亿美元(2026年6月,TradingEconomics),索姆近年相对稳定(约87 KGS/USD);S&P主权评级B+。付款以预付TT/现金为主、信用证罕见,对出口方现金流友好。风险点:政治多次动荡史(2005/2010/2020三次政权更迭),2021年后Japarov任内趋稳。"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "66",
+     "weight": "10%",
+     "rationale": "大陆性气候、冬季严寒(比什凯克可达-20℃以下),俄式重型金属入户门传统深厚,钢门接受度高、契合度好;门控五金随建筑量稳定。智能锁处早期导入,城市中青年接受度上升但下沉市场仍偏机械/密码锁。整体契合度较高。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "历史动荡(2005、2010、2020三次政权更迭);2021年Japarov上台后相对稳定,权力集中",
+     "source": "US State Dept 2025 Investment Climate",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "亲俄(CSTO/EAEU成员)且深度参与中国一带一路,对华友好、贸易依存高",
+     "source": "Wikipedia",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约722万(2024)",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约2,420美元(2024)",
+     "source": "IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "平均月薪约4.1万索姆≈470美元(2025),中位数估约280–350美元",
+     "source": "NatStatCom / banks.kg",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约37%,人口向比什凯克/奥什集中",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "约79亿美元(2026年6月)",
+     "source": "TradingEconomics",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "以预付TT/现金为主,信用证少见,巴扎批发现金交易",
+     "source": "US State Dept 2025 ICS",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "EAEU关内零关税+统一认证;Dordoi再出口枢纽转口便利",
+     "source": "onewindow.pro",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "逊尼派伊斯兰约90%,少数俄罗斯东正教",
+     "source": "Wikipedia",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "识字率约99.6%,基础教育普及",
+     "source": "Wikipedia",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "偏俄式厚重金属门、深色/仿木纹饰面;智能锁重实用与性价比",
+     "source": "lalafo.kg",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "典型大陆性/干旱大陆气候,四季分明、冬冷夏热",
+     "source": "Wikipedia",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "比什凯克夏约35℃/冬约-20至-25℃",
+     "source": "Wikipedia",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "春季偶有扬尘,整体中低;建议锁体防尘",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "钢门:Torex(俄)、本地作坊品牌、KALE(锁);智能锁:BE-TECH、TTLock、小米/Aqara。份额无权威统计,估机械/俄系合计>70%",
+     "source": "lalafo.kg / torex.ru",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "Dordoi大巴扎批发、实体门店(gm.kg、stolyar.kg、dveri-bishkek.kg)、lalafo.kg线上分类;巴扎+线下估>80%",
+     "source": "lalafo.kg / Wikipedia Dordoy",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "无公开细分数据;经Dordoi进入的中国锁具/门五金以广东、浙江厂商为主(智能锁如TTLock生态、Kaadas经哈萨克转入)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "以比什凯克本地钢门焊接作坊为主(如Железная-мебель gm.kg、Stolyar.kg),锁芯多进口;本地无规模化锁具制造",
+     "source": "gm.kg / stolyar.kg",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "EAEU EAC:机械门锁/五金多走EAC符合性声明;智能/电子锁须EAC认证,适用TR CU 004/2011(低压)+TR CU 020/2011(电磁兼容);无线模块另需通信/频率备案",
+     "source": "ac-inorms.com / onewindow.pro",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "防火入户门可涉TR EAEU 043/2017;质保及俄语标签/使用说明(EAEU强制俄语标识)",
+     "source": "onewindow.pro",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "报关单、商业发票、装箱单、合同、原产地证、EAC证书/声明、运输单证;增值税12%进口环节缴纳",
+     "source": "onewindow.pro / schmidt-export.com",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "购房/装修主力25–45岁占多数;智能锁偏25–35岁城市青年",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "家庭户主/夫妻共同决策,男性偏重安全性、女性偏重外观",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "安全防盗、耐寒耐用、性价比;智能锁为便利与新鲜感",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "Dordoi巴扎、比什凯克门店、lalafo.kg线上比价",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "价格、锁芯防撬等级、冬季不冻不卡、售后配件供应",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "低价货质量参差、智能锁俄语界面/售后与电池续航、安装配件难配",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "可靠防撬锁芯、耐低温、俄语App与本地质保、静音顺滑门控五金",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "比什凯克市内1–3天,外省3–7天(陆运)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "钢门/智能锁安装约1,000–2,500索姆(约12–28美元)/件",
+     "source": "lalafo.kg",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "通常1年质保,配件/锁芯本地备货是关键;巴扎散货多无正规售后",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "钢制入户门内需小但稳定(722万人口/城市化37%),lalafo在售门类超2,600条;含Dordoi转口后可服务盘更大",
+     "smart": "智能锁尚处早期,lalafo电子锁约120–130条在售,基数低"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "随GDP增速9.2%与比什凯克建筑热稳增,估中个位数",
+     "smart": "低基数高增速,估双位数"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "Dordoi批发+本地门店/作坊为主",
+     "smart": "lalafo线上+专卖(如akuvox.kg)+经哈萨克转口"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "俄式厚重金属门+机械多锁点,防撬锁芯",
+     "smart": "密码/指纹/TTLock蓝牙为主,高端Wi-Fi少"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "刚需(安全+防寒),换新+新建双驱动",
+     "smart": "升级型需求,城市青年与出租/公寓驱动"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "向更好锁芯与饰面升级",
+     "smart": "向指纹+App+俄语生态渗透"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "春秋装修旺季、Nooruz(3月)、新年前",
+     "smart": "新年、11.11、开学后城市促销"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "25",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "10",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "12",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "12",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "396.1",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$222.6",
+   "retailPrice": "$396.1",
+   "grossMargin": "43.8%",
+   "researched": true
+  },
+  "TJ": {
+   "code": "TJ",
+   "title": "🇹🇯  Tajikistan  塔吉克斯坦  ·  市场调研表",
+   "subtitle": "Central Asia / CIS   |   吸引力评分 Attractiveness Score: 44.6 / 100",
+   "flag": "🇹🇯",
+   "region": "Central Asia / CIS",
+   "score": "44.6",
+   "retail": "416.3",
+   "gm": "43.4",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "40",
+     "weight": "25%",
+     "rationale": "中亚最穷国，人均GDP约1,341美元(World Bank 2024)，人口仅约1,059万，市场体量小；但杜尚别持续建筑热潮、住房新建量增长，且2025年GDP增速约8.4%(World Bank)。需求存在但绝对规模有限，多为低价刚需门锁。"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "37",
+     "weight": "20%",
+     "rationale": "侨汇经济(汇款约占GDP48%，World Bank)支撑基础消费但整体购买力低；叠加进口关税0-15%(平均约7%)与增值税14%，中低端价格战激烈，智能锁溢价空间有限，钢门/挂锁走量薄利。"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "52",
+     "weight": "15%",
+     "rationale": "市场以俄系品牌与中国低价货为主，本地几乎无规模制造，缺乏强势本土/国际品牌垄断；市场小但未饱和，性价比中国供应商仍有切入空间。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "54",
+     "weight": "15%",
+     "rationale": "需Tajikstandart(Таджикстандарт)合格认证/符合性声明；门锁进口关税约7-15%，增值税非现金交易14%(2024-2026过渡，现金15%)。属WTO成员、关税相对自由，但海关估价偏离WTO惯例、清关行政摩擦较多。"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "38",
+     "weight": "15%",
+     "rationale": "索莫尼(TJS)汇率承压、外汇储备薄弱、高度依赖侨汇，外汇管制与结汇风险高，建议100%预付或信用证；强人政治带来表面稳定但制度薄弱、营商透明度低。"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "56",
+     "weight": "10%",
+     "rationale": "山地大陆性气候、冬季寒冷，钢制/铸铝防盗门与耐寒机械锁契合度高；智能锁受制于低收入、电力稳定性与认知，接受度尚低，属早期教育市场。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "强人政治，拉赫蒙长期执政，表面稳定但制度薄弱、腐败与营商透明度低，权力交接不确定性",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "与中国关系密切(一带一路、基建与债权国之一)，同属上合组织；与俄罗斯经济军事纽带深(侨汇/劳务)",
+     "source": "",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约1,059万(2024)",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约1,341美元(2024，现价)",
+     "source": "IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "约150-250美元/月，侨汇为重要家庭收入来源",
+     "source": "IMF/World Bank",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约27-28%，杜尚别为主要城市中心",
+     "source": "World Bank",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "外储薄弱，高度依赖侨汇(约占GDP48%)与黄金出口，索莫尼承压",
+     "source": "World Bank / IMF",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "建议100%预付款(T/T)或不可撤销信用证；外汇管制与结汇风险高，避免赊销",
+     "source": "",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "杜尚别城市改造与住房新建计划、基建投资拉动门与五金需求；WTO成员关税相对自由",
+     "source": "eurasianet.org / trade.gov",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "以逊尼派伊斯兰教(哈乃斐)为主，约96%穆斯林",
+     "source": "",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "识字率高(约99%)，但技能/技术工人短缺，智能产品认知偏低",
+     "source": "UNESCO",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "偏好厚重防盗观感、深色金属与经典雕花门面，重实用耐用与安全感",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "大陆性气候，山地为主，干燥、四季分明，冬冷夏热",
+     "source": "ru.wikipedia.org / advantour.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "杜尚别夏季最高约35-40℃，冬季最低约-5至-10℃(高山地区更冷)",
+     "source": "weatherspark.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "平原/河谷有季节性扬尘与沙尘(阿富汗方向afghanets风)，锁具需防尘设计",
+     "source": "ru.wikipedia.org",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "俄系与中国低价品牌为主(如Апекс/Аллюр类俄式机械锁、中国杂牌挂锁与执手锁)，无权威份额数据",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "杜尚别建材市场/巴扎(如Корвон市场)、五金店与工程直供为主，线上(OLX类)占比低",
+     "source": "olx.uz",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "广东(中山小榄)、浙江门锁厂经中/俄贸易商与义乌供货为主；ZKTeco等在中亚有智能锁渠道，无份额数据",
+     "source": "zkteco.uz",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "本地几乎无规模化门锁制造，以进口组装/贴牌为主",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "Tajikstandart(Агентство Таджикстандарт)合格认证/符合性证书(сертификат соответствия)或声明，GOST基础标准体系",
+     "source": "standardsguide.exportcenter.ru",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "智能锁涉电子部分建议提供CE/EAC及无线模块合规文件以助清关(辅助非强制)",
+     "source": "",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "商业发票、装箱单、合同、原产地证(CO)、报关单、运输单据及Tajikstandart符合性证书",
+     "source": "trade.gov / tajtrade.tj",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "以25-45岁购房/装修家庭为主，人口结构年轻(中位年龄约23-25岁)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "家庭男性户主/建筑工程采购方主导，价格与安全为核心",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "防盗安全刚需、新房交付与装修、耐用耐寒",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "建材巴扎/五金店线下选购、工程项目集采、亲友推荐",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "价格、锁体防撬强度、耐用度与售后配钥匙便利",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "低价货质量参差、易生锈卡涩、缺乏配件与售后、智能锁怕断电/不会用",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "防盗等级、防尘防锈耐寒工艺、质保与本地配件/售后网络、外观厚重感",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "陆运经中国-中亚(经吉尔吉斯/乌兹别克或经喀什)约2-4周到杜尚别，城内配送1-3天",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "机械锁/门约人工5-15美元/件，智能锁略高",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "当地以经销商换货为主，缺乏品牌级质保网络，建议随货配备件与图示说明",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "小-中(受杜尚别新建住房与工程拉动，绝对量有限)",
+     "smart": "很小(早期导入期)"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "中(随建筑热潮与GDP约8%增长带动)",
+     "smart": "基数低、增速潜力中高但绝对量小"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "建材巴扎/五金店+工程直供",
+     "smart": "少量专卖/电子店+进口贸易商"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "机械防盗门锁、执手锁、挂锁、铰链门控五金为主",
+     "smart": "密码/指纹/IC卡锁，公寓与商用为主"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "安全刚需、耐寒耐用、低价",
+     "smart": "新建中高端公寓、办公与短租"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "随城市改造稳步增长，向更高防盗等级升级",
+     "smart": "缓慢渗透，受收入与电力稳定制约"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "春夏施工旺季、Navruz(诺鲁孜3月)、开斋节/宰牲节前装修季",
+     "smart": "新盘交付季与节庆促销"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "30",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "12",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "14",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "416.3",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$235.5",
+   "retailPrice": "$416.3",
+   "grossMargin": "43.4%",
+   "researched": true
+  },
+  "EG": {
+   "code": "EG",
+   "title": "🇪🇬  Egypt  埃及  ·  市场调研表",
+   "subtitle": "Africa   |   吸引力评分 Attractiveness Score: 52.0 / 100",
+   "flag": "🇪🇬",
+   "region": "Africa",
+   "score": "52.0",
+   "retail": "435.6",
+   "gm": "43.6",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "68",
+     "weight": "25%",
+     "rationale": "1.16亿人口(2024 World Bank已核实)、非洲第三大市场、城市化约43%且新行政首都(New Capital)+多个国家住房项目(如Sakan Misr社会住房、Gouna/New Cairo开发)持续放量,门/门锁刚需大;智能锁基数低但MEA智能锁CAGR约18.7%(Cognitive Market Research)。扣分:28%通胀+埃镑贬值致中低端购买力受损,豪华智能锁需求集中在高端项目。"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "44",
+     "weight": "20%",
+     "rationale": "成品门/锁进口关税高(约20-40%,取代表值30%)+VAT 14%(已核实)叠加,落地成本抬升;埃镑2024年3月自由浮动后累计贬值超35-40%,本币售价承压;本地钢门/防火门厂(Beta Metal、Star Light、SEG、Egybrit等)成本低、价格战激烈,进口成品溢价空间被压缩。智能锁与高端铸铝门尚有溢价窗口。"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "47",
+     "weight": "15%",
+     "rationale": "本地钢制/防火门制造能力成熟(多家规模厂),机械锁与低端五金本地+土耳其/中国货充斥,价格竞争激烈;但智能锁、隐藏合页/闭门器等门控五金本地供给弱,进口空间较好。中国供应商已大量进入,需差异化(认证齐全、防尘耐候、项目工程配套)。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "45",
+     "weight": "15%",
+     "rationale": "须GOEIC进口商/工厂注册及装运前符合性(CoI)、EOS强制标准/EGAC认可实验室检验(已核实:trade.gov Standards);防火门须民防/Civil Defense项目审批(已核实);成品关税高、ACV估价与逐批检验增加时间成本与不确定性。准入壁垒中偏高。"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "41",
+     "weight": "15%",
+     "rationale": "埃镑大幅贬值史+2023-24外汇危机、进口信用证/结汇曾受限(Wikipedia/Coface已核实事实);外储虽已回升至约$48.7B(2025年6月CBE)并于2025年末破$50B,但结汇与汇率波动风险仍存,建议前T/T或保兑不可撤销L/C、控制账期。"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "63",
+     "weight": "10%",
+     "rationale": "钢制/铸铝入户门与防火门为主流住宅配置,接受度高;炎热干燥+风沙(Khamsin沙尘季)要求防尘防卡滞、耐腐蚀表面处理与耐高温,利好高品质中国产品;智能锁在新首都/高端公寓渗透上升但仍小众,指纹/密码接受度提升中。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "相对稳定但受经济压力;塞西政府集权、军方经济角色大,社会补贴削减引发民生压力,总体秩序可控",
+     "source": "weforum/coface",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "与中国关系密切(一带一路、苏伊士经贸合作区TEDA、新首都CBD由中建承建);与海湾国、IMF合作紧密",
+     "source": "imf.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约1.165亿(2024)",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约3,338美元(2024,现价)",
+     "source": "IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "城市中位约6,000-9,000 EGP/月(约120-180美元),贬值后美元计购买力显著下降",
+     "source": "capmas",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约43%城市人口,城市化推进中(新首都/新城)",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "净国际储备约$48.7B(2025年6月),2025年10-12月升破$50B",
+     "source": "cbe.org.eg",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "外汇紧张史致L/C曾受限;建议前T/T定金+保兑不可撤销L/C,谨慎给账期",
+     "source": "coface",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "新行政首都及国家住房项目、经济特区(SCZONE/TEDA苏伊士)吸引本地组装;但同时推本地化与高关税保护",
+     "source": "trade.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "以逊尼派伊斯兰教为主(约90%),科普特基督徒约10%;审美偏保守、重私密与安防",
+     "source": "cia.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "识字率约73%,青年人口庞大,城市消费者对智能产品接受度上升",
+     "source": "unesco",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "偏好厚重气派入户门、金属拉丝/古铜/深色木纹、雕花装饰,重安全感与体面",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "炎热干燥沙漠气候,雨极少,昼夜温差大",
+     "source": "worldbank climate",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "夏季40-45°C(上埃及/阿斯旺可达48°C),冬季夜间约5-10°C(开罗)",
+     "source": "worldbank climate",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "多沙尘,春季Khamsin沙尘暴显著,要求锁体防尘防卡滞、门表面耐磨耐腐",
+     "source": "",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "本地钢门/防火门厂(Beta Metal、Star Light、SEG、Egybrit)+土耳其/中国锁具品牌;机械锁多杂牌,无权威份额",
+     "source": "beta-metal.com/starlight-egy.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "项目工程/开发商直采(新城住房)约占大头,其次五金批发市场(开罗、亚历山大)、五金店零售,电商(Jumia/Amazon.eg)兴起",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "无公开权威份额;中国为门五金/智能锁主要进口来源之一,经批发商与工程集成商分销",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "钢门/防火门本地制造成熟(Beta Metal、Star Light、SEG Egypt、Egybrit等),占本地钢门/防火门较大份额;智能锁本地几无制造",
+     "source": "seg-egypt.com",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "GOEIC进口商登记与工厂注册、装运前符合性证书CoI;EOS强制标准(约5,000项强制技术法规)逐批检验;防火门须民防审批",
+     "source": "trade.gov/tuvsud.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "ISO 9001质量体系、防火门EN 1634/UL 10C耐火测试报告(可采用国际标准)、锁具EN/ANSI等级、CE可作参考;EGAC认可实验室报告",
+     "source": "trade.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "商业发票、装箱单、原产地证、提单、CoI符合证书、ACID/Nafeza预清关电子登记(货物预注册系统)、进口商GOEIC登记",
+     "source": "trade.gov/nafeza",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "25-45岁购房/装修主力占多数(人口中位年龄约24岁,青年占比高)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "家庭男主人主导安防/入户门,女主人参与外观;工程项目由开发商/承包商采购决策",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "安全防盗、体面气派、耐用防沙尘、价格与售后;高端项目追求智能便利",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "五金批发市场、五金店、开发商配套、Jumia/Amazon.eg电商、Facebook本地商家",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "锁芯防撬/防技术开启、门体厚度与钢材、防火等级、防尘顺滑、价格与保修",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "埃镑贬值致进口品涨价、沙尘导致锁卡滞、劣质件锈蚀、售后与配件难找、智能锁本地维修/联网支持弱",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "高安全等级锁芯、耐候防尘防腐工艺、气派外观饰面、防火认证齐全、智能锁(指纹/密码/APP)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "进口经批发商分销,末端交付约3-10天;工程项目按批次;海运至亚历山大港+清关约4-8周",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "入户钢门安装约200-500 EGP/樘,智能锁改装约150-400 EGP(默认均摊约12美元/件)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "当地经销商负责保修与配件,机械门锁常见1-2年质保;智能锁需本地技术支持,配件供应是痛点",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "大:1.16亿人口+新城/国家住房,钢门/防火门为住宅主流,规模居非洲前列(具体金额估算)",
+     "smart": "小但增长快:智能锁基数低,集中于新首都/高端公寓(估算)"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "中:随住房交付稳增,约中个位数(估算)",
+     "smart": "高:MEA电子智能锁CAGR约18.7%(2024-31,Cognitive Market Research)"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "开发商工程直采+五金批发/零售为主",
+     "smart": "高端项目集成商+电商/专业店,渠道尚在形成"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "入户防盗钢门、铸铝装饰门、防火门(须民防审批)、门控五金(合页/闭门器/锁体)",
+     "smart": "指纹/密码/IC卡/APP智能锁,偏中高端进口"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "刚需大:安防+耐沙尘+防火;价格敏感",
+     "smart": "新兴:便利与身份象征驱动,受贬值抑制普及"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "本地化制造+进口高端并存,防火合规趋严",
+     "smart": "渗透率上升,联网/无钥匙化,受购买力与本地支持制约"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "斋月/开斋节(Ramadan/Eid)装修季、新城交付季、Black Friday(白色星期五)电商",
+     "smart": "开斋节、宰牲节、年末电商大促"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "16",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "30",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "14",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "12",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "435.6",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$245.6",
+   "retailPrice": "$435.6",
+   "grossMargin": "43.6%",
+   "researched": true
+  },
+  "ZA": {
+   "code": "ZA",
+   "title": "🇿🇦  South Africa  南非  ·  市场调研表",
+   "subtitle": "Africa   |   吸引力评分 Attractiveness Score: 56.8 / 100",
+   "flag": "🇿🇦",
+   "region": "Africa",
+   "score": "56.8",
+   "retail": "413.3",
+   "gm": "44.6",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "68",
+     "weight": "25%",
+     "rationale": "南非是非洲最发达、最大门锁/门五金市场之一，人口约6300万、城市化约68%，治安差、入室盗窃高发使安防意识极强，钢制安防门/防盗闸门(security gate/burglar bar)与智能锁需求刚性；但宏观增长疲弱(GDP增速约1%)、失业率高，压低总量扩张速度。综合中偏高。"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "55",
+     "weight": "20%",
+     "rationale": "中高端与郊区独栋(freestanding house)业主承受力较好，愿为安防溢价；但需扣约15%关税+15%VAT+运费，且ASSA ABLOY(Union/Yale)/Cisa等品牌+本地分销压价，兰特贬值侵蚀利润。中性。"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "40",
+     "weight": "15%",
+     "rationale": "市场拥挤：ASSA ABLOY(Union/Yale/Multi-Lock)、Cisa、Cotswold等品牌深耕，本地五金分销极发达(HHL、Ironmongery Warehouse、BBLSA)，进口中国货已普遍。留白有限，偏低。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "55",
+     "weight": "15%",
+     "rationale": "机械门锁(HS8301)无NRCS强制专项，SABS/SANS为自愿；但智能/电子锁需NRCS LOA(电气安全)且含无线模块须ICASA型号认证，VAT15%、门锁关税约15%。机械锁门槛低、智能锁门槛中。"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "50",
+     "weight": "15%",
+     "rationale": "兰特(ZAR)浮动波动大、外储约600亿美元尚可，银行/信用证体系成熟；但停电(loadshedding)、高犯罪率、政治为GNU联合政府稳定性一般，建议L/C或预付+信用保险。中性。"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "70",
+     "weight": "10%",
+     "rationale": "钢制/防盗安防门、防盗闸门、高安全等级机械锁与南非安防刚需高度契合；智能锁受中高端接受度上升(CAGR约20%)。气候多为半干旱/温带，需注意沿海盐雾与内陆多尘的防腐防尘处理。契合度高。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "2024年大选后ANC失去多数，组成多党执政联盟(GNU)，政局温和稳定但存分歧；治安/犯罪率高、停电(loadshedding)为长期风险",
+     "source": "en.wikipedia.org",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "BRICS成员，中国为南非第一大贸易伙伴，双边关系友好；与美国因AGOA/地缘立场存摩擦",
+     "source": "en.wikipedia.org",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约6300万(2024)",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约6,500美元(2025)",
+     "source": "IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "月工资中位数约ZAR3,800-4,500(约250-300美元)，贫富差距极大(基尼系数全球最高之一)",
+     "source": "statssa.gov.za",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约68%",
+     "source": "data.worldbank.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "约600-630亿美元(2025，含黄金)",
+     "source": "resbank.co.za",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "L/C与T/T常见，大买家赊销；建议L/C或预付+信用保险以对冲兰特波动与信用风险",
+     "source": "trade.gov",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "SACU关税同盟内零关税互通；AfCFTA非洲自贸区推进；本地化(localisation)采购倾向对进口略不利",
+     "source": "tralac.org",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "约80%基督教，其余为传统信仰、伊斯兰教、印度教等",
+     "source": "en.wikipedia.org",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "识字率约95%，英语为商业通用语，专业安防/物业市场成熟",
+     "source": "data.worldbank.org",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "偏实用与安全导向，欧式/英式五金审美(拉丝不锈钢、黑色/古铜)受欢迎，中高端追求品质外观",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "以半干旱至温带为主，东部沿海亚热带，西南部地中海气候(开普敦)",
+     "source": "en.wikipedia.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "内陆夏季最高约35-40℃，高原(Highveld)冬季夜间可低至0℃以下(约-3℃)",
+     "source": "weathersa.co.za",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "内陆卡鲁(Karoo)干旱多尘，需防尘设计；沿海盐雾需防腐(建议不锈钢304/以上)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "Union、Yale(均属ASSA ABLOY)、Cisa、Cotswold、Multi-Lock/Mul-T-Lock为主流；占比无公开权威数据(估算合计约50-60%中高端)",
+     "source": "assaabloy.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "五金/建材专业分销(HHL、Ironmongery Warehouse、BBLSA)、大型建材连锁(Builders Warehouse/Cashbuild)、锁匠(locksmith)、安防安装商、线上(Takealot)；专业分销与建材连锁占主导(估算合计约70%+)",
+     "source": "ironmongerywarehouse.co.za",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "大量中国OEM经进口商贴牌进入(五金锁具、智能锁)，无单一权威占比统计；中低价段中国货占比高(估算)",
+     "source": "volza.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "本地制造有限，多为组装/进口；Cotswold、Federal等历史品牌，钢制安防门/闸门本地制造(Xpanda、Magnador等)较活跃",
+     "source": "magnador.co.za",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "机械门锁(HS8301)无NRCS强制专项(SABS/SANS为自愿参考)；智能/电子锁含供电电路须NRCS Letter of Authority(LOA,电气安全)，含蓝牙/WiFi/RFID无线模块须ICASA型号认证(Type Approval)",
+     "source": "nrcs.org.za / icasa.org.za",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "SABS/SANS标志(自愿，提升招标/工程与保险认可)；SAIS/保险机构对防盗等级要求；智能锁常附CE/RoHS/FCC作辅证",
+     "source": "sabs.co.za",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "商业发票、装箱单、提单/空运单、原产地证、SARS进口商编码(importer code)登记；智能锁需附NRCS LOA与ICASA证；按到岸价计15%关税(门锁约15%)+15%VAT",
+     "source": "sars.gov.za",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "25-55岁业主/家庭为主(约60%)，物业/开发商与安防企业为B端主力",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "住宅户主(常为男性主导安防决策)、物业管理与开发商、安防安装商/锁匠推荐",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "防盗安全刚需(高犯罪率驱动)、耐用可靠、保险合规、停电下的可靠性(机械/带电池备用)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "建材连锁(Builders Warehouse)、五金分销、锁匠/安防安装商、线上Takealot",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "安全等级/抗撬、耐用与防腐、售后与备件、停电时可靠性、品牌与保险认可",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "廉价进口锁质量参差、售后/备件难、智能锁停电与联网可靠性顾虑、安装标准不一",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "高抗撬/防钻安全等级、防腐(不锈钢)、断电机械应急、本地质保与快速备件、SABS/保险认可",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "主要都市(约翰内斯堡/开普敦/德班)1-3工作日，偏远地区3-7天；海运到德班港后本地分拨",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "锁匠/安装商单锁约ZAR300-800(约18-45美元)，安防门/闸门更高",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "行业惯例1-2年质保，中高端品牌本地备件与保修网络；进口白牌售后较弱是痛点",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "钢制/安防门与防盗闸门为南非安防大类，规模显著(估算住宅安防五金年数千万美元级)",
+     "smart": "智能锁约1,060万美元(2025)"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "低个位数增长(与建筑/翻新周期相关，估算约3-5%)",
+     "smart": "约19.9% CAGR(2026-2033)"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "建材连锁+五金分销+安防安装商/焊制作坊为主",
+     "smart": "安防集成商+电商(Takealot)+五金分销+品牌旗舰"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "防盗闸门/security gate、钢制安防门、高安全等级插芯锁/挂锁、门控五金(闭门器/合页)",
+     "smart": "指纹/密码/APP/RFID电子锁，多带机械钥匙与电池应急备份"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "刚需，受高犯罪率与保险要求驱动，全国普及",
+     "smart": "中高端住宅、Airbnb/短租、办公与物业增长快"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "向更高安全等级、防腐、标准化五金升级",
+     "smart": "无线联网+本地化(应对停电须电池/机械备份)，性价比中国方案渗透上升"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "建筑旺季(春夏10-3月)、年底假期前安防加固",
+     "smart": "Black Friday(11月)、圣诞、Takealot促销季"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "20",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "15",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "15",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "18",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "413.3",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$229.2",
+   "retailPrice": "$413.3",
+   "grossMargin": "44.6%",
+   "researched": true
+  },
+  "MA": {
+   "code": "MA",
+   "title": "🇲🇦  Morocco  摩洛哥  ·  市场调研表",
+   "subtitle": "Africa   |   吸引力评分 Attractiveness Score: 61.3 / 100",
+   "flag": "🇲🇦",
+   "region": "Africa",
+   "score": "61.3",
+   "retail": "423.1",
+   "gm": "43.9",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "68",
+     "weight": "25%",
+     "rationale": "3808万人口、城市化约65%；2030世界杯(与西/葡合办)驱动卡萨布兰卡、丹吉尔、拉巴特体育场/酒店/住宅大规模建设，社会住房计划持续，旅游地产升温，门与门锁刚需与替换需求可观(trade.gov, worldbank.org)"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "52",
+     "weight": "20%",
+     "rationale": "人均GDP约$4,150购买力中低，进口锁MFN关税约17.5%+增值税20%+辅助性技术检验杂税，叠加低端法/土/本地价格战，中高端与智能锁尚有溢价但整体毛利被税负与价格敏感度压缩(trade.gov Verified)"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "55",
+     "weight": "15%",
+     "rationale": "传统机械锁市场拥挤：法系Vachette/Bricard/Fichet、西班牙Tesa、土耳其品牌+本地五金厂盘踞中低端；但智能锁/连接锁(serrure connectée)仍属新兴蓝海，本地专营店(Binaa/BEGTECH/ZKTeco)刚起步，中国品牌切入窗口存在"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "58",
+     "weight": "15%",
+     "rationale": "IMANOR的NM认证与部分产品Cم(marquage C)强制符合性，进口需DUM报关；关税17.5%+VAT20%抬高门槛，但无China-FTA下MFN可预期、程序透明，属中等壁垒(imanor.gov.ma, Verified)"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "70",
+     "weight": "15%",
+     "rationale": "迪拉姆MAD挂钩篮子(约60%欧元/40%美元)波动可控，外储约$360亿(约5-6个月进口覆盖)，君主制政局长期稳定；付款多为L/C或TT预付，买方多为经销商，回款风险中低(bkam.ma, tradingeconomics.com)"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "65",
+     "weight": "10%",
+     "rationale": "钢制/铸铝防盗门(porte blindée)在城市公寓与别墅接受度高；智能锁在中高端住宅、Airbnb短租、酒店渗透上升；地中海+撒哈拉边缘气候要求防锈防尘，南部风沙对机械件是设计要点"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "君主立宪制，穆罕默德六世国王在位，政局长期稳定，为北非最稳国家之一",
+     "source": "trade.gov",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "与中国2022年建立战略伙伴关系并加入一带一路；与欧盟(联系国协定)、美国(2006 FTA)关系紧密；对华无自贸协定",
+     "source": "trade.gov",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约3,808万(2024)",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约4,150美元(2024)",
+     "source": "IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "约2,500-3,000迪拉姆/月(约250-300美元)，城乡差距大",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约64-65%",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "约360-370亿美元(2025)，约5-6个月进口覆盖",
+     "source": "bkam.ma / tradingeconomics.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "进口多用信用证(L/C)或电汇预付(前T/T)，经销商采购偏好定金+发货前尾款",
+     "source": "",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "2030世界杯基建投资、社会住房与城市更新计划、工业加速计划吸引本地组装",
+     "source": "trade.gov",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "伊斯兰教(逊尼派)约99%，宗教文化影响装饰审美与隐私(入户门)重视度",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "成人识字率约75%，法语/阿拉伯语双语，技术与安装工人可获得",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "偏欧洲(法式)简约与摩尔式装饰纹样并存，青睐哑光黑/金铜色五金、坚固厚重防盗门观感",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "北部沿海地中海气候，内陆及南部半干旱至撒哈拉边缘气候，昼夜温差大",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "南部/内陆夏季最高约40-45℃，阿特拉斯山与内陆冬季最低约0-5℃(高山可低于0℃)",
+     "source": "",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "南部及内陆风沙明显，受撒哈拉与Chergui热风影响，锁体需防尘防砂设计",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "法系Vachette/Bricard/Fichet、西班牙Tesa、土耳其Kale/本地五金品牌主导机械锁；具体占比无公开权威数据",
+     "source": "inb-quincaillerie.ma / bricop.ma",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "传统五金批发/quincaillerie店主导(约55-65%)、大型建材连锁(Bricoma/Mr.Bricolage/Bricodéco)约15-20%、电商(Jumia/Avito)约5-10%、项目直供约10-15%",
+     "source": "bricoma.ma / jumia.ma",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "中国厂供应大量中低端机械锁与智能锁(ZKTeco类连接锁、通用OEM)，多经进口商/白牌销售，品牌集中度低、占比难量化",
+     "source": "zktecoma.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "本地以防盗门(porte blindée)组装与五金加工中小厂为主，锁芯核心件多依赖进口，无公开市占数据",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "IMANOR的NM(摩洛哥标准)符合性认证，部分受技术法规产品需Cم(marquage C)强制标识；建材/电气类为强制，门锁按适用NM标准评估",
+     "source": "imanor.gov.ma / mcinet.gov.ma",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "EN 12209(机械锁)/EN 1303(锁芯)等欧标测试报告、CE标识可加速IMANOR认可；ISO 9001质量体系为加分项",
+     "source": "imanor.gov.ma",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "DUM报关单、商业发票、装箱单、原产地证、提单、必要时IMANOR符合性证书/NM证书及法/阿双语标签",
+     "source": "imanor.gov.ma",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "购房与装修主力25-45岁约占决策人群55-60%，45岁以上换新与别墅市场约25%",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "家庭男主人/户主为主，安全类购买夫妻共决；项目端由开发商/承包商与五金采购决定",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "安全防盗为第一驱动，其次耐用防锈、价格、与门体匹配的美观，智能锁受短租/便利驱动",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "传统quincaillerie五金店与建材连锁为主，电商(Jumia/Avito)比价，项目通过分销商",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "防撬防钻、锁芯等级、材质防锈、售后与备用钥匙、智能锁的续航与稳定性",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "低价货易锈卡涩、假冒欧标、安装服务参差、智能锁法语APP与本地网络适配、备件难寻",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "欧标认证锁芯、防盗门整套解决方案、哑光黑/金铜高端饰面、智能锁本地化(法语+离线密码)、含安装质保",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "卡萨/拉巴特/丹吉尔等大城市1-3天，二三线城市3-7天；海运到卡萨布兰卡港后清关约3-7天",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "机械锁约100-250迪拉姆/次(约10-25美元)，防盗门与智能锁安装约300-600迪拉姆(约30-60美元)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "经销商多提供1-2年质保，锁芯与电子件保修常见，本地缺乏统一售后网络",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "钢制/铸铝防盗门+机械锁为主流大盘，随住房与世界杯基建规模居前(具体金额无公开数据，估算)",
+     "smart": "智能锁体量仍小但基数快速扩张，集中在中高端住宅/短租/酒店(估算)"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "随建筑周期稳健增长，估算年增约5-8%",
+     "smart": "高增长新兴品类，估算年增约20-30%"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "传统五金批发+建材连锁+项目直供为主",
+     "smart": "专营电商/垂直店(Binaa/BEGTECH/ZKTeco/Avito)+安装商+酒店项目"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "入户防盗门配多点锁、插芯门锁、球形/执手锁、门控闭门器合页",
+     "smart": "指纹/密码/卡/APP连接锁，Tuya生态与酒店锁为主"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "防盗、耐用防锈、与门体匹配的刚需替换与新建需求",
+     "smart": "便利、远程管理、短租门禁、彰显现代感"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "向欧标认证与更高防盗等级、更好饰面升级",
+     "smart": "从酒店向家用渗透，法语本地化与离线可靠性成竞争点"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "斋月前后与开斋节(Aïd)装修季、返校/年末、建材展(如SIB建筑展)",
+     "smart": "斋月/开斋节、黑五(Jumia)、世界杯相关地产交付节点"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "17",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "17.5",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "20",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "14",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "423.1",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$237.2",
+   "retailPrice": "$423.1",
+   "grossMargin": "43.9%",
+   "researched": true
+  },
+  "DZ": {
+   "code": "DZ",
+   "title": "🇩🇿  Algeria  阿尔及利亚  ·  市场调研表",
+   "subtitle": "Africa   |   吸引力评分 Attractiveness Score: 55.8 / 100",
+   "flag": "🇩🇿",
+   "region": "Africa",
+   "score": "55.8",
+   "retail": "456.2",
+   "gm": "43.6",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "72",
+     "weight": "25%",
+     "rationale": "人口约4740万且城市化75%，住房刚需巨大：AADL3计划规划近140万套、2025年新开工约25万套社会/公积金住房，每套门/锁/五金为刚性配套，门类基础需求量大。增长受油气财政周期与结汇制约，故未给更高分。来源worldbank.org/dzair-tube.dz"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "52",
+     "weight": "20%",
+     "rationale": "人均GDP约6600美元、月薪中位数低（约185美元），价格高度敏感；进口关税约30%叠加DAPS附加(30-200%)与19%增值税大幅抬高到岸成本，压缩利润；社会住房招标压价明显。中高端安全门与智能锁存在溢价窗口。来源imf.org/taxsummaries.pwc.com"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "56",
+     "weight": "15%",
+     "rationale": "市场以土耳其、中国低价货与部分法系(Vachette/Bricard)品牌及本地安全门组装厂为主，中端标准锁较拥挤；智能锁渗透率仍低、格局分散，留有空间。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "34",
+     "weight": "15%",
+     "rationale": "进口管制严：装船前须完成银行结汇域名化(domiciliation)、外贸预审批、DAPS临时保护附加税及本地化倾向政策，结汇与许可门槛高，准入分偏低。来源algiersbrief.com/ey.com/lexafrica.com"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "47",
+     "weight": "15%",
+     "rationale": "外储约645亿美元受油气支撑、第纳尔为管理浮动，但结汇排队与外汇审批严、回款周期长、常需L/C，付款便利性差；政治相对稳定但依赖油价。来源tradingeconomics.com"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "68",
+     "weight": "10%",
+     "rationale": "钢制/铸铝入户门与安全门在阿本地接受度高（安防意识强）；地中海+撒哈拉气候多尘高温，需耐盐雾/防尘/耐高温五金；智能锁在新建AADL住宅与中高端市场渐起但仍属早期。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "相对稳定，Tebboune政府2024连任；社会补贴维稳，营商受官僚与政策多变影响",
+     "source": "state.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "与中国关系密切（一带一路、多项基建合作），中阿贸易规模大；与部分西方/邻国关系时有波动",
+     "source": "trade.gov",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约4740万(2026)，年增约1.5%",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约6,600美元(名义,2025-26)；PPP约1.5万美元",
+     "source": "IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "月薪中位数约180-200美元；平均约55,000 DZD(约406美元)",
+     "source": "wage.is",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约75%城市人口，集中于阿尔及尔、奥兰、君士坦丁沿海带",
+     "source": "statisticsoftheworld.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "约640-700亿美元(2024-25)，油气出口支撑，较2014峰值大幅回落",
+     "source": "tradingeconomics.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "进口强制银行结汇域名化，多用信用证L/C/前T/T；外汇审批严、回款慢",
+     "source": "ey.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "AADL3等大规模社会住房与本地化生产激励；鼓励进口替代与本地组装",
+     "source": "dzair-tube.dz",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "逊尼派伊斯兰教为主(约99%)，影响审美偏好与门户装饰",
+     "source": "state.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "识字率约81%，青年比例高、技术工人可得",
+     "source": "World Bank",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "偏好厚重气派安全门、金色/古铜与几何雕花，兼具伊斯兰装饰元素",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "北部地中海气候，南部撒哈拉沙漠气候，干热多尘",
+     "source": "worldbank.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "沿海夏约30-38℃、撒哈拉可达48-50℃；北部冬约3-8℃，高原/内陆可低于0℃",
+     "source": "worldbank.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "内陆及南部风沙(sirocco/dust storms)显著，锁芯与合页需防尘防砂",
+     "source": "worldbank.org",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "土耳其安全门品牌、中国无品牌/白牌锁、法系Vachette/Bricard、本地安全门组装厂;具体占比无公开数据",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "传统五金建材市场/quincaillerie门店为主(约60-70%)，房产开发/AADL项目集采，少量电商(Jumia/Ouedkniss)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "永康/温州安全门与锁具厂商、深圳智能锁OEM为主；无公开分品牌占比",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "本地以安全门(portes blindées)组装厂居多，锁芯多进口；无权威市占数据",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "进口需符合阿尔及利亚强制标准(IANOR/NA标准)与合格证明；工业品常需一致性证书COC及技术进口审批",
+     "source": "trade.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "CE/ISO9001常作贸易辅助凭证；安全门可参照EN 1627防盗等级、智能锁需符合电气安全，非强制",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "须银行结汇域名化(domiciliation)、形式/商业发票、装箱单、原产地证、提单、合格/一致性证书；预先外贸审批",
+     "source": "ey.com",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "25-45岁购房/装修主力约占决策人群六成，青年人口结构年轻",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "家庭男性户主主导安全门/大锁决策，女性参与内门与外观选择",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "安全防盗为首要，其次耐用性、气派外观与价格",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "实体五金/建材市场与安全门专卖店为主，Ouedkniss/Facebook与Jumia辅助比价",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "防撬防钻、锁芯等级、防尘防砂耐用、售后配钥匙便利",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "低价货易锈蚀卡涩、配件与钥匙难补、智能锁本地售后/语言(法语/阿语)支持弱",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "高等级防盗门+防砂锁芯、指纹/密码智能锁、法语阿语界面与本地质保",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "沿海城市约2-5天，内陆/南部省份5-10天，依赖本地经销商配送",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "安全门/门锁安装约1500-3000 DZD(约11-22美元)/樘，智能锁略高",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "多为经销商承担1-2年质保与配钥匙，厂家远程支持有限",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "大：入户以钢/铸铝安全门为主流，受AADL3(近140万套)与年约25万套新住房强拉动",
+     "smart": "小但成长：智能锁渗透率个位数，集中中高端与新建楼盘"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "中高：随社会住房交付稳定增长，估约5-8%/年",
+     "smart": "高：低基数下估双位数增长(15%+)"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "传统五金/建材市场+安全门专卖+项目集采",
+     "smart": "专卖/安防集成商+电商+房产开发商配套"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "厚重防盗门配多点锁与欧标锁芯，偏气派外观",
+     "smart": "指纹/密码/IC卡为主，需法语阿语界面与耐高温防尘"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "刚需、量大、价格敏感，安防等级为核心",
+     "smart": "改善型需求，聚焦城市中产与新建住宅"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "本地组装+进口锁芯，逐步升级防盗等级",
+     "smart": "从酒店/公寓向住宅渗透，Wi-Fi/APP联网兴起"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "斋月前及开斋节、住房交付季、开学返城",
+     "smart": "斋月/开斋节、年末、房产交付高峰"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "18",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "30",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "19",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "12",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "456.2",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$257.5",
+   "retailPrice": "$456.2",
+   "grossMargin": "43.6%",
+   "researched": true
+  },
+  "GH": {
+   "code": "GH",
+   "title": "🇬🇭  Ghana  加纳  ·  市场调研表",
+   "subtitle": "Africa   |   吸引力评分 Attractiveness Score: 54.3 / 100",
+   "flag": "🇬🇭",
+   "region": "Africa",
+   "score": "54.3",
+   "retail": "416.8",
+   "gm": "43.4",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "62",
+     "weight": "25%",
+     "rationale": "人口约3506万且年增1.8%(World Bank 2025),阿克拉/特马都市圈住房与商业地产热、侨民回流建房推动安防门与门五金需求;但住房缺口以中低端刚需为主,智能锁仍属早期。规模中等偏上、成长性好。"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "47",
+     "weight": "20%",
+     "rationale": "人均GDP约3257美元(World Bank 2025)购买力有限;成品关税20%+VAT15%叠加NHIL/GETFund/COVID等levy,累计税负常超23%可达35%+(trade.gov 已核实),Alibaba廉价安防门涌入压价,利润被两头挤压。"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "54",
+     "weight": "15%",
+     "rationale": "本土有Icon Security Doors、Superlock、Sidom、J.O.Agyapong等安防门品牌及Supply Master/Smart Home Ghana等零售,中国低价货已大量在场;中高端与智能锁仍有空档,整体中等拥挤。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "55",
+     "weight": "15%",
+     "rationale": "建材属高风险货类,GSA要求CoC/CoA且执行G-CAP/EasyPASS装运前符合性(gsa.gov.gh、intertek.com 已核实);20%关税+高levy推高落地成本。程序清晰但成本与合规门槛偏高。"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "42",
+     "weight": "15%",
+     "rationale": "塞地GHS 2024年对美元贬值约19.5%(gnbcc.net),2023主权债务重组史、外储虽回升但脆弱,汇率与回款风险高;建议100%前T/T或信用证、控制赊账。"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "68",
+     "weight": "10%",
+     "rationale": "钢制/安防门在治安需求下接受度高,智能锁(Tuya系)在阿克拉中高端与侨民住宅快速起步;热带多雨潮湿+北部哈马丹风沙要求防锈耐候、断电可用(电池备份),契合公司产品线。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "多党民主稳定,2024年底和平政党轮替(NDC马哈马当选);治理指数中上,但公共债务重、财政承压",
+     "source": "reuters.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "中加关系友好,中国为主要贸易伙伴与基建投资来源;ECOWAS/AfCFTA成员,对华无贸易壁垒",
+     "source": "fmprc.gov.cn",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约3506万(2025),年增约1.8%",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约3,257美元(2025,现价)",
+     "source": "IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "城市中位数约1,500-2,500 GHS/月(约130-210美元);正规就业者更高",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约58-59%,阿克拉-特马都市圈最集中,持续城镇化",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "2024-25年回升至约80-90亿美元区间(约4个月进口),仍脆弱",
+     "source": "gnbcc.net",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "进口普遍要求预付T/T或L/C;因外汇管制与贬值,美元回款审慎",
+     "source": "trade.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "经济适用房计划、AfCFTA区内优惠、GIPC投资激励;但建材成品仍课高关税",
+     "source": "oxfordbusinessgroup.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "基督教约71%、伊斯兰教约20%、传统信仰约3%(2021人口普查)",
+     "source": "en.wikipedia.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "成人识字率约80%,英语为官方语言,利于产品说明与智能锁App使用",
+     "source": "cia.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "偏好厚重气派的安防钢门/铸铝门,金色/深色仿木纹与欧式雕花受欢迎;中高端趋向简约现代",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "热带气候,南部湿润多雨(两个雨季),北部萨瓦纳半干旱",
+     "source": "worldbank.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "常年高温约26-33°C,北部旱季日间可达38°C,夜间约20°C,无严寒",
+     "source": "climateknowledgeportal.worldbank.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "11月至次年3月哈马丹(Harmattan)干燥尘风影响北部及内陆,沿海阿克拉相对轻",
+     "source": "en.wikipedia.org",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "安防门:Icon Security Doors、Superlock Technologies、Sidom Doors、J.O. Agyapong、Widi-Locks;多为进口/组装中国货,单一品牌占比均<15%,市场分散",
+     "source": "iconsecuritydoors.com;superlock.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "建材专营店/展厅(Supply Master等)、五金批发市场(阿克拉Abossey Okai/Kumasi)、品牌直营展厅、工程/开发商直供、线上(smarthome.com.gh等),线下批发占主导约70%+",
+     "source": "supplymaster.store",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "永康/佛山安防门厂及Tuya系智能锁OEM经Alibaba大量供货;无单一主导品牌,中国货合计占进口安防门大部分",
+     "source": "alibaba.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "本地多为组装/表面处理(钢门焊接、铸铝门装配),核心锁具与型材依赖进口;规模化本土制造有限",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "GSA强制符合性:建材属高风险货,须凭CoC/CoA清关,执行G-CAP(经Intertek/SGS等EasyPASS/PVoC装运前检验)符合相关Ghana Standards",
+     "source": "gsa.gov.gh;intertek.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "智能锁电子部分建议附CE/RoHS/FCC及电池认证以过电气类检验;ISO 9001与产品测试报告有助PVoC放行",
+     "source": "sgs.nl",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "商业发票、装箱单、提单、原产地证、GSA的CoC/CoA、经GCNet/ICUMS电子申报、进口商TIN及GSA注册",
+     "source": "gsa.gov.gh;gra.gov.gh",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "25-45岁购房/建房主力约55%,45岁以上改善型约25%,侨民买家占中高端显著份额",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "业主/建房家庭男主人主导安防门决策,女主人与设计师影响外观;工程项目由开发商/承包商采购",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "治安防盗需求、体面气派彰显身份、新建/翻新刚需、侨民汇款建房",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "五金/建材市场与展厅现场选购为主,口碑与承包商推荐,线上与社媒(Facebook/WhatsApp)询价增长",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "防盗强度与锁芯、防锈耐候、价格与性价比、售后与配件供应、智能锁断电/网络可用性",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "劣质门易锈变形、锁具易坏且配件难寻、假冒品牌多、安装不专业、智能锁售后与语言/App支持不足",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "真材实料厚钢板/防锈镀层、知名锁芯与保修、静音顺滑五金、智能锁本地化App与稳定断电续用、上门测量安装",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "阿克拉/特马都市区现货1-3天,内陆城市3-7天;定制/整柜进口周期6-10周",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "安防钢门/铸铝门单樘约150-400 GHS(约13-33美元),智能锁约100-250 GHS,视门洞与改装",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "钢门本体通常保修1-2年、锁具1年,门到门更换配件周期长;智能锁多依赖供应商远程支持",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "钢制/铸铝安防门年需求估约30-45万樘、进口值约0.8-1.2亿美元(估算)",
+     "smart": "智能锁尚小,年销估约3-6万套、数百万美元级,集中阿克拉中高端与侨民住宅"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "随地产与城镇化年增约6-9%(估算)",
+     "smart": "低基数高增速,估年增20-30%+"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "批发市场+建材展厅+工程直供为主,线下主导约70%+",
+     "smart": "专营店/线上+智能家居集成商,线上占比明显高于钢门"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "入户安防钢门、铸铝别墅门为主,配普通/机械多锁点五金",
+     "smart": "Tuya/Smart Life生态指纹+密码+RFID+App为主流,面部识别高端款兴起"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "防盗、耐候防锈、气派外观、性价比",
+     "smart": "多种开锁方式、断电电池续用、App远程与临时密码、本地化支持"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "向厚板防锈镀层、仿木纹与现代简约升级,工程集采增多",
+     "smart": "从尝鲜走向中高端标配,与安防摄像/智能家居联动"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "旱季建筑旺季(11-4月)、年底圣诞与侨民回国季、独立日促销",
+     "smart": "圣诞/新年、黑五网络促销、地产交楼节点"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "19",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "20",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "15",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "416.8",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$235.8",
+   "retailPrice": "$416.8",
+   "grossMargin": "43.4%",
+   "researched": true
+  },
+  "KE": {
+   "code": "KE",
+   "title": "🇰🇪  Kenya  肯尼亚  ·  市场调研表",
+   "subtitle": "Africa   |   吸引力评分 Attractiveness Score: 61.5 / 100",
+   "flag": "🇰🇪",
+   "region": "Africa",
+   "score": "61.5",
+   "retail": "433.1",
+   "gm": "43.6",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "68",
+     "weight": "25%",
+     "rationale": "5640万人口、东非最大经济体(GDP约1203亿USD,data.worldbank.org),内罗毕地产/公寓与安防需求旺盛,钢制安防门与智能锁在Jumia/Jiji上SKU丰富;但人均GDP仅约2132USD,大众市场以中低价位为主,高端智能锁受众集中于中产与富裕阶层,总量可观但单价承压。"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "55",
+     "weight": "20%",
+     "rationale": "EAC共同对外关税成品25%(已核实,leadafrik.com/trade.gov)+VAT16%(已核实)+IDF2.5%+RDL2%,综合落地税负显著;钢门/家具类若归入'敏感产品'可能达35%需HS码确认;本地Yale/Union/ASSA ABLOY经销体系成熟压价,中低端红海,利润靠智能锁差异化与规模。"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "57",
+     "weight": "15%",
+     "rationale": "机械锁与门五金被Yale、Union、ASSA ABLOY及印度Godrej主导,分销发达(aliglaziers.co.ke、ujenzidistributors.com、shabbirihardware.com);但智能锁与钢制安防门仍碎片化,大量中国白牌(WISTA/ORIV/GJS)已进入,给性价比与OEM留有空间。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "60",
+     "weight": "15%",
+     "rationale": "KEBS PVoC装运前符合性强制,须取得COC/COI方可清关(已核实,kebs.org/trade.gov);锁具为受监管商品需第三方(SGS/Intertek/TÜV)检验,增加前置时间与0.6%货值费用,但流程标准化、可预期,非高壁垒。"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "58",
+     "weight": "15%",
+     "rationale": "先令USD/KES约129.5已稳定逾一年,外储约133亿USD/5.7个月进口覆盖(tuko.co.ke引CBK,2026-04),高于4个月法定线;但先令有贬值史、2027大选周期与SGR对华债务压力构成尾部风险,B2B付款以TT/部分LC为主,建议前T/T+尾款见提单。"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "72",
+     "weight": "10%",
+     "rationale": "入室盗窃顾虑推动钢制/铸铝安防门与格栅门刚需,智能指纹/密码锁在中产快速普及;内罗毕高原气候温和(利于电子件),但蒙巴萨沿海湿热高盐需防腐蚀处理(不锈钢/镀层/防锈五金),契合度高但沿海SKU需差异化。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "中等稳定;多党民主但2024示威与2027大选周期带来不确定性,治安问题(入室盗窃)反而支撑安防需求",
+     "source": "congress.gov",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "对华友好,'一带一路'关键伙伴(SGR铁路、蒙巴萨港),2025年Ruto访华深化合作;同时保持对美西方关系,中国为最大进口来源国之一",
+     "source": "en.wikipedia.org",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约5640万(2024)",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约2132美元(2024,现价);GDP约1203亿美元,东非最大经济体",
+     "source": "IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "城镇正规就业中位约KES 20,000–30,000(约155–230美元);非正规部门更低",
+     "source": "KNBS",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约29–30%(内罗毕、蒙巴萨、基苏木、纳库鲁为主),城镇化年增速快",
+     "source": "World Bank",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "约133亿美元,覆盖约5.7个月进口(2026-04)",
+     "source": "tuko.co.ke (引CBK)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "进口商多用T/T(前付定金+见提单尾款)、部分L/C;赊销少见,建议控制信用风险",
+     "source": "",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "EAC区域市场一体化、可再进出口至邻国;经济特区/EPZ对本地组装有优惠,但成品进口无特别减免",
+     "source": "trade.gov",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "以基督教为主(约85%,新教+天主教),穆斯林约11%(沿海与东北部)",
+     "source": "en.wikipedia.org",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "识字率约82%,英语+斯瓦希里语为官方语言,产品说明与营销可用英语",
+     "source": "KNBS",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "偏好厚重耐用的黑/古铜/银灰安防门,格栅+实心双门组合;智能锁偏好简洁现代金属质感与可视化功能",
+     "source": "jiji.co.ke",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "赤道气候但地形分异:内罗毕等高原温和干爽,沿海(蒙巴萨)湿热,北部半干旱",
+     "source": "britannica.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "内罗毕全年约10–28°C;蒙巴萨沿海约22–33°C且高湿高盐",
+     "source": "worlddata.info",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "北部/东部半干旱区有扬尘,沿海高盐雾腐蚀;主要城市尘沙中等,五金需防锈防腐",
+     "source": "en.wikipedia.org",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "Yale与Union(均属ASSA ABLOY)为机械锁/五金龙头;另有Godrej(印)、WISTA、ORIV、GJS、ABROS及众多中国白牌智能锁;各家占比无公开统计(估算Yale+Union合计机械锁领先份额)",
+     "source": "assaabloy.com, shabbirihardware.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "五金建材店/经销商(Ujenzi、Cedar Clink、Ali Glaziers、Shabbir)为主;电商Jumia、分类平台Jiji增长快;工程/开发商直采;专业锁店(Lock City、Kenyan Locksmith);占比无公开统计",
+     "source": "jumia.co.ke, jiji.co.ke",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "以OEM/白牌为主(智能锁与钢门经由深圳/永康供应链进入),品牌集中度低,无公开份额数据",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "本地以钢制门/格栅门焊接加工作坊及中小厂为主(如Doorit等),锁芯/智能锁基本依赖进口;无权威份额统计",
+     "source": "dooritdoorsplus.co.ke",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "KEBS PVoC(装运前符合性验证)强制,须取得符合性证书COC(或到岸检验COI)方可清关,由SGS/Intertek/TÜV Rheinland等指定机构执行",
+     "source": "kebs.org, trade.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "可用KEBS标准或等效国际标准测试报告支撑;KEBS Diamond Mark(自愿,提升信誉);智能锁电子件建议附CE/RoHS/FCC等作辅助",
+     "source": "kebs.org",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "COC/COI、商业发票、装箱单、提单B/L、IDF进口申报、原产地证;经KRA iCMS/Simba系统申报,缴关税25%+VAT16%+IDF2.5%+RDL2%",
+     "source": "trade.gov, leadafrik.com",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "25–45岁为购房/装修与安防主力(城镇年轻中产),购买力集中于内罗毕及卫星城",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "户主/男性业主主导安防门决策,女性参与家居美观选择;工程项目由开发商/承包商采购决定",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "防盗防入侵安全需求为第一驱动;其次耐用性、便捷(免钥匙)、身份象征与新建/翻新",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "线下五金/建材市场比价为主,Jumia/Jiji线上询价与配送,专业锁店提供安装",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "价格、防撬防钻强度、锁芯等级、智能锁的断电/联网可靠性与售后配件供应",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "低价假冒/劣质锁多、售后与零配件难找、智能锁电池与本地App/网络适配差、安装工水平参差",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "品牌信誉+高安全等级锁芯、防腐蚀(沿海)、可靠智能功能与本地化售后/质保、成套门锁一体化方案",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "内罗毕都会区1–3天,外埠3–7天;整柜工程订单按海运约30–40天到蒙巴萨港后清关",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "钢制安防门单樘约KES 1,500–4,000(约12–30美元),智能锁安装约KES 1,000–2,500,视门体改造而定",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "当地行业普遍提供6–12个月质保,智能锁1–2年;需备本地零配件与授权安装网点提升竞争力",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "钢制/铸铝安防门为刚需大类,依托内罗毕地产与治安需求,规模可观(无公开权威数值,估算)",
+     "smart": "智能锁处早期快速增长阶段,基数较小但SKU与需求在Jumia/Jiji显著上升(估算)"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "随城镇化与新建住宅稳健增长,估算中个位数至10%",
+     "smart": "高双位数增长(估算15–25%),受中产、公寓与短租(Airbnb)驱动"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "以五金建材经销商、金属门加工作坊及工程直采为主,电商为辅",
+     "smart": "电商(Jumia/Jiji)+专业锁店+智能家居店(TechAccess、Smartlocks.co.ke)为主"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "格栅门+实心钢门双层组合、单开/对开安防门,黑/古铜/银灰主流",
+     "smart": "指纹+密码+IC卡+机械钥匙多合一,Tuya/WiFi联网款渐增,偏中价位"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "防盗刚需,住宅与商铺全域覆盖,沿海需防腐版本",
+     "smart": "中产家庭、公寓、短租与办公室便捷免钥匙需求"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "向更高安全等级与美观一体化、成套门锁方案演进",
+     "smart": "向App远程、临时密码、可视门铃/摄像一体化演进"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "年末假期(11–12月)、复活节、建房旺季(旱季1–3月、7–9月)",
+     "smart": "Jumia Black Friday(11月)、圣诞/新年、Jumia周年庆促销"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "18",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "25",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "16",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "12",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "433.1",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$244.1",
+   "retailPrice": "$433.1",
+   "grossMargin": "43.6%",
+   "researched": true
+  },
+  "TZ": {
+   "code": "TZ",
+   "title": "🇹🇿  Tanzania  坦桑尼亚  ·  市场调研表",
+   "subtitle": "Africa   |   吸引力评分 Attractiveness Score: 55.8 / 100",
+   "flag": "🇹🇿",
+   "region": "Africa",
+   "score": "55.8",
+   "retail": "437.0",
+   "gm": "43.4",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "63",
+     "weight": "25%",
+     "rationale": "人口约6856万且年增2.9%(World Bank 2024),GDP增速5.5-6.4%,建筑业2025年增长6.2%、2026-2029年AAGR约7.2%(GlobalData/GlobeNewswire),达累斯萨拉姆住房与商业地产热带动门/五金刚性需求;但人均GDP仅约1187美元、约半数人口日均消费低于3美元,总量大但客单价与升级需求受限,机会中等偏上。"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "48",
+     "weight": "20%",
+     "rationale": "承受力低(人均GDP~1200美元),叠加EAC成品25%关税+18%VAT+CIF基上叠加PVoC检验费,落地成本高;中国供应商已形成价格竞争,钢门/挂锁走量微利,智能锁与安防门溢价空间较好但盘子小,综合利润空间偏紧。"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "55",
+     "weight": "15%",
+     "rationale": "市场高度分散、无强本土品牌,进口以中国货为主(made-in-china/Volza进口数据),已相当拥挤且拼价格;但品牌集中度低、智能锁与中高端安防门尚属蓝海,细分仍有切入空间,竞争空间中等。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "50",
+     "weight": "15%",
+     "rationale": "TBS PVoC装运前符合性强制,无CoC证书货物到港拒入境、违规罚CIF 15%(Intertek/SGS/TBS 已核实),Route A/B/C三种模式增加时间与成本;25%关税+18%VAT进一步抬高门槛,准入难度中等偏高。"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "57",
+     "weight": "15%",
+     "rationale": "政局相对稳定,外汇储备约55-60亿美元、进口覆盖约4个月以上(Bank of Tanzania);但先令TZS长期温和贬值、外汇管制趋严(2025年禁本币域内使用外币),建议信用证或预付款收汇,财务安全中等。"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "61",
+     "weight": "10%",
+     "rationale": "钢制/铸铝安防门与安全挂锁在治安需求下接受度高、契合度好;智能锁受电力稳定性与消费力限制仍处早期。热带沿海高温高湿(达港)对锁体与门板防腐/耐候提出要求,需不锈钢/防锈处理,契合度中等偏上。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "相对稳定,一党长期执政(CCM),2025年大选后政局延续;营商环境改善但存在治理与选举争议风险",
+     "source": "afdb.org",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "与中国关系友好,是一带一路与EAC/SADC成员,中资参与港口、铁路(SGR)等基建,对华贸易往来密切",
+     "source": "tanzaniainvest.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约6856万(2024),年增约2.9%",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约1187美元(2024,现价),2025年GDP增速约5.9-6.4%",
+     "source": "IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "估算约80-150美元/月,城市正规就业者更高、多数为非正规低收入",
+     "source": "worldbank.org",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约37%城市人口且快速上升,达累斯萨拉姆为经济中心",
+     "source": "statbase.org",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "约55-60亿美元,进口覆盖约4个月以上(2025年末)",
+     "source": "bot.go.tz",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "建议信用证L/C或电汇预付(前T/T);外汇管制趋严,2025年禁域内使用外币结算",
+     "source": "ecofinagency.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "经济特区/出口加工区、可负担住房与基建计划、EAC区域一体化;进口成品无特别减免",
+     "source": "tanzaniainvest.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "大陆基督徒约63%、穆斯林约34%;桑给巴尔约99%穆斯林",
+     "source": "en.wikipedia.org",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "识字率约78-82%,以斯瓦希里语为主、英语为商务/官方语言",
+     "source": "mea.gov.in",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "偏好厚重结实的安防外观、深色/仿木纹钢门,重实用与防盗观感,装饰性次于耐用与安全",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "热带气候,沿海(达港)高温高湿,内陆高原较温和,分雨季旱季",
+     "source": "en.wikipedia.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "沿海约30-35℃,高原夜间可低至10-15℃,达港常年25-32℃",
+     "source": "en.wikipedia.org",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "沿海风沙小、以盐雾潮湿腐蚀为主;内陆旱季有扬尘,需防锈防尘设计",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "无强势主导品牌,市场分散;以中国进口白牌+少量Yale/Union等国际锁具品牌,合计占比估算<40%",
+     "source": "nidadanish.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "五金建材批发市场+Kariakoo等实体经销店为主(估算约60-70%),项目直供、少量线上",
+     "source": "lds.co.tz",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "中国为主要进口来源,made-in-china/Alibaba白牌工厂供货,单一供应商集中度低;中国货合计估算占进口大头(>60%)",
+     "source": "volza.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "本地几乎无规模化锁具/钢门制造,以进口件+本地钢门焊接作坊为主,本地制造占比估算<15%",
+     "source": "volza.com",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "TBS PVoC装运前符合性强制,需取得符合性证书CoC方可清关,无证到港拒入境、违规罚CIF 15%;分Route A/B/C",
+     "source": "tbs.go.tz",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "可用ISO 9001、CE/EN测试报告、智能锁需相关电气/无线(TCRA型号核准)佐证;金属件盐雾测试报告利于投标",
+     "source": "sgs.com",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "CoC符合性证书、商业发票、装箱单、提单B/L、原产地证、TANSAD报关单、TIN;经TeSWS单一窗口申报",
+     "source": "trade.gov",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "人口年轻,中位年龄约18岁;购房/装修主力为25-45岁城市中产及自建房家庭",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "家庭户主/男性业主主导安防门与锁购买;项目端由开发商、承包商、五金采购决定",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "防盗安全需求为第一驱动,其次耐用、价格与本地气候耐腐蚀性",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "Kariakoo及各城市五金建材市场、经销门店、承包商采购,少量社媒/线上询盘",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "价格、锁体牢固度与防撬、门板厚度与防锈、配钥匙/售后是否方便",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "低价货易锈蚀/锁芯易坏、缺乏售后与配件、智能锁受停电与安装维护能力限制",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "防锈不锈钢件、加厚钢门/安防等级、可靠机械锁芯、明确质保与配件供应",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "达港到货后城市内1-3天配送,内陆城镇3-7天;海运中国到达港约25-40天",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "单套门/锁安装约8-15美元,视门型与地区人工",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "市场普遍缺乏正规质保,渠道以换货为主;提供1年质保+备用锁芯/钥匙可差异化",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "钢门/安防门+机械锁:估算年进口规模约数千万美元级,受6800万人口与建筑热支撑",
+     "smart": "智能锁:早期小众市场,估算年规模数百万美元级,集中于达港中高端住宅/酒店"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "随建筑业增长约6-7%/年温和扩张(估算,参照GlobalData建筑数据)",
+     "smart": "低基数高增速,估算年增15-25%"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "批发市场+经销门店+承包商项目直供为主",
+     "smart": "电商/专业安防店+项目集成商+少量品牌经销"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "以铸铝/钢制安防外门、防盗挂锁、执手插芯锁为主",
+     "smart": "密码/指纹/IC卡锁,酒店锁与家用入户锁为主"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "刚需防盗,量大价敏,偏中低端耐用款",
+     "smart": "新兴需求,集中中高收入与商用场景"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "城市化与自建房推动稳定放量,升级向防锈更牢固产品",
+     "smart": "随电力改善与中产成长逐步渗透,联网锁概念升温"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "旱季建筑旺季(6-10月)、年底节庆采购",
+     "smart": "年底节庆、开斋节/圣诞消费旺季及地产交付期"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "18",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "25",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "18",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "437.0",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$247.6",
+   "retailPrice": "$437.0",
+   "grossMargin": "43.4%",
+   "researched": true
+  },
+  "ET": {
+   "code": "ET",
+   "title": "🇪🇹  Ethiopia  埃塞俄比亚  ·  市场调研表",
+   "subtitle": "Africa   |   吸引力评分 Attractiveness Score: 44.8 / 100",
+   "flag": "🇪🇹",
+   "region": "Africa",
+   "score": "44.8",
+   "retail": "455.3",
+   "gm": "43.0",
+   "scoreBreakdown": [
+    {
+     "dim": "市场机会 Market opportunity",
+     "score": "62",
+     "weight": "25%",
+     "rationale": "人口约1.32亿(非洲第二),亚的斯亚贝巴Corridor Development走廊改造(二期132公里/8条走廊,2024年10月启动)+Chaka新城+大规模拆建重建带动住宅与商业门/锁刚需,城镇化仅约23%但增速快、房地产2024-25明显升温;但人均GDP约1,000美元、购买力弱,总量大而单价低,以基础钢门/挂锁/机械锁为主。已核实:worldbank.org、temerproperties.com"
+    },
+    {
+     "dim": "利润空间 Profit headroom",
+     "score": "38",
+     "weight": "20%",
+     "rationale": "承受力低+进口成本高:门锁五金属成品,关税代表值约30%(埃塞税级0/5/10/20/30/35,成品五金多在30-35带)另叠加约10%附加税(surtax)与15%VAT,落地成本大幅抬升,终端只能走低价走量;比尔持续贬值进一步压缩以美元计的毛利。已核实:trade.gov(VAT15%)"
+    },
+    {
+     "dim": "竞争空间 Competitive room",
+     "score": "56",
+     "weight": "15%",
+     "rationale": "市场以中国低价进口为主、土耳其/迪拜转口及少量本地组装并存,几乎全为价格竞争、无强势品牌垄断,中高端与智能锁基本空白,留有差异化空间;但价格战激烈、议价力弱。"
+    },
+    {
+     "dim": "市场准入 Market access",
+     "score": "30",
+     "weight": "15%",
+     "rationale": "需进口许可(区域州贸易局发证)+进口注册号+银行外汇许可与信用证(LC覆盖全额)+ECAE/PCA装运前符合性检验;门槛在于'即便开了LC,外汇配额也常延迟数月至一年以上'。已核实:trade.gov、sgs.com/intertek.com(ECAE PCA)"
+    },
+    {
+     "dim": "财务安全 Financial safety",
+     "score": "20",
+     "weight": "15%",
+     "rationale": "核心风险:2024-07-29比尔并轨浮动单日贬值约30%,此后持续贬值(并轨前约57→2026年约130-160 ETB/USD区间),严重外汇短缺、进口须外汇配额且回款/汇出延迟极长,存在收不到美元货款风险。财务安全分应很低。已核实:en.wikipedia.org、pwc.com"
+    },
+    {
+     "dim": "产品契合 Product-market fit",
+     "score": "58",
+     "weight": "10%",
+     "rationale": "高原温和气候(亚的斯约2,355米、年均约16℃)、腐蚀/风沙压力小,钢制门/铸铝门契合安防与新建住宅需求、接受度高;智能锁受电力不稳、支付与购买力限制渗透极低,近期以机械锁/挂锁/执手锁为主。气候已核实。"
+    }
+   ],
+   "overview": [
+    {
+     "field": "Political stability 政局",
+     "value": "中等偏弱:北部提格雷冲突后趋缓但Amhara/Oromia仍有武装冲突,社会与安全形势不稳,安防需求反而旺",
+     "source": "en.wikipedia.org",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Foreign relations 国家关系",
+     "value": "中埃关系密切,中国为最大贸易伙伴与主要基建/工业园投资来源(亚吉铁路等),对华进口依赖高",
+     "source": "trade.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Population 人口",
+     "value": "约1.32亿(2024年,非洲第二)",
+     "source": "World Bank",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "GDP per capita 人均GDP",
+     "value": "约1,000-1,130美元(2024,并轨贬值后以美元计承压)",
+     "source": "IMF",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Median monthly income 月收入中位数",
+     "value": "估算城镇正规就业约60-130美元/月,广泛非正规、可支配收入低",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Urbanization 城市化水平",
+     "value": "约22-23%,但年城镇化增速约4-5%,亚的斯亚贝巴人口约500万+",
+     "source": "worldbank.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Forex reserves 外汇储备",
+     "value": "长期极低(改革前一度不足1-2个月进口覆盖),严重外汇短缺,IMF/世行贷款支撑",
+     "source": "en.wikipedia.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Payment practice 付款方式",
+     "value": "进口须银行外汇许可+全额信用证LC;外汇配额延迟数月至逾一年,预付/TT获取美元困难",
+     "source": "trade.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Incentive policies 利好政策",
+     "value": "工业园/自贸区投资者可享免税与优惠;宏观改革(浮动汇率、开放)+走廊改造与保障房刺激建材需求",
+     "source": "trade.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Religion 宗教",
+     "value": "埃塞正教约43%、伊斯兰约31-34%、新教约22%;宗教影响作息与节日采购",
+     "source": "en.wikipedia.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Education level 受教育水平",
+     "value": "成人识字率约50-55%,英语在商务/城市有一定普及,技术工人有限",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Aesthetic preference 审美观念",
+     "value": "偏好厚重结实、外观简洁耐用的钢/铸铝门,金/古铜/黑色五金受欢迎,重防盗观感",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Climate 气候",
+     "value": "高原亚热带-温带,亚的斯亚贝巴年均约16℃,分旱雨两季(6-9月雨季)",
+     "source": "en.wikipedia.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Temp range 夏最高温/冬最低温",
+     "value": "亚的斯约:最高约25℃、夜间最低约6-10℃;低地(如Dire Dawa)夏可达35℃+",
+     "source": "en.wikipedia.org",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "Sand / dust 风沙",
+     "value": "高原城市风沙压力低-中;旱季有扬尘,东部/低地干旱区风沙较明显",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "competition": [
+    {
+     "field": "Top5当地销量最好品牌/占比",
+     "value": "无强势品牌垄断,多为中国无品牌/白牌门锁与土耳其、迪拜转口货;本地按项目采购,品牌集中度低",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "Top5当地最大销售渠道/占比",
+     "value": "估算:亚的斯Merkato及五金建材集散市场(约45%)、建材/门窗经销商(约25%)、工程项目直采/承包商(约20%)、进口批发商(约10%)",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5中国供应商/占比",
+     "value": "以浙江/广东门锁五金厂及门厂为主(温州锁具、佛山/河北钢门),多经贸易商供货,具体份额无公开数据",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "TOP5当地制造商/占比",
+     "value": "本地以钢门/防盗门焊接组装作坊及少数工业园厂商为主,锁芯/智能锁几乎全进口,本地制造份额低",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "certification": [
+    {
+     "field": "准入认证 Mandatory access certification",
+     "value": "装运前产品符合性评估ECAE/PCA(SGS、Intertek等执行),取得Certificate of Conformity(CoC)方可清关",
+     "source": "sgs.com",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "其他辅助性认证 Auxiliary certifications",
+     "value": "可选ISO 9001、CE/EN测试报告作差异化辅证;智能锁需符合电气安全要求,原产地证(COMESA可享0-10%优惠)",
+     "source": "trade.gov",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "field": "清关文件 Customs clearance documents",
+     "value": "进口许可+进口注册号、银行外汇许可/信用证、商业发票、提单/空运单、装箱单、原产地证、海关进口报关单、装运前检验CRF、TIN与VAT证书",
+     "source": "trade.gov",
+     "confidence": "已核实 Verified"
+    }
+   ],
+   "consumer": [
+    {
+     "field": "消费人群年龄段占比",
+     "value": "人口极年轻(中位年龄约19岁),购房/装修决策集中在30-50岁城市中产与侨汇家庭",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费决策人",
+     "value": "家庭男主人/户主与承包商、工程项目采购方共同决策,商业项目由开发商/总包定",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费驱动力",
+     "value": "安防(防盗)、耐用、价格;新建与走廊拆建重建刚需、侨汇购房",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "获取渠道",
+     "value": "实体五金建材市场与经销商为主,工程直采;线上渗透低",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者关注点",
+     "value": "价格与结实度(钢板厚度/锁具防撬)、售后配件可得性、交期",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "消费者痛点",
+     "value": "外汇短缺致进口货断供/涨价、假冒低质锁具、缺配件与安装服务、汇率波动抬价",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "溢价点",
+     "value": "更厚钢板/防盗等级、优质锁芯耐用性、防锈涂层与质保、成套门+锁+五金交付",
+     "source": "",
+     "confidence": "估算 Estimated"
+    }
+   ],
+   "service": [
+    {
+     "field": "送货上门时效",
+     "value": "亚的斯市内约1-5天,外省及外汇/清关延迟下整体交付不确定,海运经吉布提约30-45天到港再内陆运",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "安装成本",
+     "value": "钢门/铸铝门单件安装约5-12美元(以本地人工计,偏低),默认取8美元",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "售后政策",
+     "value": "当地普遍无正规质保,配件与上门维修稀缺;提供锁芯/五金备件与质保可成差异点",
+     "source": "",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "field": "其他服务",
+     "value": "待补充——贵司服务",
+     "source": "",
+     "confidence": "待补充 Pending"
+    }
+   ],
+   "product": [
+    {
+     "attr": "市场规模 Market size",
+     "steel": "钢门/铸铝门:估算年需求数十万樘级,伴随走廊改造/新建住宅与商业体量较大(基础安防门为主)",
+     "smart": "智能锁:小众,估算年销数千-低万把级,集中在亚的斯高端公寓/写字楼/酒店"
+    },
+    {
+     "attr": "市场增长率 Growth rate",
+     "steel": "估算年增约8-12%,受Corridor Development、Chaka新城与城镇化驱动",
+     "smart": "估算年增约15-20%(基数极低),受电力稳定性与购买力制约"
+    },
+    {
+     "attr": "渠道结构 Channel structure",
+     "steel": "五金建材市场+经销商+工程直采为主",
+     "smart": "项目集成商/安防装修公司、少量高端建材店与进口商"
+    },
+    {
+     "attr": "产品结构 Product structure",
+     "steel": "防盗钢门、铸铝入户门、机械执手锁/插芯锁、挂锁、合页闭门器等门控五金",
+     "smart": "密码/指纹/IC卡锁、酒店锁为主,联网款极少"
+    },
+    {
+     "attr": "市场需求 Demand",
+     "steel": "刚需、价格敏感,重防盗与耐用,量大价低",
+     "smart": "尝鲜性需求,集中高端与商用,受供电与售后顾虑"
+    },
+    {
+     "attr": "市场趋势 Trend",
+     "steel": "随拆建重建与新建放量,向标准化成套门+五金升级",
+     "smart": "缓慢渗透,酒店/公寓项目先行,依赖稳定电力与本地服务"
+    },
+    {
+     "attr": "促销节点 Promotion windows",
+     "steel": "旱季10-5月为施工/装修旺季,埃塞新年(9月)、大型节日前采购",
+     "smart": "随高端楼盘交付与Big5 Construct等展会节点"
+    }
+   ],
+   "pricing": [
+    {
+     "line": "FOB价 FOB price",
+     "value": "120",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "海运费 Sea freight",
+     "value": "24",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "关税 Customs duty",
+     "value": "30",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "其他税 Other tax",
+     "value": "0",
+     "type": "% (CIF)",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "增值税 VAT",
+     "value": "15",
+     "type": "% (CIF)",
+     "confidence": "已核实 Verified"
+    },
+    {
+     "line": "内陆运输 Inland transport",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "仓储成本 Warehouse cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "营销成本 Marketing cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "销售成本 Sales cost",
+     "value": "6",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "售后成本 After-sales cost",
+     "value": "4",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "公司固定费用 Company fixed expense",
+     "value": "10",
+     "type": "$ 成本",
+     "confidence": "假设 Assumption"
+    },
+    {
+     "line": "分销商利润 Distributor margin",
+     "value": "15",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "经销商利润 Dealer margin",
+     "value": "20",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售商利润 Retailer margin",
+     "value": "25",
+     "type": "% 加价",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "安装成本 Installation cost",
+     "value": "8",
+     "type": "$ 成本",
+     "confidence": "估算 Estimated"
+    },
+    {
+     "line": "零售价 Retail price",
+     "value": "455.3",
+     "type": "计算值 derived",
+     "confidence": ""
+    }
+   ],
+   "deliveredCost": "$259.3",
+   "retailPrice": "$455.3",
+   "grossMargin": "43.0%",
+   "researched": true
   }
  }
 }
