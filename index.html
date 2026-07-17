@@ -408,9 +408,12 @@ window.__COUNTRY__ = {
   ZA:{name:'南非',region:'南部非洲'},
   IN:{name:'印度',region:'南亚'}, PK:{name:'巴基斯坦',region:'南亚'}, BD:{name:'孟加拉国',region:'南亚'},
   LK:{name:'斯里兰卡',region:'南亚'}, MV:{name:'马尔代夫',region:'南亚'},
-  MM:{name:'缅甸',region:'东南亚'}, LA:{name:'老挝',region:'东南亚'}, KH:{name:'柬埔寨',region:'东南亚'}
+  MM:{name:'缅甸',region:'东南亚'}, LA:{name:'老挝',region:'东南亚'}, KH:{name:'柬埔寨',region:'东南亚'},
+  VN:{name:'越南',region:'东南亚'}, TH:{name:'泰国',region:'东南亚'}, ID:{name:'印度尼西亚',region:'东南亚'},
+  MY:{name:'马来西亚',region:'东南亚'}, PH:{name:'菲律宾',region:'东南亚'},
+  AF:{name:'阿富汗',region:'南亚'}, MN:{name:'蒙古',region:'东亚'}
 };
-window.__COUNTRY_ORDER__ = ['AE','SA','QA','KW','OM','BH','KZ','UZ','AZ','GE','KG','TJ','NG','GH','EG','MA','DZ','KE','TZ','ET','ZA','IN','PK','BD','LK','MV','MM','LA','KH'];
+window.__COUNTRY_ORDER__ = ['AE','SA','QA','KW','OM','BH','KZ','UZ','AZ','GE','KG','TJ','NG','GH','EG','MA','DZ','KE','TZ','ET','ZA','IN','PK','BD','LK','MV','MM','LA','KH','VN','TH','ID','MY','PH','AF','MN'];
 window.countryName = c => (window.__COUNTRY__[c] && window.__COUNTRY__[c].name) || (!c || c === 'XX' ? '待核验' : c);
 window.countryRegion = c => (window.__COUNTRY__[c] && window.__COUNTRY__[c].region) || '待归类';
 window.countryLabel = c => (window.__COUNTRY__[c] ? window.__COUNTRY__[c].name + '（' + c + '）' : (!c || c === 'XX' ? '待核验' : c));
@@ -676,7 +679,7 @@ window.__ACQUIRE_DATA__.customers = [];
   };
   const renderLeads = () => {
     workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / 客户线索库</div><h1>真实客户线索库 · 含背调</h1><p>中东 + 中亚 + 非洲 21 国公开检索的门锁 / 门五金潜在买家与渠道，每条含背景调查、契合度评分与来源。点击任意公司行可展开背调详情（现有代理品牌、进口信号、决策人、切入角度、风险）。</p></div><div class="top-actions"><span class="demo-badge" id="leads-stamp">读取中…</span></div></header>'+
-      '<section class="metrics"><article><span>客户线索</span><strong id="leads-total">0</strong><small>公开企业名录 / 官网核验</small></article><article><span>重点客户 5★</span><strong id="leads-fit5">0</strong><small>门锁五金进口经销 / 酒店锁集成</small></article><article><span>次重点 4★</span><strong id="leads-fit4">0</strong><small>经营门锁的零售 / 门禁集成</small></article><article><span>覆盖国家</span><strong id="leads-countries">0</strong><small>中东6 · 中亚6 · 非洲9 · 南亚5 · 东南亚3</small></article></section>'+
+      '<section class="metrics"><article><span>客户线索</span><strong id="leads-total">0</strong><small>公开企业名录 / 官网核验</small></article><article><span>重点客户 5★</span><strong id="leads-fit5">0</strong><small>门锁五金进口经销 / 酒店锁集成</small></article><article><span>次重点 4★</span><strong id="leads-fit4">0</strong><small>经营门锁的零售 / 门禁集成</small></article><article><span>覆盖国家</span><strong id="leads-countries">0</strong><small>中东6 · 中亚6 · 非洲9 · 南亚6 · 东南亚8 · 东亚1</small></article></section>'+
       '<section class="chart-card" style="margin-bottom:12px"><h3>各国线索分布</h3><p>按已收录真实公司数量排序</p><div class="bar-list" id="leads-country-bars"></div></section>'+
       '<section class="content-panel"><div class="filterbar"><label class="search-box"><span>⌕</span><input id="leads-query" aria-label="搜索线索" placeholder="搜索公司、城市、产品、类别或代理品牌"></label><select id="leads-fit" aria-label="契合度"><option value="">全部契合度</option><option value="45">重点（4-5★）</option><option value="5">5★ 主攻</option><option value="4">4★</option><option value="3">3★</option></select><select id="leads-region" aria-label="大区"><option value="">全部大区</option></select>'+countryFilter('leads-country')+'<select id="leads-cat" aria-label="客户类别"><option value="">全部类别</option></select><select id="leads-contact" aria-label="联系方式"><option value="">全部</option><option value="email">有邮箱</option><option value="phone">有电话</option></select><button class="export-btn" id="leads-export" title="按当前筛选导出 CSV（含背调字段，Excel 可直接打开）">⭳ 导出筛选结果</button><div class="result-count" id="leads-result-count">正在读取…</div></div>'+
       '<div class="scroll-toolbar" id="leads-scroll-tb"><button class="scroll-btn" id="leads-sl">◀ 左滑</button><button class="scroll-btn" id="leads-sr">右滑 ▶</button><span class="sh">点击公司行展开<b>背调详情</b>；表格列较多，可用按钮或拖动下方滚动条<b>左右查看</b>邮箱 / 电话 / 来源</span><span class="scroll-cue" id="leads-cue">右滑查看更多 ▶▶</span></div>'+
