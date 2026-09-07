@@ -29,15 +29,33 @@
   "researchSources": [
     {
       "label": "ALEC 官网 About：管理层、业务范围、采购及总包能力",
-      "url": "https://www.alec.ae/about"
+      "url": "https://www.alec.ae/about",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "alec_official"
     },
     {
       "label": "2025 年报：最新规模、业绩与项目储备",
-      "url": "https://ir.alec.ae/media/v2jpiqjp/alec-holdings-integrated-annual-report-2025-english.pdf"
+      "url": "https://ir.alec.ae/media/v2jpiqjp/alec-holdings-integrated-annual-report-2025-english.pdf",
+      "publishedAt": "2026-04-09",
+      "independenceGroup": "alec_investor_relations"
     },
     {
       "label": "供应链页面：分包与供应商准入条款入口",
-      "url": "https://www.alec.ae/subcontractors-and-supply-chain"
+      "url": "https://www.alec.ae/subcontractors-and-supply-chain",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "alec_official"
+    },
+    {
+      "label": "ALEC 2026 H1 业绩披露：订单储备约 AED 32.5bn，项目组合继续扩张",
+      "url": "https://financialfilings.com/filings/alec-holdings-pjsc/earnings-release/2026/55968464/",
+      "publishedAt": "2026-08-13",
+      "independenceGroup": "market_filing_aggregator"
+    },
+    {
+      "label": "ALEC 官方 2025 ESG 更新：扩建异地建造设施并推进项目执行能力",
+      "url": "https://www.alec.ae/journal-post/alec-holdings-reports-strong-2025-sustainability-and-esg-performance",
+      "publishedAt": "2026-06-29",
+      "independenceGroup": "alec_official"
     }
   ]
 }
