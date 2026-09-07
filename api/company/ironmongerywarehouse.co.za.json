@@ -19,6 +19,32 @@
   "projects": "",
   "importSignal": "代理Frascio、Linea Cali等意大利品牌并设Eurobrass进口分部,进口经销特征明显,但官网未明文说明进口自哪国",
   "decisionContact": "Jonathan Werner(股东)、Nevan Lucas、Lucy de Villiers;JHB +27 11 444 8677 / CT +27 21 001 2458",
+  "researchStatus": "research_ready_contact_private",
+  "researchConfidence": "high",
+  "evidence": [
+    {
+      "signal": "Ironmongery Warehouse Africa's current official site confirms active specification and supply operations from Johannesburg and Cape Town, including downloadable architectural-ironmongery catalogues and project-support enquiries.",
+      "source": "Ironmongery Warehouse Africa official current website",
+      "sourceUrl": "https://www.ironmongerywarehouse.co.za/contact/",
+      "date": "2026-09-07",
+      "confidence": 95,
+      "type": "official_current_channel_signal"
+    },
+    {
+      "signal": "LinkedIn independently identifies the company as a 51-200 employee South African specifier, supplier and distributor of door handles, locks, hinges and accessories, and shows current 2026 project and growth activity across Johannesburg and Cape Town.",
+      "source": "Ironmongery Warehouse Africa LinkedIn company profile",
+      "sourceUrl": "https://za.linkedin.com/company/ironmongery-warehouse-africa-pty-ltd",
+      "date": "2026-09-07",
+      "confidence": 93,
+      "type": "independent_recent_channel_confirmation"
+    }
+  ],
+  "researchSources": [
+    {"label": "Ironmongery Warehouse Africa official locations and catalogues", "url": "https://www.ironmongerywarehouse.co.za/contact/", "checkedAt": "2026-09-07"},
+    {"label": "Ironmongery Warehouse Africa LinkedIn company and recent updates", "url": "https://za.linkedin.com/company/ironmongery-warehouse-africa-pty-ltd", "checkedAt": "2026-09-07"}
+  ],
+  "checkedSources": ["https://www.ironmongerywarehouse.co.za/contact/", "https://za.linkedin.com/company/ironmongery-warehouse-africa-pty-ltd"],
+  "evidenceDate": "2026-09-07",
   "fitScore": 5,
   "fitReason": "定位为建筑门五金规范化进口经销商,产品线覆盖执手/锁/合页/闭门器/逃生,与我方品类高度重合",
   "angle": "以中国门锁/合页/闭门器OEM为其自有品牌(Ironmongery/Eurobrass)做贴牌供货,主打欧标认证+成本优势填补中端价位",
