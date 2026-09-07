@@ -23,5 +23,21 @@
   "fitReason": "Major hospitality access-credential supplier with hotel-chain reach and public sales email",
   "angle": "",
   "risk": "Focus is key cards more than lock hardware; adjacent rather than direct lock buyer",
-  "addedDate": "2026-07-28"
+  "addedDate": "2026-07-28",
+  "researchConfidence": "高",
+  "researchStatus": "已核验为美国酒店 RFID 凭证供应商，官网持续销售酒店钥匙卡、腕带和门禁凭证，并明确通过既有渠道供货；Avery 官方帮助页独立指向 RFID Hotel 作为其 RFID 解决方案业务。可探索酒店锁与凭证产品组合合作，但不得声称与其现有锁具系统兼容。",
+  "researchSources": [
+    {
+      "label": "RFID Hotel 官网与销售条款：酒店 RFID 凭证产品及渠道供货模式",
+      "url": "https://rfidhotel.com/legal-privacy/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "rfidhotel_official_site"
+    },
+    {
+      "label": "Avery 官方帮助页：独立确认 RFID Hotel 为其 RFID 解决方案关联业务",
+      "url": "https://www.avery.com/help/article/does-avery-make-rfid-labels",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "avery_official_site"
+    }
+  ]
 }
