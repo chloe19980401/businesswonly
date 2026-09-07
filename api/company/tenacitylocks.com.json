@@ -19,6 +19,43 @@
   "projects": "",
   "importSignal": "强:主营即为进口挂锁/门锁品牌(意大利Viro、中国Tri-Circle/Mindy)+执手门板/闭门器/门镜,产品线与我方完全重合,已在采购中国锁具",
   "decisionContact": "info@tenacitylocks.com; 0729863950 / 0711776688",
+  "researchStatus": "research_ready_contact_private",
+  "researchConfidence": "high",
+  "evidence": [
+    {
+      "signal": "Tenacity Locks currently presents an active Nairobi lock-specialist channel with a current Kijabe Street showroom, nationwide clientele and a range centered on high-security door locks, padlocks, closers, hinges and door accessories.",
+      "source": "Tenacity Locks official current website",
+      "sourceUrl": "https://www.tenacitylocks.com/index.php",
+      "date": "2026-09-07",
+      "confidence": 95,
+      "type": "official_current_channel_signal"
+    },
+    {
+      "signal": "LinkedIn independently identifies Tenacity Locks Ltd as a privately held Nairobi building-materials company specializing in high-security locks, padlocks, door closers, hinges and related door-security products, with the same official domain.",
+      "source": "Tenacity Locks LinkedIn company profile",
+      "sourceUrl": "https://ke.linkedin.com/company/tenacity-locks-ltd",
+      "date": "2026-09-07",
+      "confidence": 90,
+      "type": "independent_current_channel_confirmation"
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "Tenacity Locks official current company and product page",
+      "url": "https://www.tenacitylocks.com/index.php",
+      "checkedAt": "2026-09-07"
+    },
+    {
+      "label": "Tenacity Locks LinkedIn company profile",
+      "url": "https://ke.linkedin.com/company/tenacity-locks-ltd",
+      "checkedAt": "2026-09-07"
+    }
+  ],
+  "checkedSources": [
+    "https://www.tenacitylocks.com/index.php",
+    "https://ke.linkedin.com/company/tenacity-locks-ltd"
+  ],
+  "evidenceDate": "2026-09-07",
   "fitScore": 5,
   "fitReason": "专营门锁/挂锁/执手/闭门器/门镜的进口经销商,品类与我方门锁与建筑五金100%重合,且已在售中国品牌挂锁",
   "angle": "以中国门锁OEM/ODM补齐其主门锁与执手门板产品线,提供比Tri-Circle/Mindy更具价格与款式优势的贴牌挂锁、圆柱执手锁与闭门器,支持小批量混柜",
