@@ -23,5 +23,21 @@
   "fitReason": "30年门与橱柜五金进口经销商,3处仓/展厅+多零售渠道分销,品类与规模匹配度高",
   "angle": "为其自有/贴牌线提供门执手/锁/合页OEM,借力其Leroy Merlin/Takealot/Amazon SA全渠道快速铺货",
   "risk": "已代理Tupai/Colombo等设计品牌,中国货需在款式设计与合规上匹配其品牌调性",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchConfidence": "高",
+  "researchStatus": "已核验为南非建筑五金与门锁经销商，官网持续销售机械锁、电子密码锁、智能锁、执手与铰链，并作为葡萄牙 Tupai 品牌代理；LinkedIn 主体、官网和人员信息一致。可测试补充产品组合或私牌合作，但不得声称已有明确采购计划。",
+  "researchSources": [
+    {
+      "label": "Decor Handles 官网：机械锁、智能锁、门五金及 Tupai 代理组合",
+      "url": "https://www.decorhandles.co.za/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "decorhandles_official_site"
+    },
+    {
+      "label": "Decor Handles LinkedIn：南非建筑五金供应商主体及 Owner 身份交叉核验",
+      "url": "https://www.linkedin.com/company/decor-handles",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "linkedin_company_profile"
+    }
+  ]
 }
