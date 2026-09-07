@@ -23,5 +23,20 @@
   "fitReason": "Hotel-lock supplier/integrator importing exactly this product line",
   "angle": "Offer OEM hotel RFID locks with PMS interface compatibility",
   "risk": "Committed to FOCUS brand supply",
-  "addedDate": "2026-07-28"
+  "addedDate": "2026-07-28",
+  "researchStatus": "已核验为斯里兰卡企业技术和安防解决方案供应商，官网持续销售 FOCUS 酒店 RFID 门锁、家用智能锁和生物识别门禁，并提供全岛配送；LinkedIn 主体、官网和近期安装动态相互印证。可以测试酒店锁与智能锁的补充产品组合，但不得声称其已有明确采购计划或与现有系统兼容。",
+  "researchSources": [
+    {
+      "label": "Ideal Tech 官网：FOCUS 酒店 RFID 门锁、家用智能锁、门禁产品及全岛配送",
+      "url": "https://idealtech.lk/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "idealtech_official_site"
+    },
+    {
+      "label": "Ideal Tech LinkedIn：Colombo 企业技术供应商主体及近期 FOCUS 生物识别安装动态",
+      "url": "https://lk.linkedin.com/company/idealtech-international",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "linkedin_company_profile"
+    }
+  ]
 }
