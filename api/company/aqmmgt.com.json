@@ -19,6 +19,33 @@
   "projects": "None named",
   "importSignal": "Strong/explicit: authorized distributor of Yale/Union/ISEO",
   "decisionContact": "",
+  "researchStatus": "research_ready_contact_private",
+  "researchConfidence": "high",
+  "evidence": [
+    {
+      "signal": "AQMM currently identifies itself as a Dubai stockist and supplier of hardware and engineering products and as an authorized distributor of Yale, Union, ISEO and Euroart ironmongery and door accessories.",
+      "source": "AQMM General Trading official hardware page",
+      "sourceUrl": "https://www.aqmmgt.com/hardware-products/uae/",
+      "date": "2026-09-07",
+      "confidence": 95,
+      "type": "official_current_channel_signal"
+    },
+    {
+      "signal": "Yellow Pages UAE's current ISEO distributor directory independently lists AQMM at the same Ras Al Khor address and phone with door accessories and exit devices, confirming its active position in the local lock and door-hardware channel.",
+      "source": "Yellow Pages UAE 2026 distributor directory",
+      "sourceUrl": "https://www.yellowpages-uae.com/uae/iseo",
+      "date": "2026-09-07",
+      "confidence": 91,
+      "type": "independent_channel_confirmation"
+    }
+  ],
+  "researchSources": [
+    {"label": "AQMM official hardware and brand-distribution page", "url": "https://www.aqmmgt.com/hardware-products/uae/", "checkedAt": "2026-09-07"},
+    {"label": "Yellow Pages UAE 2026 ISEO distributor directory", "url": "https://www.yellowpages-uae.com/uae/iseo", "checkedAt": "2026-09-07"}
+  ],
+  "checkedSources": ["https://www.aqmmgt.com/hardware-products/uae/", "https://www.yellowpages-uae.com/uae/iseo"],
+  "evidenceDate": "2026-09-07",
+  "nextAction": "Verify the private named decision-contact email as valid and non-catch-all, then approach with a differentiated small-sample mechanical, glass-door or smart-lock offer that can complement AQMM's current Yale/Union/ISEO range.",
   "fitScore": 5,
   "fitReason": "Explicit authorized distributor of major lock brands plus glass-door locks in Dubai.",
   "angle": "Value alternative to complement Yale/Union/ISEO, or OEM glass-door/architectural locks.",

@@ -16,9 +16,33 @@
   "confidence": "high",
   "brandsCarried": "Schlage, Hager, Dormakaba, Yale, Falcon",
   "scale": "Founded 1938; TX (Houston, Dallas) + CO (Colorado Springs, Pueblo); merged McKinney Door & American Door Products",
-  "projects": "",
+  "projects": "2026 multi-market commercial door, frame and hardware operations across Texas and Colorado; Houston facility currently supports warehousing, fabrication, installation and project procurement coordination",
   "importSignal": "Multi-branch distributor providing hardware scheduling/spec support and full commercial hardware lines",
   "decisionContact": "",
+  "researchStatus": "research_ready_contact_private",
+  "evidence": [
+    {
+      "signal": "American Doors currently operates a multi-market commercial door, frame and hardware platform serving contractors across Texas and Colorado; its Houston operation reports substantial stocked inventory, fabrication, installation and project procurement coordination capabilities.",
+      "source": "American Doors official Houston operations page",
+      "sourceUrl": "https://americandoors.com/about/locations/houston/",
+      "date": "2026-09-07",
+      "confidence": 96,
+      "type": "official_current_channel_signal"
+    },
+    {
+      "signal": "Associated Builders and Contractors Greater Houston independently lists American Door Products at the same Houston address and phone and records active membership, corroborating the company's current contractor-channel presence and identity.",
+      "source": "ABC Greater Houston supplier directory",
+      "sourceUrl": "https://web.abchouston.org/SUPPLIER-Supplier/American-Door-Products-1446",
+      "date": "2026-07-28",
+      "confidence": 92,
+      "type": "independent_channel_identity"
+    }
+  ],
+  "researchSources": [
+    {"label": "American Doors official Houston operations page", "url": "https://americandoors.com/about/locations/houston/", "checkedAt": "2026-09-07"},
+    {"label": "ABC Greater Houston supplier member directory", "url": "https://web.abchouston.org/SUPPLIER-Supplier/American-Door-Products-1446", "publishedAt": "2026-07-28"}
+  ],
+  "evidenceDate": "2026-09-07",
   "fitScore": 5,
   "fitReason": "Established multi-branch commercial door-hardware distributor buying locks/closers/exit devices at scale",
   "angle": "Offer OEM locks, closers and exit devices to broaden their catalog margins across TX/CO branches",
