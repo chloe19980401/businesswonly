@@ -23,5 +23,21 @@
   "fitReason": "Established architectural-hardware distributor carrying locks, closers and door access lines",
   "angle": "Offer our locks/handles/closers as an added brand or private label in their portfolio",
   "risk": "Carries strong brands (Union/Dorma) already",
-  "addedDate": "2026-07-28"
+  "addedDate": "2026-07-28",
+  "researchConfidence": "高",
+  "researchStatus": "已核验为班加罗尔建筑五金与门锁/门禁经销商，官网展示多品牌组合、门禁和门锁品类；LinkedIn 显示其在 Karnataka 的分销网络、多个分支以及近期持续推广建筑五金产品。存在补充品牌或本地化产品组合合作可能，但不得声称其已有明确采购计划。",
+  "researchSources": [
+    {
+      "label": "SIA 官网：门禁、建筑五金、多品牌组合及经销网络",
+      "url": "https://southindiaagencies.com/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "sia_official_site"
+    },
+    {
+      "label": "SIA LinkedIn：Karnataka 分销网络、多地分支及近期建筑五金推广动态",
+      "url": "https://in.linkedin.com/company/south-india-agencies",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "linkedin_company_profile"
+    }
+  ]
 }
