@@ -23,5 +23,21 @@
   "fitReason": "Access-control & hotel-lock integrator sourcing electronic locking products",
   "angle": "Supply OEM networked smart locks for their hospitality/enterprise projects",
   "risk": "Premium-brand oriented; may resist value sourcing",
-  "addedDate": "2026-07-28"
+  "addedDate": "2026-07-28",
+  "researchConfidence": "高",
+  "researchStatus": "已核验为斯里兰卡 ELV、安防与自动化集成商，官网持续展示智能锁、酒店门锁和门禁方案，服务酒店、企业和住宅场景；LinkedIn 近期开发布局 RFID、指纹及人脸门禁方案。存在补充智能锁/酒店锁产品线的合作可能，但不得声称其已有明确采购计划。",
+  "researchSources": [
+    {
+      "label": "Anscom 官网：智能锁、酒店门锁、门禁与酒店解决方案",
+      "url": "https://www.anscom.lk/our-solutions/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "anscom_official_site"
+    },
+    {
+      "label": "Anscom LinkedIn：近期持续推广 RFID、指纹和人脸门禁方案",
+      "url": "https://www.linkedin.com/company/anscom",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "linkedin_company_profile"
+    }
+  ]
 }
