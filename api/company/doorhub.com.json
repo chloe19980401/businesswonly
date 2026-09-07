@@ -19,6 +19,32 @@
   "projects": "",
   "importSignal": "Online commercial door hardware reseller - possible import/value line buyer",
   "decisionContact": "support@doorhub.com",
+  "researchStatus": "research_ready_contact_private",
+  "researchConfidence": "high",
+  "evidence": [
+    {
+      "signal": "DoorHub's current official catalog spans commercial locks, cylinders, access control, electric locks, strikes, closers, exit devices, hinges, readers and credentials, confirming an active professional door-hardware distribution channel.",
+      "source": "DoorHub official current catalog",
+      "sourceUrl": "https://doorhub.com/",
+      "date": "2026-09-07",
+      "confidence": 96,
+      "type": "official_current_channel_signal"
+    },
+    {
+      "signal": "LinkedIn independently identifies DoorHub as a Marietta, Georgia wholesale building-materials company founded in 2021 and distributing commercial mechanical and electrical door hardware through the same official domain.",
+      "source": "DoorHub LinkedIn company profile",
+      "sourceUrl": "https://www.linkedin.com/company/doorhub-llc",
+      "date": "2026-09-07",
+      "confidence": 91,
+      "type": "independent_current_channel_confirmation"
+    }
+  ],
+  "researchSources": [
+    {"label": "DoorHub official current commercial door-hardware catalog", "url": "https://doorhub.com/", "checkedAt": "2026-09-07"},
+    {"label": "DoorHub LinkedIn company profile", "url": "https://www.linkedin.com/company/doorhub-llc", "checkedAt": "2026-09-07"}
+  ],
+  "checkedSources": ["https://doorhub.com/", "https://www.linkedin.com/company/doorhub-llc"],
+  "evidenceDate": "2026-09-07",
   "fitScore": 4,
   "fitReason": "Commercial door hardware supplier of locks/exit devices",
   "angle": "",
