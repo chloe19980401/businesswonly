@@ -19,6 +19,16 @@
   "projects": "Okün Living (Cancún), Lírica Towers (Guadalajara), Alana Wellness Living (Vallarta)",
   "importSignal": "Desarrollador de gran escala con miles de unidades; alta demanda de cerraduras/herrajes",
   "decisionContact": "",
+  "researchStatus": "research_ready_contact_private",
+  "evidence": [
+    {"signal":"Grupo VEQ's current portfolio reports 28 developments and 4,639 units under development across nine cities, including Okün Living, Lírica Towers and Alana Wellness Living.","source":"Grupo VEQ official website","sourceUrl":"https://grupoveq.com/","date":"2026-09-03","confidence":96,"type":"official_current_project_pipeline"},
+    {"signal":"An independent property listing for Lírica Towers shows multiple units with scheduled delivery dates in August, September and December 2026, corroborating an active delivery cycle.","source":"Pincali independent property listing","sourceUrl":"https://www.pincali.com/inmueble/departamentos-en-preventa-lirica-towers","date":"2026-09-03","confidence":88,"type":"independent_project_delivery_confirmation"}
+  ],
+  "researchSources": [
+    {"label":"Grupo VEQ official current portfolio","url":"https://grupoveq.com/","checkedAt":"2026-09-03"},
+    {"label":"Pincali Lírica Towers delivery listing","url":"https://www.pincali.com/inmueble/departamentos-en-preventa-lirica-towers","checkedAt":"2026-09-03"}
+  ],
+  "evidenceDate": "2026-09-03",
   "fitScore": 3,
   "fitReason": "Desarrolladora de gran volumen con pipeline activo en múltiples ciudades",
   "angle": "Contrato marco de cerraduras/herrajes para sus torres y fraccionamientos",

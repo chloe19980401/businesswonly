@@ -19,6 +19,16 @@
   "projects": "",
   "importSignal": "Distributor to door/glass shops and lumberyards; carries Stone Harbor value line - import-friendly",
   "decisionContact": "sales@jeskehardware.com",
+  "researchStatus": "research_ready_contact_private",
+  "evidence": [
+    {"signal":"Jeske issued an updated product guide on June 23, 2026 and is actively maintaining supplier pricing and assortment updates across locks, access control and commercial hardware brands.","source":"Jeske Hardware official product guide page","sourceUrl":"https://jeskehardware.com/product-info/jeske-product-guide","date":"2026-06-23","confidence":95,"type":"official_recent_assortment_signal"},
+    {"signal":"The independent GlassBuild America 2026 exhibitor directory lists Jeske Hardware Distributors, corroborating current channel-development activity.","source":"GlassBuild America 2026 official exhibitor directory","sourceUrl":"https://glassbuild2026.mapyourshow.com/8_0/exhibitor/exhibitor-list.cfm?export=pdf","date":"2026-07-03","confidence":91,"type":"independent_recent_channel_signal"}
+  ],
+  "researchSources": [
+    {"label":"Jeske Hardware 2026 product guide","url":"https://jeskehardware.com/product-info/jeske-product-guide","publishedAt":"2026-06-23"},
+    {"label":"GlassBuild America 2026 exhibitor directory","url":"https://glassbuild2026.mapyourshow.com/8_0/exhibitor/exhibitor-list.cfm?export=pdf","checkedAt":"2026-09-03"}
+  ],
+  "evidenceDate": "2026-09-03",
   "fitScore": 5,
   "fitReason": "Established wholesale door hardware distributor to trade buyers with public sales email",
   "angle": "",

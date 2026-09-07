@@ -19,6 +19,16 @@
   "projects": "",
   "importSignal": "Vende cerraduras inteligentes bajo marca propia con canal empresarial",
   "decisionContact": "",
+  "researchStatus": "research_ready_contact_private",
+  "evidence": [
+    {"signal":"Tock Lock's current official store presents an expanded own-brand smart-lock range for multiple door types, including biometric, code, RFID, Bluetooth and optional Wi-Fi access.","source":"Tock Lock official current product catalog","sourceUrl":"https://tocklock.com.mx/collections/all","date":"2026-09-03","confidence":96,"type":"official_current_assortment_signal"},
+    {"signal":"Walmart Mexico independently carries a Tock Lock smart-lock SKU with app, fingerprint, code, card and physical-key access, corroborating active third-party retail distribution.","source":"Walmart Mexico current product listing","sourceUrl":"https://www.walmart.com.mx/ip/cerraduras/00750302999017","date":"2026-09-03","confidence":90,"type":"independent_current_channel_signal"}
+  ],
+  "researchSources": [
+    {"label":"Tock Lock official current catalog","url":"https://tocklock.com.mx/collections/all","checkedAt":"2026-09-03"},
+    {"label":"Walmart Mexico Tock Lock smart-lock listing","url":"https://www.walmart.com.mx/ip/cerraduras/00750302999017","checkedAt":"2026-09-03"}
+  ],
+  "evidenceDate": "2026-09-03",
   "fitScore": 4,
   "fitReason": "Distribuidor de smart locks marca propia; posible sourcing OEM y volumen B2B",
   "angle": "Ofrecer OEM/ODM de nuevos modelos de cerradura inteligente para su línea",

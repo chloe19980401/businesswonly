@@ -19,6 +19,16 @@
   "projects": "",
   "importSignal": "Single-source distributor with 100+ brands and 75k SKUs - open to broad sourcing incl. imports",
   "decisionContact": "",
+  "researchStatus": "research_ready_contact_private",
+  "evidence": [
+    {"signal":"Accredited Lock's current training calendar includes September 2026 facial-recognition access control and electric-strike sessions, indicating active electronic-access and electrified-hardware development.","source":"Accredited Lock Supply official resources calendar","sourceUrl":"https://acclock.com/resources/","date":"2026-09-03","confidence":96,"type":"official_current_category_signal"},
+    {"signal":"DETEX independently lists Accredited Lock Supply as the venue for its August 11-12, 2026 weatherized exit-device, automatic-operator and electrified-function training.","source":"DETEX 2026 training calendar","sourceUrl":"https://www.detex.com/upcoming-training/","date":"2026-08-11","confidence":93,"type":"independent_recent_supplier_activity"}
+  ],
+  "researchSources": [
+    {"label":"Accredited Lock Supply current training calendar","url":"https://acclock.com/resources/","checkedAt":"2026-09-03"},
+    {"label":"DETEX 2026 training calendar","url":"https://www.detex.com/upcoming-training/","publishedAt":"2026-08-11"}
+  ],
+  "evidenceDate": "2026-09-03",
   "fitScore": 5,
   "fitReason": "Large full-line lock and door hardware wholesale distributor",
   "angle": "",
