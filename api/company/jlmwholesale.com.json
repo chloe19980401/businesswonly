@@ -19,6 +19,32 @@
   "projects": "",
   "importSignal": "Nationwide multi-branch wholesaler serving locksmiths/contractors - candidate for import lock lines",
   "decisionContact": "",
+  "researchStatus": "research_ready_contact_private",
+  "researchConfidence": "high",
+  "evidence": [
+    {
+      "signal": "JLM Wholesale currently positions itself as a nationwide U.S. wholesale distributor serving locksmiths, contractors and access-control professionals with locks, commercial door hardware and access-control products across multiple branches.",
+      "source": "JLM Wholesale official current website",
+      "sourceUrl": "https://www.jlmwholesale.com/",
+      "date": "2026-09-07",
+      "confidence": 96,
+      "type": "official_current_channel_signal"
+    },
+    {
+      "signal": "Keedex independently lists JLM Wholesale's Oxford, Michigan branch in its current distributor network, corroborating JLM's active role in the professional locksmith and security-hardware distribution channel.",
+      "source": "Keedex manufacturer distributor directory",
+      "sourceUrl": "https://www.keedex.com/distributors-2/michigan/",
+      "date": "2026-09-07",
+      "confidence": 88,
+      "type": "independent_current_channel_confirmation"
+    }
+  ],
+  "researchSources": [
+    {"label": "JLM Wholesale official current distributor page", "url": "https://www.jlmwholesale.com/", "checkedAt": "2026-09-07"},
+    {"label": "Keedex Michigan distributor directory", "url": "https://www.keedex.com/distributors-2/michigan/", "checkedAt": "2026-09-07"}
+  ],
+  "checkedSources": ["https://www.jlmwholesale.com/", "https://www.keedex.com/distributors-2/michigan/"],
+  "evidenceDate": "2026-09-07",
   "fitScore": 5,
   "fitReason": "Multi-state nationwide wholesale distributor of locks/door/access control - strong channel fit",
   "angle": "",

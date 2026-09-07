@@ -19,6 +19,32 @@
   "projects": "",
   "importSignal": "Sells + integrates electronic hotel/multifamily locks, RFID cards and controllers nationwide",
   "decisionContact": "",
+  "researchStatus": "research_ready_contact_private",
+  "researchConfidence": "high",
+  "evidence": [
+    {
+      "signal": "GoKeyless currently operates a broad U.S. distribution and solution channel spanning mechanical and electronic locks, hardwired access control, smart locks and commercial door hardware, while promoting a dedicated building-solutions offering for multi-family and commercial properties.",
+      "source": "GoKeyless official current website",
+      "sourceUrl": "https://www.gokeyless.com/",
+      "date": "2026-09-07",
+      "confidence": 96,
+      "type": "official_current_channel_signal"
+    },
+    {
+      "signal": "LinkedIn independently identifies GoKeyless as a 51-200 employee Ohio security company and authorized dealer distributing keyless locks and access-control systems from multiple established brands.",
+      "source": "GoKeyless LinkedIn company profile",
+      "sourceUrl": "https://www.linkedin.com/company/gokeyless",
+      "date": "2026-09-07",
+      "confidence": 91,
+      "type": "independent_current_channel_confirmation"
+    }
+  ],
+  "researchSources": [
+    {"label": "GoKeyless official current product and channel page", "url": "https://www.gokeyless.com/", "checkedAt": "2026-09-07"},
+    {"label": "GoKeyless LinkedIn company profile", "url": "https://www.linkedin.com/company/gokeyless", "checkedAt": "2026-09-07"}
+  ],
+  "checkedSources": ["https://www.gokeyless.com/", "https://www.linkedin.com/company/gokeyless"],
+  "evidenceDate": "2026-09-07",
   "fitScore": 5,
   "fitReason": "Hotel/multifamily electronic-lock integrator and reseller — direct channel for an electronic-lock exporter",
   "angle": "Supply compatible RFID/BLE hotel & apartment locks, credentials and controllers to expand their offering",
